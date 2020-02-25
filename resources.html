@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codevelup</title>
+        <!-- Site Settings -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">  
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">   
+
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+
+    <body>
+        <section>
+            TODO: Create dropdown menus for category, price, and platform. Make CSV Reader and Table Parser. Add Function to delete tables and filter/hide rows.
+            <select id="category" onchange="SelectCategory()">
+                <option value="">None</option>
+                <option value="engines">Game Engine</option>
+                <option value="video">Video</option>
+                <option value="audio">Audio</option>
+                <option value="publisher">Publisher</option>
+            </select>
+        </section>
+
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+
+
+    </body>
+
+    <script>
+        var filepath;
+
+        function SelectCategory()
+        {
+            //filepath = "csv/"+ doc.getElementById("category").value;
+            filepath = document.getElementById("category").value+".csv";
+            //Upload();
+            document.getElementById("demo").innerHTML = "tada";
+            document.getElementById("demo").innerHTML = filepath;
+
+            loadDoc();
+
+            loadDoc1();
+        }
+        
+        //retry with Fetch methods
+
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    //document.getElementById("demo1").innerHTML = this.responseText;
+                    document.getElementById("demo2").innerHTML = this.responseText;;
+                }
+            };
+            document.getElementById("demo1").innerHTML = "Hi";
+
+            xhttp.open("GET", "asdf.txt", true);
+            xhttp.send();
+        }
+        function loadDoc1() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("demo2").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET", "engines.csv", true);
+            xhttp.send();
+        }
+
+        const csvStringToArray = (strData, header=true) =>
+        {
+            //const objPattern = new RegExp(("(\\,|\\r?\\n|\\r|^)(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|([^\\,\\r\\n]*))"),"gi");
+            const objPattern = new RegExp(("(\\,|\\r?\\n|\\r|^)(?:\"((?:\\\\.|\"\"|[^\\\\\"])*)\"|([^\\,\"\\r\\n]*))"),"gi");
+            let arrMatches = null, arrData = [[]];
+            while (arrMatches = objPattern.exec(strData)){
+                if (arrMatches[1].length && arrMatches[1] !== ",") arrData.push([]);
+                arrData[arrData.length - 1].push(arrMatches[2] ? 
+                    arrMatches[2].replace(new RegExp( "[\\\\\"](.)", "g" ), '$1') :
+                    arrMatches[3]);
+            }
+            if (header) {
+                hData = arrData.shift();
+                hashData = arrData.map(row => {
+                    let i = 0;
+                    return hData.reduce(
+                        (acc, key) => { 
+                            acc[key] = row[i++]; 
+                            return acc; 
+                        },
+                        {}
+                    );
+                });
+                return hashData;
+            } else {
+                return arrData;
+            }
+        }
+    </script>
+</html>
