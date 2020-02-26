@@ -133,7 +133,8 @@
                 if (this.readyState == 4 && this.status == 200) {
                     document.getElementById("demo").innerHTML = this.responseText;
                     csvdata = Papa.parse(this.responseText);
-                    //CreateTable(csvStringToArray(this.responseText));
+                    console.log(csvdata);
+                    CreateTable(csvdata);
                 }
             };
             xhttp.open("GET", filepath, true);
@@ -170,13 +171,13 @@
         }
 
         function CreateTable(arrItems){
-
+            /*
             var arrItems = [];      // THE ARRAY TO STORE JSON ITEMS.
             $.each(data, function (index, value) {
                 arrItems.push(value);       // PUSH THE VALUES INSIDE THE ARRAY.
                 console.log(index, value);
             });
-
+            */
             // EXTRACT KEY FOR TABLE HEADER.
             var col = [];
             for (var i = 0; i < arrItems.length; i++) {
