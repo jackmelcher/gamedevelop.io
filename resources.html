@@ -21,14 +21,41 @@
         <h1>Resources Page</h1> 
         <section>
             TODO: Create dropdown menus for category, price, and platform. Make CSV Reader and Table Parser. Add Function to delete tables and filter/hide rows.
-            <select id="category" onchange="SelectCategory()">
-                <option value="">None</option>
-                <option value="engines">Game Engine</option>
-                <option value="video">Video</option>
-                <option value="audio">Audio</option>
-                <option value="publisher">Publisher</option>
-            </select>
+            <p>
+                Category: 
+                <select id="category" onchange="SelectCategory()">
+                    <option value="">Category</option>
+                    <option value="engines">Game Engine</option>
+                    <option value="video">Video</option>
+                    <option value="audio">Audio</option>
+                    <option value="publisher">Publisher</option>
+                </select>
+            </p>
+            <p>
+                Price: 
+                <select id="category" onchange="SelectPrice()">
+                    <option value="">Price</option>
+                    <option value="free">Free</option>
+                    <option value="trial">Trial</option>
+                    <option value="paid">Paid</option>
+                    <option value="subscription">Subscription</option>
+                    <option value="royalty">Royalty</option>
+                </select>
+            </p>
+            <p>
+                Platform: 
+                <select id="category" onchange="SelectPlatform()">
+                    <option value="">Platform</option>
+                    <option value="windows">Windows</option>
+                    <option value="mac">Mac</option>
+                    <option value="linux">Linux</option>
+                    <option value="ios">iOS</option>
+                    <option value="android">Android</option>
+                </select>
+            </p>
         </section>
+
+        <p id="demo"></p>
 
         <div id="showData">
             <!-- Table is added here -->
@@ -50,7 +77,6 @@
             //filepath = "csv/"+ doc.getElementById("category").value;
             filepath = document.getElementById("category").value+".csv";
             //Upload();
-            document.getElementById("demo").innerHTML = "tada";
             document.getElementById("demo").innerHTML = filepath;
 
             loadDoc();
@@ -80,9 +106,6 @@
             };
             xhttp.open("GET", "engines.csv", true);
             xhttp.send();
-
-
-
         }
         */
         
@@ -90,6 +113,7 @@
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("demo2").innerHTML = this.responseText;
                     CreateTable(csvStringToArray(this.responseText));
                 }
             };
