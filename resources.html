@@ -15,6 +15,10 @@
 
         <!-- Style -->
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+        
+        <!-- Scripts -->
+        <script src="papaparse.min.js"></script> 
     </head>
 
     <body>
@@ -54,8 +58,11 @@
                 </select>
             </p>
         </section>
-
+        
         <p id="demo"></p>
+
+        <p id="papa"></p>
+        
 
         <div id="showData">
             <!-- Table is added here -->
@@ -71,6 +78,17 @@
 
     <script>
         var filepath;
+        var csvdata;
+
+        /*
+        Papa.parse(data, {
+            header: true,
+            dynamicTyping: true,
+            complete: function(results) {
+                data = results;
+            }
+        });
+        */
 
         function SelectCategory()
         {
@@ -79,7 +97,7 @@
             //Upload();
             document.getElementById("demo").innerHTML = filepath;
 
-            loadDoc();
+            loadDoc(filepath);
         }
         
         /*
@@ -109,15 +127,16 @@
         }
         */
         
-        function loadDoc() {
+        function loadDoc(filepath) {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("demo2").innerHTML = this.responseText;
-                    CreateTable(csvStringToArray(this.responseText));
+                    document.getElementById("demo").innerHTML = this.responseText;
+                    csvdata = Papa.parse(this.responseText);
+                    //CreateTable(csvStringToArray(this.responseText));
                 }
             };
-            xhttp.open("GET", "engines.csv", true);
+            xhttp.open("GET", filepath, true);
             xhttp.send();
         }
 
