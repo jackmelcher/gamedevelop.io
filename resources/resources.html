@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codevelup</title>
+        <!-- Site Settings -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">  
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">   
+
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+        
+        <!-- Scripts -->
+        <script src="papaparse.min.js"></script> 
+    </head>
+
+    <body>
+        <h1>Resources Page</h1> 
+        <section>
+            TODO: Create dropdown menus for category, price, and platform. Make CSV Reader and Table Parser. Add Function to delete tables and filter/hide rows.
+            <p>
+                Category: 
+                <select id="category" onchange="SelectCategory()">
+                    <option value="">Category</option>
+                    <option value="engine">Game Engine</option>
+                    <option value="video">Video</option>
+                    <option value="audio">Audio</option>
+                    <option value="publisher">Publisher</option>
+                </select>
+            </p>
+            <p>
+                Price: 
+                <select id="category" onchange="SelectPrice()">
+                    <option value="">Price</option>
+                    <option value="free">Free</option>
+                    <option value="trial">Trial</option>
+                    <option value="paid">Paid</option>
+                    <option value="subscription">Subscription</option>
+                    <option value="royalty">Royalty</option>
+                </select>
+            </p>
+            <p>
+                Platform: 
+                <select id="category" onchange="SelectPlatform()">
+                    <option value="">Platform</option>
+                    <option value="windows">Windows</option>
+                    <option value="mac">Mac</option>
+                    <option value="linux">Linux</option>
+                    <option value="ios">iOS</option>
+                    <option value="android">Android</option>
+                </select>
+            </p>
+        </section>
+        
+        <p id="demo"></p>
+
+        <p id="papa"></p>
+        
+        <div id="showData">
+            <!-- Table is added here -->
+        </div>
+
+        <!--
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        -->
+
+    </body>
+
+    <script>
+        var filepath;
+        var csvdata;
+
+        function SelectCategory()
+        {
+            //filepath = "csv/"+ doc.getElementById("category").value;
+            filepath = document.getElementById("category").value+".csv";
+            //Upload();
+            document.getElementById("demo").innerHTML = filepath;
+
+            //Clear HTML Data Table
+            document.getElementById("showData").innerHTML = "";
+            
+            //Load CSV Data
+            loadDoc(filepath);
+        }
+        
+        function loadDoc(filepath) {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("papa").innerHTML = this.responseText;
+                    csvdata = Papa.parse(this.responseText);
+                    console.log(csvdata);
+                    CreateTableFromArray2D(csvdata.data);
+                }
+            };
+            xhttp.open("GET", filepath, true);
+            xhttp.send();
+        }
+
+        function CreateTableFromArray2D(array2D){
+            // CREATE DYNAMIC TABLE.
+            var table = document.createElement("table");
+            table.setAttribute("id", "myTable");
+
+            // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
+
+            for(var i = 0; i < array2D.length; i++)
+            {
+                var tr = table.insertRow(-1);                   // TABLE ROW.
+
+                for(var j = 0; j < array2D[i].length; j++)
+                {
+                    if(i == 0)
+                    {
+                        var th = document.createElement("th");      // TABLE HEADER.
+                        th.innerHTML = array2D[i][j];
+                        tr.appendChild(th);
+                    }
+                    else
+                    {
+                        if(j==1){continue;}
+                        var tabCell = tr.insertCell(-1);            // TABLE Cell.
+                        if(j==0){   
+                            tabCell.innerHTML = "<a href=\"" + array2D[i][j] + "\">"+array2D[i][j]+"</a>";
+                            j++;
+                        }
+                        else{
+                            tabCell.innerHTML = array2D[i][j];
+                        }
+                    }
+                }
+            }
+
+            // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
+            var divContainer = document.getElementById("showData");
+            divContainer.appendChild(table);
+        }
+    </script>
+</html>
