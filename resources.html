@@ -82,7 +82,7 @@
         function SelectCategory()
         {
             //filepath = "csv/"+ doc.getElementById("category").value;
-            filepath = document.getElementById("category").value+".csv";
+            filepath = "~/csv/"document.getElementById("category").value+".csv";
             //Upload();
             document.getElementById("demo").innerHTML = filepath;
 
@@ -117,19 +117,20 @@
 
             for(var i = 0; i < array2D.length; i++)
             {
-                var tr = table.insertRow(-1);                   // TABLE ROW.
+                var tr = table.insertRow(-1);                       // TABLE ROW.
 
                 for(var j = 0; j < array2D[i].length; j++)
                 {
                     if(i == 0)
                     {
+                        if(j==1){continue;}                         // Dont make Table Cell for Links column.
                         var th = document.createElement("th");      // TABLE HEADER.
                         th.innerHTML = array2D[i][j];
                         tr.appendChild(th);
                     }
                     else
                     {
-                        if(j==1){continue;}
+                        if(j==1){continue;}                         // Dont make Table Cell for Links column.
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
                             tabCell.innerHTML = "<a href=\"" + array2D[i][j] + "\">"+array2D[i][j]+"</a>";
