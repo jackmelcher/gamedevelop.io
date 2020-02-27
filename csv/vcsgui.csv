@@ -1,0 +1,11 @@
+Name,Link,Costs,Platforms,Categories,Tags,Description
+Github Desktop,https://desktop.github.com/,Free,"Windows, Mac",VCS GUI,Git,
+Git Kraken,https://www.gitkraken.com/,Free,"Windows, Mac, Linux",VCS GUI,Git,
+SourceTree,https://www.sourcetreeapp.com/,Free,"Windows, Mac",VCS GUI,"Git, Mercurial",
+Helix Visual Client,https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v,"Free, Subscription","Windows, Mac, Linux",VCS GUI,Perforce,Only for Perforce Helix Core
+TortoiseSVN,https://tortoisesvn.net/,Free,Windows,VCS GUI,SVN,
+VisualSVN,https://www.visualsvn.com/,Free,"Windows, Mac",VCS GUI,SVN,
+SmartSVN,https://www.smartsvn.com/,Free,Mac,VCS GUI,SVN,
+RabbitVCS,http://rabbitvcs.org/,Free,Linux,VCS GUI,SVN,
+TortoiseHg,https://www.mercurial-scm.org/wiki/TortoiseHg,Free,"Windows, Linux",VCS GUI,Mercurial,
+EasyMercurial,https://easyhg.org/,Free,"Windows, Mac, Linux",VCS GUI,Mercurial,

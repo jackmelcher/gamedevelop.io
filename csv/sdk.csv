@@ -1,0 +1,17 @@
+Name,Link,Costs,Platforms,Categories,Tags,Description
+Havok,https://www.havok.com/,Paid,"Windows, Mac","Physics, Artificial Intelligence",,"Physics Engine, AI SDK, Cloth Physics"
+Khronos Group,https://www.khronos.org/,Free,"Windows, Mac, Linux",Physics,,3D Graphics
+Box2D,http://box2d.org/,Free,"Windows, Mac, Linux",Physics,,2D Physics
+Coherent Gameface,https://coherent-labs.com/products/coherent-gameface/,Paid,"Windows, Mac, Linux",User Interface,Plug-in,"Game Engine UI Plug-in, HTML/CSS/JS"
+Noesis GUI,https://www.noesisengine.com/,"Free, Paid","Windows, Mac, Linux",User Interface,,Game Engine UI SDK
+Dolby Atmos,https://developer.dolby.com/,Paid,"Windows, Mac",Audio,Plug-in,Game Engine Sound Plug-in
+Mercuna,https://mercuna.com/,Paid,"Windows, Mac",Artificial Intelligence,,Game Engine Navigation Solution
+NexPlayerSDK,https://www.nexplayersdk.com/,"Trial, Paid","Windows, Mac",Video,,Low Latency Video Player SDK
+Simul,https://simul.co/,Paid,"Windows, Mac",Environment,Plug-in,Weather Plug-in and SDK
+Imgtec,https://www.imgtec.com/developers/,Free,"Windows, Mac, Linux",Engineering,,Mobile VR SDK
+Bink,http://www.radgametools.com/bnkmain.htm,Paid,Windows,Video,,Video Middleware
+Miles Sound System,http://www.radgametools.com/miles.htm,Paid,Windows,Audio,,Audio Middleware
+Genvidtech,https://www.genvidtech.com/,"Free, Subscription","Windows, Mac, Linux",Video,,Interactive Streaming SDK
+Launchpad,https://github.com/Nihlus/Launchpad/wiki/Game-Developer-Quickstart,Free,Linux,Engineering,,Game Launcher Tool
+Mod.io,https://mod.io/,Free,"Windows, Mac, Linux",Engineering,,Mod Support Tool
+Spiritai,https://spiritai.com/product/character-engine/,Free,"Windows, Mac",Artificial Intelligence,,Speech AI Solution

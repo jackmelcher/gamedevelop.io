@@ -29,10 +29,35 @@
                 Category: 
                 <select id="category" onchange="SelectCategory()">
                     <option value="">Category</option>
-                    <option value="engine">Game Engine</option>
-                    <option value="video">Video</option>
+                    <option value="2d">2D Art</option>
+                    <option value="3d">3D Art</option>
+                    <option value="analytics">Analytics</option>
+                    <option value="assets">Assets</option>
                     <option value="audio">Audio</option>
-                    <option value="publisher">Publisher</option>
+                    <option value="communication">Communication</option>
+                    <option value="communities">Communities</option>
+                    <option value="conventions">Conventions</option>
+                    <option value="engine">Engines and Frameworks</option>
+                    <option value="funding">Funding Options</option>
+                    <option value="gamehosts">Hosting & Storefronts</option>
+                    <option value="hardware">Hardware</option>
+                    <option value="jams">Game Jams</option>
+                    <option value="learning">Learning Websites</option>
+                    <option value="monetization">Monetization</option>
+                    <option value="news">News Outlets</option>
+                    <option value="other">Other Tools</option>
+                    <option value="peripherals">Peripherals</option>
+                    <option value="publisher">Publishers</option>
+                    <option value="schools">Schools</option>
+                    <option value="sdk">SDKs</option>
+                    <option value="security">Security</option>
+                    <option value="services">Services</option>
+                    <option value="tasking">Task Management</option>
+                    <option value="vcs">Version Control Software</option>
+                    <option value="vcsgui">VCS GUI</option>
+                    <option value="vcshosts">VCS Hosting</option>
+                    <option value="video">Video</option>
+                    <option value="writing">Writing</option>
                 </select>
             </p>
             <p>
@@ -58,11 +83,7 @@
                 </select>
             </p>
         </section>
-        
-        <p id="demo"></p>
-
-        <p id="papa"></p>
-        
+             
         <div id="showData">
             <!-- Table is added here -->
         </div>
@@ -71,6 +92,7 @@
         <p id="demo"></p>
         <p id="demo1"></p>
         <p id="demo2"></p>
+        <p id="papa"></p>
         -->
 
     </body>
@@ -83,24 +105,22 @@
         {
             //filepath = "csv/"+ doc.getElementById("category").value;
             filepath = "csv/"+document.getElementById("category").value+".csv";
-            //Upload();
-            document.getElementById("demo").innerHTML = filepath;
+            //document.getElementById("demo").innerHTML = filepath;
 
             //Clear HTML Data Table
             document.getElementById("showData").innerHTML = "";
             
             //Load CSV Data
             loadDoc(filepath);
-            
         }
         
         function loadDoc(filepath) {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
-                    document.getElementById("papa").innerHTML = this.responseText;
+                    //document.getElementById("papa").innerHTML = this.responseText;
                     csvdata = Papa.parse(this.responseText);
-                    console.log(csvdata);
+                    //console.log(csvdata);
                     CreateTableFromArray2D(csvdata.data);
                 }
             };

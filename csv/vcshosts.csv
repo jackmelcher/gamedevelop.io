@@ -1,0 +1,11 @@
+Name,Link,Costs,Platforms,Categories,Tags,Description
+GitHub,https://github.com/,"Free, Subscription",,VCS Hosting,Git,
+GitLab,https://gitlab.com/,"Free, Subscription",,VCS Hosting,Git,
+BitBucket,https://bitbucket.org/,"Free, Subscription",,VCS Hosting,"Git, Mercurial",
+Assembla,https://www.assembla.com/home,Subscription,,VCS Hosting,"Perforce, Git, SVN",
+Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,Subscription,,VCS Hosting,"Git, TFVC",
+Perforce HelixTeamHub,https://www.perforce.com/products/helix-teamhub,"Free, Subscription",,VCS Hosting,"Git, SVN, Mercurial",
+Plastic Cloud server,https://www.plasticscm.com/plasticscm-cloud-edition,"Trial, Subscription",,VCS Hosting,"Plastic, Git",
+RiouxSVN,https://riouxsvn.com/,"Free, Subscription",,VCS Hosting,SVN,
+Unity Teams,https://unity3d.com/teams,"Free, Subscription",,VCS Hosting,Unity,Unity Only
+Gogs,https://gogs.io/,Free,,VCS Hosting,Git,Self Hosting
