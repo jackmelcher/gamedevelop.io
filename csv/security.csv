@@ -1,8 +1,8 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
-Easy,https://www.easy.ac/en-us/,Licensing,,Anti-Cheat,,
-BattlEye,https://www.battleye.com/,Licensing,,Anti-Cheat,,
-Faceit,https://www.faceit.com/en/anti-cheat,Licensing,,Anti-Cheat,,
-Denuvo,https://denuvo.com/,Licensing,,Application Security,Anti-Piravcy,
+Easy,https://www.easy.ac/en-us/,License,,Anti-Cheat,,
+BattlEye,https://www.battleye.com/,License,,Anti-Cheat,,
+Faceit,https://www.faceit.com/en/anti-cheat,License,,Anti-Cheat,,
+Denuvo,https://denuvo.com/,License,,Application Security,Anti-Piravcy,
 Akami,https://www.akamai.com/,"Trial, Subscription",,Network Security,,
 Arxan,https://www.arxan.com/,Subscription,,Application Security,,
 Approov,https://www.approov.io/,Subscription,,Application Security,Mobile API,

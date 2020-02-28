@@ -26,32 +26,20 @@
         <section>
             TODO: Create dropdown menus for category, price, and platform. Make CSV Reader and Table Parser. Add Function to delete tables and filter/hide rows.
             <p>
+                <!-- TODO: Update SelectCategoryfunction to work for multipl Select groups. Separate out into Tools, Assets and Services, Publishing and Distribution, Learning-->
                 Category: 
-                <select id="category" onchange="SelectCategory()">
-                    <option value="">Category</option>
+                <select id="tools" onchange="SelectTable(this.value)">
+                    <option value="">Tools</option>
                     <option value="2d">2D Art</option>
                     <option value="3d">3D Art</option>
                     <option value="analytics">Analytics</option>
-                    <option value="assets">Assets</option>
                     <option value="audio">Audio</option>
                     <option value="communication">Communication</option>
-                    <option value="communities">Communities</option>
-                    <option value="conventions">Conventions</option>
                     <option value="engine">Engines and Frameworks</option>
-                    <option value="funding">Funding Options</option>
-                    <option value="gamehosts">Hosting & Storefronts</option>
-                    <option value="hardware">Hardware</option>
-                    <option value="jams">Game Jams</option>
-                    <option value="learning">Learning Websites</option>
                     <option value="monetization">Monetization</option>
-                    <option value="news">News Outlets</option>
                     <option value="other">Other Tools</option>
-                    <option value="peripherals">Peripherals</option>
-                    <option value="publisher">Publishers</option>
-                    <option value="schools">Schools</option>
                     <option value="sdk">SDKs</option>
                     <option value="security">Security</option>
-                    <option value="services">Services</option>
                     <option value="tasking">Task Management</option>
                     <option value="vcs">Version Control Software</option>
                     <option value="vcsgui">VCS GUI</option>
@@ -59,21 +47,47 @@
                     <option value="video">Video</option>
                     <option value="writing">Writing</option>
                 </select>
+                <select id="assets&services" onchange="SelectTable(this.value)">
+                    <option value="">Assets & Services</option>
+                    <option value="assets">Assets</option>
+                    <option value="services">Services</option>
+                </select>
+                <select id="hardware&peripherals" onchange="SelectTable(this.value)">
+                    <option value="">Hardware & Peripherals</option>
+                    <option value="hardware">Hardware</option>
+                    <option value="peripherals">Peripherals</option>
+                </select>
+                <select id="publishing&distribution" onchange="SelectTable(this.value)">
+                    <option value="">Publishing & Distribution</option>
+                    <option value="funding">Funding Options</option>
+                    <option value="gamehosts">Hosting & Storefronts</option>
+                    <option value="news">News Outlets</option>
+                    <option value="publisher">Publishers</option>
+                </select>
+                <select id="learning&communities" onchange="SelectTable(this.value)">
+                    <option value="">Learning & Communities</option>
+                    <option value="communities">Communities</option>
+                    <option value="conventions">Conventions</option>
+                    <option value="jams">Game Jams</option>
+                    <option value="learning">Learning Websites</option>
+                    <option value="schools">Schools</option>
+                </select>
             </p>
             <p>
                 Price: 
-                <select id="category" onchange="SelectPrice()">
+                <select id="price" onchange="SelectPrice()">
                     <option value="">Price</option>
                     <option value="free">Free</option>
                     <option value="trial">Trial</option>
                     <option value="paid">Paid</option>
                     <option value="subscription">Subscription</option>
                     <option value="royalty">Royalty</option>
+                    <option value="license">License</option>
                 </select>
             </p>
             <p>
                 Platform: 
-                <select id="category" onchange="SelectPlatform()">
+                <select id="platform" onchange="SelectPlatform()">
                     <option value="">Platform</option>
                     <option value="windows">Windows</option>
                     <option value="mac">Mac</option>
@@ -101,10 +115,10 @@
         var filepath;
         var csvdata;
 
-        function SelectCategory()
+        function SelectTable(filename)
         {
             //filepath = "csv/"+ doc.getElementById("category").value;
-            filepath = "csv/"+document.getElementById("category").value+".csv";
+            filepath = "csv/"+filename+".csv";
             //document.getElementById("demo").innerHTML = filepath;
 
             //Clear HTML Data Table
