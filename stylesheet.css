@@ -1,3 +1,47 @@
+body{
+  background-color: #add3ff;
+  margin: 0px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.navbar{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: #0a0099;
+  color: #f0ffff;
+  padding : 0 5px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none; /* 2px solid #000000; */
+  border-radius: 2px;
+  color: white; /* Text Color */
+  padding: 16px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px 16px 0px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button_nav{
+  background-color: transparent;
+  margin: 0;
+  font-weight: bold;
+  border-radius: 0;
+}
+.button_active{
+  background-color: #0099ff;
+}
+
 @media all and (max-width: 768px){
     section{
       padding-left: 0px;

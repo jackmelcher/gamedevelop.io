@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Codevelup</title>
+        <title>Codevelup Resources</title>
         <!-- Site Settings -->
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="UTF-8">
@@ -22,13 +22,30 @@
     </head>
 
     <body>
-        <h1>Resources Page</h1> 
+        <nav class="navbar">
+            <a href="index.html">
+                <button class="button button_nav ">
+                    CD
+                </button>
+            </a>
+            <a href="resources.html">
+                <button class="button button_nav button_active">
+                    Resources
+                </button>
+            </a>
+            <a href="guides.html">
+                <button class="button button_nav ">
+                    Guides
+                </button>
+            </a>
+        </nav>
+        
         <section>
             TODO: Create dropdown menus for category, price, and platform. Make CSV Reader and Table Parser. Add Function to delete tables and filter/hide rows.
             <p>
                 <!-- TODO: Update SelectCategoryfunction to work for multipl Select groups. Separate out into Tools, Assets and Services, Publishing and Distribution, Learning-->
                 Category: 
-                <select id="tools" onchange="SelectTable(this.value)">
+                <select id="software & tools" onchange="SelectTable(this.value)">
                     <option value="">Tools</option>
                     <option value="2d">2D Art</option>
                     <option value="3d">3D Art</option>
