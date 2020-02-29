@@ -144,6 +144,10 @@
                         <input type="checkbox" name="platform" value="android" onclick="FilterTable()">
                         <label for="platform">android</label>
                     </li>
+                    <li>
+                        <input type="checkbox" name="platform" value="web" onclick="FilterTable()">
+                        <label for="platform">Web</label>
+                    </li>
                 </ul>    
             </div>
         </section>
@@ -258,7 +262,15 @@
             fitlersPlatform = UpdateFilterArray("platform");
 
             filtersPrice.forEach(element => filterTableByColumn(element,1));
+            if(filtersPrice.length == 0)
+            {
+                filterTableByColumn("",1);
+            }
             fitlersPlatform.forEach(element => filterTableByColumn(element,2));
+            if(fitlersPlatform.length == 0)
+            {
+                filterTableByColumn("",2);
+            }
         }
 
 
