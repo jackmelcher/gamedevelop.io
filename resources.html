@@ -133,35 +133,38 @@
                         <label for="platform">mac</label>
                     </li>
                     <li>
-                        <input type="checkbox" name="platform" value="paid" onclick="FilterTable()">
-                        <label for="platform">Paid</label>
+                        <input type="checkbox" name="platform" value="linux" onclick="FilterTable()">
+                        <label for="platform">linux</label>
                     </li>
                     <li>
-                        <input type="checkbox" name="platform" value="subscription" onclick="FilterTable()">
-                        <label for="platform">Subscription</label>
+                        <input type="checkbox" name="platform" value="ios" onclick="FilterTable()">
+                        <label for="platform">ios</label>
                     </li>
                     <li>
                         <input type="checkbox" name="platform" value="royalty" onclick="FilterTable()">
                         <label for="platform">Royalty</label>
                     </li>
                     <li>
-                        <input type="checkbox" name="platform" value="license" onclick="FilterTable()">
-                        <label for="platform">License</label>
+                        <input type="checkbox" name="platform" value="android" onclick="FilterTable()">
+                        <label for="platform">android</label>
                     </li>
                 </ul>    
             </div>
         </section>
              
-        <div id="showData">
-            <!-- Table is added here -->
-        </div>
-
-        <!--
-        <p id="demo"></p>
-        <p id="demo1"></p>
-        <p id="demo2"></p>
-        <p id="papa"></p>
-        -->
+        <section>
+            <div id="showData">
+                <!-- Table is added here -->
+            </div>
+    
+            <!--
+            <p id="demo"></p>
+            <p id="demo1"></p>
+            <p id="demo2"></p>
+            <p id="papa"></p>
+            -->
+        </section>
+        
 
     </body>
 
@@ -264,9 +267,8 @@
 
 
         //added from w3school example, modified for intended function
-        function filterTableByColumn(inputID, colIndex) {
-        var input, filter, table, tr, td, i, txtValue;
-        input = document.getElementById(inputID);
+        function filterTableByColumn(input, colIndex) {
+        var filter, table, tr, td, i, txtValue;
         filter = input.value.toUpperCase();
         table = document.getElementById("myTable");
         tr = table.getElementsByTagName("tr");
