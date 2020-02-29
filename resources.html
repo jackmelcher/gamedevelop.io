@@ -262,39 +262,44 @@
             filtersPrice = UpdateFilterArray("price");
             fitlersPlatform = UpdateFilterArray("platform");
 
-            filtersPrice.forEach(element => filterTableByColumn(element,1));
-            if(filtersPrice.length == 0)
-            {
-                filterTableByColumn("",1);
-            }
-            fitlersPlatform.forEach(element => filterTableByColumn(element,2));
-            if(fitlersPlatform.length == 0)
-            {
-                filterTableByColumn("",2);
-            }
+            filterTableByColumn(filtersPrice,1);
+            filterTableByColumn(fitlersPlatform,2);
         }
 
 
         //added from w3school example, modified for intended function
-        function filterTableByColumn(filter, colIndex) {
-            var filter, table, tr, td, i, txtValue;
+        function filterTableByColumn(filterArr, colIndex) {
+            var table, tr, td, i, txtValue, isfiltered;
             table = document.getElementById("myTable");
-            tr = table.getElementsByTagName("tr");
-            for (i = 0; i < tr.length; i++) 
-            {
-                td = tr[i].getElementsByTagName("td")[colIndex];
-                if (td) 
+            if(table){
+                tr = table.getElementsByTagName("tr");
+                for (i = 0; i < tr.length; i++) 
                 {
-                    txtValue = td.textContent || td.innerText;
-                    if (txtValue.toLowerCase().includes(filter)) 
+                    td = tr[i].getElementsByTagName("td")[colIndex];
+                    if (td) 
                     {
-                        tr[i].style.display = "";
-                    } 
-                    else 
-                    {
-                        tr[i].style.display = "none";
-                    }
-                }       
+                        filterArr.forEach(element => {
+                            txtValue = td.textContent || td.innerText;
+                            if (txtValue.toLowerCase().includes(element)) 
+                            {
+                                isfiltered = true;
+                            } 
+                            else 
+                            {
+                                isfiltered = false;
+                                break;
+                            }
+                        });
+                        if (isfiltered) 
+                            {
+                                tr[i].style.display = "";
+                            } 
+                            else 
+                            {
+                                tr[i].style.display = "none";
+                            }
+                    }       
+                }
             }
         }
     </script>
