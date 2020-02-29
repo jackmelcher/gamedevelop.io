@@ -245,7 +245,7 @@
         function UpdateFilterArray(filterName)
         {
             var filterArrayAll = document.getElementsByName(filterName);
-            filterArrayCurrent = null;
+            filterArrayCurrent = [];
             for(var i = 0; i < filterArrayAll.length; i++)
             {
                 if(filterArrayAll[i].checked == true)
