@@ -141,10 +141,6 @@
                         <label for="platform">ios</label>
                     </li>
                     <li>
-                        <input type="checkbox" name="platform" value="royalty" onclick="FilterTable()">
-                        <label for="platform">Royalty</label>
-                    </li>
-                    <li>
                         <input type="checkbox" name="platform" value="android" onclick="FilterTable()">
                         <label for="platform">android</label>
                     </li>
@@ -269,7 +265,7 @@
         //added from w3school example, modified for intended function
         function filterTableByColumn(input, colIndex) {
             var filter, table, tr, td, i, txtValue;
-            filter = input.value.toUpperCase();
+            filter = input.toUpperCase();
             table = document.getElementById("myTable");
             tr = table.getElementsByTagName("tr");
             for (i = 0; i < tr.length; i++) {
