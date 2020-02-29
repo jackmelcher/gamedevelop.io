@@ -90,29 +90,66 @@
                     <option value="schools">Schools</option>
                 </select>
             </p>
-            <p>
-                Price: 
-                <select id="price" onchange="SelectPrice()">
-                    <option value="">Price</option>
-                    <option value="free">Free</option>
-                    <option value="trial">Trial</option>
-                    <option value="paid">Paid</option>
-                    <option value="subscription">Subscription</option>
-                    <option value="royalty">Royalty</option>
-                    <option value="license">License</option>
-                </select>
-            </p>
-            <p>
+
+            <div>
+                Price:
+                <ul>
+                    <li>
+                        <input type="checkbox" name="price" value="free" onclick="FilterTable()">
+                        <label for="price">Free</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="price" value="trial" onclick="FilterTable()">
+                        <label for="price">Trial</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="price" value="paid" onclick="FilterTable()">
+                        <label for="price">Paid</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="price" value="subscription" onclick="FilterTable()">
+                        <label for="price">Subscription</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="price" value="royalty" onclick="FilterTable()">
+                        <label for="price">Royalty</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="price" value="license" onclick="FilterTable()">
+                        <label for="price">License</label>
+                    </li>
+                </ul>    
+            </div>
+
+            <div>
                 Platform: 
-                <select id="platform" onchange="SelectPlatform()">
-                    <option value="">Platform</option>
-                    <option value="windows">Windows</option>
-                    <option value="mac">Mac</option>
-                    <option value="linux">Linux</option>
-                    <option value="ios">iOS</option>
-                    <option value="android">Android</option>
-                </select>
-            </p>
+                <ul>
+                    <li>
+                        <input type="checkbox" name="platform" value="windows" onclick="FilterTable()">
+                        <label for="platform">windows</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="platform" value="mac" onclick="FilterTable()">
+                        <label for="platform">mac</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="platform" value="paid" onclick="FilterTable()">
+                        <label for="platform">Paid</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="platform" value="subscription" onclick="FilterTable()">
+                        <label for="platform">Subscription</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="platform" value="royalty" onclick="FilterTable()">
+                        <label for="platform">Royalty</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" name="platform" value="license" onclick="FilterTable()">
+                        <label for="platform">License</label>
+                    </li>
+                </ul>    
+            </div>
         </section>
              
         <div id="showData">
@@ -142,10 +179,10 @@
             document.getElementById("showData").innerHTML = "";
             
             //Load CSV Data
-            loadDoc(filepath);
+            LoadDoc(filepath);
         }
         
-        function loadDoc(filepath) {
+        function LoadDoc(filepath) {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
@@ -197,6 +234,52 @@
             // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
+        }
+
+        var filtersPrice;
+        var fitlersPlatform;
+
+        function UpdateFilterArray(filterName)
+        {
+            var filterArrayAll = document.getElementsByName(filterName);
+            filterArrayCurrent = null;
+            for(var i = 0; i < filterArrayAll.length; i++)
+            {
+                if(filterArrayAll[i].checked == true)
+                {
+                    filterArrayCurrent.push(filterArrayAll[i].value);
+                }
+            }
+            return filterArrayCurrent;
+        }
+
+        function FilterTable()
+        {
+            filtersPrice = UpdateFilterArray("price");
+            fitlersPlatform = UpdateFilterArray("platform");
+
+            filtersPrice.forEach(element => filterTableByColumn(element,1));
+            fitlersPlatform.forEach(element => filterTableByColumn(element,2));
+        }
+
+
+        //added from w3school example, modified for intended function
+        function filterTableByColumn(inputID, colIndex) {
+        var input, filter, table, tr, td, i, txtValue;
+        input = document.getElementById(inputID);
+        filter = input.value.toUpperCase();
+        table = document.getElementById("myTable");
+        tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[colIndex];
+            if (td) {
+                txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+            } else {
+                tr[i].style.display = "none";
+            }
+            }       
         }
     </script>
 </html>

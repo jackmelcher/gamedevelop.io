@@ -1,11 +1,18 @@
 body{
-  background-color: #add3ff;
+  background-color: #cae3ff;
   margin: 0px;
 }
-
+section{
+  padding-left: 160px;
+  padding-right: 160px;
+}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+ul{
+  list-style-type: none;
 }
 
 .navbar{
@@ -43,14 +50,14 @@ table, th, td {
 }
 
 @media all and (max-width: 768px){
-    section{
-      padding-left: 0px;
-      padding-right: 0px;
+  section{
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
-  @media all and (min-width: 769px) and (max-width: 1280px){
-    section{
-      padding-left: 80px;
-      padding-right: 80px;
-    }
+@media all and (min-width: 769px) and (max-width: 1280px){
+  section{
+    padding-left: 80px;
+    padding-right: 80px;
   }
+}
