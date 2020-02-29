@@ -269,7 +269,7 @@
 
         //added from w3school example, modified for intended function
         function filterTableByColumn(filterArr, colIndex) {
-            var table, tr, td, i, txtValue, isfiltered;
+            var table, tr, td, i, j, txtValue, isfiltered;
             table = document.getElementById("myTable");
             if(table){
                 tr = table.getElementsByTagName("tr");
@@ -278,7 +278,7 @@
                     td = tr[i].getElementsByTagName("td")[colIndex];
                     if (td) 
                     {
-                        filterArr.forEach(element => {
+                        for(j=0;j<filterArr.length;j++){
                             txtValue = td.textContent || td.innerText;
                             if (txtValue.toLowerCase().includes(element)) 
                             {
@@ -289,7 +289,7 @@
                                 isfiltered = false;
                                 break;
                             }
-                        });
+                        }
                         if (isfiltered) 
                             {
                                 tr[i].style.display = "";
