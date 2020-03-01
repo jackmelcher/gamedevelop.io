@@ -262,45 +262,54 @@
             filtersPrice = UpdateFilterArray("price");
             fitlersPlatform = UpdateFilterArray("platform");
 
-            filterTableByColumn(filtersPrice,1);
-            filterTableByColumn(fitlersPlatform,2);
+            filterTableByColumn();
         }
 
 
         //added from w3school example, modified for intended function
-        function filterTableByColumn(filterArr, colIndex) {
-            var table, tr, td, i, j, txtValue, isfiltered = true;
+        function filterTableByColumn() 
+        {
+            var table, tr, i;
             table = document.getElementById("myTable");
-            if(table){
+            if(table)
+            {
                 tr = table.getElementsByTagName("tr");
                 for (i = 0; i < tr.length; i++) 
                 {
-                    td = tr[i].getElementsByTagName("td")[colIndex];
-                    if (td) 
+                    if (CheckFilter(filtersPrice, tr, 1) && CheckFilter(fitlersPlatform, tr, 2))
                     {
-                        for(j=0;j<filterArr.length;j++){
-                            txtValue = td.textContent || td.innerText;
-                            if (txtValue.toLowerCase().includes(filterArr[j])) 
-                            {
-                                isfiltered = true;
-                            } 
-                            else 
-                            {
-                                isfiltered = false;
-                                break;
-                            }
-                        }
-                        if (isfiltered) 
-                            {
-                                tr[i].style.display = "";
-                            } 
-                            else 
-                            {
-                                tr[i].style.display = "none";
-                            }
-                    }       
+                        tr[i].style.display = "";
+                    } 
+                    else 
+                    {
+                        tr[i].style.display = "none";
+                    }
+                }     
+            }
+        }
+
+        function CheckFilter(filterArr, tr, colIndex)
+        {
+            var td, j, txtValue, isfiltered = true;
+            
+            td = tr[i].getElementsByTagName("td")[colIndex];
+            if (td) 
+            {
+                for(j=0;j<filterArr.length;j++)
+                {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toLowerCase().includes(filterArr[j])) 
+                    {
+                        isfiltered = true;
+                    } 
+                    else 
+                    {
+                        isfiltered = false;
+                        break;
+                    }
                 }
             }
+            return isfiltered;
         }
     </script>
 </html>
