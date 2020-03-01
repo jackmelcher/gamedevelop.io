@@ -276,7 +276,7 @@
                 tr = table.getElementsByTagName("tr");
                 for (i = 0; i < tr.length; i++) 
                 {
-                    if (CheckFilter(filtersPrice, tr, 1) && CheckFilter(fitlersPlatform, tr, 2))
+                    if (CheckFilter(filtersPrice, tr, i, 1) && CheckFilter(fitlersPlatform, tr, i, 2))
                     {
                         tr[i].style.display = "";
                     } 
@@ -288,7 +288,7 @@
             }
         }
 
-        function CheckFilter(filterArr, tr, colIndex)
+        function CheckFilter(filterArr, tr, i, colIndex)
         {
             var td, j, txtValue, isfiltered = true;
             
