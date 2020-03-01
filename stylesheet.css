@@ -8,11 +8,13 @@ section{
   padding-bottom: 64px;
 }
 
-th{
+th{  
+  border: 1px solid black;
+  border-collapse: collapse;
   background-color: #cccccc;
 }
 
-table, th, td {
+table, td {
   border: 1px solid black;
   border-collapse: collapse;
   background-color: #f1f1f1;
@@ -24,14 +26,15 @@ ul{
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 160px; /* Set the width of the sidebar */
-  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
+  position: fixed;
+  border-style: solid;
+  border-color: black;
+  border-width: 0px 1px 0px 0px;
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #111; /* Black */
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
+  margin-top: 100px;
+  margin-left: 10px;
+  padding: 16px 16px;
 }
 
 .navbar{
