@@ -11,18 +11,24 @@ section{
 th{  
   border: 1px solid black;
   border-collapse: collapse;
-  background-color: #cccccc;
+  background-color: #f1f1f1;
 }
 
 table, td {
   border: 1px solid black;
   border-collapse: collapse;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 
 ul{
   list-style-type: none;
 }
+
+a:link, a:visited {
+  color: rgb(0, 153, 255);
+  text-decoration: none;
+}
+
 .listTitle{
   margin-left: -20px;
   font-weight: bold;
