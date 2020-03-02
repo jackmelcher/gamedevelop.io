@@ -48,8 +48,8 @@
                     Category: 
                     <br>
                     <div>
-                        <select id="" onchange="SelectTable(this.value)">
-                            <option id="emptyCategory" disabled>Select a Category</option>
+                        <select id="category" onchange="SelectTable(this.value)">
+                            <option id="emptyCategory" selected="selected" disabled>Select a Category</option>
                             <optgroup label="Software & Tools"> 
                                 <option value="2d">2D Art</option>
                                 <option value="3d">3D Art</option>
@@ -190,6 +190,8 @@
     <script>
         var filepath;
         var csvdata;
+
+        SelectTable(document.getElementById("category").value);
 
         function SelectTable(filename)
         {
