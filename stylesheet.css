@@ -23,6 +23,12 @@ table, td {
 ul{
   list-style-type: none;
 }
+.listTitle{
+  margin-left: -20px;
+  font-weight: bold;
+  margin-left: 10px;
+
+}
 
 .sidenav {
   height: 100%; /* Full-height: remove this if you want "auto" height */

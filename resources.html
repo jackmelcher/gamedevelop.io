@@ -40,131 +40,150 @@
             </a>
         </nav>
         
-        <section>
-            <div>
-                <!-- TODO: Update SelectCategoryfunction to work for multiple Select groups. Separate out into Tools, Assets and Services, Publishing and Distribution, Learning-->
-                Category: 
-                <select id="" onchange="SelectTable(this.value)">
-                    <option id="emptyCategory" disabled>Select a Category</option>
-                    <optgroup label="Software & Tools"> 
-                        <option value="2d">2D Art</option>
-                        <option value="3d">3D Art</option>
-                        <option value="analytics">Analytics</option>
-                        <option value="audio">Audio</option>
-                        <option value="communication">Communication</option>
-                        <option value="engine">Engines and Frameworks</option>
-                        <option value="monetization">Monetization</option>
-                        <option value="other">Other Tools</option>
-                        <option value="sdk">SDKs</option>
-                        <option value="security">Security</option>
-                        <option value="tasking">Task Management</option>
-                        <option value="vcs">Version Control Software</option>
-                        <option value="vcsgui">VCS GUI</option>
-                        <option value="vcshosts">VCS Hosting</option>
-                        <option value="video">Video</option>
-                        <option value="writing">Writing</option>
-                    </optgroup>
-                    <optgroup label="Assets & Services">
-                        <option value="assets">Assets</option>
-                        <option value="services">Services</option>
-                    </optgroup>
-                    <optgroup label="Hardware & Peripherals">
-                        <option value="hardware">Hardware</option>
-                        <option value="peripherals">Peripherals</option>
-                    </optgroup>
-                    <optgroup label="Publishing & Distribution">
-                        <option value="funding">Funding Options</option>
-                        <option value="gamehosts">Hosting & Storefronts</option>
-                        <option value="news">News Outlets</option>
-                        <option value="publisher">Publishers</option>
-                    </optgroup> 
-                    <optgroup label="Learning & Communities">
-                        <option value="communities">Communities</option>
-                        <option value="conventions">Conventions</option>
-                        <option value="jams">Game Jams</option>
-                        <option value="learning">Learning Websites</option>
-                        <option value="schools">Schools</option>
-                    </optgroup>
-                </select>
-            </div>
 
-            
-        </section>
              
         <section>
-            <div class="sidenav">
-                <div>
-                    Price:
-                    <ul>
-                        <li>
-                            <input type="checkbox" name="price" value="free" onclick="FilterTable()">
-                            <label for="price">Free</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="price" value="trial" onclick="FilterTable()">
-                            <label for="price">Trial</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="price" value="paid" onclick="FilterTable()">
-                            <label for="price">Paid</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="price" value="subscription" onclick="FilterTable()">
-                            <label for="price">Subscription</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="price" value="royalty" onclick="FilterTable()">
-                            <label for="price">Royalty</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="price" value="license" onclick="FilterTable()">
-                            <label for="price">License</label>
-                        </li>
-                    </ul>    
+            <div>
+                <div class="sidenav">
+                    Category: 
+                    <br>
+                    <div>
+                        <select id="" onchange="SelectTable(this.value)">
+                            <option id="emptyCategory" disabled>Select a Category</option>
+                            <optgroup label="Software & Tools"> 
+                                <option value="2d">2D Art</option>
+                                <option value="3d">3D Art</option>
+                                <option value="analytics">Analytics</option>
+                                <option value="audio">Audio</option>
+                                <option value="communication">Communication</option>
+                                <option value="engine">Engines and Frameworks</option>
+                                <option value="monetization">Monetization</option>
+                                <option value="other">Other Tools</option>
+                                <option value="sdk">SDKs</option>
+                                <option value="security">Security</option>
+                                <option value="tasking">Task Management</option>
+                                <option value="vcs">Version Control Software</option>
+                                <option value="vcsgui">VCS GUI</option>
+                                <option value="vcshosts">VCS Hosting</option>
+                                <option value="video">Video</option>
+                                <option value="writing">Writing</option>
+                            </optgroup>
+                            <optgroup label="Assets & Services">
+                                <option value="assets">Assets</option>
+                                <option value="services">Services</option>
+                            </optgroup>
+                            <optgroup label="Hardware & Peripherals">
+                                <option value="hardware">Hardware</option>
+                                <option value="peripherals">Peripherals</option>
+                            </optgroup>
+                            <optgroup label="Publishing & Distribution">
+                                <option value="funding">Funding Options</option>
+                                <option value="gamehosts">Hosting & Storefronts</option>
+                                <option value="news">News Outlets</option>
+                                <option value="publisher">Publishers</option>
+                            </optgroup> 
+                            <optgroup label="Learning & Communities">
+                                <option value="communities">Communities</option>
+                                <option value="conventions">Conventions</option>
+                                <option value="jams">Game Jams</option>
+                                <option value="learning">Learning Websites</option>
+                                <option value="schools">Schools</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        Filters:
+                        <div>
+                            <p class="listTitle">Price:</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="price" value="free" onclick="FilterTable()">
+                                    <label for="price">Free</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price" value="trial" onclick="FilterTable()">
+                                    <label for="price">Trial</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price" value="paid" onclick="FilterTable()">
+                                    <label for="price">Paid</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price" value="subscription" onclick="FilterTable()">
+                                    <label for="price">Subscription</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price" value="royalty" onclick="FilterTable()">
+                                    <label for="price">Royalty</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="price" value="license" onclick="FilterTable()">
+                                    <label for="price">License</label>
+                                </li>
+                            </ul>    
+                        </div>
+    
+                        <div>
+                            <p class="listTitle">Platform:</p>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="platform" value="windows" onclick="FilterTable()">
+                                    <label for="platform">Windows</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="platform" value="mac" onclick="FilterTable()">
+                                    <label for="platform">Mac</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="platform" value="linux" onclick="FilterTable()">
+                                    <label for="platform">Linux</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="platform" value="ios" onclick="FilterTable()">
+                                    <label for="platform">iOS</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="platform" value="android" onclick="FilterTable()">
+                                    <label for="platform">Android</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="platform" value="web" onclick="FilterTable()">
+                                    <label for="platform">Web</label>
+                                </li>
+                            </ul>    
+                        </div>    
+                    </div>    
+                    
                 </div>
-
-                <div>
-                    Platform: 
-                    <ul>
-                        <li>
-                            <input type="checkbox" name="platform" value="windows" onclick="FilterTable()">
-                            <label for="platform">Windows</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="platform" value="mac" onclick="FilterTable()">
-                            <label for="platform">Mac</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="platform" value="linux" onclick="FilterTable()">
-                            <label for="platform">Linux</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="platform" value="ios" onclick="FilterTable()">
-                            <label for="platform">iOS</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="platform" value="android" onclick="FilterTable()">
-                            <label for="platform">Android</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" name="platform" value="web" onclick="FilterTable()">
-                            <label for="platform">Web</label>
-                        </li>
-                    </ul>    
+                <div id="showData" style="margin-left: 160px; margin-top: 64px;">
+                    <!-- Table is added here 
+                    <table>
+                        <tr>
+                            <td>
+                                dfasfadf
+                            </td>
+                            <td>
+                                fdasfa
+                            </td>
+                            <td>
+                                fdsgds
+                            </td>
+                        </tr>
+                    </table>
+                    -->
                 </div>
+                
             </div>
 
-            <div id="showData">
-                <!-- Table is added here -->
-            </div>
-            <!--
-            <p id="demo"></p>
-            <p id="demo1"></p>
-            <p id="demo2"></p>
-            <p id="papa"></p>
-            -->
-        </section>
-        
+          
+        <!--
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <p id="papa"></p>
+        -->
+        </section>  
 
     </body>
 
@@ -174,7 +193,7 @@
 
         function SelectTable(filename)
         {
-            if(!document.getElementById("emptyCategory").style.display == "none"){
+            if(document.getElementById("emptyCategory").style.display == ""){
                 document.getElementById("emptyCategory").style.display = "none";
             }
 
@@ -228,7 +247,7 @@
                         if(j==1){continue;}                         // Dont make Table Cell for Links column.
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
-                            tabCell.innerHTML = "<a href=\"" + array2D[i][j] + "\">"+array2D[i][j]+"</a>";
+                            tabCell.innerHTML = "<a href=\"" + array2D[i][j] + "\">"+array2D[i][j+1]+"</a>";
                             j++;
                         }
                         else{
