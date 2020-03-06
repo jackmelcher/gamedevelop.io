@@ -29,6 +29,10 @@ a:link, a:visited {
   text-decoration: none;
 }
 
+.tableimg{
+  max-width: 32px;
+}
+
 .listTitle{
   margin-left: -20px;
   font-weight: bold;

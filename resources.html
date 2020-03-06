@@ -21,6 +21,7 @@
         <script src="papaparse.min.js"></script> 
     </head>
 
+    <!-- Make function that retrieves favicons of websites and saves them to local folder. -->
     <body>
         <nav class="navbar">
             <a href="index.html">
@@ -191,7 +192,9 @@
         var filepath;
         var csvdata;
 
+        //Run functions when the page is refreshed.
         SelectTable(document.getElementById("category").value);
+        FilterTable();
 
         function SelectTable(filename)
         {
@@ -249,6 +252,10 @@
                         if(j==1){continue;}                         // Dont make Table Cell for Links column.
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
+                            var img = document.createElement("img");
+                            img.src = "image/"+filepath+"/"+GetImageName(array2D[i][j+1]);
+                            img.className = "tableimg";
+                            tabCell.appendChild(img);
                             tabCell.innerHTML = "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
@@ -335,6 +342,19 @@
                 }
             }
             return isfiltered;
+        }
+
+        function GetImageName(url)
+        {
+            // Remove Http
+            url = url.replace(/h.*?\/\//,"")
+
+            // Split trailing url info
+            url = url.split('/');
+            
+            // Return the image name.
+            console.log(url[0]);
+            return url[0];
         }
     </script>
 </html>
