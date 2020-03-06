@@ -255,7 +255,7 @@
                             var img = document.createElement("img");
                             img.src = "image/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]);
                             img.className = "tableimg";
-                            tabCell.innerHTML = img + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
+                            tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
                         else{
