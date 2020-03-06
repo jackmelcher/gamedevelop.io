@@ -253,7 +253,7 @@
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
                             var img = document.createElement("img");
-                            img.src = "image/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]);
+                            img.src = "image/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1] + ".png");
                             img.className = "tableimg";
                             tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
@@ -321,23 +321,20 @@
 
         function CheckFilter(filterArr, tr, i, colIndex)
         {
-            var td, j, txtValue, isfiltered = true;
+            var td, j, txtValue, isfiltered = false;
             
             td = tr[i].getElementsByTagName("td")[colIndex];
             if (td) 
             {
+                // If table column contains any of the filters, set isfiltered to true.
                 for(j=0;j<filterArr.length;j++)
                 {
                     txtValue = td.textContent || td.innerText;
                     if (txtValue.toLowerCase().includes(filterArr[j])) 
                     {
                         isfiltered = true;
-                    } 
-                    else 
-                    {
-                        isfiltered = false;
                         break;
-                    }
+                    } 
                 }
             }
             return isfiltered;
