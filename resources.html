@@ -253,10 +253,9 @@
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
                             var img = document.createElement("img");
-                            img.src = "image/"+filepath+"/"+GetImageName(array2D[i][j+1]);
+                            img.src = "image/" + getElementById("category").value + "/" + GetImageName(array2D[i][j+1]);
                             img.className = "tableimg";
-                            tabCell.appendChild(img);
-                            tabCell.innerHTML = "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
+                            tabCell.innerHTML = img + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
                         else{
