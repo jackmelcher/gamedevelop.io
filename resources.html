@@ -12,10 +12,18 @@
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">   
-
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="favicons/site.webmanifest">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
         <!-- Style -->
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
-
         
         <!-- Scripts -->
         <script src="papaparse.min.js"></script> 
@@ -25,8 +33,8 @@
     <body>
         <nav class="navbar">
             <a href="index.html">
-                <button class="button button_nav ">
-                    CD
+                <button class="button button_logo " style="margin: 0; padding: 0; vertical-align: middle;">
+                    <img src="favicons/favicon-32x32.png" alt="logo" >
                 </button>
             </a>
             <a href="resources.html">
@@ -62,7 +70,7 @@
                                 <option value="other">Other Tools</option>
                                 <option value="sdk">SDKs</option>
                                 <option value="security">Security</option>
-                                <option value="tasking">Task Management</option>
+                                <option value="tasking">Tasking and Collaboration</option>
                                 <option value="vcs">Version Control Software</option>
                                 <option value="vcsgui">VCS GUI</option>
                                 <option value="vcshosts">VCS Hosting</option>
@@ -87,6 +95,7 @@
                                 <option value="communities">Communities</option>
                                 <option value="conventions">Conventions</option>
                                 <option value="jams">Game Jams</option>
+                                <option value="jobs">Job Boards</option>
                                 <option value="learning">Learning Websites</option>
                                 <option value="schools">Schools</option>
                             </optgroup>
@@ -253,6 +262,7 @@
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
                             var img = document.createElement("img");
+                            img.onerror = "placeholderImg(this)";
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
                             tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
@@ -355,6 +365,11 @@
             // Return the image name.
             //console.log(url[0]);
             return url[0];
+        }
+
+        function placeholderImg(img)
+        {
+            img.src = "images/placeholder.png";
         }
     </script>
 </html>

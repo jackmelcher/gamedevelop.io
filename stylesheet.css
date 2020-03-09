@@ -77,11 +77,20 @@ a:link, a:visited {
   transition-duration: 0.4s;
   cursor: pointer;
 }
+.button_logo{
+  background-color: transparent;
+  margin: 0;
+  font-weight: bold;
+  border-radius: 0;
+}
 .button_nav{
   background-color: transparent;
   margin: 0;
   font-weight: bold;
   border-radius: 0;
+}
+.button_nav:hover{
+  background-color: #0099ff;
 }
 .button_active{
   background-color: #0099ff;
