@@ -55,9 +55,7 @@
             <div class="sidenav">
                 <div>
                     <div>
-                        <a href="guides/beginner.html">
                             <p style="font-weight: bold;">Beginner's Guide</p>
-                        </a>                            
                         <ul>
                             <li>
                                 <a href="guides/beginner.html#overview">
@@ -175,10 +173,256 @@
                         </ul>   
                     </div>    
                 </div>    
-                
             </div>
-            <div id="overview" style="margin-left: 240px; margin-top: 64px;">
-                Fill out with divs and ids and such
+            <div id="top"></div>
+            <div id="overview" class = "guide">
+                <h3>Overview</h3> 
+                <p>
+                    A game is an interactive experience where a set of rules govern how players can achieve a goal.
+                </p>
+                <p>
+                    Video games are digital interactive experiences, created by combining programming and art. They can be as small as squares jumping on rectangles, or as large as massive multiplayer online open world. Art can be as simple as a few pixels, or as complex as high poly models with photorealistic textures. Audio can be a few sound bites, or a grand composition played by an orchestra. 
+                </p>
+                <p>
+                    Games have been made by people of all ages and of varying skill levels. Game development teams vary in size and location. Games have been made by individuals, small indie groups, and by large development studios. 
+                </p>
+                <p>
+                    In the Games Industry, there are many roles in a games studio. These include engineers, developers, producers, designers, artists, testers, composers, musicians, localizers, marketers, community managers, customer support, IT technicians, legal counselors, business administrators, facility managers, etc. All these people come together to build an experience the masses can enjoy.
+                </p>
+                <p>
+                    All games start as an idea. The idea is then fleshed out into a game design doc, describing all technical and artistic details. Using the game design doc and concept art, a prototype is built to verify the original design. Development continues and the game is iterated upon. Testing gameplay, refining systems, tuning balance, and adding additional features. Often when a game is in beta, marketing is done to get the attention of people and garner a potential player base. And after months or years of hard work and dedication, the game is released.
+                </p>
+                <p>
+                    The goal of the Beginner’s Guide is to teach you every aspect of game development. From concepting ideas and writing a game design doc, to starting development and managing production. After reading this guide, you will know what it takes to make a game.
+                </p>
+            </div>
+            <div id="startsmall" class = "guide">
+                <h3>Make the game of your dreams? Or make games to learn?</h3>
+                <p>
+                    When you are starting out as a game developer with little to no experience, you have to make a decision.
+                </p>
+                <p>
+                    Do you go headlong into making the game of your dreams? Or do you make smaller games and gradually build up your skills? Do you want to make a clone of an existing game with your own twist? Or make an RPG with a bunch of items, cool weapons, deadly monsters, touching cinematics, heated action, grand story, and vast open world?
+                </p>
+                <p>
+                    People are motivated by what they want to make. So make the game you want. But, if your dream game is very big and you don’t have the skills to make it yet, then it’s best to make smaller games. 
+                </p>
+                <p>
+                    With smaller games, the feature set is smaller, the project is more manageable, and team members are more likely to stick around. The goal of smaller projects is to gradually build up experience so in the future you have the skills necessary to develop your dream game. By accomplishing small goals, it becomes easier to achieve big goals.
+                </p>
+            </div>
+            <div id="concept" class = "guide">
+                <h3>Concepting the Game Idea</h3>
+                <p>
+                    Before you can get started with developing, you need to think of a Game Idea.
+                </p>
+                <p>
+                    All games start as an idea. Often, people are inspired by several games they have played. Taking existing game ideas and innovating on top of them. Or maybe using the same genre and mechanics, but in a different setting. Sometimes, two or more genres are combined into a new experience that poses a different set of challenges. Also, participating in Game Jams encourages creative thinking and sometimes inspires people to make games they never thought of before. Others make completely novel game ideas that nobody has ever done before, which can result in the creation of entirely new genres.
+                </p>
+                <p>
+                    Start brainstorming. Describe all the higher level ideas about the game you want to make. Jot down the theme, genre, goals, basic rules, game loop, progression, rewards, art style, type of music, the setting of the game world, story premise, game pieces, characters, target platform, etc. Make sketches of levels and game objects. Just to have a basic sense of scale, level design, and art direction.
+                </p>
+                <p>
+                    Now that you know what the game of your dreams is going to be, the next step is to flesh out the technical details in a Game Design Document.
+                </p>
+            </div>
+            <div id="scope" class = "guide">
+                <h3>Managing Scope</h3>
+                <p>
+                    Scope equates to a game’s complexity. The more features a game has, and the more complicated a feature is, the greater the scope. The goal of evaluating the scope is to estimate the production time for the game and determine if development is feasible.
+                </p>
+                <p>
+                    Before anything is made, identify what features are essential and which ones are nonessential. Essential features is any feature that is required to build the game, or are core mechanics. Nonessential features can be things you’d like to implement in addition to the essential features. Depending on production constraints, nonessential features may be evaluated as extraneous and possibly removed from production entirely.
+                </p>
+                <p>
+                    Scope is constantly evaluated as development progresses. Try to avoid Feature Creep, which occurs when team members want to add more features, or increase a feature’s complexity than what was originally planned. Sometimes, a feature is discovered to be more complex than originally anticipated. Either way, team members will need to make a decision on what features to continue working on, what features to cut, and what will be the agreed upon scope of the game.
+                </p>
+                <p>
+                    With the advent of Early Access and Content Updates, developers will often continue to work on games long after they have been released. Studios will implement features that were previously cut in the original production, add additional content and increase the complexity of existing features, tune gameplay after reviewing player data, and develop entirely new feature sets.
+                </p>
+                <p>
+                    Knowing the scope of the game idea, will allow you to predict how much time is needed and what skills are necessary to build the game. Everyone has great ideas, but they are useless if they cannot be implemented effectively. You need to understand how much work and experience is necessary to make your design a reality.
+                </p>
+            </div>
+            <div id="gdd" class = "guide">
+                <h3>Game Design Doc</h3>
+                <p>
+                    The Game Design Document is the core document for game development. It contains all the design and high level technical details of the game.
+                </p>
+                <p>
+                    Using the Game Concept as an outline for the Game Design Doc, elaborate on all of the rules, mechanics, systems, game objects, functionality, interfaces, control schemes, and game options.
+                </p>
+                <p>
+                    Solidify the art style and list out the necessary 3D models, 2D graphics, textures, animations. Determine the level design and the necessary environments, lighting, shaders, post processing, and particle effects. Draw some concept art of the game and create references of the world establish a more cohesive theme and aesthetic of environments, set pieces, scale of the world, props, characters.
+                </p>
+                <p>
+                    Flesh out the lore, world building, story, plot, narrative, script, and character interactions. If needed, storyboard the scenes/cinematics of key plot points.
+                </p>
+                <p>
+                    Figure out what music and the sound effects are necessary for menus, actions, or event sequences.
+                </p>
+                <p>
+                    Game Design Docs will evolve as development progresses and designs are iterated upon. They need to exist in a way that all team members can easily access and modify. It can exist as a shared word document, cloud document, OneNote Notebook, tasks in an issue board, or pages on a wiki website. Use what is best for your team.
+                </p>
+            </div>
+            <div id="tools" class = "guide">
+                <h3>Tools and Assets</h3>
+                <p>
+                    Q: What Engine/Frameworks/Libraries/APIs/SDKs/Programming Language/Tools do I use?<br>
+                    A: It does not matter what you use. Once you know what type of game you are making, do your research and figure out what will be the best toolset to make it. 
+                </p>
+                <p>
+                    Q: I’ve never programmed before and want to make games, where do I start?<br>
+                    A: Google. There are a ton of tutorials for introductory programming. If you know what Engine/Framework/API you are going to use, Google search for tutorials on how to use it or read the documentation. If you have a question, it is very likely someone else has likely already asked it. Search for questions you have in forums or on answer hubs. 
+                </p>
+                <p>
+                    Q: Are there other ways to program without wanting to learn a programming language?<br>
+                    A: If you are not a fan of traditional programming and text editors, some engines use visual scripting to program game logic.
+                </p>
+                <p>
+                    Q: I want to make a game but don’t want to program. What do I do?<br>
+                    A: Find a programmer. You won’t get far without one.
+                </p>
+                <p>
+                    Q: Should I build my own engine for making my game?<br>
+                    A: An Engine is a tool to make game creation easier. If you want to make games, do not make a game engine. Only make a game engine if all the current tools available aren’t suitable for making your game. If you want to be a professional Engine Programmer, then make a game engine. If an engine lacks the functionality you need, modify the engine’s source code or create a plugin.
+                </p>
+                <p>
+                    Q: I don’t want to program game systems or waste time making them. What do I do?<br>
+                    A: Purchase plugins for an engine from their respective marketplace or asset store. Many people work on extending the functionality of an engine to save others time and speed up the development process.
+                </p>
+                <p>
+                    Q: I don’t want to make the art and audio for my game. Where can I get assets? <br>
+                    A: If your game requires unique and custom assets, you can team up with an artist, hire an artist, contract freelancers, or contract asset creation servicers to make them. If you just need something that works and is ready to use, you can purchase assets from digital marketplaces.
+                </p>
+                <p>
+                    Q: Are there free tools and assets?<br> 
+                    A: There are plenty of free tools and assets available for download. Most game engines are free so you can start development right away. A lot of asset creation tools are free or offer free trials. There are also many websites that provide free assets for anyone to use to make their game.
+                </p>
+            </div>
+            <div id="experience" class = "guide">
+                <h3>How Team Experience can affect Production</h3>
+                <p>
+                    The team’s skill level determines whether implementing certain features is feasible and if it can be done in a timely manner. Inexperienced team members may result in poor implementation of complex features, or could lengthen development time as they learn new skills and gather the necessary knowledge. Whereas, experienced members likely already know how to build the required systems and have an easier time expanding upon them. Production time will also be more predictable and move at a steadier pace with a more experienced team.
+                </p>
+                <p>
+                    If you are a solo dev, then production time is entirely decided by you. Every aspect of the game will require your attention. You will be knowledgeable in multiple areas, but the trade off is that you will not be specialized into one discipline. As a result, production times will drastically increase because all tasks will have to be performed sequentially. But, you have full creative control of your game.
+                </p>
+                <p>
+                    With a team of specialized individuals, tasks can be divided up and completed in parallel. Multiple tasks can be finished during each iteration cycle, allowing the team to build prototypes of the game faster. Smaller teams will still require members to complete tasks in several departments, but still allow development to move faster than a solo developer. Also, you must give up creative control to those in charge of their particular department.
+                </p>
+            </div>
+            <div id="team" class = "guide">
+                <h3>Forming a Team, Recruiting Members, Roles</h3>
+                <p>
+                    Before you form a team, pick the roles you want to play. Once you have accepted responsibility for a specific set of tasks, determine what tasks are still available and what roles would cover them. Once you know what roles need to be filled, recruitment members to your project.
+                </p>
+                <p>
+                    There are several websites, subreddits, forums, and discord servers where teams advertise their projects and individuals advertise their services. The more details you provide about your project and the available jobs, the more likely people will inquire and join your team. Describe the premise, the genre, the roles that are available, what each role is responsible for, the estimated production time, and minimum time commitment. Alternatively, you can attend local game developer meetups and ask attendees if they are interested in working on your project. Both industry professionals and hobbyists attend these meetings. If you are having trouble passively recruiting people, take a more active approach and contact freelancers and pitch your project to them.
+                </p>
+                <p>
+                    Do consider that people are less inclined to contact you about your project if you require them to sign a Non-Disclosure Agreement (NDA). The lack of information about the project will inhibit your ability to recruit the right individuals for your team. People become skeptical when they don't know what you are getting them into and will likely result in wasted time for both parties during the interview process. An NDA is a good way to keep your business a secret, but what good is a secret game idea if you can’t recruit the right people to make it.
+                </p>
+                <p>
+                    Factors to consider while recruiting members are experience, compensation, location, time zone, and availability. Less experienced individuals will be willing to work for free, but may lead to slower production and poor optimization. More experienced individuals will expect contract payments for their high skill labor and greater time commitment. Production time might be affected by where team members live and the lack of direct accountability. It may be more difficult to keep remote team members on task and complete assigned work in a timely manner. This could result in production to fall behind schedule.
+                </p>
+                <p>
+                    To ensure that people complete their assigned tasks, you can use task management software and assign tasks to individuals and give them a deadline to complete the task.
+                </p>
+            </div>
+            <div id="production" class = "guide">
+                <h3>Production and Task Management</h3>
+                <p>
+                    Now that you have a game design doc and a team, it is now time to set up production, create tasks, and assign them out to team members. Games development is a lot like Modern Software Development, it is an iterative development process.
+                </p>
+                <p>
+                    The most common software development methodology used today is Agile. The premise is to make software with a focus on end user experience and feedback. Reviewing the state of the product periodically and evaluating where changes and improvements are necessary. Production is flexible and open to rapid change in design. Through continuous iteration and collaboration, the product evolves and becomes better.
+                </p>
+                <p>
+                    Your first goal should be to make a Minimum Viable Product (MVP)? To validate your game concept, you need to build and play a prototype of your game as soon as possible. Schedule your first set of tasks to prioritize making the MVP. Identify what are the minimum systems and mechanics for your game. Determine the dependencies of key features and layout what order in which things need to be built. The sooner you have an early prototype, the sooner you will be able to reaffirm your game’s design and verify if the game is actually fun to play.
+                </p>
+                <p>
+                    People are lazy and tend to put things off. So set deadlines for each task. Make a goal, or milestone, of what your team should accomplish every month or so. Then, break out the tasks that are required to complete that goal. Make daily, weekly, bi-weekly, or monthly deadlines for each task and assign them out to the appropriate team members. Have goals and meet those goals by the arbitrary due date. Setting deadlines holds team members accountable and keeps production moving at a steady pace.
+                </p>
+                <p>
+                    Keep in mind, work quality varies from person to person. In small teams, most individuals are dedicated to one role, so the quality of work in a department is dependent on one person. But in studios, teams are made up of multiple engineers and artists. Regardless of the team size, production needs to make sure everyone is being held to the same quality standards. Code might need to meet certain performance and scalability requirements. Art might need to be made in a consistent style so the environment and game objects blend together seamlessly. Audio is the right fit for the world and is of a certain fidelity. Peer review helps maintain the overall quality of the work.                </p>
+                <p>
+                    At the end of the  milestone, you will want to review the team’s progress and evaluate production. Was the complexity of a task not estimated correctly and wasn’t finished by the deadline? Will certain features take longer to implement than originally anticipated? Is a team member slacking off? Do team members finish their work early and have nothing left to do for the remainder of the milestone? Will the original planned release date need to be pushed back? Did team members leave the project? Do we need to recruit more members to achieve a higher production velocity? Taking the time to review the game’s production will help predict the results of the next milestone and allow you to better plan out the future.
+                </p>
+                <p>
+                    There are a variety of task management applications available to help facilitate production of any sort. Some are as simple as paper TODO lists, sticky note scrum boards, or digital issue lists and kanban boards. Others are more complex and can encompass every aspect of production, from departments, scheduling, velocity, complexity, feature criteria, task lists, dashboards, etc. Use the system that works best for you and fits your needs.
+                </p>
+            </div>
+            <div id="cost" class = "guide">
+                <h3>Costs of Development</h3>
+                <p>
+                    Ask yourself, what are the costs to develop your game? Costs include both time and money.
+                </p>
+                <p>
+                    What skills are needed to develop the game? How long will it take to learn the necessary skills to develop the game? Will you make the game by yourself? Do you need a team? How will you compensate your teammates? What tools will you use? Do you need licenses for software? What assets will you need? Do you need servers to host your game? What is the build pipeline? What distribution platforms are you targeting? 
+                </p>
+                <p>
+                    What is the desired development time frame? What is the production schedule? How will you market your game? What is your planned release date? Will your game be free or paid? Will you include alternative monetization methods?
+                </p>
+                <p>
+                    How will you fund the project? All projects require funding. Whether it’s to hire other professionals, or to just keep the lights on. Most people have a day job and only have their evenings and weekends available to contribute to a project. Most people will not dedicate themselves full-time to a game project without compensation. Everyone needs to pay for expenses, and it's difficult to work on something full-time without financial security. If you want to go full-time, make sure you have the available funds to do so.
+                </p>
+            </div>
+            <div id="funding" class = "guide">
+                <h3>Funding Options</h3>
+                <p>
+                    If you want to work full-time on your game, there are several funding options available. These include: using your savings, starting a crowdfunding campaign, partnering with publishers or investors, or applying for developer grants.
+                </p>
+                <p>
+                    For crowdfunding, publishing, and grants, you will be required to pitch your game to whomever you are seeking investment from. You will want to be able to show a solid concept, often a working prototype, detailed design descriptions, captivating screenshots or videos, a definite production deadline, a breakdown on how the money will be spent, and what will be the potential Return on Investment (monetary or product). The more clear cut and detailed your pitch is, the greater your chances of success.
+                </p>
+            </div>
+            <div id="business" class = "guide">
+                <h3>Make a Business Plan</h3>
+                <p>
+                    What is the business model of your game? How will you make a Return on Investment? Investment includes both the time and money put in to finish a product. 
+                </p>
+                <p>
+                    Maybe the ROI is the experience you gained from completing the project. Your new found knowledge can be put to use in other projects, and it can help advance your career, business, or hobbies.
+                </p>
+                <p>
+                    What price will you sell your game at? What platforms will you target? Do you expect monetary gain from sales and/or publishers/investors? What revenue model will you use? Will you also include microtransactions or a subscription? Do you plan to expand the game with free or paid DLC?
+                </p>
+                <p>
+                    But if you release a game for free and expect monetary gain, what approach will you take? Sell cosmetic goods? Sell in-game currency that can be used to purchase rolls at a gacha, or speed up actions to reduce waiting? Sell boosters to alleviate the amount of grinding a player has to do to progress? Have a subscription that gives players rewards for their participation?
+                </p>
+                <p>
+                    For live services, how do you maintain player retention? How do you reward players and encourage them to keep playing? Do you create daily, weekly, monthly objectives? Do you host limited timed events? Do you make 1 time achievements that become increasingly more difficult?
+                </p>
+                <p>
+                    Who is your target audience? Are you targeting a general audience that likes action or fps titles? Or is your audience more niche and into psychological horror? Either way you need to know who your audience is and make sure to direct your marketing towards them. You can do some market research and get an estimate on the market size based on the sales of previous titles within the same genre. From there you can predict expected sales projections or growth of the user base and revenue.
+                </p>
+            </div>
+            <div id="marketing" class = "guide">
+                <h3>Marketing</h3>
+                <p>
+                    Marketing and advertising is critical to a game's success. The goal is to convert as many people within your target audience into consumers. Your team can make the most amazing game possible, but if nobody knows about it, then no one will play it. There are multiple avenues to spreading the word about your game and it’s development.
+                </p>
+                <p>
+                    If you have a publisher, they will assist your studio with traditional marketing and advertising of your game. Today, social media is the most common grassroots strategy to build up hype and grow an audience. Post devlogs, make screenshots and gifs, show game trailers, tell friends and family, launch a crowdfunding campaign, upload demo builds, or partnering with Let’s Players to showcase your game. Word of mouth is powerful and has the potential to make your game go viral.
+                </p>
+                <p>
+                    For multiplayer testing, you can host Alpha and/or Beta Testing of your game. That way, fans of your game can play the game early and give you feedback before it’s released. They will let you know if your servers are working properly and determine if there are any connectivity issues.
+                </p>
+                <p>
+                    By marketing you can grow a community/following around your game. Getting people on the hype train and increasing chances of potential consumers. Hold active discussions in forums or live streams to build community growth and engagement. You will be able to gauge the size of the market for your game and better predict the success of your title.                </p>
+            </div>
+            <div id="postmortem" class = "guide">
+                <h3>Post Mortem</h3>
+                <p>
+                    You’ve finished your game and released it to market. Sales numbers are rolling in and you see a surge of active users. Your team gets word from the community of various bugs and glitches in the game to iron out. The critics and users write reviews and provide feedback. Before your team continues work on the next set of patches and content drops, spend some time reflecting on the project’s success.
+                </p>
+                <p>
+                    Post Mortems are meant to be a learning opportunity for team members. This is when you ask questions such as: Did the team meet the original production deadlines, and if not why? Did you reach your projected sales goals? How was the game received by the audience? What development processes could be improved upon? What mistakes were made that can be avoided in the future? Was the team satisfied with the work they did and did it meet quality expectations? Is there any work that was completed that can be reused for future projects? Does the team feel like they can continue working together on future projects?
+                </p>
+                <p>
+                    It’s important to learn from your mistakes and for everyone to provide constructive criticism. Nobody is perfect, and there is plenty of room for people to grow. Take what you learned and apply it to improve the outcome of future projects.
+                </p>
             </div>
         </section>  
     </body>
