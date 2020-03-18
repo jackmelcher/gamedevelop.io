@@ -1,11 +1,13 @@
 body{
-  background-color: #cae3ff;
+  background-color: #eeeeee;
   margin: 0px;
 }
 section{
   padding-left: 160px;
   padding-right: 160px;
   padding-bottom: 64px;
+overflow: auto;
+  height: calc(100vh - 116px);
 }
 
 th{  
@@ -20,17 +22,13 @@ table, td {
   background-color: #ffffff;
 }
 
-ul{
-  list-style-type: none;
-}
-
 a:link, a:visited {
   color: rgb(0, 67, 211);
   text-decoration: none;
 }
 
 .tableimg{
-  max-width: 32px;
+  width: 32px;
 }
 
 .listTitle{
@@ -48,9 +46,14 @@ a:link, a:visited {
   border-width: 0px 1px 0px 0px;
   top: 0; /* Stay at the top */
   left: 0;
-  margin-top: 100px;
+  margin-top: 51px;
   margin-left: 10px;
   padding: 16px 16px;
+  overflow: auto;
+  height: calc(100vh - 84px);
+}
+.nobullets{
+  list-style-type: none;
 }
 
 .navbar{
@@ -99,6 +102,9 @@ a:link, a:visited {
 .guide{
   margin-left: 240px;
   margin-top: 64px;
+}
+.guideTop{
+  margin-left: 240px;
 }
 
 @media all and (max-width: 768px){
