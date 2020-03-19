@@ -197,6 +197,7 @@
         SelectTable(document.getElementById("category").value);
         FilterTable();
         SetTableName();
+
         function SelectTable(filename)
         {
             if(document.getElementById("emptyCategory").style.display == ""){
@@ -212,6 +213,9 @@
             
             //Load CSV Data
             LoadDoc(filepath);
+
+            //Update Table Name
+            SetTableName();
         }
         
         function LoadDoc(filepath) {
