@@ -14,12 +14,14 @@ th{
   border: 1px solid black;
   border-collapse: collapse;
   background-color: #f1f1f1;
+  vertical-align: middle;
 }
 
 table, td {
   border: 1px solid black;
   border-collapse: collapse;
   background-color: #ffffff;
+  vertical-align: middle;
 }
 
 a:link, a:visited {
@@ -104,7 +106,14 @@ a:link, a:visited {
 .button_active{
   background-color: #0099ff;
 }
-
+.menuicon{
+  font-size: 24px;
+  line-height: 0px;
+  vertical-align:-4px;
+}
+.resource{
+  margin-left: 120px;
+}
 .guide{
   margin-left: 240px;
   margin-top: 64px;
@@ -117,6 +126,9 @@ a:link, a:visited {
   section{
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .resource{
+    margin-left: 0px;
   }
   .guide{
     margin-left: 0px;
