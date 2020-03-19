@@ -6,7 +6,7 @@ section{
   padding-left: 160px;
   padding-right: 160px;
   padding-bottom: 64px;
-overflow: auto;
+  overflow-x: auto;
   height: calc(100vh - 116px);
 }
 
@@ -49,9 +49,14 @@ a:link, a:visited {
   margin-top: 51px;
   margin-left: 10px;
   padding: 16px 16px;
-  overflow: auto;
+  overflow-x: auto;
   height: calc(100vh - 84px);
+  background-color: #eeeeee;
 }
+.sidenavbutton{
+  display: none;
+}
+
 .nobullets{
   list-style-type: none;
 }
@@ -62,7 +67,7 @@ a:link, a:visited {
   top: 0;
   background-color: #0a0099;
   color: #f0ffff;
-  padding : 0 5px;
+  padding : 0;
 }
 
 .button {
@@ -73,7 +78,6 @@ a:link, a:visited {
   padding: 16px 16px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 0px 0px 16px 0px;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -85,6 +89,8 @@ a:link, a:visited {
   margin: 0;
   font-weight: bold;
   border-radius: 0;
+  vertical-align: middle;
+  padding: 0 8px;
 }
 .button_nav{
   background-color: transparent;
@@ -109,13 +115,34 @@ a:link, a:visited {
 
 @media all and (max-width: 768px){
   section{
-      padding-left: 10px;
-      padding-right: 10px;
-    }
+    padding-left: 20px;
+    padding-right: 20px;
   }
+  .guide{
+    margin-left: 0px;
+  }.guideTop{
+    margin-left: 0px;
+  }
+  .sidenav{
+    width: calc(100vw);
+    display: none;
+  }
+  .sidenavbutton
+  {
+    display: inline-block;
+  }
+
+}
 @media all and (min-width: 769px) and (max-width: 1280px){
   section{
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 160px;
+    padding-right: 40px;
+  }
+  .sidenav{
+    display: block;
+  }
+  .sidenavbutton
+  {
+    display: none;
   }
 }

@@ -28,9 +28,12 @@
 
     <body>
         <nav class="navbar">
+            <button class="button button_nav sidenavbutton" onclick="ToggleSide()">
+                <i class="fas fa-bars" style="font-size: 24px; line-height: 0px; vertical-align:-4px;"></i>
+            </button>
             <a href="index.html">
-                <button class="button button_logo " style="margin: 0; padding: 0; vertical-align: middle;">
-                    <img src="favicons/favicon-32x32.png" alt="logo" >
+                <button class="button button_logo ">
+                    <img src="favicons/favicon-32x32.png" alt="logo">
                 </button>
             </a>
             <a href="resources.html">
@@ -170,10 +173,11 @@
                 </div>    
                 
             </div>
-            <div id="overview" style="margin-left: 240px; margin-top: 64px;">
+            <div id="overview" class="guideTop">
                 Provided here are a set of guides that will help enlighten individuals about what it takes to start their journey in indie game development.<br>
                 Also included is a set of articles briefly discussing topics revolving around the Games Industry and what individuals interested in pursuing a career in the industry should know and what about it they should expect.
             </div>
         </section>
     </body>
 </html>
+<script src="sidebar.js"></script> 
