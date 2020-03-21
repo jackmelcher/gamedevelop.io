@@ -1,5 +1,5 @@
 body{
-  background-color: #eeeeee;
+  background-color: white;
   margin: 0px;
 }
 section{
@@ -25,14 +25,19 @@ table, td {
 }
 
 a:link, a:visited {
-  color: rgb(0, 67, 211);
+  color: rgb(0,67,211);
   text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 
 .tableimg{
   width: 32px;
 }
-
+.logoimg{
+  max-width: 32px;
+}
 .listTitle{
   margin-left: -20px;
   font-weight: bold;
@@ -53,7 +58,7 @@ a:link, a:visited {
   padding: 16px 16px;
   overflow-x: auto;
   height: calc(100vh - 84px);
-  background-color: #eeeeee;
+  background-color: white;
 }
 .sidenavbutton{
   display: none;
@@ -109,7 +114,7 @@ a:link, a:visited {
 .menuicon{
   font-size: 24px;
   line-height: 0px;
-  vertical-align:-4px;
+  width: 32px;
 }
 .resource{
   margin-left: 120px;

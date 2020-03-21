@@ -34,12 +34,12 @@
     <!-- Make function that retrieves favicons of websites and saves them to local folder. -->
     <body>
         <nav class="navbar">
-            <button class="button button_nav sidenavbutton" onclick="ToggleSide()">
-                <i class="menuicon fas fa-bars "></i>
+            <button class="button button_logo sidenavbutton" onclick="ToggleSide()">
+                <i class="menuicon fas fa-bars"></i>
             </button>
             <a href="index.html">
                 <button class="button button_logo ">
-                    <img src="favicons/favicon-32x32.png" alt="logo">
+                    <img src="images/logo.svg" alt="logo" class="logoimg">
                 </button>
             </a>
             <a href="resources.html">
@@ -58,75 +58,77 @@
             <div class="sidenav">
                 <div>
                     <div>
-                            <p style="font-weight: bold;">Beginner's Guide</p>
+                        <a href="guides/beginner.html" style="font-weight: bold; text-decoration: underline;">
+                            Beginner's Guide
+                        </a>            
                         <ul class="nobullets">
                             <li>
-                                <a href="guides/beginner.html#overview">
+                                <a href="guides/beginner.html#overview" onclick="ToggleSide();">
                                         Overview
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#startsmall">
+                                <a href="guides/beginner.html#startsmall" onclick="ToggleSide();">
                                         Start Small
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#concept">
+                                <a href="guides/beginner.html#concept" onclick="ToggleSide();">
                                         Concepting
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#scope">
+                                <a href="guides/beginner.html#scope" onclick="ToggleSide();">
                                         Managing Scope
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#gdd">
+                                <a href="guides/beginner.html#gdd" onclick="ToggleSide();">
                                         Writing a Game Design Doc
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#tools">
+                                <a href="guides/beginner.html#tools" onclick="ToggleSide();">
                                         Tools and Assets FAQs
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#experience">
+                                <a href="guides/beginner.html#experience" onclick="ToggleSide();">
                                         How Experience affects Development
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#team">
+                                <a href="guides/beginner.html#team" onclick="ToggleSide();">
                                         Recruiting Team Members
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#production">
+                                <a href="guides/beginner.html#production" onclick="ToggleSide();">
                                         Production and Task Management
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#cost">
+                                <a href="guides/beginner.html#cost" onclick="ToggleSide();">
                                         Cost of Development
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#funding">
+                                <a href="guides/beginner.html#funding" onclick="ToggleSide();">
                                         Funding Options
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#business">
+                                <a href="guides/beginner.html#business" onclick="ToggleSide();">
                                         Making a Business Plan
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#marketing">
+                                <a href="guides/beginner.html#marketing" onclick="ToggleSide();">
                                         Marketing
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#postmortem">
+                                <a href="guides/beginner.html#postmortem" onclick="ToggleSide();">
                                         Post Mortem
                                 </a>
                             </li>
@@ -277,7 +279,7 @@
                 </p>
                 <p>
                     Q: I’ve never programmed before and want to make games, where do I start?<br>
-                    A: Google. There are a ton of tutorials for introductory programming. If you know what Engine/Framework/API you are going to use, Google search for tutorials on how to use it or read the documentation. If you have a question, it is very likely someone else has likely already asked it. Search for questions you have in forums or on answer hubs. 
+                    A: Google. There are a ton of tutorials for introductory programming. If you know what Engine/Framework/API you are going to use, Google search for tutorials on how to use it or read the documentation. If you have a question, it is very likely someone else has already asked it. Search for questions you have in forums or on answer hubs. 
                 </p>
                 <p>
                     Q: Are there other ways to program without wanting to learn a programming language?<br>
@@ -289,7 +291,7 @@
                 </p>
                 <p>
                     Q: Should I build my own engine for making my game?<br>
-                    A: An Engine is a tool to make game creation easier. If you want to make games, do not make a game engine. Only make a game engine if all the current tools available aren’t suitable for making your game. If you want to be a professional Engine Programmer, then make a game engine. If an engine lacks the functionality you need, modify the engine’s source code or create a plugin.
+                    A: An Engine is a tool to make game creation easier. If you want to make games, do not make a game engine. Only make a game engine if all the current tools available aren’t suitable for making your game. If an engine lacks the functionality you need, modify the engine’s source code or create a plugin. If you want to be a professional Engine Programmer, then make a game engine.
                 </p>
                 <p>
                     Q: I don’t want to program game systems or waste time making them. What do I do?<br>
