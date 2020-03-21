@@ -31,7 +31,9 @@ a:link, a:visited {
 a:hover{
   text-decoration: underline;
 }
-
+.anav{
+  text-decoration: none;
+}
 .tableimg{
   width: 32px;
 }
@@ -109,6 +111,14 @@ a:hover{
   background-color: #0099ff;
 }
 .button_active{
+  background-color: #0099ff;
+}
+.button_main{
+  background-color: #0a0099;
+  margin: 0 8px;
+  font-weight: bold;
+}
+.button_main:hover{
   background-color: #0099ff;
 }
 .menuicon{
