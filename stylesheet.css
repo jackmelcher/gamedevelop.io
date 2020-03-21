@@ -32,7 +32,7 @@ a:hover{
   text-decoration: underline;
 }
 .anav{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .tableimg{
   width: 32px;
