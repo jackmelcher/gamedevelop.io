@@ -13,7 +13,7 @@ section{
   padding-bottom: 64px;
   overflow-x: auto;
   height: calc(100vh - 116px);
-  position: absolute;
+  position: fixed;
 }
 
 th{  
