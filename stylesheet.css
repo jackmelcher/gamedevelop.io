@@ -1,3 +1,7 @@
+a,h1,h2,h3{
+font-family: Arial, Helvetica, sans-serif;
+
+}
 body{
   background-color: white;
   margin: 0px;
@@ -39,6 +43,12 @@ a:hover{
 }
 .logoimg{
   max-width: 32px;
+}
+.logomain{
+  max-width: 128px; 
+  display: block;
+  margin: auto;
+  width: 100%;"
 }
 .listTitle{
   margin-left: -20px;
@@ -99,16 +109,21 @@ a:hover{
   font-weight: bold;
   border-radius: 0;
   vertical-align: middle;
-  padding: 0 8px;
+  padding: 0 8px;  display: inline-block;
+  margin-right: -4px;
 }
 .button_nav{
   background-color: transparent;
   margin: 0;
   font-weight: bold;
   border-radius: 0;
+  color: white !important; /* Text Color */
+  display: inline-block;
+  margin-right: -4px;
 }
 .button_nav:hover{
   background-color: #0099ff;
+  text-decoration: none;
 }
 .button_active{
   background-color: #0099ff;
@@ -117,9 +132,22 @@ a:hover{
   background-color: #0a0099;
   margin: 0 8px;
   font-weight: bold;
+  color: white !important; /* Text Color */
+  display: inline;
+
 }
 .button_main:hover{
   background-color: #0099ff;
+  text-decoration: none;
+}
+.buttonside{
+  background-color: transparent;
+  margin: 0;
+  font-weight: bold;
+  border-radius: 0;
+  vertical-align: middle;
+  padding: 0 8px;
+  margin-right: -4px;
 }
 .menuicon{
   font-size: 24px;
