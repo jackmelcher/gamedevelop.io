@@ -12,8 +12,8 @@ section{
   padding-right: 160px;
   padding-bottom: 64px;
   overflow-x: auto;
-  margin-top: 2px;
   height: calc(100vh - 116px);
+  position: absolute;
 }
 
 th{  
