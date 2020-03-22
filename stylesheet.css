@@ -99,23 +99,21 @@ a:hover{
   text-align: center;
   text-decoration: none;
   font-size: 16px;
-  margin: 0px 0px 16px 0px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
 }
 .button_logo{
   background-color: transparent;
-  margin: 0;
   font-weight: bold;
   border-radius: 0;
-  vertical-align: middle;
-  padding: 0 8px;  display: inline-block;
+  vertical-align: top;
+  padding: 10px 8px 4px 8px;  
+  display: inline-block;
   margin-right: -4px;
 }
 .button_nav{
   background-color: transparent;
-  margin: 0;
   font-weight: bold;
   border-radius: 0;
   color: white !important; /* Text Color */
@@ -131,7 +129,7 @@ a:hover{
 }
 .button_main{
   background-color: #0a0099;
-  margin: 0 8px;
+  margin: 0px 8px;
   font-weight: bold;
   color: white !important; /* Text Color */
   display: inline-block;
@@ -146,8 +144,8 @@ a:hover{
   margin: 0;
   font-weight: bold;
   border-radius: 0;
-  vertical-align: middle;
-  padding: 0 8px;
+  vertical-align: top;
+  padding: 20px 8px 11px 8px;  
   margin-right: -4px;
 }
 .menuicon{
