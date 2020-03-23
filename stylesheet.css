@@ -11,7 +11,7 @@ section{
   padding-left: 160px;
   padding-right: 160px;
   padding-bottom: 64px;
-  overflow-x: auto;
+  overflow: auto;
   height: calc(100vh - 116px);
   position: fixed;
 }
