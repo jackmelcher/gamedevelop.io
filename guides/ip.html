@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Codevelup Resources</title>
+        <!-- Site Settings -->
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="height=device-height, 
+            width=device-width, initial-scale=1.0, 
+            minimum-scale=1.0, maximum-scale=1.0, 
+            user-scalable=no, target-densitydpi=device-dpi">
+        
+        <base href = "../"/>
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">  
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">   
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="favicons/site.webmanifest">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        
+        <!-- Scripts -->
+        <script src="papaparse.min.js"></script> 
+    </head>
+
+    <!-- Make function that retrieves favicons of websites and saves them to local folder. -->
+    <body>
+        <nav class="navbar">
+            <button class="button buttonside sidenavbutton" onclick="ToggleSide()">
+                <i class="menuicon fas fa-bars"></i>
+            </button>
+            <a href="index.html" class="button button_logo">
+                <img src="images/logo.svg" alt="logo" class="logoimg">
+            </a>
+            <a href="resources.html" class="button button_nav">
+                Resources
+            </a>
+            <a href="guides.html" class="button button_nav">
+                Guides
+            </a>
+        </nav>
+        
+        <section class="sectionlimited sectionfixed">
+            <div class="sidenav">
+                <div>
+                    <div>
+                        <a href="guides/beginner.html#top" style="font-weight: bold; text-decoration: underline;" onclick="ToggleSide();">
+                            Beginner's Guide
+                        </a>            
+                        <ul class="nobullets">
+                            <li>
+                                <a href="guides/beginner.html#overview" onclick="ToggleSide();">
+                                        Overview
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#startsmall" onclick="ToggleSide();">
+                                        Start Small
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#concept" onclick="ToggleSide();">
+                                        Concepting
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#scope" onclick="ToggleSide();">
+                                        Managing Scope
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#gdd" onclick="ToggleSide();">
+                                        Writing a Game Design Doc
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#tools" onclick="ToggleSide();">
+                                        Tools and Assets FAQs
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#experience" onclick="ToggleSide();">
+                                        How Experience affects Development
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#team" onclick="ToggleSide();">
+                                        Recruiting Team Members
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#production" onclick="ToggleSide();">
+                                        Production and Task Management
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#cost" onclick="ToggleSide();">
+                                        Cost of Development
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#funding" onclick="ToggleSide();">
+                                        Funding Options
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#business" onclick="ToggleSide();">
+                                        Making a Business Plan
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#marketing" onclick="ToggleSide();">
+                                        Marketing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/beginner.html#postmortem" onclick="ToggleSide();">
+                                        Post Mortem
+                                </a>
+                            </li>
+                        </ul>    
+                    </div>
+
+                    <div>
+                        <a href="guides/supplement.html">
+                            <p style="font-weight: bold;">Supplementary Information</p>
+                        </a>
+                        <ul class="nobullets">
+                            <li>
+                                <a href="guides/supplement.html#industry">
+                                        The Computer and Video Game Industry
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/supplement.html#job">
+                                        Getting a Job in the Games Industry
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/supplement.html#testing">
+                                        Working in Game Testing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/supplement.html#testingcons">
+                                        The Downside of Game Testing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/supplement.html#departments">
+                                        Departments in a AAA Studio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/supplement.html#culture">
+                                        Culture in the Game Industry
+                                </a>
+                            </li>
+                            <li>
+                                <a href="guides/supplement.html#union">
+                                        Unionization Efforts in the Industry
+                                </a>
+                            </li>
+                        </ul>   
+                    </div>    
+                </div>    
+            </div>
+        <div>
+            <div id="top" class="guideTop"><h1>The Strength of Intellectual Property</h1></div>
+            <div id="ip" class="guideTop">
+                <h3>What's an Intellectual Property? What's a Brand?</h3> 
+                <p>
+                    IP - the product you provide to the market.<br>
+                    Brand - the company and how they interact with the market.
+                </p>
+                <p>
+                    IP Builder - create a uniquely emotional experience with gameplay, characters, world, story, art, etc. <br>
+                    Brand Builder - communicate that emotional experience to the market that is impactful, stands out, and appeals to the target audience. They make a promise.
+                </p>
+                <p>
+                    Human beings prefer things they already have an emotional relationship with.
+                    That’s why all the top-selling games are sequels or spin-offs that are a part of an existing brand.
+                    Examples: Mario, Sonic, Lara Croft, Harry Potter.
+                </p>
+                <p>
+                    Start with an IP and build around it.
+                    IP needs to have unique, artistic, emotional intent.
+                    Have something you own, all the best ips are character based.
+                </p>
+                <p>
+                    But, you also need to balance creativity with business.
+                    Have a long-term sustainable goal for your game and company. Plan for success.
+                </p>
+            </div>
+            <div id="pitfalls" class = "guide">
+                <h3>Common Problems and Pitfalls in Game Development</h3>
+                <p>
+                    A lack of playtesting.<br>
+                    People make things that can’t be tested until they are finished.
+                    Artists don’t want to share their work until it is finished and perfect.
+                    Start testing and iterating as soon as possible.
+                </p>
+                <p>
+                    Not understanding the goal of playtesting.<br>
+                    What is the aim during testing? What is the goal?
+                    The game is fun, people keep playing it, and they invite their friends to play.
+                    The Green Card: you don’t need investors, you have a business. A game that keeps people’s attention.
+                </p>
+                <p>
+                    Devs think the publisher / investor will save them. <br>
+                    Investors are business partners, not business savers.
+                    Investors invest in something that you have proven to them can make money or grow an audience. And then the investor will help you take it to the next level.
+                    You have to be in-touch with your audience and your aim should be to not need investors. The money you make from initial sales should cover initial costs.
+                    You will need investors if you want to make future investments and/or leap into a bigger market.
+                    Demonstrate that your business is already successful and keep being successful. If the investor wants to help with the process, they can join.
+                    Nobody wants to get on a train that hasn’t started. They want to get on a train that’s about to leave the station.
+                </p>
+                <p>
+                    Management and team are not on the same page.<br>
+                    If all are not involved in the development process, then people will leave. You need the Brand to be built on the original artistic intent of the whole team.
+                </p>
+            </div>
+            <div id="tunnel" class = "guide">
+                <h3>How to combat Game Dev Tunnel Vision?</h3>
+                <p>
+                    Unbiased Market Research will tell you if your marketing tactics are working (A/B Testing). <br>
+                    Devs get too invested in the idea, but the market does not see the same value. What parts appeal to the audience?
+                    You have to think about how to communicate the experience of a new IP to new people.
+                    The market does not have the same relationship with the game as the developers currently do.
+                </p>
+                <p>
+                    Marketing to hardcore audience (selling a game Genre) is different than marketing to a mainstream audience (selling an game IP).
+                    If you innovate too much, people won’t get it. Do something really well and innovate a little.
+                    Interaction is a story. Gameplay mechanics are a story. What experience does it give me?                    
+                </p>
+            </div>
+            <div id="brand" class = "guide">
+                <h3>Creating a lasting Brand</h3>
+                <p>
+                    Transition from selling gameplay, to selling emotional experiences through a series of games.
+                    A strong IP can migrate to other media. Then, it becomes an Entertainment Property. Investors are thinking about this when you pitch.
+                </p>
+                <p>
+                    Sometimes the Dev Team becomes the Brand. People trust their capabilities to deliver quality games.
+                    Building an IP and/or Brand improves future market success. Indies that have to compete against IPs and Brands, are put at a disadvantage.
+                                       
+                </p>
+                <p>
+                    Examples of Successful Indie Companies<br>
+                    Strong IP: Shovel Knight is Yacht Club’s Shovel Knight game is a successful character based IP. Continued success has been seen through the release of sequels, spin-offs, cameos in other games, and a figurine.<br>
+                    Strong Brand: After the success of FTL as Subset Games first IP, the trust in the studio as a Brand helped Into the Breach become their second successful IP. 
+                </p>
+            </div>
+            <div id="takeaways" class = "guide">
+                <h3>Key Takeaways</h3>
+                <ol>
+                    <li>Have a character you can own.</li>
+                    <li>Ask yourself, does this game have a unique emotional journey we can own? And how do we communicate it to the market?</li>
+                    <li>Don’t walk too close to the trees in a forest. The market does not see your game the same way you do.</li>
+                    <li>You need external advice from people who aren’t as invested in the game.</li>
+                </ol>
+            </div>
+        </div>
+        </section>  
+    </body>
+</html>
+<script src="sidebar.js"></script> 

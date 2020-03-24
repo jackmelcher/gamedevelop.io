@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Codevelup Guides</title>
+        <title>Codevelup Resources</title>
         <!-- Site Settings -->
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="UTF-8">
@@ -10,6 +10,8 @@
             minimum-scale=1.0, maximum-scale=1.0, 
             user-scalable=no, target-densitydpi=device-dpi">
         
+        <base href = "../"/>
+
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">  
 
@@ -24,11 +26,15 @@
         <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-
+        
         <!-- Style -->
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        
+        <!-- Scripts -->
+        <script src="papaparse.min.js"></script> 
     </head>
 
+    <!-- Make function that retrieves favicons of websites and saves them to local folder. -->
     <body>
         <nav class="navbar">
             <button class="button buttonside sidenavbutton" onclick="ToggleSide()">
@@ -44,81 +50,82 @@
                 Guides
             </a>
         </nav>
+        
         <section class="sectionlimited sectionfixed">
             <div class="sidenav">
                 <div>
                     <div>
-                        <a href="guides/beginner.html" style="font-weight: bold;">
+                        <a href="guides/beginner.html#top" style="font-weight: bold; text-decoration: underline;" onclick="ToggleSide();">
                             Beginner's Guide
-                        </a>                            
+                        </a>            
                         <ul class="nobullets">
                             <li>
-                                <a href="guides/beginner.html#overview">
+                                <a href="guides/beginner.html#overview" onclick="ToggleSide();">
                                         Overview
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#startsmall">
+                                <a href="guides/beginner.html#startsmall" onclick="ToggleSide();">
                                         Start Small
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#concept">
+                                <a href="guides/beginner.html#concept" onclick="ToggleSide();">
                                         Concepting
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#scope">
+                                <a href="guides/beginner.html#scope" onclick="ToggleSide();">
                                         Managing Scope
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#gdd">
+                                <a href="guides/beginner.html#gdd" onclick="ToggleSide();">
                                         Writing a Game Design Doc
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#tools">
+                                <a href="guides/beginner.html#tools" onclick="ToggleSide();">
                                         Tools and Assets FAQs
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#experience">
+                                <a href="guides/beginner.html#experience" onclick="ToggleSide();">
                                         How Experience affects Development
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#team">
+                                <a href="guides/beginner.html#team" onclick="ToggleSide();">
                                         Recruiting Team Members
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#production">
+                                <a href="guides/beginner.html#production" onclick="ToggleSide();">
                                         Production and Task Management
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#cost">
+                                <a href="guides/beginner.html#cost" onclick="ToggleSide();">
                                         Cost of Development
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#funding">
+                                <a href="guides/beginner.html#funding" onclick="ToggleSide();">
                                         Funding Options
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#business">
+                                <a href="guides/beginner.html#business" onclick="ToggleSide();">
                                         Making a Business Plan
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#marketing">
+                                <a href="guides/beginner.html#marketing" onclick="ToggleSide();">
                                         Marketing
                                 </a>
                             </li>
                             <li>
-                                <a href="guides/beginner.html#postmortem">
+                                <a href="guides/beginner.html#postmortem" onclick="ToggleSide();">
                                         Post Mortem
                                 </a>
                             </li>
@@ -126,8 +133,8 @@
                     </div>
 
                     <div>
-                        <a href="guides/supplement.html" style="font-weight: bold;">
-                            Supplementary Information
+                        <a href="guides/supplement.html">
+                            <p style="font-weight: bold;">Supplementary Information</p>
                         </a>
                         <ul class="nobullets">
                             <li>
@@ -168,36 +175,58 @@
                         </ul>   
                     </div>    
                 </div>    
-                
             </div>
-            <div id="overview" class="guideTop">
-                <h1>Guides</h1>
-                <a href="guides/beginner.html">
-                    <h3>Beginner's Guide</h3>
-                </a>
+        <div>
+            <div id="top" class="guideTop"><h1>Public Relations and Marketing</h1></div>
+            <div id="plan" class="guideTop">
+                <h3>What you need to do for Marketing</h3> 
                 <p>
-                    A guide that will help new indie developers learn about the basics of game development and business.
-                </p>
-                <a href="guides/supplement.html">
-                    <h3>Supplementary Information</h3>
-                </a>
-                <p>
-                    A collection of articles discussing the topics about the Video Game Industry.
-                </p>
-                <a href="guides/ip.html">
-                    <h3>The Strength of Intellectual Property</h3>
-                </a>
-                <p>
-                    An article describing the benefits of building an game IP and company Brand.
-                </p>
-                <a href="guides/pr.html">
-                    <h3>Public Relations and Marketing</h3>
-                </a>
-                <p>
-                    An article describing how to get the most out of traditional Public Relations and Marketing.
+                    Start marketing from Day 1. Use Social Media, funnel to a newsletter, forum, or Discord server. Have continued interaction with your community. Go to events, have people playtest your game, and gauge the reaction from your users.
+                    Build assets for marketing to give your best first impression.
+                    Create a PR Timeline and schedule out your marketing. Set goals for marketing. 
+                    Try to write / pitch articles that will make your game or studio standout and get noticed. What is unique about the development team?
+                    If your plan is to sell copies, plan a marketing campaign. You have to spend money to make money. A minimum budget for traditional marketing is around $50,000 dollars.
                 </p>
             </div>
-        </section>
+            <div id="landing" class = "guide">
+                <h3>Goals of a Landing Page</h3>
+                <p>
+                    Show off your game. Use the best screenshots, videos, etc.
+                </p>
+                <p>
+                    Have a Call-to-Action that incentivizes.
+                    Offer demo, soundtrack, updates, newsletter, digital assets, concept art, etc. in exchange for email.
+                </p>
+                <p>
+                    You have to give value to get your core audience invested.
+                </p>
+            </div>
+            <div id="analytics" class = "guide">
+                <h3>Importance of A/B Testing and Analytics</h3>
+                <p>
+                    PR has quantifiable data such as clicks, views, and acquisition. What is bad about the marketing material? The Header? The Content? The Media? Use A/B Testing to improve your marketing pages. The goal is to use A/B Testing to reduce the cost of an acquisition and optimize your marketing strategy.
+                    Who is your target demographic? Your demographic might be different than you originally thought. Consider adjusting your marketing accordingly.
+                    Use analytic tools on social media and Google. They will help determine how effective your social media posts and adverts are.                    
+                </p>
+            </div>
+            <div id="brand" class = "guide">
+                <h3>How to get the most help from News Outlets</h3>
+                <p>
+                    It takes time to build relationships with other people. Be precise with your PR approach. Build a relationship with journalists. Once that is established, then pitch your game to them.
+                    Easiest way to get News Outlets to help is to prove that your game has the potential for success. Show them that your game is launching and has a community.
+                </p>
+            </div>
+            <div id="takeaways" class = "guide">
+                <h3>How to best partner with Media Outlets</h3>
+                <p>
+                    Make a Press Kit. A press kit provides media outlets have all the essential information and images to use in their articles or videos.
+                    Give creative freedom to the author or content creator.
+                    If you are being interviewed, be honest and say things with 100% certainty. Do not make assumptions about what will be in your game.
+                    Avoid using licensed music from the Music Industry in videos/trailers. This could result in a DMCA takedown on the video, a copyright strike on the YouTube Channel, or lawsuit. 
+                </p>
+            </div>
+        </div>
+        </section>  
     </body>
 </html>
 <script src="sidebar.js"></script> 

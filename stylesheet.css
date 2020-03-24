@@ -165,7 +165,9 @@ a:hover{
 .guideTop{
   margin-left: 240px;
 }
-
+.bold{
+  font-weight: bold;
+}
 @media all and (max-width: 768px){
   .sectionlimited{
     padding-left: 20px;
