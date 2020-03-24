@@ -13,9 +13,10 @@ section{
   padding-bottom: 64px;
   overflow: auto;
   height: calc(100vh - 116px);
+}
+.sectionfixed{
   position: fixed;
 }
-
 th{  
   border: 1px solid black;
   border-collapse: collapse;
