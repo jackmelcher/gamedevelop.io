@@ -168,6 +168,9 @@ a:hover{
 .bold{
   font-weight: bold;
 }
+.underline{
+  text-decoration: underline !important;
+}
 @media all and (max-width: 768px){
   .sectionlimited{
     padding-left: 20px;
