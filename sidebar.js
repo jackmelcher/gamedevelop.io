@@ -43,8 +43,8 @@ function makeSidebar(){
     var sidenav = document.getElementsByClassName("sidenav")[0];
     var divContainer;
 
-    var pagenames =  ["beginner","industry","ip","pr","youtube","kickstarter"];
-    var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter"];
+    var pagenames =  ["beginner","industry","ip","pr","youtube","kickstarter","tactics"];
+    var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter","Indie Business Tactics"];
 
     var beginnerSections = ["Overview","Start Small","Concepting","Managing Scope","Writing a Game Design Doc","Tools and Assets FAQs","How Experience affects Development","Recruiting Team Members","Production and Task Management","Cost of Development","Funding Options","Making a Business Plan","Marketing","Post Mortem"]
     var beginnerids = ["overview","startsmall","concept","scope","gdd","tools","experience","team","production","cost","funding","business","marketing","postmortem"]
@@ -64,6 +64,8 @@ function makeSidebar(){
     var kickstarterSections = ["Before You Start a Campaign","Tips for Success","How Much Money Do I Ask for?"]
     var kickstarterids = ["research","tips","money"]
 
+    var tacticsSections = ["Community Growth","Funding","Marketing","Networking","Business","Market Expansion"]
+    var tacticsids = ["community","funding","marketing","networking","business","expansion"]
 
     var i;
     for(var j = 0; j < pagenames.length; j++)
@@ -105,11 +107,17 @@ function makeSidebar(){
         {
             makeAnchors(divContainer, kickstarterids, kickstarterSections);
         }
+        if(location.href.split("/").slice(-1) == "tactics.html" && pagenames[j]+".html" == "tactics.html")
+        {
+            makeAnchors(divContainer, tacticsids, tacticsSections);
+        }
         divContainer.classList.add("guidelink");
         sidenav.appendChild(divContainer);
     }
 }
-function secjump(id){
+
+function secjump(id)
+{
     document.getElementById(id).scrollIntoView();
     window.scrollBy(0,-64);
     ToggleSide();
