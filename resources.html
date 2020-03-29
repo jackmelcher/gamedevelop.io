@@ -259,7 +259,7 @@
                             new Image();
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            img.onerror = function(){alert("Error occurred while loading image");this.src = "images/placeholder.png";};
+                            //img.onerror = function(){alert("Error occurred while loading image");this.src = "images/placeholder.png";};
                             tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
@@ -360,11 +360,6 @@
             // Return the image name.
             //console.log(url[0]);
             return url[0];
-        }
-
-        function placeholderImg(img)
-        {
-            img.src = "images/placeholder.png";
         }
 
         function SetTableName()
