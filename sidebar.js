@@ -50,6 +50,20 @@ function makeSidebar(){
     var beginnerids = ["overview","startsmall","concept","scope","gdd","tools","experience","team","production","cost","funding","business","marketing","postmortem"]
 
     var industrySections = ["Overview and Highlights of the Industry","Getting a Job in the Games Industry","Working in Game Testing","The Downside of Game Testing","Departments in a AAA Studio","Culture in the Game Industry","Unionization Efforts in the Industry"];
+    var industryids = ["highlights","job","testing","testingcons","departments","culture","union"]
+
+    var ipSections = ["Intellectual Property and Brands","Common Pitfalls in Development","Combating Game Dev Tunnel Vision","Creating a lasting Brand","Key Takeaways"];
+    var ipids = ["ip","pitfalls","tunnel","brand","takeaways"]
+
+    var prSections = ["What you need to do for Marketing","Goals of a Landing Page","Importance of A/B Testing and Analytics","How to Get Help from News Outlets","Tips for working with Media Outlets"];
+    var prids = ["plan","landing","analytics","news","media"]
+
+    var youtubeSections = ["Types of Gaming Channels","Growing Your Channel","Handling Comments Section","Concerns about Mobile Games Advertising"];
+    var youtubeids = ["type","grow","comments","mobile"]
+
+    var kickstarterSections = ["Before You Start a Campaign","Tips for Success","How Much Money Do I Ask for?"]
+    var kickstarterids = ["research","tips","money"]
+
 
     var i;
     for(var j = 0; j < pagenames.length; j++)
@@ -66,36 +80,55 @@ function makeSidebar(){
         }
         
         divContainer.appendChild(i);
-        //divContainer.appendChild(document.createElement("br"));
-        //divContainer.appendChild(document.createElement("br"));
+
         if(location.href.split("/").slice(-1) == "beginner.html" && pagenames[j]+".html" == "beginner.html")
         {
-            var list = document.createElement("ul");
-            list.classList.add("nobullets");
-            var litem;
-            var anchor;
-            for(var a = 0; a < beginnerids.length; a++)
-            {
-                litem = document.createElement("li");
-                anchor = document.createElement("a");
-                //anchor.href = "guides/beginner.html#" + beginnerids[a];
-                //anchor.href = "javascript:secjump()";
-                anchor.href = "javascript:secjump(\""+beginnerids[a]+"\")";
-                //anchor = document.createElement("button");
-                //anchor.addEventListener("click",function(){scrollTo(0,1200);}); 
-                anchor.innerHTML = beginnerSections[a];
-                litem.appendChild(anchor);
-                list.appendChild(litem);
-            }
-            divContainer.appendChild(list);
+            makeAnchors(divContainer, beginnerids, beginnerSections);
+        }
+        if(location.href.split("/").slice(-1) == "industry.html" && pagenames[j]+".html" == "industry.html")
+        {
+            makeAnchors(divContainer, industryids, industrySections);
+        }
+        if(location.href.split("/").slice(-1) == "ip.html" && pagenames[j]+".html" == "ip.html")
+        {
+            makeAnchors(divContainer, ipids, ipSections);
+        }
+        if(location.href.split("/").slice(-1) == "pr.html" && pagenames[j]+".html" == "pr.html")
+        {
+            makeAnchors(divContainer, prids, prSections);
+        }
+        if(location.href.split("/").slice(-1) == "youtube.html" && pagenames[j]+".html" == "youtube.html")
+        {
+            makeAnchors(divContainer, youtubeids, youtubeSections);
+        }
+        if(location.href.split("/").slice(-1) == "kickstarter.html" && pagenames[j]+".html" == "kickstarter.html")
+        {
+            makeAnchors(divContainer, kickstarterids, kickstarterSections);
         }
         divContainer.classList.add("guidelink");
         sidenav.appendChild(divContainer);
     }
 }
 function secjump(id){
-    //scrollTo(0,y);
     document.getElementById(id).scrollIntoView();
     window.scrollBy(0,-64);
     ToggleSide();
+}
+
+function makeAnchors(divContainer,ids,sections)
+{
+    var list = document.createElement("ul");
+    list.classList.add("nobullets");
+    var litem;
+    var anchor;
+    for(var a = 0; a < ids.length; a++)
+    {
+        litem = document.createElement("li");
+        anchor = document.createElement("a");
+        anchor.href = "javascript:secjump(\""+ids[a]+"\")";
+        anchor.innerHTML = sections[a];
+        litem.appendChild(anchor);
+        list.appendChild(litem);
+    }
+    divContainer.appendChild(list);
 }

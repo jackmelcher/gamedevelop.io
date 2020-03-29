@@ -69,11 +69,11 @@ a:hover{
   border-width: 0px 1px 0px 0px;
   top: 0; /* Stay at the top */
   left: 0;
-  margin-top: 51px;
+  margin-top: 50px;
   margin-left: 0px;
   padding: 16px 16px;
   overflow-x: auto;
-  height: calc(100vh - 84px);
+  height: calc(100vh - 83px);
   background-color: white;
 }
 .sidenavbutton{
