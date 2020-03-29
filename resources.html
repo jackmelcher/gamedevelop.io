@@ -373,10 +373,10 @@
             header.innerHTML = category.options[category.selectedIndex].text;
         }
 
-        function imgError()
+        function imgError(img)
         {
-            //this.onerror = null; 
-            //this.src = 'images/placeholder.png';
+            img.onerror = null; 
+            img.src = 'images/placeholder.png';
             alert("The image could not be loaded.");
         }
     </script>
