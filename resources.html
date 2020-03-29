@@ -258,7 +258,7 @@
                             var img = document.createElement("img");
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            img.onerror = function(){imgError(img)};
+                            img.onerror = function(){alert("The image could not be loaded."); this.src="images/placeholder.png";};
                             tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
