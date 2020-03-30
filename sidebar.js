@@ -58,8 +58,8 @@ function makeSidebar(){
     var prSections = ["What you need to do for Marketing","Goals of a Landing Page","Importance of A/B Testing and Analytics","How to Get Help from News Outlets","Tips for working with Media Outlets"];
     var prids = ["plan","landing","analytics","news","media"]
 
-    var youtubeSections = ["Types of Gaming Channels","Growing Your Channel","Handling Comments Section","Concerns about Mobile Games Advertising"];
-    var youtubeids = ["type","grow","comments","mobile"]
+    var youtubeSections = ["Types of Gaming Channels","Growing Your Channel","Handling Comments Section","Monetizing Your Channel"];
+    var youtubeids = ["type","grow","comments","monetize"]
 
     var kickstarterSections = ["Before You Start a Campaign","Tips for Success","How Much Money Do I Ask for?"]
     var kickstarterids = ["research","tips","money"]
