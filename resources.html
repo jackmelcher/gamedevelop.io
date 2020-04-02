@@ -257,9 +257,11 @@
                         if(j==0){   
                             var img = document.createElement("img");
                             new Image();
+                            img.onerror = function(){this.name="missing";this.src = "images/placeholder.png";};
+                            img.onclick = function(){this.src = "images/placeholder.png";};
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            //img.onerror = function(){alert("Error occurred while loading image");this.src = "images/placeholder.png";};
+                            
                             tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
@@ -273,6 +275,8 @@
             // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
+            
+            imgPlaceholder();
         }
 
         var filtersPrice;
@@ -367,6 +371,15 @@
             var header = document.getElementById("tname");
             var category = document.getElementById("category");
             header.innerHTML = category.options[category.selectedIndex].text;
+        }
+
+        function imgPlaceholder()
+        {
+            var imgs = document.getElementsByName("missing");
+            for(var z=0; z < imgs.length; z++)
+            {
+                imgs[z].src="images/placeholder.png";
+            }
         }
     </script>
 </html>
