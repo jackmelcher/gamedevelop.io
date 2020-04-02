@@ -213,6 +213,8 @@
 
             //Update Table Name
             SetTableName();
+
+            imgPlaceholder();
         }
         
         function LoadDoc(filepath) {
@@ -256,7 +258,6 @@
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
                             var img = document.createElement("img");
-                            new Image();
                             img.onerror = function(){this.name="missing";this.src = "images/placeholder.png";};
                             img.onclick = function(){this.src = "images/placeholder.png";};
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
@@ -276,7 +277,6 @@
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
             
-            imgPlaceholder();
         }
 
         var filtersPrice;
@@ -379,6 +379,14 @@
             for(var z=0; z < imgs.length; z++)
             {
                 imgs[z].src="images/placeholder.png";
+            }
+
+            var imgs = document.getElementsByClass("tableimg");
+            for(var z=0; z < imgs.length; z++)
+            {
+                img.onerror = function(){this.name="missing";this.src = "images/placeholder.png";};
+                img.onclick = function(){this.src = "images/placeholder.png";};
+                img.src = img.src;
             }
         }
     </script>
