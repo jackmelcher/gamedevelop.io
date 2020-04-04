@@ -214,8 +214,6 @@
             }
             //Update Table Name
             SetTableName();
-
-            setTimeout(imgPlaceholder(), 3000);
         }
         
         function LoadDoc(filepath, callback) {
@@ -261,7 +259,10 @@
                             var img = document.createElement("img");
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            
+                            if(img.height > 16 && img.height < 32)
+                            {
+                                img.src="images/placeholder.png";
+                            }
                             tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
@@ -370,19 +371,6 @@
             var category = document.getElementById("category");
             header.innerHTML = category.options[category.selectedIndex].text;
         }
-
-        function imgPlaceholder()
-        {
-            var imgs = document.getElementsByTagName("img");
-            for(var z=0; z < imgs.length; z++)
-            {
-                if(imgs[z].height < 16)
-                {
-                    imgs[z].src="images/placeholder.png";
-                }                
-            }
-
-        };
     </script>
 </html>
 <script src="sidebar.js"></script> 
