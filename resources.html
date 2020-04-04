@@ -209,22 +209,20 @@
             document.getElementById("showData").innerHTML = "";
             
             //Load CSV Data
-            LoadDoc(filepath);
+            LoadDoc(filepath, CreateTableFromArray2D);
 
             //Update Table Name
             SetTableName();
-
-            imgPlaceholder();
         }
         
-        function LoadDoc(filepath) {
+        function LoadDoc(filepath, callback) {
             var xhttp = new XMLHttpRequest();
             xhttp.onreadystatechange = function() {
                 if (this.readyState == 4 && this.status == 200) {
                     //document.getElementById("papa").innerHTML = this.responseText;
                     csvdata = Papa.parse(this.responseText);
                     //console.log(csvdata);
-                    CreateTableFromArray2D(csvdata.data);
+                    callback(csvdata.data);
                 }
             };
             xhttp.open("GET", filepath, true);
@@ -258,8 +256,7 @@
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
                             var img = document.createElement("img");
-                            img.onerror = function(){this.name="missing";this.src = "images/placeholder.png";};
-                            img.onclick = function(){this.src = "images/placeholder.png";};
+                            img.onerror = function(){console.log("Error image missing."); this.name="missing";this.src = "images/placeholder.png";};
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
                             
@@ -276,7 +273,8 @@
             // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
-            
+
+            imgPlaceholder();
         }
 
         var filtersPrice;
