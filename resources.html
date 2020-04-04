@@ -209,8 +209,9 @@
             document.getElementById("showData").innerHTML = "";
             
             //Load CSV Data
-            LoadDoc(filepath, CreateTableFromArray2D);
-
+            if(filename != document.getElementById("emptyCategory").value){
+                LoadDoc(filepath, CreateTableFromArray2D);
+            }
             //Update Table Name
             SetTableName();
         }
@@ -382,7 +383,6 @@
             }
 
         };
-()
     </script>
 </html>
 <script src="sidebar.js"></script> 
