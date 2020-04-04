@@ -45,6 +45,7 @@ a:hover{
 }
 .tableimg{
   width: 32px;
+  vertical-align: middle;
 }
 .logoimg{
   max-width: 32px;
@@ -91,6 +92,7 @@ a:hover{
   background-color: #0a0099;
   color: #f0ffff;
   padding : 0;
+  width: auto;
 }
 
 .button {
