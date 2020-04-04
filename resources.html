@@ -214,6 +214,7 @@
             }
             //Update Table Name
             SetTableName();
+            imgPlaceholder();
         }
         
         function LoadDoc(filepath, callback) {
@@ -370,6 +371,23 @@
             var header = document.getElementById("tname");
             var category = document.getElementById("category");
             header.innerHTML = category.options[category.selectedIndex].text;
+        }
+
+        function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+        }
+        async function imgPlaceholder()
+        {
+            await sleep(3000); 
+            var imgs = document.getElementsByTagName("img");
+            for(var z=0; z < imgs.length; z++)
+            {
+                if(imgs[z].naturalWeight === 1)
+                {
+                    imgs[z].src="images/placeholder.png";
+                }                
+            }
+
         }
     </script>
 </html>
