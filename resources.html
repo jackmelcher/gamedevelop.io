@@ -260,10 +260,6 @@
                             var img = document.createElement("img");
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            if(img.naturalWidth == 0)
-                            {
-                                img.src="images/placeholder.png";
-                            }
                             tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
@@ -382,8 +378,9 @@
             var imgs = document.getElementsByTagName("img");
             for(var z=0; z < imgs.length; z++)
             {
-                if(imgs[z].naturalWeight === 1)
+                if(imgs[z].naturalWidth === 0)
                 {
+                    console.log(imgs[z].naturalWidth);
                     imgs[z].src="images/placeholder.png";
                 }                
             }
