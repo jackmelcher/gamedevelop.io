@@ -214,6 +214,8 @@
             }
             //Update Table Name
             SetTableName();
+
+            setTimeout(imgPlaceholder(), 3000);
         }
         
         function LoadDoc(filepath, callback) {
@@ -273,8 +275,6 @@
             // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
-
-            imgPlaceholder();
         }
 
         var filtersPrice;
