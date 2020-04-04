@@ -274,7 +274,7 @@
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
 
-            setTimeout(imgPlaceholder(), 1000);
+            imgPlaceholder();
         }
 
         var filtersPrice;
@@ -376,7 +376,7 @@
             var imgs = document.getElementsByTagName("img");
             for(var z=0; z < imgs.length; z++)
             {
-                if(imgs[z].height < 1)
+                if(imgs[z].height != 0)
                 {
                     imgs[z].src="images/placeholder.png";
                 }                
