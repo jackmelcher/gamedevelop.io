@@ -260,6 +260,7 @@
                             img.onload = function(){this.src = "images/placeholder.png";};
                             img.onclick = function(){this.src = "images/placeholder.png";};
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
+                            if(img.height < 32){img.src="images/placeholder.png"}
                             img.className = "tableimg";
                             
                             tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
