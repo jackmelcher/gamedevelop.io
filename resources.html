@@ -259,7 +259,7 @@
                             var img = document.createElement("img");
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            if(img.height > 16 && img.height < 32)
+                            if(img.naturalWidth == 0)
                             {
                                 img.src="images/placeholder.png";
                             }
