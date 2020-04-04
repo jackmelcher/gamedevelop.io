@@ -384,9 +384,9 @@
             var imgs = document.getElementsByClassName("tableimg");
             for(var z=0; z < imgs.length; z++)
             {
-                img.onerror = function(){this.name="missing";this.src = "images/placeholder.png";};
-                img.onclick = function(){this.src = "images/placeholder.png";};
-                img.src = img.src;
+                imgs.onerror = function(){this.name="missing";this.src = "images/placeholder.png";};
+                imgs.onclick = function(){this.src = "images/placeholder.png";};
+                imgs.src = img.src;
             }
         }
     </script>
