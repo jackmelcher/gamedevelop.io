@@ -257,6 +257,8 @@
                         if(j==0){   
                             var img = document.createElement("img");
                             img.onerror = function(){console.log("Error image missing."); this.name="missing";this.src = "images/placeholder.png";};
+                            img.onload = function(){this.src = "images/placeholder.png";};
+                            img.onclick = function(){this.src = "images/placeholder.png";};
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
                             
@@ -379,7 +381,7 @@
                 imgs[z].src="images/placeholder.png";
             }
 
-            var imgs = document.getElementsByClass("tableimg");
+            var imgs = document.getElementsByClassName("tableimg");
             for(var z=0; z < imgs.length; z++)
             {
                 img.onerror = function(){this.name="missing";this.src = "images/placeholder.png";};
