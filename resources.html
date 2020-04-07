@@ -8,7 +8,7 @@
         <meta name="viewport" content="height=device-height, 
             width=device-width, initial-scale=1.0, 
             minimum-scale=1.0, maximum-scale=1.0, 
-            user-scalable=no, target-densitydpi=device-dpi">
+            user-scalable=no, width=device-width">
         
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">  
@@ -197,6 +197,8 @@
 
         function SelectTable(filename)
         {
+            console.log("Select table called");
+            
             if(document.getElementById("emptyCategory").style.display == ""){
                 document.getElementById("emptyCategory").style.display = "none";
             }
@@ -374,7 +376,7 @@
         }
         async function imgPlaceholder()
         {
-            await sleep(3000); 
+            await sleep(2000); 
             var imgs = document.getElementsByTagName("img");
             for(var z=0; z < imgs.length; z++)
             {
@@ -384,7 +386,23 @@
                     imgs[z].src="images/placeholder.png";
                 }                
             }
+        }
 
+        //Code to reset the selection autofill for Chrome and Brave browsers.
+        const ua = window.navigator.userAgent.toLowerCase();
+        const isChrome = /chrome|crios/.test(ua) && ! /edge|opr\//.test(ua)
+        const isBrave = isChrome && !window.googletag;
+        console.log(isChrome);
+        console.log(isBrave);
+        if(isChrome || isBrave){
+                document.getElementById("emptyCategory").style.display = "";
+                setTimeout(function(){resetcat();}, 10) ;
+        }
+        function resetcat(){
+            if(document.getElementById("category").selectedIndex != 0){
+                console.log("reset");
+                document.getElementById("category").selectedIndex = 0;
+            }
         }
     </script>
 </html>
