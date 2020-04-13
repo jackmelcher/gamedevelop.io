@@ -1,8 +1,8 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
-Atlassian JIRA,https://www.atlassian.com/software/jira,"Trial, Subscription",Web,Task Management,Bug Tracking,
+Atlassian JIRA,https://www.atlassian.com/software/jira,"Trial, Subscription",Web,"Task Management, Bug Tracking",,
 Hack n' Plan,https://hacknplan.com/,"Free, Subscription",Web,Task Management,,
 Trello,https://trello.com/en,Free,Web,Task Management,,
-Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Free, Subscription",Web,Task Management,Bug Tracking,
+Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Free, Subscription",Web,"Task Management, Bug Tracking",,
 Git Kraken Glo,https://www.gitkraken.com/,"Free, Subscription",Web,Task Management,,
 Airtable,https://airtable.com/,"Free, Subscription",Web,Task Management,,
 Perforce Hansoft,https://www.perforce.com/products/hansoft,"Free, Subscription",Web,Task Management,,

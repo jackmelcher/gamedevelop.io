@@ -25,7 +25,8 @@ Tech Smith Snagit,https://www.techsmith.com/screen-capture.html,"Trial, Paid","W
 Fraps,http://www.fraps.com/,"Free, Paid",Windows,"Screen Capture, Screen Record",,Includes FPS Benchmarking
 OBS,https://obsproject.com/,Free,"Windows, Mac, Linux","Screen Record, Stream",,
 Stream Labs OBS,https://streamlabs.com/,Free,"Windows, Mac, Linux","Screen Record, Stream",,
-Elgato,https://www.elgato.com/en,Paid,"Windows, Mac","Screen Record, Stream",,Uses External Hardware
+Elgato Game Capture,https://www.elgato.com/en/gaming/game-capture-software,Free,"Windows, Mac","Screen Record, Stream",,Requires External Hardware
+Elgato Screen Link,https://www.elgato.com/en/gaming/screen-link,iOS,"Screen Record, Stream",,Requires an iPhone or iPad
 Windows Game Bar,https://support.xbox.com/en-US/xbox-on-windows/social/use-game-bar-on-windows-10,Free,Windows,"Screen Record, Stream",,Windows 10 Feature (Shortcut: Win+G)
 XSplit for Indie,http://indie.xsplit.com/,"Trial, Subscription",Windows,"Screen Record, Stream",,Free 12 month trial of XSplit Broadcasting Software
 Handbrake,https://handbrake.fr/,Free,"Windows, Mac, Linux",Video Encoder,,
@@ -37,3 +38,5 @@ Mixer,https://mixer.com/,Free,Web,"Video Hosting, Stream Hosting",,
 Facebook,https://www.facebook.com/gaming/?external_ref=games_video_bookmark,Free,Web,"Video Hosting, Stream Hosting",,
 Steam Broadcast,https://steamcommunity.com/updates/broadcasting,Free,Web,"Video Hosting, Stream Hosting",,
 Vimeo,https://vimeo.com/,"Trial, Subscription",Web,Video Hosting,,
+Restream,https://restream.io/,"Free, Subscription",Web,Multistreaming,,
+Mobcrush,https://www.mobcrush.com/,"Free, Subscription",Web,Multistreaming,,
