@@ -16,6 +16,7 @@ Casual,https://casual.pm/,"Trial, Subscription",Web,Task Management,,
 Wrike,https://www.wrike.com/,"Free, Subscription",Web,Task Management,,
 Github Issue Tracker,https://help.github.com/en/articles/about-issues,Free,Web,"Task Management, Bug Tracking",,
 Gitlab Issue Tracker,https://docs.gitlab.com/ee/user/project/issues/,Free,Web,"Task Management, Bug Tracking",,
+Redmine,https://www.redmine.org/,Free,Web,Task Management,,Requires host/server
 Bugzilla,https://www.bugzilla.org/,Free,Web,Bug Tracking,,
 Bugsnag,https://www.bugsnag.com/,"Free, Trial, Subscription",Web,Bug Tracking,,
 Bugsplat,https://www.bugsplat.com/,"Trial, Subscription",Web,Bug Tracking,Crash Report,
