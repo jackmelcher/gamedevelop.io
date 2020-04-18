@@ -1,6 +1,6 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
 Havok,https://www.havok.com/,Paid,"Windows, Mac","Physics, Artificial Intelligence",,"Physics Engine, AI SDK, Cloth Physics"
-Khronos Group,https://www.khronos.org/,Free,"Windows, Mac, Linux",Physics,,3D Graphics
+Khronos Group,https://www.khronos.org/,Free,"Windows, Mac, Linux",Physics,,3D Graphics (OpenGL and Vulkan)
 Box2D,http://box2d.org/,Free,"Windows, Mac, Linux",Physics,,2D Physics
 Coherent Gameface,https://coherent-labs.com/products/coherent-gameface/,Paid,"Windows, Mac, Linux",User Interface,Plug-in,"Game Engine UI Plug-in, HTML/CSS/JS"
 Noesis GUI,https://www.noesisengine.com/,"Free, Paid","Windows, Mac, Linux",User Interface,,Game Engine UI SDK
@@ -15,3 +15,6 @@ Genvidtech,https://www.genvidtech.com/,"Free, Subscription","Windows, Mac, Linux
 Launchpad,https://github.com/Nihlus/Launchpad/wiki/Game-Developer-Quickstart,Free,Linux,Engineering,,Game Launcher Tool
 Mod.io,https://mod.io/,Free,"Windows, Mac, Linux",Engineering,,Mod Support Tool
 Spiritai,https://spiritai.com/product/character-engine/,Free,"Windows, Mac",Artificial Intelligence,,Speech AI Solution
+Haden Aether Engine,https://www.hadean.com/aether-engine/features,Subsciption,Web,Engineering,,Cloud Gaming Solution
+Spatial OS, https://improbable.io/multiplayer-networking,"Free, Subscription","Windows, Mac, Linux",Engineering,,Networking Solution
+Vivox,https://www.vivox.com/features,"Free, Subscription","Windows, Mac, Linux",Audio,,Voice Communications Solution
