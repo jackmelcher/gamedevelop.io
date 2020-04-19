@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 23.812481 23.812481"
    id="svg1197"
-   sodipodi:docname="logo.svg"
+   sodipodi:docname="logo1.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -29,7 +29,7 @@
      id="namedview1199"
      showgrid="true"
      inkscape:zoom="5.8999071"
-     inkscape:cx="20.981293"
+     inkscape:cx="-6.5615136"
      inkscape:cy="36.662559"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -167,7 +167,7 @@
      transform="translate(-394.27192,-199.10742)"
      id="g1195">
     <circle
-       style="fill:#01b2ff;stroke-width:1"
+       style="fill:#0098ee;stroke-width:1;fill-opacity:1"
        cx="406.17816"
        cy="211.01366"
        id="circle1185"
