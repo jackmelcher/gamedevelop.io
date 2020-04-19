@@ -1,10 +1,21 @@
-a,h1,h2,h3{
-  font-family: Arial, Helvetica, sans-serif;
-}
 body{
   background-color: white;
   margin: 0px;
   /*overflow: hidden;*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  font-size: 20pt;
+}
+h2 {
+  font-size: 18pt;
+}
+h3 {
+  font-weight: bold;
+  font-size: 14pt;
+}
+p {
+  font-size: 12pt;
 }
 .sectionlimited{
   padding-left: 160px;
@@ -74,7 +85,7 @@ a:hover{
   padding: 16px 16px;
   overflow-x: auto;
   height: calc(100vh - 82px);
-  background-color: white;
+  background-color: #f5f5f5;
 }
 .sidenavbutton{
   display: none;
@@ -88,7 +99,7 @@ a:hover{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  background-color: #0a0099;
+  background-color: #0094f7;
   color: #f0ffff;
   padding : 0;
 }
@@ -124,14 +135,14 @@ a:hover{
   margin-right: -4px;
 }
 .button_nav:hover{
-  background-color: #0099ff;
+  background-color: #0082d8;
   text-decoration: none;
 }
 .button_active{
   background-color: #0099ff;
 }
 .button_main{
-  background-color: #0a0099;
+  background-color: #0094f7;
   margin: 0px 8px;
   font-weight: bold;
   color: white !important; /* Text Color */
@@ -139,7 +150,7 @@ a:hover{
 
 }
 .button_main:hover{
-  background-color: #0099ff;
+  background-color: #0082d8;
   text-decoration: none;
 }
 .buttonside{

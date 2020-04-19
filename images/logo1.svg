@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 23.812481 23.812481"
    id="svg1197"
-   sodipodi:docname="logo1.svg"
+   sodipodi:docname="logo.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -159,7 +159,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -167,7 +167,7 @@
      transform="translate(-394.27192,-199.10742)"
      id="g1195">
     <circle
-       style="fill:none;stroke-width:1"
+       style="fill:#01b2ff;stroke-width:1"
        cx="406.17816"
        cy="211.01366"
        id="circle1185"
