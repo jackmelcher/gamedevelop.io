@@ -12,14 +12,14 @@ App Annie,https://www.appannie.com/en/,"Free, Subscription",,Market Analytics,,M
 App Trace,http://www.apptrace.com/,Free,,Market Analytics,,Mobile Only
 Pollen VC,https://pollen.vc/#/,"Free, Subscription",,Market Analytics,,
 StoreMaven,https://www.storemaven.com/,Paid,,Market Analytics,,App Store Optimization
-Steam Stats,https://store.steampowered.com/stats,Free,,Top Games Lists,,
-Steam Charts,https://steamcharts.com/,Free,,Top Games Lists,,
-Steam Spy,http://steamspy.com/,"Free, Subscription",,Top Games Lists,,
+Steam Stats,https://store.steampowered.com/stats,Free,,Game Analytics,,Includes other analytics like Concurrent players and PC Hardware usage
+Steam Charts,https://steamcharts.com/,Free,,Game Analytics,,Steam Concurrent Playerbase Charts
+Steam Spy,https://steamspy.com/,"Free, Subscription",,Sales Charts,,
+VG Chartz,http://www.vgchartz.com/,Free,,Sales Charts,,
 Google Play Store,https://play.google.com/store/apps/top/category/GAME,Free,,Top Games Lists,,
 Android Rank,https://www.androidrank.org/,Free,,Top Games Lists,,
 iTune Charts,https://www.apple.com/itunes/charts/,Free,,Top Games Lists,,
 Facebook Games,https://www.facebook.com/games/query/top-grossing/,Free,,Top Games Lists,,
-VG Chartz,http://www.vgchartz.com/,Free,,Top Games Lists,,
 InfluxData,https://www.influxdata.com/,"Trial, Subscription",,Business Analytics,,DevOps
 SignalFX,https://www.signalfx.com/,"Trial, Subscription",,Business Analytics,,Infrasturcure Monitoring
 Google Trends,https://trends.google.com/trends/?geo=US,Free,,Trend Info,,

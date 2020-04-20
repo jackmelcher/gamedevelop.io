@@ -1,8 +1,8 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
 Blender,https://www.blender.org/,Free,"Windows, Mac, Linux","Model, Sculpt, Texture, 3D Animation, Render",,
 Cinema 4D,https://www.maxon.net/en-us/products/cinema-4d/overview/,"Trial, Paid","Windows, Mac","Model, Sculpt, Texture, 3D Animation, Render",,
-Autodesk 3DS Max,https://www.autodesk.com/products/3ds-max/overview,"Trial, Subscription",Windows,"Model, Texture, 3D Animation",,
-Autodesk Maya,https://www.autodesk.com/products/maya/overview,"Trial, Subscription","Windows, Mac, Linux","Model, Texture, 3D Animation",,
+Autodesk 3DS Max,https://www.autodesk.com/products/3ds-max/overview,"Trial, Subscription",Windows,"Model, Texture, 3D Animation, Render",,
+Autodesk Maya,https://www.autodesk.com/products/maya/overview,"Trial, Subscription","Windows, Mac, Linux","Model, Texture, 3D Animation, Render",,
 Autodesk Mudbox,https://www.autodesk.com/products/mudbox/overview,"Trial, Subscription","Windows, Mac, Linux","Model, Sculpt, Texture",,
 Autodesk Arnold,https://www.autodesk.com/products/arnold/overview,"Trial, Subscription","Windows, Mac, Linux","Render, VFX",,
 Houdini,https://www.sidefx.com/products/houdini/,"Free, Paid","Windows, Mac, Linux",VFX,,Procedural Manipulation
