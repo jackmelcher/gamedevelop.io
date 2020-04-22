@@ -49,8 +49,8 @@ function makeSidebar(){
     var beginnerSections = ["Overview","Start Small","Concepting","Managing Scope","Writing a Game Design Doc","Tools and Assets FAQs","How Experience affects Development","Recruiting Team Members","Production and Task Management","Cost of Development","Funding Options","Making a Business Plan","Marketing","Post Mortem"]
     var beginnerids = ["overview","startsmall","concept","scope","gdd","tools","experience","team","production","cost","funding","business","marketing","postmortem"]
 
-    var industrySections = ["Overview and Highlights of the Industry","Getting a Job in the Games Industry","Working in Game Testing","The Downside of Game Testing","Departments in a AAA Studio","Culture in the Game Industry","Unionization Efforts in the Industry"];
-    var industryids = ["highlights","job","testing","testingcons","departments","culture","union"]
+    var industrySections = ["Overview and Highlights of the Industry","Getting a Job in the Games Industry","Working in Game Testing","The Downside of Game Testing","Departments in a AAA Studio","Culture in the Game Industry","Crunch and Game Development","Unionization Efforts in the Industry"];
+    var industryids = ["highlights","job","testing","testingcons","departments","culture","chrunch","union"]
 
     var ipSections = ["Intellectual Property and Brands","Common Pitfalls in Development","Combating Game Dev Tunnel Vision","Creating a lasting Brand","Key Takeaways"];
     var ipids = ["ip","pitfalls","tunnel","brand","takeaways"]
