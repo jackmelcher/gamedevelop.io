@@ -46,8 +46,8 @@ function makeSidebar(){
     var pagenames =  ["beginner","industry","ip","pr","youtube","kickstarter","tactics"];
     var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter","Indie Business Tactics"];
 
-    var beginnerSections = ["Overview","Start Small","Concepting","Managing Scope","Writing a Game Design Doc","Tools and Assets FAQs","How Experience affects Development","Recruiting Team Members","Production and Task Management","Cost of Development","Funding Options","Making a Business Plan","Marketing","Post Mortem"]
-    var beginnerids = ["overview","startsmall","concept","scope","gdd","tools","experience","team","production","cost","funding","business","marketing","postmortem"]
+    var beginnerSections = ["Overview","Game Idea","Concepting","Scope","Game Design Doc","Tools and Assets","Team Size and Experience","Recruiting Team Members","Production and Task Management","Cost of Development","Funding Options","Making a Business Plan","Marketing and Release","Post Mortem"]
+    var beginnerids = ["overview","startsmall","concept","scope","gdd","tools","team","experience","production","cost","funding","business","marketing","postmortem"]
 
     var industrySections = ["Overview and Highlights of the Industry","Getting a Job in the Games Industry","Working in Game Testing","The Downside of Game Testing","Departments in a AAA Studio","Culture in the Game Industry","Crunch and Game Development","Unionization Efforts in the Industry"];
     var industryids = ["highlights","job","testing","testingcons","departments","culture","chrunch","union"]
