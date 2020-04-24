@@ -1,8 +1,8 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-GIT,https://git-scm.com/,Free,,VCS,Distributed,
-SVN,https://subversion.apache.org/,Free,,VCS,Centralized,
-Mercurial,https://www.mercurial-scm.org/,Free,,VCS,Distributed,
-Perforce,https://www.perforce.com/,"Free, Subscription",,VCS,Centralized,
-Plastic SCM,https://www.plasticscm.com/,"Free, Subscription",,VCS,"Centralized, Distributed",
-Team Foundation Version Control,https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/overview?view=vsts,Subscription,,VCS,Centralized,
-Unity Teams,https://unity3d.com/teams,"Free, Subscription",,VCS,Distributed,
+Name,Link,Costs,Platforms,Tags,Description
+GIT,https://git-scm.com/,Free,,Distributed,
+SVN,https://subversion.apache.org/,Free,,Centralized,
+Mercurial,https://www.mercurial-scm.org/,Free,,Distributed,
+Perforce,https://www.perforce.com/,"Free, Subscription",,Centralized,
+Plastic SCM,https://www.plasticscm.com/,"Free, Subscription",,"Centralized, Distributed",
+Team Foundation Version Control,https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/overview?view=vsts,Subscription,,Centralized,
+Unity Teams,https://unity3d.com/teams,"Free, Subscription",,Distributed,
