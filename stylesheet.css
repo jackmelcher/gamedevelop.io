@@ -174,18 +174,33 @@ a:hover{
   margin-left: 120px;
 }
 .guide{
-  margin-left: 240px;
+  margin-left: 25%;
   margin-top: 64px;
   margin-bottom: 64px;
+  width: 50%;
 }
 .guideTop{
-  margin-left: 240px;
+  margin-left: 25%;
+  width: 50%;
 }
 .bold{
   font-weight: bold;
 }
 .underline{
   text-decoration: underline !important;
+}
+.footer{
+  background-color: #e4e4e4;
+  position: absolute;
+  bottom: 0;
+  padding: 4px 0px;
+  width: 100%;
+  font-size: 10pt;
+}
+.footer > a {
+  text-decoration: none;
+  color: #696969;
+  margin: 0 16px;
 }
 @media all and (max-width: 768px){
   .sectionlimited{

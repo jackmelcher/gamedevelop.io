@@ -140,3 +140,4 @@ function makeAnchors(divContainer,ids,sections)
     }
     divContainer.appendChild(list);
 }
+makeSidebar();

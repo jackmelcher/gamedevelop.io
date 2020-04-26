@@ -185,7 +185,7 @@
             </div>
         </section>  
     </body>
-
+    <script src="footer.js"></script>
     <script>
         var filepath;
         var csvdata;
@@ -194,6 +194,7 @@
         SelectTable(document.getElementById("category").value);
         FilterTable();
         SetTableName();
+        checkHeight(); // from footer script
 
         function SelectTable(filename)
         {
@@ -408,4 +409,3 @@
         }
     </script>
 </html>
-<script src="sidebar.js"></script> 
