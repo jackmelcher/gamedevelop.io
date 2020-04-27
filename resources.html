@@ -252,6 +252,7 @@
                     {
                         if(j==1){continue;}                         // Dont make Table Cell for Links column.
                         var th = document.createElement("th");      // TABLE HEADER.
+                        if(j==0){th.style.borderRightStyle = "none";tr.appendChild(th);continue;}
                         th.innerHTML = array2D[i][j];
                         tr.appendChild(th);
                     }
@@ -264,6 +265,7 @@
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
                             tabCell.innerHTML = img.outerHTML;
+                            tabCell.style.borderRightStyle = "none";
                             tabCell = tr.insertCell(-1);
                             tabCell.innerHTML = "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
@@ -278,6 +280,8 @@
             // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
+
+            checkHeight(); // from footer script
 
             FilterTable();
         }

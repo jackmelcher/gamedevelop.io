@@ -183,6 +183,13 @@ a:hover{
   margin-left: 25%;
   width: 50%;
 }
+.guideHeaders, .guideHeaders > *,.guideHeaders > * >*{
+  margin: 0px;
+}
+.guideHeaders > *
+{
+  margin-bottom: 24px;
+}
 .bold{
   font-weight: bold;
 }
