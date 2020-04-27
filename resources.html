@@ -209,6 +209,7 @@
 
             //Clear HTML Data Table
             document.getElementById("showData").innerHTML = "";
+            checkHeight(); // from footer script
             
             //Load CSV Data
             if(filename != document.getElementById("emptyCategory").value){
@@ -262,7 +263,9 @@
                             var img = document.createElement("img");
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            tabCell.innerHTML = img.outerHTML + "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
+                            tabCell.innerHTML = img.outerHTML;
+                            tabCell = tr.insertCell(-1);
+                            tabCell.innerHTML = "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
                         }
                         else{
