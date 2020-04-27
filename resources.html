@@ -252,7 +252,7 @@
                     {
                         if(j==1){continue;}                         // Dont make Table Cell for Links column.
                         var th = document.createElement("th");      // TABLE HEADER.
-                        if(j==0){th.style.borderRightStyle = "none";tr.appendChild(th);continue;}
+                        if(j==0){th.style.borderRightStyle = "none";tr.appendChild(th);th = document.createElement("th");}
                         th.innerHTML = array2D[i][j];
                         tr.appendChild(th);
                     }
@@ -381,12 +381,11 @@
         }
 
         function sleep(ms) {
-        return new Promise(resolve => setTimeout(resolve, ms));
+            return new Promise(resolve => setTimeout(resolve, ms));
         }
         async function imgPlaceholder()
         {
             await sleep(2000); 
-            checkHeight(); // from footer script
             var imgs = document.getElementsByTagName("img");
             for(var z=0; z < imgs.length; z++)
             {
