@@ -194,7 +194,6 @@
         SelectTable(document.getElementById("category").value);
         FilterTable();
         SetTableName();
-        checkHeight(); // from footer script
 
         function SelectTable(filename)
         {
@@ -380,6 +379,7 @@
         async function imgPlaceholder()
         {
             await sleep(2000); 
+            checkHeight(); // from footer script
             var imgs = document.getElementsByTagName("img");
             for(var z=0; z < imgs.length; z++)
             {

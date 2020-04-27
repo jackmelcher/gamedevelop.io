@@ -202,6 +202,11 @@ a:hover{
   color: #696969;
   margin: 0 16px;
 }
+.footer > p{
+  color: #696969;
+  margin: 0 16px;
+  font-size: 10pt;
+}
 @media all and (max-width: 768px){
   .sectionlimited{
     padding-left: 20px;
@@ -212,9 +217,11 @@ a:hover{
   }
   .guide{
     margin-left: 0px;
+    width: 100%;
   }
   .guideTop{
     margin-left: 0px;
+    width: 100%;
   }
   .sidenav{
     width: calc(100vw);
@@ -229,6 +236,14 @@ a:hover{
   .sectionlimited{
     padding-left: 160px;
     padding-right: 40px;
+  }
+  .guide{
+    margin-left: 240px;
+    width: 60%;
+  }
+  .guideTop{
+    margin-left: 240px;
+    width: 60%;
   }
   .sidenav{
     display: block;
