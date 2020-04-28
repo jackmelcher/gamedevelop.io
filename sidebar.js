@@ -94,4 +94,7 @@ function makeSidebar()
         sidenav.appendChild(divContainer);
     }
 }
-makeSidebar();
+if(location.href.split("/").slice(-1) != "resources.html")
+{
+    makeSidebar();
+}

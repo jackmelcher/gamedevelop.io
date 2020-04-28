@@ -185,6 +185,7 @@
             </div>
         </section>  
     </body>
+    <script src="sidebar.js"></script>
     <script src="footer.js"></script>
     <script>
         var filepath;
@@ -216,7 +217,7 @@
             }
             //Update Table Name
             SetTableName();
-            imgPlaceholder();
+            //imgPlaceholder(); commenting out for now
         }
         
         function LoadDoc(filepath, callback) {
@@ -261,6 +262,16 @@
                         var tabCell = tr.insertCell(-1);            // TABLE Cell.
                         if(j==0){   
                             var img = document.createElement("img");
+
+                            // Using event listener to catch errors
+                            img.addEventListener('error', function(e) {
+                                console.log(e);
+                                if(e.target.getElementsByTagName == "img")
+                                {
+                                    e.target.src ="images/placeholder.png";
+                                }
+                            }, true);
+
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
                             tabCell.innerHTML = img.outerHTML;
@@ -393,15 +404,6 @@
                 }                
             }
         }
-
-        // Using event listener to catch errors
-        window.addEventListener('error', function(e) {
-            console.log(e);
-            if(e.target.getElementsByTagName == "img")
-            {
-                e.target.src ="images/placeholder.png";
-            }
-        }, true);
 
         //Code to reset the selection autofill for Chrome and Brave browsers.
         const ua = window.navigator.userAgent.toLowerCase();
