@@ -209,7 +209,6 @@
 
             //Clear HTML Data Table
             document.getElementById("showData").innerHTML = "";
-            checkHeight(); // from footer script
             
             //Load CSV Data
             if(filename != document.getElementById("emptyCategory").value){
@@ -280,8 +279,6 @@
             // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
-
-            checkHeight(); // from footer script
 
             FilterTable();
         }
@@ -371,7 +368,7 @@
             // Return the image name.
             //console.log(url[0]);
             return url[0];
-        }
+        }     
 
         function SetTableName()
         {
@@ -396,6 +393,15 @@
                 }                
             }
         }
+
+        // Using event listener to catch errors
+        window.addEventListener('error', function(e) {
+            console.log(e);
+            if(e.target.getElementsByTagName == "img")
+            {
+                e.target.src ="images/placeholder.png";
+            }
+        }, true);
 
         //Code to reset the selection autofill for Chrome and Brave browsers.
         const ua = window.navigator.userAgent.toLowerCase();

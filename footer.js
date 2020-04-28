@@ -21,3 +21,5 @@ function checkHeight(){
     }
     else{div.style.position = "absolute";}
 }
+window.addEventListener('resize', checkHeight);
+

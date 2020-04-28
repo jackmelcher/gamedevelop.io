@@ -37,85 +37,6 @@ function ToggleSide()
     }
 }
 
-function makeSidebar(){
-    //console.log("Making Sidebar");
-    
-    var sidenav = document.getElementsByClassName("sidenav")[0];
-    var divContainer;
-
-    var pagenames =  ["beginner","industry","ip","pr","youtube","kickstarter","tactics"];
-    var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter","Indie Business Tactics"];
-
-    var beginnerSections = ["Overview","Game Idea","Concepting","Scope","Game Design Doc","Tools and Assets","Team Size and Experience","Recruiting Team Members","Production and Task Management","Cost of Development","Funding Options","Making a Business Plan","Marketing and Release","Post Mortem"]
-    var beginnerids = ["overview","startsmall","concept","scope","gdd","tools","team","experience","production","cost","funding","business","marketing","postmortem"]
-
-    var industrySections = ["Overview and Highlights of the Industry","Getting a Job in the Games Industry","Working in Game Testing","The Downside of Game Testing","Departments in a AAA Studio","Culture in the Game Industry","Crunch and Game Development","Unionization Efforts in the Industry"];
-    var industryids = ["highlights","job","testing","testingcons","departments","culture","chrunch","union"]
-
-    var ipSections = ["Intellectual Property and Brands","Common Pitfalls in Development","Combating Game Dev Tunnel Vision","Creating a lasting Brand","Key Takeaways"];
-    var ipids = ["ip","pitfalls","tunnel","brand","takeaways"]
-
-    var prSections = ["What you need to do for Marketing","Goals of a Landing Page","Importance of A/B Testing and Analytics","How to Get Help from News Outlets","Tips for working with Media Outlets"];
-    var prids = ["plan","landing","analytics","news","media"]
-
-    var youtubeSections = ["Types of Gaming Channels","Growing Your Channel","Handling Comments Section","Monetizing Your Channel"];
-    var youtubeids = ["type","grow","comments","monetize"]
-
-    var kickstarterSections = ["Before You Start a Campaign","Tips for Success","How Much Money Do I Ask for?"]
-    var kickstarterids = ["research","tips","money"]
-
-    var tacticsSections = ["Community Growth","Funding","Marketing","Networking","Business","Market Expansion"]
-    var tacticsids = ["community","funding","marketing","networking","business","expansion"]
-
-    var i;
-    for(var j = 0; j < pagenames.length; j++)
-    {
-        divContainer = document.createElement("div");
-        i = document.createElement("a");
-        i.href = "guides/"+pagenames[j]+".html";
-        i.innerHTML = pagetitle[j];
-        i.classList.add("bold");
-        //console.log(location.href.split("/").slice(-1));
-        if(location.href.split("/").slice(-1) == pagenames[j]+".html")
-        {
-            i.classList.add("underline");
-        }
-        
-        divContainer.appendChild(i);
-
-        if(location.href.split("/").slice(-1) == "beginner.html" && pagenames[j]+".html" == "beginner.html")
-        {
-            makeAnchors(divContainer, beginnerids, beginnerSections);
-        }
-        if(location.href.split("/").slice(-1) == "industry.html" && pagenames[j]+".html" == "industry.html")
-        {
-            makeAnchors(divContainer, industryids, industrySections);
-        }
-        if(location.href.split("/").slice(-1) == "ip.html" && pagenames[j]+".html" == "ip.html")
-        {
-            makeAnchors(divContainer, ipids, ipSections);
-        }
-        if(location.href.split("/").slice(-1) == "pr.html" && pagenames[j]+".html" == "pr.html")
-        {
-            makeAnchors(divContainer, prids, prSections);
-        }
-        if(location.href.split("/").slice(-1) == "youtube.html" && pagenames[j]+".html" == "youtube.html")
-        {
-            makeAnchors(divContainer, youtubeids, youtubeSections);
-        }
-        if(location.href.split("/").slice(-1) == "kickstarter.html" && pagenames[j]+".html" == "kickstarter.html")
-        {
-            makeAnchors(divContainer, kickstarterids, kickstarterSections);
-        }
-        if(location.href.split("/").slice(-1) == "tactics.html" && pagenames[j]+".html" == "tactics.html")
-        {
-            makeAnchors(divContainer, tacticsids, tacticsSections);
-        }
-        divContainer.classList.add("guidelink");
-        sidenav.appendChild(divContainer);
-    }
-}
-
 function secjump(id)
 {
     document.getElementById(id).scrollIntoView();
@@ -139,5 +60,38 @@ function makeAnchors(divContainer,ids,sections)
         list.appendChild(litem);
     }
     divContainer.appendChild(list);
+}
+
+function makeSidebar()
+{
+    var sidenav = document.getElementsByClassName("sidenav")[0];
+    var fileName = location.href.split("/").slice(-1); 
+    var pages =  ["beginner","industry","ip","pr","youtube","kickstarter","tactics"];
+    var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter","Indie Business Tactics"];
+
+    for(var j = 0; j < pages.length; j++)
+    {
+        var divContainer = document.createElement("div");
+        var a = document.createElement("a");
+        a.href = "guides/"+pages[j]+".html";
+        a.innerHTML = pagetitle[j];
+        a.classList.add("bold");
+        divContainer.appendChild(a);
+        if(fileName == pages[j]+".html")
+        {
+            a.classList.add("underline");
+            var h3s = document.getElementsByTagName("h3");
+            var sections = [];
+            var ids = [];
+            for (var i = 0; i < h3s.length; i++)
+            {
+                ids.push(h3s[i].parentElement.id);
+                sections.push(h3s[i].innerHTML);
+            }
+            makeAnchors(divContainer, ids, sections);
+        }
+        divContainer.classList.add("guidelink");
+        sidenav.appendChild(divContainer);
+    }
 }
 makeSidebar();
