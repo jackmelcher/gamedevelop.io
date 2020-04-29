@@ -266,7 +266,8 @@
                             // Using event listener to catch errors
                             img.addEventListener('error', function(e) {
                                 console.log(e);
-                                e.target.src ="images/placeholder.png";
+                                console.log(e.target.src);
+                                this.src = "images/placeholder.png";
                             }, true);
 
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
