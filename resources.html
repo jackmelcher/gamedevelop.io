@@ -265,15 +265,14 @@
 
                             // Using event listener to catch errors
                             img.addEventListener('error', function(e) {
-                                console.log(e);
                                 console.log(e.target.src);
                                 this.src = "images/placeholder.png";
                             }, true);
 
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            tabCell.innerHTML = img.outerHTML;
-                            tabCell.style.borderRightStyle = "none";
+                            tabCell.appendChild(img);
+                            tabCell.style.borderRightWidth = "0px";
                             tabCell = tr.insertCell(-1);
                             tabCell.innerHTML = "<a href=\"" + array2D[i][j+1] + "\">"+array2D[i][j]+"</a>";
                             j++;
