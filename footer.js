@@ -16,13 +16,12 @@ a3.innerHTML = "© 2020 GameDevelop.io All rights reserved. All trademarks and r
 div.appendChild(a3);
 document.body.appendChild(div);
 
-checkHeight(0);
-window.addEventListener('resize', checkHeight(1));
-document.body.addEventListener('resize', checkHeight(2));
+checkHeight();
+window.addEventListener('resize', checkHeight());
+document.body.addEventListener('resize', checkHeight());
 
-function checkHeight(a){
-    console.log(a);
-    console.log(document.body.scrollHeight+" scroll v body "+window.innerHeight);
+function checkHeight(){
+    //console.log(document.body.scrollHeight+" scroll v body "+window.innerHeight);
     if(document.body.scrollHeight > window.innerHeight){
         div.style.position = "relative";
     }
