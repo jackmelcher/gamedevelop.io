@@ -64,7 +64,6 @@
                             <option value="engine">Engines and Frameworks</option>
                             <option value="oengine">Other Engineering</option>
                             <option value="monetization">Monetization</option>
-                            <option value="other">Other Tools</option>
                             <option value="sdk">SDKs</option>
                             <option value="security">Security</option>
                             <option value="tasking">Tasking and Collaboration</option>
@@ -168,7 +167,7 @@
                     <!-- Table is added here 
                     <table>
                         <tr>
-                            <td style="">
+                            <td style="borderWidth: 0px">
                                 dfasfadf
                             </td>
                             <td>
@@ -268,12 +267,12 @@
                             }, true);
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            if(j = array2D.length - 1)
+                            if(j == array2D.length - 1)
                             {
                                 img.onload = checkHeight();//footer.js
                             }
                             tabCell.appendChild(img);
-                            tabCell.style.borderRightWidth = "0px";
+                            //tabCell.style.borderRightWidth = "0px"; Gonna have to change styling of table for this to work
                             tabCell = tr.insertCell(-1);
                             var a = document.createElement("a");
                             a.href = array2D[i][j+1];
