@@ -10,9 +10,6 @@
             minimum-scale=1.0, maximum-scale=1.0, 
             user-scalable=no, width=device-width">
         
-        <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Quicksand|Roboto" rel="stylesheet">  
-
         <!-- Font Awesome -->
         <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">   
         
@@ -32,7 +29,6 @@
         <script src="papaparse.min.js"></script> 
     </head>
 
-    <!-- Make function that retrieves favicons of websites and saves them to local folder. -->
     <body>
         <nav class="navbar">
             <button class="button buttonside sidenavbutton" onclick="ToggleSide()">
@@ -59,19 +55,22 @@
                         <optgroup label="Software & Tools"> 
                             <option value="2d">2D Art</option>
                             <option value="3d">3D Art</option>
+                            <option value="oart">Other Art</option>
                             <option value="analytics">Analytics</option>
                             <option value="audio">Audio</option>
+                            <option value="business">Business</option>
                             <option value="communication">Communication</option>
+                            <option value="design">design</option>
                             <option value="engine">Engines and Frameworks</option>
+                            <option value="oengine">Other Engineering</option>
                             <option value="monetization">Monetization</option>
                             <option value="other">Other Tools</option>
                             <option value="sdk">SDKs</option>
                             <option value="security">Security</option>
                             <option value="tasking">Tasking and Collaboration</option>
                             <option value="vcs">Version Control Software</option>
-                            <option value="vcsgui">VCS GUI</option>
-                            <option value="vcshosts">VCS Hosting</option>
                             <option value="video">Video</option>
+                            <option value="website">Websites</option>
                             <option value="writing">Writing</option>
                         </optgroup>
                         <optgroup label="Assets & Services">
@@ -169,7 +168,7 @@
                     <!-- Table is added here 
                     <table>
                         <tr>
-                            <td>
+                            <td style="">
                                 dfasfadf
                             </td>
                             <td>
@@ -269,8 +268,12 @@
                             }, true);
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
+                            if(j = array2D.length - 1)
+                            {
+                                img.onload = checkHeight();//footer.js
+                            }
                             tabCell.appendChild(img);
-                            tabCell.style.borderRight = "0px none #FFFFFF";
+                            tabCell.style.borderRightWidth = "0px";
                             tabCell = tr.insertCell(-1);
                             var a = document.createElement("a");
                             a.href = array2D[i][j+1];
@@ -288,7 +291,6 @@
             // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
-            checkHeight(); //footer.js
 
             FilterTable();
         }
@@ -317,6 +319,7 @@
             fitlersPlatform = UpdateFilterArray("platform");
 
             filterTableByColumn();
+            checkHeight();//footer.js
         }
 
 
