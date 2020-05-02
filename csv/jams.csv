@@ -1,9 +1,10 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
-Ludum Dare,https://ldjam.com/,,,,,
-Global Game Jam,https://globalgamejam.org/,,,,,
-Itch.io game Jams,https://itch.io/jams,,,,,
-Game Jolt Jams,http://jams.gamejolt.com/browse/active,,,,,
-Epic Jams,https://forums.unrealengine.com/unreal-engine/events?filter_prefix=ue_events_gamejam,,,,,
-GameMaker Community Jam,https://forum.yoyogames.com/index.php?forums/gmc-jam.9/,,,,,
-Indie Game Jams,http://www.indiegamejams.com/,,,,,
-Train Jam,http://trainjam.com/,,,,,
+Ludum Dare,https://ldjam.com/,Free,Web,Jam,,
+Global Game Jam,https://globalgamejam.org/,Free,Web,Jam,,
+Game Maker's Toolkit Jam,https://gmtk.itch.io/,Free,Web,Jam,"",""
+Itch.io game Jams,https://itch.io/jams,Free,Web,Hosting,,
+Game Jolt Jams,http://jams.gamejolt.com/browse/active,Free,Web,Hosting,,
+Epic Jams,https://forums.unrealengine.com/unreal-engine/events?filter_prefix=ue_events_gamejam,Free,Web,Jam,,
+GameMaker Community Jam,https://forum.yoyogames.com/index.php?forums/gmc-jam.9/,Free,Web,Jam,,
+Indie Game Jams,http://www.indiegamejams.com/,Free,Web,Jam,,
+Train Jam,http://trainjam.com/,Paid,Web,Jam,,

@@ -1,0 +1,20 @@
+Name,Link,Costs,Platforms,Categories,Tags,Description
+Table Top Simulator,http://berserk-games.com/tabletop-simulator/,Paid,"Windows, Mac",Game Creation System,"3D, Lua",TableTop
+Super Mario Maker 2,https://supermariomaker.nintendo.com/,Paid,Nintendo Switch,Game Creation System,2D,Create and share Super Mario Bros. levels using the built-in level editor
+Warcraft 3 Reforged,https://playwarcraft3.com/en-us/,Paid,Windows,"Level Editor, Custom Games",RTS,Create custom games using the built-in World Editor
+Starcraft 2,https://starcraft2.com/en-us/,"Free, Paid",Windows,"Level Editor, Custom Games",RTS,Create custom games using the built-in World Editor
+Overwatch,https://playoverwatch.com/en-us/,Paid,Windows,Custom Games,FPS,Create custom games using the built-in Workshop
+Age of Empires 2,https://www.ageofempires.com/games/aoeiide/,Paid,Windows,Custom Games,RTS,Create custom games using the built-in Scenario Editor
+Roblox Studio,https://www.roblox.com/create,"Free, Paid","Windows, Mac, iOS, Android, Xbox, Rift, Vive",Creation Engine,Lua,"Create assets, scripted objects, levels, and games for the Roblox MMO."
+GMod,https://gmod.facepunch.com/,Free,Windows,Sandbox,Lua,"Create scripted objects, levels, and share games. Base is Source Engine. Requires self-hosting servers to share."
+Minecraft,https://www.minecraft.net/en-us/about-minecraft,Paid,"Windows, Xbox, Nintendo Switch, Android, iOS",Sandbox,Java,"Create scripted objects, texture packs, levels, and share games. Requires self-hosting servers to share."
+Fallout 4,https://store.steampowered.com/app/377160/Fallout_4/,Paid,"Windows, Xbox, Playstation",Game,RPG,A popular Post-Apocalyptic RPG that is an excellent base for modding.
+Elder Scrolls 5: Skyrim Special Edition,https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/,Paid,"Windows, Xbox, Playstation",Game,RPG,A popular Fantasy RPG that is an excellent base for modding.
+Nexus Mods,https://www.nexusmods.com/,Free,Web,"Mod Hosting, Mod Community",,Popular Mod hosting and games modding community
+Reshade,https://reshade.me/,Free,Windows,Reshading Tool,HLSL,A Tool used to inject custom post-processing into almost any game. Uses custom shader language based on HLSL
+Core,https://www.coregames.com/,Free,Windows,Game Creation System,Lua,Create and share your own games using a creation system built on Unreal Engine 4
+Grand Theft Auto V,https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/,Paid,"Windows, Xbox, Playstation",Game,Sim,A popular Sim Sandbox that is an excellent base for modding.
+5mods,https://www.gta5-mods.com/,Free,Web,"Mod Hosting, Mod Community","",Popular Mod hosting and games modding community specifically for GTA 5
+FiveM,https://fivem.net/,Free,Windows,Mod Framework,"Lua, C#, Javascript",Multiplayer modification framework for GTA 5
+Dreams,https://www.playstation.com/en-us/games/dreams-ps4/,Paid,Playstation,Game Creation System,,Create and share custom games or experiences using the built-in creation system
+Little Big Planet 3,https://www.playstation.com/en-us/games/littlebigplanet-3-ps4/,Paid,Playstation,Game Creation System,2D,Create and share Little Big Planet levels using the built-in level editor

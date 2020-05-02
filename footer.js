@@ -18,6 +18,8 @@ document.body.appendChild(div);
 
 checkHeight();
 window.addEventListener('resize', checkHeight());
+window.addEventListener('onload', checkHeight());
+window.addEventListener('onpageshow', checkHeight());
 
 function checkHeight(){
     //console.log(document.body.scrollHeight+" scroll v body "+window.innerHeight);

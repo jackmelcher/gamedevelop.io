@@ -17,11 +17,11 @@ N-Track Studio,https://ntrack.com/digital-audio-workstation.php,"Trial, Paid","W
 MOTU DP,http://motu.com/products/software/dp/,"Trial, Paid","Windows, Mac",DAW,,
 Tracktion Waveform,https://www.tracktion.com/products/waveform,"Trial, Paid","Windows, Mac, Linux",DAW,,
 Tracktion t7,https://www.tracktion.com/products/t7-daw,Free,"Windows, Mac, Linux",DAW,,
-Komplete,https://www.native-instruments.com/en/products/komplete/bundles/komplete-12/included-products/,Paid,"Windows, Mac",VST,VST Plug-in,VST package
-Komplete Players,https://www.native-instruments.com/en/products/komplete/bundles/komplete-players/,Free,"Windows, Mac",VST,VST Plug-in,VST package
-Kontakt 6,https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6-player/,Free,"Windows, Mac",VST,VST Plug-in,VST package
-Guitar Rig 5,https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-5-player/,Free,"Windows, Mac",VST,VST Plug-in,VST package
-Yamaha VCS-5,http://yamamavcs5.weebly.com/,Free,"Windows, Mac",VST,VST Plug-in,VST Instrument
+Komplete,https://www.native-instruments.com/en/products/komplete/bundles/komplete-12/included-products/,Paid,"Windows, Mac",VST,VST Plugin,VST package
+Komplete Players,https://www.native-instruments.com/en/products/komplete/bundles/komplete-players/,Free,"Windows, Mac",VST,VST Plugin,VST package
+Kontakt 6,https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6-player/,Free,"Windows, Mac",VST,VST Plugin,VST package
+Guitar Rig 5,https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-5-player/,Free,"Windows, Mac",VST,VST Plugin,VST package
+Yamaha VCS-5,http://yamamavcs5.weebly.com/,Free,"Windows, Mac",VST,VST Plugin,VST Instrument
 Audacity,https://www.audacityteam.org/,Free,"Windows, Mac, Linux",Audio Editor,,
 Ocean Audio,http://www.ocenaudio.com/,Free,"Windows, Mac, Linux",Audio Editor,,
 Magix Sound Forge Pro,https://www.magix.com/us/music/sound-forge/sound-forge-pro/,"Trial, Paid, Subscription","Windows, Mac",Audio Editor,,
@@ -47,7 +47,7 @@ Bosca Ceoil,https://boscaceoil.net/,Free,"Windows, Mac, Linux, Web",Music Tracke
 Tracktion Waverazor,https://www.tracktion.com/products/waverazor,"Free, Trial, Paid","Windows, Mac, Linux",Virtual Modular Synthesizer,,
 VCV Rack,https://vcvrack.com/,Free,"Windows, Mac, Linux",Virtual Modular Synthesizer,,
 SunVox,http://www.warmplace.ru/soft/sunvox/,Free,"Windows, Mac, Linux, iOS, Android",Virtual Modular Synthesizer,,
-Audio Sauna,http://www.audiosauna.com/,Free,Web,Virtual Modular Synthesizer,Chrome Plug-in,Also available as a Google Chrome Plug-in
+Audio Sauna,http://www.audiosauna.com/,Free,Web,Virtual Modular Synthesizer,Chrome Plugin,Also available as a Google Chrome Plug-in
 ZynAddSubFX,http://zynaddsubfx.sourceforge.net/,"Trial, Paid","Windows, Mac, Linux",Virtual Modular Synthesizer,,
 Traktor,https://www.native-instruments.com/en/products/traktor/dj-software/,"Free, Paid","Windows, Mac, iOS",DJ,,
 Mixxx,https://mixxx.org/,Free,"Windows, Mac, Linux",DJ,,
@@ -59,7 +59,7 @@ Giada,https://www.giadamusic.com/index,Free,"Windows, Mac, Linux",DJ,,
 FMOD Studio,https://www.fmod.com/studio,"Free, Paid","Windows, Mac, Linux",Video Game SFX,,
 Wwise Audiokinetic,https://www.audiokinetic.com/products/wwise/,"Free, Paid","Windows, Mac, Linux",Video Game SFX,,
 Bfxr,https://www.bfxr.net/,Free,"Windows, Mac, Web",Video Game SFX,,
-Fabric,http://www.tazman-audio.co.uk/,"Free, Paid","Windows, Mac, Linux",Video Game SFX,Unity Plug-in,
+Fabric,http://www.tazman-audio.co.uk/,"Free, Paid","Windows, Mac, Linux",Video Game SFX,Unity Plugin,
 Facebook 360,https://facebook360.fb.com/spatial-workstation/,Free,"Windows, Mac",Video Game SFX,,
 Astound Sound,http://www.astoundholdings.com/,Paid,"Windows, Mac, Linux",Video Game SFX,,
 Steinberg Nuendo,https://www.steinberg.net/en/products/nuendo/game_audio.html,Paid,"Windows, Mac",Video Game SFX,,
@@ -72,7 +72,7 @@ Filmstro,https://filmstro.com/products,Free,"Windows, Mac, iOS","Music Editor, A
 SynthFont,http://www.synthfont.com/,"Free, Paid",Windows,MIDI Editor,,
 MultitrackStudio,https://www.multitrackstudio.com/,"Free, Paid","Windows, Mac, iOS",MIDI Editor,,
 Anvil Studio,http://www.anvilstudio.com/,Free,Windows,"MIDI Editor, Music Notation",,
-Rose Garden ,https://rosegardenmusic.com/,Free,"Windows, Linux","MIDI Editor, Music Notation",,
+"Rose Garden ",https://rosegardenmusic.com/,Free,"Windows, Linux","MIDI Editor, Music Notation",,
 Viena,http://www.synthfont.com/Viena_news.html,Free,Windows,MIDI Editor,SoundFont Editor,
 Polyphone,https://www.polyphone-soundfonts.com/en/,Free,"Windows, Mac, Linux",MIDI Editor,SoundFont Editor,
 Scala,http://www.huygens-fokker.org/scala/,Free,"Windows, Mac, Linux",MIDI Editor,MIDI Scale Tuner,
@@ -92,4 +92,4 @@ Noteflight,https://www.noteflight.com/,"Free, Subscription",Web,Music Notation,C
 NoteWorthy Composer,https://noteworthycomposer.com/,"Free, Paid",Windows,Music Notation,,
 Overture,http://sonicscores.com/overture/,"Trial, Paid","Windows, Mac",Music Notation,,
 Capella,https://www.capella-software.com/us/,"Trial, Paid","Windows, Mac",Music Notation,,
-imitone,http://imitone.com/,Paid,"Windows, Mac","Music Editor, VST",VST Plug-in,"Voice to MIDI, also available as a VST Plug-in"
+imitone,http://imitone.com/,Paid,"Windows, Mac","Music Editor, VST",VST Plugin,"Voice to MIDI, also available as a VST Plug-in"

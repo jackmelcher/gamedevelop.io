@@ -31,6 +31,7 @@ Quixel Mixer,https://quixel.com/mixer,Free,"Windows, Mac","Texture, Paint",Beta,
 Substance Painter,https://www.allegorithmic.com/products/substance-painter,"Trial, Paid, Subscription","Windows, Mac, Linux","Texture, Paint",,
 P-XCEL,https://forums.tigsource.com/index.php?topic=14503.15,Free,Windows,"Texture, Paint",,
 Pixexix,http://pixexix.sophiehoulden.com/,"Free, Paid","Windows, Mac","Texture, Paint",,
+Armor Paint,https://armorpaint.org/,Paid,"Windows, Linux","Texture, Paint","",""
 Substance B2M,https://www.allegorithmic.com/products/bitmap2material,"Free, Paid","Windows, Mac, Linux",Texture,,
 Substance Designer,https://www.allegorithmic.com/products/substance-designer,"Free, Trial, Paid","Windows, Mac, Linux","Texture, Render",,
 ShaderMap,https://shadermap.com/,"Free, Paid",Windows,Texture,,
@@ -43,8 +44,8 @@ Njob,http://charles.hollemeersch.net/njob/,Free,Windows,Texture,,
 SSbump Generator,https://sourceforge.net/projects/ssbumpgenerator/,Free,Windows,"Texture, Normal Map",,
 SmartNormal,http://www.smart-page.net/smartnormal/,Free,Web,"Texture, Normal Map",,
 NormalMap-Online,http://cpetry.github.io/NormalMap-Online/,Free,Web,"Texture, Normal Map",,
-Nvidia Texture Tools,https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop,Free,"Windows, Mac","Texture, Normal Map",Adobe Photoshop Plug-in,
-PixPlant,https://www.pixplant.com/,"Trial, Paid","Windows, Mac","Texture, Tiled",Adobe Photoshop Plug-in,
+Nvidia Texture Tools,https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop,Free,"Windows, Mac","Texture, Normal Map",Adobe Photoshop Plugin,
+PixPlant,https://www.pixplant.com/,"Trial, Paid","Windows, Mac","Texture, Tiled",Adobe Photoshop Plugin,
 Seamless Texture Generator,http://www.seamlesstexturegenerator.com/,"Trial, Paid",Windows,Texture Generator,,
 Spiral Graphics Wood Workshop,http://spiralgraphics.biz/ww_overview.htm,Free,Windows,Texture Generator,,
 Spiral Graphics Genetica,http://spiralgraphics.biz/genetica.htm,"Trial, Paid",Windows,Texture Generator,,
@@ -69,11 +70,11 @@ Nem's Mega 3D Terrain Generator,http://nemesis.thewavelength.net/index.php,Free,
 SpeedTree,https://store.speedtree.com/,"Trial, Paid","Windows, Mac, Linux",Plant Generator,,
 Arbaro,http://arbaro.sourceforge.net/,Free,"Windows, Mac, Linux",Plant Generator,,
 ngPlant,http://ngplant.sourceforge.net/,Free,"Windows, Linux",Plant Generator,,
-GuruWare Ivy,http://www.guruware.at/main/,Free,Windows,Plant Generator,3DS Max Plug-in,
+GuruWare Ivy,http://www.guruware.at/main/,Free,Windows,Plant Generator,3DS Max Plugin,
 EVOLVED Tree It,http://www.evolved-software.com/treeit/treeit,Free,Windows,Plant Generator,,Only for Dark GDK Kits
 EVOLVED Mapscape,http://www.evolved-software.com/mapscape/mapscape,Free,Windows,Terrain Generator,Beta,Free while software is in Beta
 Texture Tool,http://www.evolved-software.com/texturetool/texturetool,Free,Windows,Texture,,Only for Dark GDK Kits
-3DS Max Rock Generator,http://www.scriptspot.com/3ds-max/scripts/rock-generator,Free,Windows,Model,3DS Max Plug-in,"Rock Generator, 3DS Maxscript"
+3DS Max Rock Generator,http://www.scriptspot.com/3ds-max/scripts/rock-generator,Free,Windows,Model,3DS Max Plugin,"Rock Generator, 3DS Maxscript"
 Marmoset Toolbag,https://marmoset.co/toolbag/,"Trial, Paid","Windows, Mac","3D Animation, Render",,
 Clarisse,https://www.isotropix.com/products,"Trial, Paid","Windows, Mac, Linux",Render,,
 Shader Frog,https://shaderfrog.com/,Free,Web,Shader,,
