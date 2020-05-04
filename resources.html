@@ -269,10 +269,7 @@
                             }, true);
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            if(j == array2D.length - 1)
-                            {
-                                img.onload = checkHeight();//footer.js
-                            }
+                            img.onload = checkHeight();//footer.js
                             tabCell.appendChild(img);
                             //tabCell.style.borderRightWidth = "0px"; Gonna have to change styling of table for this to work
                             tabCell = tr.insertCell(-1);
