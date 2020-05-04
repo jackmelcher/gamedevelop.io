@@ -266,10 +266,10 @@
                             img.addEventListener('error', function(e) {
                                 console.log(e.target.src);
                                 this.src = "images/placeholder.png";
-                            }, true);
+                            });
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            img.onload = checkHeight();//footer.js
+                            img.addEventListener("load",checkHeight()); //footer.js
                             tabCell.appendChild(img);
                             //tabCell.style.borderRightWidth = "0px"; Gonna have to change styling of table for this to work
                             tabCell = tr.insertCell(-1);
