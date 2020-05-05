@@ -269,7 +269,7 @@
                             });
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
                             img.className = "tableimg";
-                            img.addEventListener("load",checkHeight()); //footer.js
+                            img.addEventListener('load',function(e){console.log(e.target.src);checkHeight()}); //footer.js
                             tabCell.appendChild(img);
                             //tabCell.style.borderRightWidth = "0px"; Gonna have to change styling of table for this to work
                             tabCell = tr.insertCell(-1);
@@ -331,7 +331,7 @@
                 tr = table.getElementsByTagName("tr");
                 for (i = 1; i < tr.length; i++) 
                 {
-                    if (CheckFilter(filtersPrice, tr, i, 1) && CheckFilter(fitlersPlatform, tr, i, 2))
+                    if (CheckFilter(filtersPrice, tr, i, 2) && CheckFilter(fitlersPlatform, tr, i, 3))
                     {
                         tr[i].style.display = "";
                     } 
