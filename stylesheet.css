@@ -83,6 +83,7 @@ a:hover{
   overflow-x: auto;
   height: calc(100vh - 82px);
   background-color: #eeeeee;
+  z-index: -1;
 }
 .sidenavbutton{
   display: none;
