@@ -162,7 +162,7 @@
 
                     <div>
                         <p class="listTitle">Categories:</p>
-                        <ul id="category" class="nobullets">
+                        <ul id="categories" class="nobullets">
                         </ul>
                     </div>
                     <div>
@@ -228,10 +228,6 @@
             }
             //Update Table Name
             SetTableName();
-            MakeFilterChoices(2,"price");
-            MakeFilterChoices(3,"platform");
-            MakeFilterChoices(4,"category");
-            MakeFilterChoices(5,"tag");
         }
         
         function LoadDoc(filepath, callback) {
@@ -305,7 +301,11 @@
             var divContainer = document.getElementById("showData");
             divContainer.appendChild(table);
 
-            FilterTable();
+            //FilterTable();
+            MakeFilterChoices(2,"price");
+            MakeFilterChoices(3,"platform");
+            MakeFilterChoices(4,"categories");
+            MakeFilterChoices(5,"tag");
         }
 
         var filtersPrice;
@@ -423,7 +423,7 @@
         function GetFilterNames(column_index)
         {
             var set = new Set();
-            for (var j=0;j < csvdata.data.length;j++)
+            for (var j=1;j < csvdata.data.length;j++)
             {
                 var cells = csvdata.data[j][column_index].split(", ");
                 cells.forEach(element => {
@@ -436,17 +436,19 @@
         function MakeFilterChoices(column_index, filter_id)
         {
             var arr = GetFilterNames(column_index);
+            var list = document.getElementById(filter_id);
+
+            list.innerHTML = "";
 
             arr.forEach(element => {
-                var list = document.getElementById(filter_id);
                 var item = document.createElement("li");
                 var input = document.createElement("input");
                 var label = document.createElement("label");
                 
                 input.type = "checkbox";
-                input.name = csvdata.data[0][column_index];
+                input.name = filter_id;
                 input.value = element.toLowerCase();
-                input.onclick = FilterTable();
+                input.onclick = function() {FilterTable();}
                 
                 label.for = filter_id;
                 label.textContent = element;
