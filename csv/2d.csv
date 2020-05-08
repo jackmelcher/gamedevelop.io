@@ -27,8 +27,8 @@ Live2D Cubism,https://www.live2d.com/en/products/cubism3,"Free, Paid","Windows, 
 Real Illusion CrazyTalk Animator,https://www.reallusion.com/crazytalk-animator/default.html,"Trial, Paid","Windows, Mac",2D Animation,"Raster, Vector, Skeletal",
 Spriter,https://brashmonkey.com/,Paid,"Windows, Mac, Linux","2D Animation, Pixel Animation","Raster, Vector, Skeletal",
 Fusion Character Animator,http://fusioncharacterani.wixsite.com/helloworld,Paid,Windows,2D Animation,"Raster, Skeletal",
-Unity Anima 2D,https://assetstore.unity.com/packages/essentials/unity-anima2d-79840,Free,"Windows, Mac, Linux",2D Animation,"Unity Plug-in, Skeletal",
-Coa Tools,https://github.com/ndee85/coa_tools,Free,"Windows, Mac, Linux",2D Animation,"Blender Plug-in, Skeletal",
+Unity Anima 2D,https://assetstore.unity.com/packages/essentials/unity-anima2d-79840,Free,"Windows, Mac, Linux",2D Animation,"Unity Plugin, Skeletal",
+Coa Tools,https://github.com/ndee85/coa_tools,Free,"Windows, Mac, Linux",2D Animation,"Blender Plugin, Skeletal",
 Laigter,https://azagaya.itch.io/laigter,Free,"Windows, Linux",Normal Map,,
 Sprite DLight,http://www.2deegameart.com/p/sprite-dlight.html,Paid,"Windows, Mac, Linux",Normal Map,,
 Sprite Lamp,http://www.snakehillgames.com/spritelamp/,"Free, Paid",Windows,Normal Map,,
@@ -43,12 +43,12 @@ Grahics Gale,https://graphicsgale.com/us/,Free,Windows,"Pixel Art, Pixel Animati
 piskel,https://www.piskelapp.com/,Free,"Windows, Mac, Linux, Web","Pixel Art, Pixel Animation",,
 PixelShop,https://blackflux.com/node/10,Free,"Windows, Mac","Pixel Art, Pixel Animation",,
 GoyaPixel,https://jackschaedler.github.io/goya/,Free,Web,"Pixel Art, Pixel Animation",,
-UPA Toolkit: Pixel Art Editor,https://assetstore.unity.com/packages/tools/painting/upa-toolkit-pixel-art-editor-27680,Free,"Windows, Mac, Linux",Pixel Art,Unity Plug-in,
+UPA Toolkit: Pixel Art Editor,https://assetstore.unity.com/packages/tools/painting/upa-toolkit-pixel-art-editor-27680,Free,"Windows, Mac, Linux",Pixel Art,Unity Plugin,
 Lospec,https://lospec.com/pixel-editor/app,Free,Web,Pixel Art,,
 Pikopixel,http://twilightedge.com/mac/pikopixel/,Free,"Mac, Linux",Pixel Art,,
 Tiled,https://www.mapeditor.org/,Free,"Windows, Mac, Linux","Pixel Art, Tiled Map",,Also useful for Isometric and Hexagonal Maps
-SuperTiled2Unity,https://seanba.com/supertiled2unity.html,Free,"Windows, Mac, Linux",Tiled Map,Unity Plug-in,Import Tiled Map Editor
-2D Tiled Map Level Editor,https://assetstore.unity.com/packages/tools/sprite-management/2d-Tiled-map-level-editor-90420,Free,"Windows, Mac, Linux",Tiled Map,Unity Plug-in,
+SuperTiled2Unity,https://seanba.com/supertiled2unity.html,Free,"Windows, Mac, Linux",Tiled Map,Unity Plugin,Import Tiled Map Editor
+2D Tiled Map Level Editor,https://assetstore.unity.com/packages/tools/sprite-management/2d-Tiled-map-level-editor-90420,Free,"Windows, Mac, Linux",Tiled Map,Unity Plugin,
 OGMO Editor,http://www.ogmoeditor.com/,Free,Windows,Tiled Map,,
 Tiled Studio,http://Tiledstudio.sourceforge.net/,Free,Windows,Tiled Map,,
 Tiledmancer,https://led.itch.io/Tiledmancer,Free,"Windows, Mac",Tiled Map,,Tiled Generator
@@ -71,4 +71,4 @@ FontSprite,https://adamstrange.itch.io/fontsprite,Free,"Windows, Mac, Linux",Pix
 Texture Packer,https://www.codeandweb.com/texturepacker,Free,"Windows, Mac, Linux",Sprite Sheet,,
 Leshy Labs Sprite Sheet Animator,https://www.leshylabs.com/apps/spriteSheetAnimator/,Free,Web,Sprite Sheet,,2D Sprite Sheet Tester
 Magic Pixelator,https://assetstore.unity.com/packages/tools/sprite-management/magic-pixelator-70201,Paid,"Windows, Mac, Linux",Sprite Sheet,Unity Plugin,Create Sprite Sheet from 2D or 3D models
-Filter Forge,https://www.filterforge.com/,"Trial, Paid","Windows, Mac",Image Manipulation,Adobe Photoshop Plug-in,Filters
+Filter Forge,https://www.filterforge.com/,"Trial, Paid","Windows, Mac",Image Manipulation,Photoshop Plugin,Filters

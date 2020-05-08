@@ -3,6 +3,9 @@ var sidebutton = document.getElementsByClassName("sidenavbutton")[0];
 var menuicon = document.getElementsByClassName("menuicon")[0];
 
 var mq = window.matchMedia("(max-width: 768px)");
+
+makeSidebar();
+
 function resizeSideNav(mq)
 {
     if(mq.matches)
@@ -93,8 +96,4 @@ function makeSidebar()
         divContainer.classList.add("guidelink");
         sidenav.appendChild(divContainer);
     }
-}
-if(location.href.split("/").slice(-1) != "resources.html")
-{
-    makeSidebar();
 }

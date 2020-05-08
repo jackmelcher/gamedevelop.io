@@ -29,10 +29,10 @@ Magix Sound Forge Music Studio,https://www.magix.com/us/music/sound-forge/sound-
 MAGIX Acid Pro,https://www.magix.com/us/music/acid/acid-pro/,"Trial, Paid",Windows,DAW,Loop Focused DAW,
 MAGIX Acid Music Studio,https://www.magix.com/us/music/acid/acid-music-studio/,"Trial, Paid",Windows,Music Editor,,
 MAGIX Music Maker,https://www.magix.com/us/music/music-maker/,"Free, Paid",Windows,Music Editor,,
-Audiotool,https://www.audiotool.com/,Free,Web,Music Editor,Collaborate with others,
-Soundation,https://soundation.com/,"Free, Subscription",Web,Music Editor,Collaborate with others,
-Soundtrap,https://www.soundtrap.com/,"Free, Subscription",Web,Music Editor,Collaborate with others,
-Splice,https://splice.com/,Free,Web,Music Editor,Collaborate with others,
+Audiotool,https://www.audiotool.com/,Free,Web,Music Editor,Collaborative,
+Soundation,https://soundation.com/,"Free, Subscription",Web,Music Editor,Collaborative,
+Soundtrap,https://www.soundtrap.com/,"Free, Subscription",Web,Music Editor,Collaborative,
+Splice,https://splice.com/,Free,Web,Music Editor,Collaborative,
 DefleMask,http://deflemask.com/,Free,"Windows, Mac, Linux",Music Tracker,Retro Hardware Clone,
 OpenMPT,https://openmpt.org/,Free,Windows,Music Tracker,Retro Hardware Clone,"Clone of Impulse Tracker, FastTracker, Scream Tracker and ProTracker"
 Psycle,https://sourceforge.net/projects/psycle/,Free,"Windows, Linux",Music Tracker,Retro Hardware Clone,"FastTracker II  Clone, ProTracker Clone"
@@ -47,7 +47,7 @@ Bosca Ceoil,https://boscaceoil.net/,Free,"Windows, Mac, Linux, Web",Music Tracke
 Tracktion Waverazor,https://www.tracktion.com/products/waverazor,"Free, Trial, Paid","Windows, Mac, Linux",Virtual Modular Synthesizer,,
 VCV Rack,https://vcvrack.com/,Free,"Windows, Mac, Linux",Virtual Modular Synthesizer,,
 SunVox,http://www.warmplace.ru/soft/sunvox/,Free,"Windows, Mac, Linux, iOS, Android",Virtual Modular Synthesizer,,
-Audio Sauna,http://www.audiosauna.com/,Free,Web,Virtual Modular Synthesizer,Chrome Plugin,Also available as a Google Chrome Plug-in
+Audio Sauna,http://www.audiosauna.com/,Free,Web,Virtual Modular Synthesizer,Chrome Plugin,Also available as a Google Chrome Plugin
 ZynAddSubFX,http://zynaddsubfx.sourceforge.net/,"Trial, Paid","Windows, Mac, Linux",Virtual Modular Synthesizer,,
 Traktor,https://www.native-instruments.com/en/products/traktor/dj-software/,"Free, Paid","Windows, Mac, iOS",DJ,,
 Mixxx,https://mixxx.org/,Free,"Windows, Mac, Linux",DJ,,
@@ -68,7 +68,7 @@ LabChirp,http://labbed.net/software/labchirp/,Free,Windows,Video Game SFX,,
 Footsteps Generator,https://thesoundpacktree.com/pages/footsteps-generator01,Free,Web,Video Game SFX,,
 Krotos,https://www.krotosaudio.com/products/,Paid,"Windows, Mac",Video Game SFX,,
 Elias Studio,https://eliassoftware.com/,"Free, Paid","Windows, Mac","Daw, Adaptive Music",,
-Filmstro,https://filmstro.com/products,Free,"Windows, Mac, iOS","Music Editor, Adaptive Music","Adobe Premiere Plug-in, Final Cut Pro Plug-in","Also available as Plug-in for Adobe Premiere, and Final Cut Pro"
+Filmstro,https://filmstro.com/products,Free,"Windows, Mac, iOS","Music Editor, Adaptive Music","Premiere Plugin, Final Cut Pro Plugin","Also available as Plugin for Adobe Premiere, and Final Cut Pro"
 SynthFont,http://www.synthfont.com/,"Free, Paid",Windows,MIDI Editor,,
 MultitrackStudio,https://www.multitrackstudio.com/,"Free, Paid","Windows, Mac, iOS",MIDI Editor,,
 Anvil Studio,http://www.anvilstudio.com/,Free,Windows,"MIDI Editor, Music Notation",,
@@ -92,4 +92,4 @@ Noteflight,https://www.noteflight.com/,"Free, Subscription",Web,Music Notation,C
 NoteWorthy Composer,https://noteworthycomposer.com/,"Free, Paid",Windows,Music Notation,,
 Overture,http://sonicscores.com/overture/,"Trial, Paid","Windows, Mac",Music Notation,,
 Capella,https://www.capella-software.com/us/,"Trial, Paid","Windows, Mac",Music Notation,,
-imitone,http://imitone.com/,Paid,"Windows, Mac","Music Editor, VST",VST Plugin,"Voice to MIDI, also available as a VST Plug-in"
+imitone,http://imitone.com/,Paid,"Windows, Mac","Music Editor, VST",VST Plugin,"Voice to MIDI, also available as a VST Plugin"

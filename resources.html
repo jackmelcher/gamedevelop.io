@@ -51,7 +51,7 @@
                 <br>
                 <div>
                     <select id="category" onchange="SelectTable(this.value)">
-                        <option id="emptyCategory" selected="selected" disabled>Select a Category</option>
+                        <option id="emptyCategory" value="table" selected="selected" disabled>Select a Table</option>
                         <optgroup label="Software & Tools"> 
                             <option value="2d">2D Art</option>
                             <option value="3d">3D Art</option>
@@ -103,60 +103,12 @@
                     <div>
                         <p class="listTitle">Price:</p>
                         <ul id="price" class="nobullets">
-                            <li>
-                                <input type="checkbox" name="price" value="free" onclick="FilterTable()">
-                                <label for="price">Free</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="price" value="trial" onclick="FilterTable()">
-                                <label for="price">Trial</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="price" value="paid" onclick="FilterTable()">
-                                <label for="price">Paid</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="price" value="subscription" onclick="FilterTable()">
-                                <label for="price">Subscription</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="price" value="royalty" onclick="FilterTable()">
-                                <label for="price">Royalty</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="price" value="license" onclick="FilterTable()">
-                                <label for="price">License</label>
-                            </li>
                         </ul>    
                     </div>
 
                     <div>
                         <p class="listTitle">Platform:</p>
                         <ul id="platform" class="nobullets">
-                            <li>
-                                <input type="checkbox" name="platform" value="windows" onclick="FilterTable()">
-                                <label for="platform">Windows</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="platform" value="mac" onclick="FilterTable()">
-                                <label for="platform">Mac</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="platform" value="linux" onclick="FilterTable()">
-                                <label for="platform">Linux</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="platform" value="ios" onclick="FilterTable()">
-                                <label for="platform">iOS</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="platform" value="android" onclick="FilterTable()">
-                                <label for="platform">Android</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="platform" value="web" onclick="FilterTable()">
-                                <label for="platform">Web</label>
-                            </li>
                         </ul>    
                     </div>   
 
@@ -195,20 +147,34 @@
             </div>
         </section>  
     </body>
-    <script src="sidebar.js"></script>
+    <script src="resources.js"></script>
     <script src="footer.js"></script>
     <script>
+        window.onhashchange = function(){
+            console.log("hash change");    
+            if(window.location.hash != "")
+            {
+                document.getElementById("category").value = window.location.hash.split('#')[1];
+                SelectTable(window.location.hash.split('#')[1]);
+            }
+            else
+            {
+                document.getElementById("category").value = "table";
+                SetTableName();
+            }
+        };
+
         var filepath;
         var csvdata;
 
-        //Run functions when the page is refreshed.
+        //Runs these functions when the page is refreshed.
         SelectTable(document.getElementById("category").value);
         FilterTable();
         SetTableName();
 
         function SelectTable(filename)
         {
-            console.log("Select table called");
+            //console.log("Select table called");
             
             if(document.getElementById("emptyCategory").style.display == ""){
                 document.getElementById("emptyCategory").style.display = "none";
@@ -226,6 +192,13 @@
             if(filename != document.getElementById("emptyCategory").value){
                 LoadDoc(filepath, CreateTableFromArray2D);
             }
+            
+
+            //Set URL Hash
+            if(filename != "table")
+            {
+                window.location.hash = filename;            
+            }            
             //Update Table Name
             SetTableName();
         }
@@ -326,17 +299,18 @@
             return filterArrayCurrent;
         }
 
+        // Add filtering for categories and tags
         function FilterTable()
         {
             filtersPrice = UpdateFilterArray("price");
-            fitlersPlatform = UpdateFilterArray("platform");
+            fitlersPlat = UpdateFilterArray("platform");
+            fitlersCat = UpdateFilterArray("categories");
+            fitlersTag = UpdateFilterArray("tag");
 
             filterTableByColumn();
             checkHeight();//footer.js
         }
 
-
-        //added from w3school example, modified for intended function
         function filterTableByColumn() 
         {
             var table, tr, i;
@@ -346,7 +320,7 @@
                 tr = table.getElementsByTagName("tr");
                 for (i = 1; i < tr.length; i++) 
                 {
-                    if (CheckFilter(filtersPrice, tr, i, 2) && CheckFilter(fitlersPlatform, tr, i, 3))
+                    if (CheckFilter(filtersPrice, tr, i, 2) && CheckFilter(fitlersPlat, tr, i, 3) && CheckFilter(fitlersCat, tr, i, 4) && CheckFilter(fitlersTag, tr, i, 5))
                     {
                         tr[i].style.display = "";
                     } 
@@ -441,21 +415,24 @@
             list.innerHTML = "";
 
             arr.forEach(element => {
-                var item = document.createElement("li");
-                var input = document.createElement("input");
-                var label = document.createElement("label");
-                
-                input.type = "checkbox";
-                input.name = filter_id;
-                input.value = element.toLowerCase();
-                input.onclick = function() {FilterTable();}
-                
-                label.for = filter_id;
-                label.textContent = element;
-                
-                item.appendChild(input);
-                item.appendChild(label);
-                list.appendChild(item);
+                if(element != "")
+                {
+                    var item = document.createElement("li");
+                    var input = document.createElement("input");
+                    var label = document.createElement("label");
+                    
+                    input.type = "checkbox";
+                    input.name = filter_id;
+                    input.value = element.toLowerCase();
+                    input.onclick = function() {FilterTable();}
+                    
+                    label.for = filter_id;
+                    label.textContent = element;
+                    
+                    item.appendChild(input);
+                    item.appendChild(label);
+                    list.appendChild(item);
+                }
             });
         }
     </script>
