@@ -150,6 +150,7 @@
     <script src="resources.js"></script>
     <script src="footer.js"></script>
     <script>
+        //Update the Table based on the url hash to support site navigation changes
         window.onhashchange = function(){
             console.log("hash change");    
             if(window.location.hash != "")
@@ -164,6 +165,7 @@
             }
         };
 
+        //Global vars
         var filepath;
         var csvdata;
 
@@ -186,6 +188,11 @@
 
             //Clear HTML Data Table
             document.getElementById("showData").innerHTML = "";
+            list = document.getElementById(filter_id);
+            ClearFilter("price");
+            ClearFilter("platform");
+            ClearFilter("categories");
+            ClearFilter("tag");
             checkHeight(); //footer.js
 
             //Load CSV Data
@@ -248,7 +255,7 @@
                             var img = document.createElement("img");
                             // Using event listener to catch errors
                             img.addEventListener('error', function(e) {
-                                console.log(e.target.src);
+                                //console.log(e.target.src);
                                 this.src = "images/placeholder.png";
                             });
                             img.src = "images/" + document.getElementById("category").value + "/" + GetImageName(array2D[i][j+1]) + ".png";
@@ -434,6 +441,11 @@
                     list.appendChild(item);
                 }
             });
+        }
+
+        function ClearFilter(id)
+        {
+            document.getElementById(id).innerHTML = "";
         }
     </script>
 </html>

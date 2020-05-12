@@ -1,5 +1,5 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
-Atlassian JIRA,https://www.atlassian.com/software/jira,"Trial, Subscription",Web,"Task Management, Bug Tracking",,
+Atlassian JIRA,https://www.atlassian.com/software/jira,"Free, Trial, Subscription",Web,"Task Management, Bug Tracking",,
 Hack n' Plan,https://hacknplan.com/,"Free, Subscription",Web,Task Management,,
 Trello,https://trello.com/en,Free,Web,Task Management,,
 Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Free, Subscription",Web,"Task Management, Bug Tracking",,
@@ -14,6 +14,7 @@ Evernote Business,https://evernote.com/business,"Trial, Subscription",Web,Task M
 Taiga,https://taiga.io/,"Free, Subscription",Web,Task Management,,
 Casual,https://casual.pm/,"Trial, Subscription",Web,Task Management,,
 Wrike,https://www.wrike.com/,"Free, Subscription",Web,Task Management,,
+Basecamp,https://basecamp.com/,"Free, Subscription",Web,Task Management,"",""
 Github Issue Tracker,https://help.github.com/en/articles/about-issues,Free,Web,"Task Management, Bug Tracking",,
 Gitlab Issue Tracker,https://docs.gitlab.com/ee/user/project/issues/,Free,Web,"Task Management, Bug Tracking",,
 Redmine,https://www.redmine.org/,Free,Web,Task Management,,Requires host/server
