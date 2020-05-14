@@ -50,8 +50,8 @@
                 Table: 
                 <br>
                 <div>
-                    <select id="category" onchange="SelectTable(this.value)">
-                        <option id="emptyCategory" value="table" selected="selected" disabled>Select a Table</option>
+                    <select id="category" onchange="SetHash(this.value)">
+                        <option value="pop">Popular Tools and Services</option>
                         <optgroup label="Software & Tools"> 
                             <option value="2d">2D Art</option>
                             <option value="3d">3D Art</option>
@@ -145,7 +145,7 @@
                     -->
                 </div>
             </div>
-        </section>  
+        </section>
     </body>
     <script src="resources.js"></script>
     <script src="footer.js"></script>
@@ -160,8 +160,8 @@
             }
             else
             {
-                document.getElementById("category").value = "table";
-                SetTableName();
+                document.getElementById("category").selectedIndex = 0;
+                SelectTable("pop");
             }
         };
 
@@ -178,17 +178,12 @@
         {
             //console.log("Select table called");
             
-            if(document.getElementById("emptyCategory").style.display == ""){
-                document.getElementById("emptyCategory").style.display = "none";
-            }
-
             //filepath = "csv/"+ doc.getElementById("category").value;
             filepath = "csv/"+filename+".csv";
             //document.getElementById("demo").innerHTML = filepath;
 
             //Clear HTML Data Table
             document.getElementById("showData").innerHTML = "";
-            list = document.getElementById(filter_id);
             ClearFilter("price");
             ClearFilter("platform");
             ClearFilter("categories");
@@ -196,16 +191,8 @@
             checkHeight(); //footer.js
 
             //Load CSV Data
-            if(filename != document.getElementById("emptyCategory").value){
-                LoadDoc(filepath, CreateTableFromArray2D);
-            }
+            LoadDoc(filepath, CreateTableFromArray2D);
             
-
-            //Set URL Hash
-            if(filename != "table")
-            {
-                window.location.hash = filename;            
-            }            
             //Update Table Name
             SetTableName();
         }
@@ -377,6 +364,11 @@
             return url[0];
         }     
 
+        //Set URL Hash
+        function SetHash(value)
+        {
+            window.location.hash = value;            
+        }
         function SetTableName()
         {
             var header = document.getElementById("tname");
@@ -391,7 +383,6 @@
         console.log(isChrome);
         console.log(isBrave);
         if(isChrome || isBrave){
-                document.getElementById("emptyCategory").style.display = "";
                 setTimeout(function(){resetcat();}, 10) ;
         }
         function resetcat(){

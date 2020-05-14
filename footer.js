@@ -1,4 +1,6 @@
-var div = document.createElement("div");
+var div = document.querySelector('.footer');
+if(div == null){div= document.createElement("div");}
+div= document.createElement("div");
 var a1 = document.createElement("a");
 var a2 = document.createElement("a");
 var a3 = document.createElement("p");

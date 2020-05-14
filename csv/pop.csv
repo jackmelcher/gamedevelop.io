@@ -23,6 +23,7 @@ Havok,https://www.havok.com/,Paid,"Windows, Mac","Physics, Artificial Intelligen
 Vivox,https://www.vivox.com/features,"Free, Subscription","Windows, Mac, Linux",Audio,,Voice Communications Solution
 Easy,https://www.easy.ac/en-us/,License,,Anti-Cheat,,
 Webflow,https://webflow.com/,"Free, Trial, Subscription","Web","Website Maker, Website Hosting, Domain Name Registar",,
+Netlify,https://www.netlify.com/,"Free, Subscription","Web","Website Hosting, Domain Name Registar",,Build Static websites from a Git Repository
 Porkbun,https://porkbun.com/,"Subscription","Web","Domain Name Registar, Website Hosting, Email Hosting",,Free Whois Privacy
 Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,"Trial, Subscription","Windows, Mac",Video NLE,,
 DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,"Free, Paid","Windows, Mac, Linux",Video NLE,,
@@ -38,3 +39,6 @@ GitHub,https://github.com/,"Free, Subscription",,VCS Hosting,Git,
 Assembla,https://www.assembla.com/home,Subscription,,VCS Hosting,"Perforce, Git, SVN",
 Git Kraken,https://www.gitkraken.com/,Free,"Windows, Mac, Linux",VCS GUI,Git,
 SourceTree,https://www.sourcetreeapp.com/,Free,"Windows, Mac",VCS GUI,"Git, Mercurial",
+Kickstarter,https://www.kickstarter.com/,Royalty,Web,Crowdfunding,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
+Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Free,Web,Funding,,
+Patreon,https://www.patreon.com/,Royalty,Web,Crowdfunding,,
