@@ -153,6 +153,14 @@
         //Update the Table based on the url hash to support site navigation changes
         window.onhashchange = function(){
             console.log("hash change");    
+            LoadTableFromHash();
+        };
+        window.onpageshow = function (){
+            console.log("page show");    
+            LoadTableFromHash();
+        };
+        function LoadTableFromHash()
+        {
             if(window.location.hash != "")
             {
                 document.getElementById("category").value = window.location.hash.split('#')[1];
@@ -163,16 +171,11 @@
                 document.getElementById("category").selectedIndex = 0;
                 SelectTable("pop");
             }
-        };
+        }
 
         //Global vars
         var filepath;
         var csvdata;
-
-        //Runs these functions when the page is refreshed.
-        SelectTable(document.getElementById("category").value);
-        FilterTable();
-        SetTableName();
 
         function SelectTable(filename)
         {

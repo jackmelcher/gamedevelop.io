@@ -4,7 +4,7 @@ Unreal Engine,https://www.unrealengine.com/,"Free, Royalty","Windows, Mac, Linux
 Cry Engine,https://www.cryengine.com/,"Free, Royalty",Windows,Game Engines,"3D, Lua, C++",
 Lumber Yard,https://aws.amazon.com/lumberyard/,Free,Windows,Game Engines,"3D, Lua, C++",
 Godot,https://godotengine.org/,Free,"Windows, Mac, Linux",Game Engines,"2D, 3D, C#, C++",
-Game Maker Studio 2,https://www.yoyogames.com/gamemaker,"Trial, Paid","Windows, Mac",Game Engines,"2D, Javascript, Drag & Drop","Uses GML Scripting, similar to Javascript"
+Game Maker Studio 2,https://www.yoyogames.com/gamemaker,"Trial, Paid, Subscription","Windows, Mac",Game Engines,"2D, Javascript, Drag & Drop","Uses GML Scripting, similar to Javascript"
 Game Maker Studio,https://store.yoyogames.com/downloads/gm-studio/release-notes-studio.html,Free,"Windows, Mac",Game Engines,"2D, Javascript","Uses GML Scripting, similar to Javascript"
 Source,https://developer.valvesoftware.com/wiki/Source_SDK_2013,Free,"Windows, Mac, Linux",Game Engines,"3D, Lua, Squirrel, C++",
 Xenko,https://xenko.com/,Free,Windows,Game Engines,"2D, 3D, C#",
@@ -21,7 +21,7 @@ Buildbox,https://www.buildbox.com/,Subscription,"Windows, Mac",Game Engines,"2D,
 Heaps.io,https://heaps.io/,Free,Windows,Game Engines,"2D, Haxe",
 LOVE,https://love2d.org/,Free,"Windows, Mac",Framework,"2D, Lua",
 M.U.G.E.N,https://web.archive.org/web/20150209191723/http://www.elecbyte.com/mugen,Free,Windows,Game Engines,2D,Fighting. Select 'Mirror' to Download. (Latest is 1.1 Beta)
-id Tech,https://github.com/id-Software,Free,"Linux, Windows, Mac ",Game Engines,"3D, C, C++",FPS
+id Tech,https://github.com/id-Software,Free,"Windows, Mac, Linux",Game Engines,"3D, C, C++",FPS
 Mono Game,http://www.monogame.net/,Free,"Windows, Mac, Linux",Framework,"2D, C#",
 Defold,https://www.defold.com/,Free,"Windows, Mac, Linux",Game Engines,"2D, Lua",
 Visionaire Studio,https://www.visionaire-studio.net/cms/visionaire-studio-english.html,Paid,"Windows, Mac",Game Engines,"2D, Lua",Point & Click

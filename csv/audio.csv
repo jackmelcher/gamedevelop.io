@@ -1,13 +1,14 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
 Ableton Live,https://www.ableton.com/en/,Paid,"Windows, Mac",DAW,,
+Avid Pro Tools,https://www.avid.com/en/pro-tools,"Free, Trial, Paid","Windows, Mac",DAW,,
 Presonus Studio One,https://www.presonus.com/products/Studio-One,"Free, Paid","Windows, Mac, iOS",DAW,,
-Avid Pro Tools,https://www.avid.com/en/pro-tools,"Trial, Paid","Windows, Mac",DAW,,
 Cockos Reaper,https://www.reaper.fm/,Paid,"Windows, Mac, Linux",DAW,,
 Apple Logic Pro,https://www.apple.com/logic-pro/,Paid,Mac,DAW,,
 Apple GarageBand,https://itunes.apple.com/us/app/garageband/id682658836?mt=12&ign-mpt=uo%3D4,Free,"Mac, iOS",DAW,,
 Reason,https://www.propellerheads.com/en/reason,"Trial, Paid","Windows, Mac",DAW,,
 FL Studio,https://www.image-line.com/flstudio/,"Trial, Paid","Windows, Mac",DAW,,
 Steinberg Cubase,https://new.steinberg.net/cubase/,"Trial, Paid","Windows, Mac",DAW,,
+Steinberg Nuendo,https://new.steinberg.net/nuendo/,Paid,"Windows, Mac",DAW,,Includes extra features for Designing game audio with Wwise. 
 Mixcraft,https://www.acoustica.com/mixcraft/,"Trial, Paid",Windows,DAW,,
 Bandlab Cakewalk,https://www.bandlab.com/products/cakewalk,Free,Windows,DAW,,
 LMMS,https://lmms.io/,Free,"Windows, Mac, Linux",DAW,,
@@ -17,6 +18,7 @@ N-Track Studio,https://ntrack.com/digital-audio-workstation.php,"Trial, Paid","W
 MOTU DP,http://motu.com/products/software/dp/,"Trial, Paid","Windows, Mac",DAW,,
 Tracktion Waveform,https://www.tracktion.com/products/waveform,"Trial, Paid","Windows, Mac, Linux",DAW,,
 Tracktion t7,https://www.tracktion.com/products/t7-daw,Free,"Windows, Mac, Linux",DAW,,
+Facebook 360,https://facebook360.fb.com/spatial-workstation/,Free,"Windows, Mac","DAW, VST Plugin",Spatial Audio,
 Komplete,https://www.native-instruments.com/en/products/komplete/bundles/komplete-12/included-products/,Paid,"Windows, Mac",VST,VST Plugin,VST package
 Komplete Players,https://www.native-instruments.com/en/products/komplete/bundles/komplete-players/,Free,"Windows, Mac",VST,VST Plugin,VST package
 Kontakt 6,https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6-player/,Free,"Windows, Mac",VST,VST Plugin,VST package
@@ -42,7 +44,7 @@ Milky Tracker,https://milkytracker.titandemo.org/,Free,"Windows, Mac, Linux",Mus
 16-bits PT,https://16-bits.org/pt.php,Free,"Windows, Mac",Music Tracker,Retro Hardware Clone,ProTracker Clone
 Schism Tracker,http://schismtracker.org/,Free,"Windows, Mac, Linux",Music Tracker,Retro Hardware Clone,Impulse Tracker Clone
 Renoise,https://www.renoise.com/products/,"Trial, Paid","Windows, Mac, Linux","Music Tracker, DAW",,
-MadTrakcer,http://www.madtracker.org/,Free,Windows,Music Tracker,,
+MadTracker,http://www.madtracker.org/,Free,Windows,Music Tracker,,
 Klystrack,https://kometbomb.github.io/klystrack/,Free,"Windows, Linux",Music Tracker,Retro Hardware Clone,
 Bosca Ceoil,https://boscaceoil.net/,Free,"Windows, Mac, Linux, Web",Music Tracker,,
 Tracktion Waverazor,https://www.tracktion.com/products/waverazor,"Free, Trial, Paid","Windows, Mac, Linux",Virtual Modular Synthesizer,,
@@ -57,23 +59,22 @@ Deckadance,http://www.stantondj.com/deckadance-2.html,"Free, Paid","Windows, Mac
 Serato DJ,https://serato.com/dj,"Free, Subscription","Windows, Mac",DJ,,
 Cross DJ,http://www.mixvibes.com/cross-dj-software-mac-pc/,"Trial, Paid","Windows, Mac, iOS, Android",DJ,,
 Giada,https://www.giadamusic.com/index,Free,"Windows, Mac, Linux",DJ,,
-FMOD Studio,https://www.fmod.com/studio,"Free, Paid","Windows, Mac, Linux",Video Game SFX,,
-Wwise Audiokinetic,https://www.audiokinetic.com/products/wwise/,"Free, Paid","Windows, Mac, Linux",Video Game SFX,,
+Audiokinetic Wwise,https://www.audiokinetic.com/products/wwise/,"Free, Paid","Windows, Mac, Linux","Sound Engine, Authoring Tool",,
+FMOD Studio,https://www.fmod.com/studio,"Free, Paid","Windows, Mac, Linux","Sound Engine, Authoring Tool",,
+Elias Studio,https://eliassoftware.com/,"Free, Paid","Windows, Mac",Authoring Tool,,
+Fabric,http://www.tazman-audio.co.uk/,"Free, Paid","Windows, Mac, Linux",Authoring Tool,Unity Plugin,
 Bfxr,https://www.bfxr.net/,Free,"Windows, Mac, Web",Video Game SFX,,
-Fabric,http://www.tazman-audio.co.uk/,"Free, Paid","Windows, Mac, Linux",Video Game SFX,Unity Plugin,
-Facebook 360,https://facebook360.fb.com/spatial-workstation/,Free,"Windows, Mac",Video Game SFX,,
+ChipTone,http://sfbgames.com/chiptone/,Free,Web,Video Game SFX,,
 Astound Sound,http://www.astoundholdings.com/,Paid,"Windows, Mac, Linux",Video Game SFX,,
-Steinberg Nuendo,https://www.steinberg.net/en/products/nuendo/game_audio.html,Paid,"Windows, Mac",Video Game SFX,,
 Leshy SF Designer,https://www.leshylabs.com/apps/sfMaker/,Free,Web,Video Game SFX,,
 LabChirp,http://labbed.net/software/labchirp/,Free,Windows,Video Game SFX,,
 Footsteps Generator,https://thesoundpacktree.com/pages/footsteps-generator01,Free,Web,Video Game SFX,,
 Krotos,https://www.krotosaudio.com/products/,Paid,"Windows, Mac",Video Game SFX,,
-Elias Studio,https://eliassoftware.com/,"Free, Paid","Windows, Mac","Daw, Adaptive Music",,
 Filmstro,https://filmstro.com/products,Free,"Windows, Mac, iOS","Music Editor, Adaptive Music","Premiere Plugin, Final Cut Pro Plugin","Also available as Plugin for Adobe Premiere, and Final Cut Pro"
 SynthFont,http://www.synthfont.com/,"Free, Paid",Windows,MIDI Editor,,
 MultitrackStudio,https://www.multitrackstudio.com/,"Free, Paid","Windows, Mac, iOS",MIDI Editor,,
 Anvil Studio,http://www.anvilstudio.com/,Free,Windows,"MIDI Editor, Music Notation",,
-"Rose Garden ",https://rosegardenmusic.com/,Free,"Windows, Linux","MIDI Editor, Music Notation",,
+Rose Garden,https://rosegardenmusic.com/,Free,"Windows, Linux","MIDI Editor, Music Notation",,
 Viena,http://www.synthfont.com/Viena_news.html,Free,Windows,MIDI Editor,SoundFont Editor,
 Polyphone,https://www.polyphone-soundfonts.com/en/,Free,"Windows, Mac, Linux",MIDI Editor,SoundFont Editor,
 Scala,http://www.huygens-fokker.org/scala/,Free,"Windows, Mac, Linux",MIDI Editor,MIDI Scale Tuner,
