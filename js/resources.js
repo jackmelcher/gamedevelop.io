@@ -276,7 +276,7 @@ function MakeFilterChoices(column_index, filter_id)
             input.onclick = function() {FilterTable();}
 
             label.appendChild(input);
-            label.appendChild(document.createTextNode(element.textContent));
+            label.appendChild(document.createTextNode(element));
             
             item.appendChild(label);
             list.appendChild(item);
