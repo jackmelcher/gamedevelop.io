@@ -269,15 +269,15 @@ function MakeFilterChoices(column_index, filter_id)
             var item = document.createElement("li");
             var label = document.createElement("label");
             var input = document.createElement("input");
-
-            label.textContent = element;
             
             input.type = "checkbox";
             input.name = filter_id;
             input.value = element.toLowerCase();
             input.onclick = function() {FilterTable();}
-            
+
             label.appendChild(input);
+            label.appendChild(document.createTextNode(element.textContent));
+            
             item.appendChild(label);
             list.appendChild(item);
         }
