@@ -30,11 +30,11 @@ AWS GameLift,https://aws.amazon.com/gamelift/,"Trial, Subscription",,Network,Gam
 Google Cloud Platform,https://cloud.google.com/solutions/gaming,"Free, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution
 Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,"Free, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution and Back-End Game Solutions
 deltaDNA,https://deltadna.com/,"Trial, Subscription",,Game Analytics,,
-xsolla,https://xsolla.com/,,Monetization Services,"","",""
+xsolla,https://xsolla.com/,,,Monetization Services,,
 Accelbyte,https://accelbyte.io/,,,Business,"Muliplayer Game Services, Game Analytics",
-Webflow,https://webflow.com/,"Free, Trial, Subscription","Web","Website Maker, Website Hosting, Domain Name Registar",,
-Netlify,https://www.netlify.com/,"Free, Subscription","Web","Website Hosting, Domain Name Registar",,Build Static websites from a Git Repository
-Porkbun,https://porkbun.com/,"Subscription","Web","Domain Name Registar, Website Hosting, Email Hosting",,Free Whois Privacy
+Webflow,https://webflow.com/,"Free, Trial, Subscription",Web,"Website Maker, Website Hosting, Domain Name Registar",,
+Netlify,https://www.netlify.com/,"Free, Subscription",Web,"Website Hosting, Domain Name Registar",,Build Static websites from a Git Repository
+Porkbun,https://porkbun.com/,Subscription,Web,"Domain Name Registar, Website Hosting, Email Hosting",,Free Whois Privacy
 Discord,https://discordapp.com/,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",Communication,,
 Microsoft Teams,https://products.office.com/en-us/microsoft-teams/,Subscription,"Windows, Mac, Linux, iOS, Android, Web",Communication,,
 Slack,https://slack.com/,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",Communication,,
