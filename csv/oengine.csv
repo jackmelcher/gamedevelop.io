@@ -7,6 +7,6 @@ InControl,https://assetstore.unity.com/packages/tools/input-management/incontrol
 DS4,http://ds4windows.com/,Free,Windows,Utility,,Dual Shock 4 Controller input
 AutoHotkey,https://www.autohotkey.com/,Free,Windows,Utility,Automation,Scripting Language for Automating Windows desktop
 Macro Creator,https://www.macrocreator.com/,Free,Windows,Utility,Automation,GUI for making AutoHotkey scripts
-AntiMicro,https://github.com/AntiMicro/antimicro,Free,"Windows, Linux",Utility,Gamepad input to Mouse and Keyboard input,
-JoyToKey,https://joytokey.net/en/,"Trial, Paid",Windows,Utility,Gamepad input to Mouse and Keyboard input,
-Xpadder,https://www.xpadder.com/,Paid,Windows,Utility,Gamepad input to Mouse and Keyboard input,
+AntiMicro,https://github.com/AntiMicro/antimicro,Free,"Windows, Linux",Utility,Input,Map Gamepad input to Mouse and Keyboard input
+JoyToKey,https://joytokey.net/en/,"Trial, Paid",Windows,Utility,Input,Map Gamepad input to Mouse and Keyboard input
+Xpadder,https://www.xpadder.com/,Paid,Windows,Utility,Input,Map Gamepad input to Mouse and Keyboard input

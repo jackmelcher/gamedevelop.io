@@ -30,8 +30,8 @@ AWS GameLift,https://aws.amazon.com/gamelift/,"Trial, Subscription",,Network,Gam
 Google Cloud Platform,https://cloud.google.com/solutions/gaming,"Free, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution
 Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,"Free, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution and Back-End Game Solutions
 deltaDNA,https://deltadna.com/,"Trial, Subscription",,Game Analytics,,
-xsolla,https://xsolla.com/,,,Monetization Services,,
-Accelbyte,https://accelbyte.io/,,,Business,"Muliplayer Game Services, Game Analytics",
+xsolla,https://xsolla.com/,Royalty,"Windows, Mac, Linux, Web",Monetization Services,,SDKs available for Unity and Unreal Engine
+Accelbyte,https://accelbyte.io/,Subscription,"Windows, Mac, Linux, Web","Monetization Services, Muliplayer Game Services, Game Analytics",,SDKs available for Unity and Unreal Engine
 Webflow,https://webflow.com/,"Free, Trial, Subscription",Web,"Website Maker, Website Hosting, Domain Name Registar",,
 Netlify,https://www.netlify.com/,"Free, Subscription",Web,"Website Hosting, Domain Name Registar",,Build Static websites from a Git Repository
 Porkbun,https://porkbun.com/,Subscription,Web,"Domain Name Registar, Website Hosting, Email Hosting",,Free Whois Privacy
@@ -41,10 +41,9 @@ Slack,https://slack.com/,"Free, Subscription","Windows, Mac, Linux, iOS, Android
 Trello,https://trello.com/en,Free,Web,Task Management,,
 Atlassian JIRA,https://www.atlassian.com/software/jira,"Free, Trial, Subscription",Web,"Task Management, Bug Tracking",,
 Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Free, Subscription",Web,"Task Management, Bug Tracking",,
-Trello,https://trello.com/en,Free,Web,Task Management,,
-Microsoft Office 365,https://products.office.com/en-us,"Free, Trial, Subscription, Paid","Windows, Mac, Web, iOS, Android",Office Software,,
-Google Suite,https://gsuite.google.com/,"Free, Subscription",Web,"Collaboration, Cloud Storage",,
-Atlassian Confluence,https://www.atlassian.com/software/confluence,"Free, Subscription",Web,Wiki,,
+Microsoft Office 365,https://products.office.com/en-us,"Free, Trial, Subscription, Paid","Windows, Mac, iOS, Android, Web","Office Software, Collaboration, Cloud Storage",,
+G Suite,https://gsuite.google.com/,"Free, Subscription","Web, iOS, Android","Office Software, Collaboration, Cloud Storage",,
+Atlassian Confluence,https://www.atlassian.com/software/confluence,"Free, Subscription","Web, iOS, Android","Collaboration, Cloud Storage",,
 GitHub,https://github.com/,"Free, Subscription",,VCS Hosting,Git,
 Assembla,https://www.assembla.com/home,Subscription,,VCS Hosting,"Perforce, Git, SVN",
 Git Kraken,https://www.gitkraken.com/,Free,"Windows, Mac, Linux",VCS GUI,Git,
@@ -57,11 +56,5 @@ PcPartPicker,https://pcpartpicker.com/,Free,Web,Business,,Build a PC
 Kickstarter,https://www.kickstarter.com/,Royalty,Web,Crowdfunding,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
 Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Free,Web,Funding,,
 Patreon,https://www.patreon.com/,Royalty,Web,Crowdfunding,,
-Steam Direct,https://partner.steamgames.com/steamdirect,,,Digital Store,PC,
-Epic Games Store,https://www.epicgames.com/store/en-US/about,,,Digital Store,PC,
-Itch,https://itch.io/,,,Digital Store,PC,
-ID@XBOX Program,https://www.xbox.com/en-US/developers/id,,"Windows, Xbox",,,
-Playstation Partner,https://partners.playstation.net/,,Playstation,,,
-Nintendo Developer,https://developer.nintendo.com/,,Nintendo,,,
 Global Game Jam,https://globalgamejam.org/,Free,Web,Jam,,
 Ludum Dare,https://ldjam.com/,Free,Web,Jam,,
