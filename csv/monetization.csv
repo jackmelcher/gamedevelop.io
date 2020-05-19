@@ -1,7 +1,9 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
-Unity Ads,https://unity.com/solutions/unity-ads/,,,Ads,,
-Apple Search Ads,https://searchads.apple.com/,,,Ads,,
-Google AdMob,https://developers.google.com/admob/,,,Ads,,
+Unity Ads,https://unity.com/solutions/unity-ads/,"Free, Paid","Windows, Mac, Linux",Ads,,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, and Unity"
+ironSource,https://www.ironsrc.com/,"Free, Paid","Windows, Mac, Linux",Ads,,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, and Unity"
+Google AdMob,https://developers.google.com/admob/,"Free, Paid","Windows, Mac, Linux",Ads,,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, Unity, and Cocos"
+Apple Search Ads,https://searchads.apple.com/,Paid,Web,Ads,,Promote your app in the search results for Apple's App Store
+Google App Campaigns,https://support.google.com/google-ads/answer/6247380,Paid,Web,Ads,"",Promote your app in the search results for Google's platforms
 ChartBoost,https://www.chartboost.com/,,,Ads,,
 Appodeal,https://www.appodeal.com/home/,,,Ads,,
 Leadbolt,https://www.leadbolt.com/,,,Ads,,

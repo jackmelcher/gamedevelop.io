@@ -8,7 +8,7 @@ Game Maker Studio 2,https://www.yoyogames.com/gamemaker,"Trial, Paid, Subscripti
 Game Maker Studio,https://store.yoyogames.com/downloads/gm-studio/release-notes-studio.html,Free,"Windows, Mac",Game Engines,"2D, Javascript","Uses GML Scripting, similar to Javascript"
 Source,https://developer.valvesoftware.com/wiki/Source_SDK_2013,Free,"Windows, Mac, Linux",Game Engines,"3D, Lua, Squirrel, C++",
 Xenko,https://xenko.com/,Free,Windows,Game Engines,"2D, 3D, C#",
-Construct 3,https://www.construct.net/en,Subscription,Windows,Game Engines,"2D, Drag & Drop",
+Construct 3,https://www.construct.net/en,"Free, Subscription","Windows, Mac, Linux, Web",Game Engines,"2D, Drag & Drop",A browser based game engine. Excels at making HTML 5 games
 Armory,https://armory3d.org/,Free,"Windows, Mac, Linux",Plugin,"3D, Haxe",Plugin for Blender to make it a Game Engine
 Stencyl,http://www.stencyl.com/,"Free, Subscription","Windows, Mac, Linux",Game Engines,"2D, Drag & Drop",
 RPG Maker MV,http://www.rpgmakerweb.com/products/programs/rpg-maker-mv,"Trial, Paid","Windows, Mac, Linux",Game Engines,"2D, Javascript",RPG
@@ -17,10 +17,10 @@ LibGDX,https://libgdx.badlogicgames.com/,Free,"Windows, Mac, Linux",Framework,"3
 Cocos,https://www.cocos.com/en/,Free,"Windows, Mac, Web",Game Engines,"2D, 3D, Lua, Javascript",
 Apple Dev Kits,https://developer.apple.com/games/,Free,Mac,Framework,"2D, 3D, Swift, Objective-C",
 Ren'py,https://www.renpy.org/,Free,"Windows, Mac, Linux",Framework,"2D, Python",Visual Novel
-Buildbox,https://www.buildbox.com/,Subscription,"Windows, Mac",Game Engines,"2D, 3D, Visual Scripting",
+Buildbox,https://www.buildbox.com/,"Free, Subscription","Windows, Mac",Game Engines,"2D, 3D, Visual Scripting",Mobile games only
 Heaps.io,https://heaps.io/,Free,Windows,Game Engines,"2D, Haxe",
 LOVE,https://love2d.org/,Free,"Windows, Mac",Framework,"2D, Lua",
-M.U.G.E.N,https://mugenarchive.com/forums/downloads.php?s=bb7a44b61f4a0bf73ecdd71459ec780f&do=file&id=5283--official-mugen-1-1-beta-1-elecbyte,Free,Windows,Game Engines,2D,Fighting. Select 'Mirror' to Download. (Latest is 1.1 Beta)
+M.U.G.E.N,https://mugenarchive.com/forums/downloads.php?s=bb7a44b61f4a0bf73ecdd71459ec780f&do=file&id=5283--official-mugen-1-1-beta-1-elecbyte,Free,Windows,Game Engines,2D,Fighting (Latest version is 1.1 Beta)
 id Tech,https://github.com/id-Software,Free,"Windows, Mac, Linux",Game Engines,"3D, C, C++",FPS
 Mono Game,http://www.monogame.net/,Free,"Windows, Mac, Linux",Framework,"2D, C#",
 Defold,https://www.defold.com/,Free,"Windows, Mac, Linux",Game Engines,"2D, Lua",
