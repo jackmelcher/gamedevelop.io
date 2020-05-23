@@ -3,6 +3,7 @@
   padding-right: 160px;
   padding-bottom: 64px;
 }
+
 table,
 th,
 td {
@@ -15,12 +16,18 @@ td {
 tr:nth-child(2n) {
   background-color: #eee;
 }
+tr:nth-child(2n-1) {
+  background-color: rgb(255, 255, 255);
+}
 td,
 th {
   padding: 8px 24px;
 }
 th {
   background-color: #ddd;
+}
+table{
+  border: 1px solid rgb(219, 219, 219);
 }
 .tableimg {
   width: 32px;

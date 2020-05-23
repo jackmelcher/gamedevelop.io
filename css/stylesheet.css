@@ -40,7 +40,7 @@ a:hover{
   height: 100%; /* Full-height: remove this if you want "auto" height */
   position: fixed;
   border-style: solid;
-  border-color: black;
+  border-color: rgb(172, 172, 172);
   border-width: 0px 1px 0px 0px;
   top: 0; /* Stay at the top */
   left: 0;
