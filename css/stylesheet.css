@@ -1,8 +1,39 @@
+:root {
+  --primary-color: #008fee;
+  --primary-color-v: #0079ca;
+  --secondary-color: #f0ffff;
+  --tertiary-color: #ffffff;
+  --font-color: #000000;
+  --bg-color: #f5f5f5;
+  --side-bg-color: #eeeeee; 
+  --side-border-color: #acacac; 
+  --heading-color: #000000;
+  --link-color: #0043d3;
+  --footer-bg-color: #e4e4e4;
+  --footer-color: #696969;
+}
+html[data-theme = "dark"]{
+  --primary-color: #008fee;
+  --primary-color-v: #0079ca;
+  --secondary-color: #ffffff;
+  --font-color: #ffffff;
+  --bg-color: #313131;
+  --side-bg-color: #252525; 
+  --side-border-color: #acacac; 
+  --heading-color: #ffffff;
+  --link-color: #0043d3;
+  --footer-bg-color: #272727;
+  --footer-color: #b1b1b1;
+}
 body{
-  background-color: #f5f5f5;
+  background-color: var(--bg-color);
+  color: var(--font-color);
   margin: 0px;
   /*overflow: hidden;*/
   font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,h3{
+  color: var(--heading-color);
 }
 h1 {
   font-size: 24pt;
@@ -18,7 +49,7 @@ p {
   font-size: 12pt;
 }
 a:link, a:visited {
-  color: rgb(0,67,211);
+  color: var(--link-color);
   text-decoration: none;
 }
 a:hover{
@@ -40,7 +71,7 @@ a:hover{
   height: 100%; /* Full-height: remove this if you want "auto" height */
   position: fixed;
   border-style: solid;
-  border-color: rgb(172, 172, 172);
+  border-color: var(--side-border-color);
   border-width: 0px 1px 0px 0px;
   top: 0; /* Stay at the top */
   left: 0;
@@ -49,7 +80,7 @@ a:hover{
   padding: 16px 16px;
   overflow-x: auto;
   height: calc(100vh - 82px);
-  background-color: #eeeeee;
+  background-color: var(--side-bg-color);
 }
 .sidenavbutton{
   display: none;
@@ -61,15 +92,15 @@ a:hover{
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
-  background-color: #008fee;
-  color: #f0ffff;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
   padding : 0;
 }
 .button {
-  background-color: #4CAF50;
+  background-color: var(--primary-color);
   border: none; /* 2px solid #000000; */
   border-radius: 2px;
-  color: white; /* Text Color */
+  color: var(--secondary-color); /* Text Color */
   padding: 16px 16px;
   text-align: center;
   text-decoration: none;
@@ -83,34 +114,33 @@ a:hover{
   font-weight: bold;
   border-radius: 0;
   vertical-align: top;
-  padding: 10px 8px 4px 8px;  
+  padding: 10px 16px 4px 16px;  
   display: inline-block;
   margin-right: -4px;
 }
 .button_nav{
   background-color: transparent;
+  color: var(--secondary-color) !important; 
   font-weight: bold;
   border-radius: 0;
-  color: white !important; /* Text Color */
   display: inline-block;
   margin-right: -4px;
 }
 .button_nav:hover{
-  background-color: #0082d8;
+  background-color: var(--primary-color-v);
   text-decoration: none;
 }
 .button_active{
   background-color: #0099ff;
 }
 .button_main{
-  background-color: #008fee;
+  color: var(--secondary-color) !important; 
   margin: 0px 8px;
   font-weight: bold;
-  color: white !important; /* Text Color */
   display: inline-block;
 }
 .button_main:hover{
-  background-color: #0079ca;
+  background-color: var(--primary-color-v);
   text-decoration: none;
 }
 .buttonside{
@@ -134,7 +164,7 @@ a:hover{
   text-decoration: underline !important;
 }
 .footer{
-  background-color: #e4e4e4;
+  background-color: var(--footer-bg-color);
   position: absolute;
   bottom: 0;
   padding: 4px 0px;
@@ -143,11 +173,11 @@ a:hover{
 }
 .footer > a {
   text-decoration: none;
-  color: #696969;
+  color: var(--footer-color);
   margin: 0 16px;
 }
 .footer > p{
-  color: #696969;
+  color: var(--footer-color);
   margin: 0 16px;
   font-size: 10pt;
 }
@@ -170,3 +200,67 @@ a:hover{
     display: none;
   }
 }
+
+ /* The switch - the box around the slider */
+ .switch {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  float: right;
+  margin: 8px 8px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #505355;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #505355;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 
