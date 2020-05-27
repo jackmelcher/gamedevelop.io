@@ -100,7 +100,6 @@ function CreateTableFromArray2D(array2D)
                     img.className = "tableimg";
                     img.addEventListener('load',function(e){console.log(e.target.src);checkHeight()}); //footer.js
                     tabCell.appendChild(img);
-                    //tabCell.style.borderRightWidth = "0px"; Gonna have to change styling of table for this to work
                     tabCell = tr.insertCell(-1);
                     var a = document.createElement("a");
                     a.href = array2D[i][j+1];

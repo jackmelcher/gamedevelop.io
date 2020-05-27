@@ -16,12 +16,12 @@ html[data-theme = "dark"]{
   --primary-color: #008fee;
   --primary-color-v: #0079ca;
   --secondary-color: #ffffff;
-  --font-color: #ffffff;
+  --font-color: #dfdfdf;
   --bg-color: #313131;
   --side-bg-color: #252525; 
   --side-border-color: #acacac; 
-  --heading-color: #ffffff;
-  --link-color: #0043d3;
+  --heading-color: #ececec;
+  --link-color: #178fff;
   --footer-bg-color: #272727;
   --footer-color: #b1b1b1;
 }

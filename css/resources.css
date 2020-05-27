@@ -1,9 +1,20 @@
+:root{
+  --table-header-color: #dddddd;
+  --table-border-color: #dbdbdb;
+  --table-row-color-1: #ffffff;
+  --table-row-color-2: #eeeeee;
+}
+html[data-theme = "dark"]{
+  --table-header-color: #242424;
+  --table-border-color: #303030;
+  --table-row-color-1: #525252;
+  --table-row-color-2: #424242;
+}
 .resource {
   padding-left: 340px;
   padding-right: 160px;
   padding-bottom: 64px;
 }
-
 table,
 th,
 td {
@@ -14,20 +25,20 @@ td {
   text-align: left;
 }
 tr:nth-child(2n) {
-  background-color: #eee;
+  background-color: var(--table-row-color-1);
 }
 tr:nth-child(2n-1) {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--table-row-color-2);
 }
 td,
 th {
   padding: 8px 24px;
 }
 th {
-  background-color: #ddd;
+  background-color: var(--table-header-color);
 }
 table{
-  border: 1px solid rgb(219, 219, 219);
+  border: 1px solid var(--table-border-color);
 }
 .tableimg {
   width: 32px;
