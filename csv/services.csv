@@ -88,10 +88,12 @@ Incredibuild,https://www.incredibuild.com/,,,Network,Game Build Solution,
 Improbable,https://improbable.io/,,,Network,"Consulting, Outsourcing",Multiplayer Consulting and Operation Services
 Multiplay,https://multiplay.com/,,,Network,"Consulting, Outsourcing",Multiplayer Consulting and Operation Services
 Stormancer,http://www.stormancer.com/,Subscription,,Network,"Game Server Hosting, Consulting, Outsourcing",Includes Back-End Game Solutions
-AWS GameLift,https://aws.amazon.com/gamelift/,"Trial, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution
-Google Cloud Platform,https://cloud.google.com/solutions/gaming,"Free, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution
-Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,"Free, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution and Back-End Game Solutions
-Accelbyte,https://accelbyte.io/,,,Business,"Monetization Services, Muliplayer Game Services, Game Analytics",
+AWS Game Tech,https://aws.amazon.com/gametech/,"Trial, Subscription",,Network,"Game Server Hosting, Live Ops, Game Services, Game Analytics",Includes Matchmaking Solution
+Google Cloud Platform,https://cloud.google.com/solutions/gaming,"Free, Subscription",,Network,"Game Server Hosting, Game Services, Game Analytics",Includes Matchmaking Solution
+Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,"Free, Subscription",,Network,"Game Server Hosting, Live Ops, Game Services, Game Analytics",Includes Matchmaking Solution and Back-End Game Solutions
+Accelbyte,https://accelbyte.io/,,,"Business, Network","Live Ops, Game Services, Game Analytics",
+ChillConnect,https://www.chilliconnect.com/,"Trial, Subscription","","Business, Network","Live Ops, Game Services, Game Analytics",""
+Looker,https://looker.com/solutions/gaming,"Trial, Subscription","",Business,Game Analytics,""
 Tencent,https://intl.cloud.tencent.com/solution/game,Subscription,,Network,Game Server Hosting,
 Xtralife,https://xtralife.cloud/,"Free, Subscription",,Network,Game Server Hosting,Includes Back-End Game Solutions (Free to use for Open Source games)
 LeaseWeb,https://www.leaseweb.com/solutions/gaming,Subscription,,Network,Game Server Hosting,

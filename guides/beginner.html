@@ -1,15 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>GameDevelop.io Guides Beginner</title>
+        <meta name="description" content="GameDevelop.io is a Resource Website for Game Development.">
+        <link rel="canonical" href="https://www.gamedevelop.io/guides/beginner">
         <!-- Site Settings -->
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="UTF-8">
         <meta name="viewport" content="height=device-height, 
             width=device-width, initial-scale=1.0, 
             minimum-scale=1.0, maximum-scale=1.0, 
             user-scalable=no, width=device-width">
         
+        <!-- Meta Properties -->
+        <meta property="og:site_name" content="GameDevelop.io">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="GameDevelop.io Guides">
+        <meta property="og:description" content="Learn about various aspects of Game Development.">
+        <meta property="og:image" content="https://www.gamedevelop.io/image/logo1.png">
+        <meta property="og:url" content="https://www.gamedevelop.io/guides/beginner">
+
         <base href = "../"/>
 
         <!-- Font Awesome -->
@@ -34,7 +43,7 @@
             <button class="button buttonside sidenavbutton" onclick="ToggleSide()">
                 <i class="menuicon fas fa-bars"></i>
             </button>
-            <a href="index.html" class="button button_logo">
+            <a href="/" class="button button_logo">
                 <img src="images/logo.svg" alt="logo" class="logoimg">
             </a>
             <a href="resources.html" class="button button_nav">
@@ -54,6 +63,7 @@
                 
             </div>
         <div>
+            <!-- Separate the guide out into Pre-Production, Production, and Post-Production -->
             <div id="top" class="guideTop"><h1>Beginner's Guide</h1></div>
             <div id="overview" class="guideTop">
                 <h3>Overview</h3> 
@@ -158,58 +168,41 @@
                 </p>
             </div>
             <div id="scope" class = "guide">
-                <h3>Managing Scope</h3>
+                <h3>Evaluating Scope</h3>
                 <p>
                     Scope equates to a game’s complexity.
                     The more features and content a game has, the greater the game's scope.
-                    By evaluating the scope, we can estimate the production time for a game.
+                    By evaluating the scope, you can get a better idea of how big your game will be.
                 </p>
                 <p>
-                    Start by determining your game's Minimum Viable Product (MVP), the minimum finished state the game needs to be in before it can ship.
+                    Take a moment to break out your Game Concept into two categories: the Minimum Viable Product, and Additional Features and Content.
+                    The Minimum Viable Product (MVP) is the minimum finished state the game needs to be in before it can ship.
                     The MVP includes all essential features that makes up the game (mechanics and systems), and the content the game has to offer (characters, levels, art, audio, etc).
-                    From the MVP, determine what a Vertical Slice of the game would look like.
-                    The Vertical Slice is a demo that contains all of the in-game core features and the minimal amount of content needed to represent a majority of the experiences a player can expect.
-                    The rest is then categorized as Additional Features and Content.
+                    Anything that doesn't need to be in the game at launch are then categorized as Additional Features and Content.
                     The sum of the MVP and the Additional Features and Content is the Desired Product.
                 </p>
                 <p>
-                    Your production goals overtime should be: Vertical Slice, Minimum Viable Product, then Additional Features and Content.
-                    Make a rough estimate of how long it will take to build out the Features and Content within each category.
-                    Then take the sum and double it to account for the time needed to iterate design, polish gameplay, and fix bugs.
-                    This will be the estimated time it will take to produce your game. 
-                </p>
-                <!-- Make a paragraph about reviewing the game's current scope and asking the reader to question if they think they can manage the current scope of the MVP -->
-                <!-- Make a separate section after GDD discussing how the iterative process can effect scope, design, production timeline -->
-                <p>
-                    Because video games are an artistic endeavor, designs are subject to change.
-                    Features that looked good on paper may turn out to be horrible and result in a bad gameplay experience.
-                    Features need to be built and tested, then refined based on player feedback.
-                    Player feedback has a huge impact how heavily the game's design will change.
-                    If a feature is not fun, then designs need to be adjusted to improve it, new designs need to be made to replace it, or the feature set is scrapped entirely.
-                    Features may turn out to be too complex for your team to implement, so simplified or alternative designs will have to be introduced.
-                    Even bugs and glitches can potentially become features or may lead to design changes.
+                    Now take a moment to review the overall scope of the game and ask yourself, is the scope too big?
+                    Can your team execute this game idea and create a finished product in the desired production timeframe?
+                    Are there things that can be recategorized as Additional Features and Content?
+                    If it comes down to it, what things would you be okay with cutting completely from the game?
+                    The Desired Product is your end goal. You can always release a MVP and update it with any Additional Features and Content in future updates.
                 </p>
                 <p>
-                    During any redesign phase, you will need to re-evaluate the scope to make sure any changes do not severely impact your production timeline.
+                    Also keep in mind that your game's design is always subject to change.
+                    In the event you have to redesign a feature, you will need to re-evaluate the game's scope to ensure that none of the changes severely impact your production timeline.
                     Avoid Feature Creep, which is the tendency to add a lot of new features and content to the game's design over the course of development.
-                    Team members often over-estimate their production capacity, and forget how much work there still is for completing the MVP.
-                    Avoid this by making sure any design changes to the MVP are minimal. 
+                    Team members often overestimate their production capacity, and forget how much work there still is to make the MVP.
+                    Try to make sure that any design changes to the MVP are not drastic, but sometimes such changes cannot be avoided.
                 </p>
                 <p>
-                    Due to design changes, set backs, and production constraints, the game you originally envisioned isn't always going to be the game that gets shipped.
-                    Your team will have to make tough decisions on what features and content to keep or cut.
-                    Anything that is cut might be cut from production entirely, or set aside as a post-launch update.
-                    With the advent of "Early Access" releases and the "Games as a Service" business model, developers will often continue to provide Content Updates long after a game has been released.
-                    Content Updates and patches may include new features, new content, gameplay balancing, and bug fixes.
-                </p>
-                <p>
-                    Now that you've narrowed down the scope of the game idea and are committed to making your game, let's start elaborating on the details.
+                    Now that you've narrowed down the scope and are committed to making your game, let's start filling in the details.
                 </p>
             </div>
             <div id="gdd" class = "guide">
                 <h3>Writing a Game Design Doc</h3>
                 <p>
-                    A Game Design Document (GDD) is the central document for all the design details of a game.
+                    A Game Design Document (GDD) is pretty self-explantory. It's a document that contains all a game's design details.
                     It functions as a written blueprint and can be as broad or specific as necessary.
                     At the very least, it should contain all the high level design and technical details of your game.
                 </p>
@@ -281,6 +274,7 @@
                     Q: Are there free tools and assets?<br> 
                     A: There are plenty of free tools and assets available for download. Most game engines are free so you can start development right away. A lot of asset creation tools are free or offer free trials. There are also many websites that provide free assets for anyone to use to make games.
                 </p>
+                <!-- Provide examples of game toolkits as another article -->
             </div>
             <div id="experience" class = "guide">
                 <h3>Team Size and Experience</h3>
@@ -312,27 +306,134 @@
                     To ensure that people complete their assigned tasks, you can use task management software and assign tasks to individuals and give them a deadline to complete the task.
                 </p>
             </div>
+            <div id="iterate" class="guide">
+                <h3>The Iterative Process</h3>
+                <p>
+                    Games development is a lot like Software Development. It's an iterative process.
+                    Developers work towards a milestone, evaluate the product, and then take user feedback into consideration when developing future updates.
+                </p>
+                <p>
+                    The most common software development methodology used today is Agile.
+                    The premise is to make software with a focus on the end user experience.
+                    Production is flexible and open to rapid change in design.
+                    Reviewing the state of the product periodically and evaluating where changes and improvements are necessary.
+                    Through continuous iteration and collaboration, the product evolves and becomes better.
+                </p>
+                <p>
+                    Because video games are an artistic endeavor, designs are subject to change.
+                    Features that looked good on paper may turn out to be horrible and result in a bad gameplay experience.
+                    Features need to be built and tested, then refined based on player feedback.
+                    Player feedback can have a huge impact on changing a game's design.
+                    If a feature is not fun, then designs need to be adjusted to improve it, new features need to be designed to replace it, or the feature is scrapped entirely.
+                    Features may turn out to be too complex for your team to implement, so simplified or alternative designs will have to be introduced.
+                    Even bugs and glitches can potentially become features or lead to other design changes.
+                </p>
+                <p>
+                    Due to design changes, set backs, and production constraints, the game you originally envisioned isn't always going to be the game that gets shipped.
+                    Your team will have to make tough decisions on what features and content to keep or cut.
+                    Anything that is cut might be cut from production entirely, or set aside as a post-launch update.
+                    With the advent of "Early Access" releases and the "Games as a Service" business model, developers will often continue to provide Content Updates long after a game has been released.
+                    Content Updates and patches may include new features, new content, gameplay balancing, and bug fixes.
+                </p>
+            </div>
             <div id="production" class = "guide">
-                <h3>Production and Task Management</h3>
+                <h3>Production Goals</h3>
                 <p>
-                    Now that you have a game design doc and a team, it is now time to set up production, create tasks, and assign them out to team members. Games development is a lot like Modern Software Development, it is an iterative development process.
+                    Your project's production goals overtime should be the following: Proof of Concept Prototype, Vertical Slice, Minimum Viable Product, Desired Product, Post-Launch Content.                        
                 </p>
                 <p>
-                    The most common software development methodology used today is Agile. The premise is to make software with a focus on end user experience and feedback. Reviewing the state of the product periodically and evaluating where changes and improvements are necessary. Production is flexible and open to rapid change in design. Through continuous iteration and collaboration, the product evolves and becomes better.
+                    A Proof of Concept Prototype is a pre-alpha build that validates the game's design.
+                    It contains as much of the core components necessary to make a playable experience.
+                    Any visual and audio assets are commonly placeholder and used to facilitate as much of the gameplay as possible.
+                    This phase undergoes rapid prototyping to solidify the gameplay experience.
+                    If the game design is deemed not fun during the early stages of development, then it will save time and money that would've been lost during full-scale production.
                 </p>
                 <p>
-                    Your first goal should be to make a Minimum Viable Product (MVP)? To validate your game concept, you need to build and play a prototype of your game as soon as possible. Schedule your first set of tasks to prioritize making the MVP. Identify what are the minimum systems and mechanics for your game. Determine the dependencies of key features and layout what order in which things need to be built. The sooner you have an early prototype, the sooner you will be able to reaffirm your game’s design and verify if the game is actually fun to play.
+                    The Vertical Slice is a polished demo that showcases all of the game's core features with finalized assets.
+                    The demo should contain all of the gameplay experiences that a player will encounter.
+                    It does not need to showcase all the content, but the content presented within the demo should be finished.
+                    The levels used to make the Vertical Slice don't have to be in the final product.
                 </p>
                 <p>
-                    People are lazy and tend to put things off. So set deadlines for each task. Make a goal, or milestone, of what your team should accomplish every month or so. Then, break out the tasks that are required to complete that goal. Make daily, weekly, bi-weekly, or monthly deadlines for each task and assign them out to the appropriate team members. Have goals and meet those goals by the arbitrary due date. Setting deadlines holds team members accountable and keeps production moving at a steady pace.
+                    Code Complete is when all of the programming that makes up the game has been completed and fully implemented.
+                    At this point, programmers will pivot to fixing bugs and glitches that exist in the game.
+                    If there are available resources, developers can program features intended for the Desired Product.
                 </p>
                 <p>
-                    Keep in mind, work quality varies from person to person. In small teams, most individuals are dedicated to one role, so the quality of work in a department is dependent on one person. But in studios, teams are made up of multiple engineers and artists. Regardless of the team size, production needs to make sure everyone is being held to the same quality standards. Code might need to meet certain performance and scalability requirements. Art might need to be made in a consistent style so the environment and game objects blend together seamlessly. Audio is the right fit for the world and is of a certain fidelity. Peer review helps maintain the overall quality of the work.                </p>
-                <p>
-                    At the end of the  milestone, you will want to review the team’s progress and evaluate production. Was the complexity of a task not estimated correctly and wasn’t finished by the deadline? Will certain features take longer to implement than originally anticipated? Is a team member slacking off? Do team members finish their work early and have nothing left to do for the remainder of the milestone? Will the original planned release date need to be pushed back? Did team members leave the project? Do we need to recruit more members to achieve a higher production velocity? Taking the time to review the game’s production will help predict the results of the next milestone and allow you to better plan out the future.
+                    Content Complete is when all the art and audio assets have been finished and implemented into the game.
+                    At this point, Artists will fix or polish any issues with assets that exist in the game.
+                    If there are available resources, artists and designers can continue making content for the Desired Product.
                 </p>
                 <p>
-                    There are a variety of task management applications available to help facilitate production of any sort. Some are as simple as paper TODO lists, sticky note scrum boards, or digital issue lists and kanban boards. Others are more complex and can encompass every aspect of production, from departments, scheduling, velocity, complexity, feature criteria, task lists, dashboards, etc. Use the system that works best for you and fits your needs.
+                    The Minimum Viable Product is a finished product that contains the minimum amount of content that was planned to be released to market.
+                    All features and content are complete and all critical bugs have been fixed.
+                    Major and minor bugs may still exist and might get fixed either prior to getting printed to disc or as a Day 1 patch.
+                </p>
+                <p>
+                    If time allows for it, developers can continue working on the title to build out the Desired Product.
+                    Developers can continue building out more of the content that was originally designed.
+                    Development of any of the extra content for the Desired Product should follow a similar set of production goals.
+                    This content might also not make it into the original release, and might become Post-Launch content.
+                </p>
+                <p>
+                    If developers are planning to continue supporting the title for many months or years, developers can transition to Post-Launch content.
+                    This can take the form of game balance changes, bug fixes, new levels or environments, or new gameplay experiences.
+                    Content updates can either be released for free or as paid expansions.
+                    Development of Post-Launch content will follow a similar set of production goals.
+                </p>
+            </div>
+            <div id="tasking" class = "guide">
+                <h3>Task Management</h3>
+                <p>
+                    Now that you have a game design doc and a team, it is now time to set up production, create tasks, and assign them out to team members.
+                </p>
+                <p>
+                    People are lazy and tend to put things off.
+                    So set deadlines for each task. Make a goal, or milestone, of what your team should accomplish every month or so.
+                    Then, break out the tasks that are required to complete that goal.
+                    Make daily, weekly, bi-weekly, or monthly deadlines for each task and assign them out to the appropriate team members.
+                    Have goals and meet those goals by the arbitrary due date. Setting deadlines holds team members accountable and keeps production moving at a steady pace.
+                </p>
+                <p>
+                    Keep in mind, work quality varies from person to person.
+                    
+                    In small teams, most individuals are dedicated to one role, so the quality of work in a department is dependent on one person.
+                    But in studios, teams are made up of multiple engineers and artists.
+                    
+                    Regardless of the team size, production needs to make sure everyone is being held to the same quality standards.
+                    Code might need to meet certain performance and scalability requirements.
+                    Art might need to be made in a consistent style so the environment and game objects blend together seamlessly.
+                    Audio is the right fit for the world and is of a certain fidelity.
+                    Peer review helps maintain the overall quality of the work.
+                </p>
+                <p>
+                    At the end of the  milestone, you will want to review the team’s progress and evaluate production.
+                    Was the complexity of a task not estimated correctly and wasn’t finished by the deadline?
+                    Will certain features take longer to implement than originally anticipated?
+                    Is a team member slacking off?
+                    Do team members finish their work early and have nothing left to do for the remainder of the milestone?
+                    Will the original planned release date need to be pushed back?
+                    Did team members leave the project?
+                    Do we need to recruit more members to achieve a higher production velocity?
+                    Taking the time to review the game’s production will help predict the results of the next milestone and allow you to better plan out the future.
+                </p>
+                <p>
+                    There are a variety of task management applications available to help facilitate production of any sort.
+                    Some are as simple as paper TODO lists, sticky note scrum boards, or digital issue lists and kanban boards.
+                    Others are more complex and can encompass every aspect of production, from departments, scheduling, velocity, complexity, feature criteria, task lists, dashboards, etc. Use the system that works best for you and fits your needs.
+                </p>
+                <p>
+                    Make a rough estimate of how long it will take to build out the Features and Content within each category.
+                    Then take the sum and double it to account for the time needed to iterate design, polish gameplay, and fix bugs.
+                    This will be the estimated time it will take to produce your game. 
+                </p>
+                <p>
+                    Your first goal should be to make a Minimum Viable Product (MVP).
+                    To validate your game concept, you need to build and play a prototype of your game as soon as possible.
+                    Schedule your first set of tasks to prioritize making the MVP.
+                    Identify what are the minimum systems and mechanics for your game.
+                    Determine the dependencies of key features and layout what order in which things need to be built.
+                    The sooner you have an early prototype, the sooner you will be able to reaffirm your game’s design and verify if the game is actually fun to play.
                 </p>
             </div>
             <div id="cost" class = "guide">

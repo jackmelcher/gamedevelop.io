@@ -2,12 +2,12 @@ Name,Link,Costs,Platforms,Categories,Tags,Description
 Havok,https://www.havok.com/,Paid,"Windows, Mac","Physics, Artificial Intelligence",,"Physics Engine, AI SDK, Cloth Physics"
 Khronos Group,https://www.khronos.org/,Free,"Windows, Mac, Linux",Physics,,3D Graphics (OpenGL and Vulkan)
 Box2D,http://box2d.org/,Free,"Windows, Mac, Linux",Physics,,2D Physics
-Coherent Gameface,https://coherent-labs.com/products/coherent-gameface/,Paid,"Windows, Mac, Linux",User Interface,Plug-in,"Game Engine UI Plug-in, HTML/CSS/JS"
+Coherent Gameface,https://coherent-labs.com/products/coherent-gameface/,Paid,"Windows, Mac, Linux",User Interface,Plugin,"Game Engine UI Plug-in, HTML/CSS/JS"
 Noesis GUI,https://www.noesisengine.com/,"Free, Paid","Windows, Mac, Linux",User Interface,,Game Engine UI SDK
-Dolby Atmos,https://developer.dolby.com/,Paid,"Windows, Mac",Audio,Plug-in,Game Engine Sound Plug-in
+Dolby Atmos,https://developer.dolby.com/,Paid,"Windows, Mac",Audio,Plugin,Game Engine Sound Plug-in
 Mercuna,https://mercuna.com/,Paid,"Windows, Mac",Artificial Intelligence,,Game Engine Navigation Solution
 NexPlayerSDK,https://www.nexplayersdk.com/,"Trial, Paid","Windows, Mac",Video,,Low Latency Video Player SDK
-Simul,https://simul.co/,Paid,"Windows, Mac",Environment,Plug-in,Weather Plug-in and SDK
+Simul,https://simul.co/,Paid,"Windows, Mac",Environment,Plugin,Weather Plug-in and SDK
 Imgtec,https://www.imgtec.com/developers/,Free,"Windows, Mac, Linux",Engineering,,Mobile VR SDK
 Bink,http://www.radgametools.com/bnkmain.htm,Paid,Windows,Video,,Video Middleware
 Miles Sound System,http://www.radgametools.com/miles.htm,Paid,Windows,Audio,,Audio Middleware
@@ -17,4 +17,6 @@ Mod.io,https://mod.io/,Free,"Windows, Mac, Linux",Engineering,,Mod Support Tool
 Spiritai,https://www.spiritai.com/character-engine/,Free,"Windows, Mac",Artificial Intelligence,,Speech AI Solution
 Haden Aether Engine,https://www.hadean.com/aether-engine/features,Subsciption,Web,Engineering,,Cloud Gaming Solution
 Spatial OS,https://improbable.io/multiplayer-networking,"Free, Subscription","Windows, Mac, Linux",Engineering,,Networking Solution
-Vivox,https://www.vivox.com/features,"Free, Subscription","Windows, Mac, Linux",Audio,,Voice Communications Solution
+Vivox,https://www.vivox.com/features,"Free, Subscription","Windows, Mac, Linux",Communication,,Voice Communications Solution
+Photon Realtime,https://www.photonengine.com/en-US/Realtime,"Free, Trial, Subscription","Windows, Mac, Linux","Networking, Communication","",Cross-Platform Networking Engine with multiplayer platform and services
+Mirror,https://mirror-networking.com/,Free,"Windows, Mac, Linux",Networking,"",High level Networking API for Unity

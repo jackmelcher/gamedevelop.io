@@ -1,4 +1,15 @@
 Name,Link,Costs,Platforms,Categories,Tags,Description
+Articy Draft,https://www.articy.com/en/,"Trial, Subscription",Windows,Writing,"Narrative, Game Design Doc, Collaboration",Solution for interactive storytelling and game content management.
+Dundoc,http://www.dundoc.com/,Free,Web,Writing,"Game Design Doc, Collaboration",
+Hack n' Plan,https://hacknplan.com/,"Free, Subscription",Web,Writing,"Game Design Doc, Collaboration",Game Design Doc that's combined with Project Management features
+Arcweave,https://arcweave.com/,"Free, Subscription",Web,Writing,Non-linear Script Writing,
+Inform,http://inform7.com/,Free,"Windows, Mac, Linux",Writing,Non-linear Script Writing,
+Chat Mapper,http://www.chatmapper.com/,"Trial, Subscritpion",Windows,Writing,Non-linear Script Writing,
+Edventrure Builder,https://edventurebuilder.com/,Free,Web,Writing,Non-linear Script Writing,
+Storyboarder,https://wonderunit.com/storyboarder/,Free,"Windows, Mac",Writing,Story Boarding,
+Celtx,https://www.celtx.com/,Subscription,Web,Writing,"Script Writing, Collaborate",
+Sentient Sketchbook,http://www.sentientsketchbook.com/index.php,Free,"Windows, Mac, Linux",Level Design,Simulation,Computer Assisted Map Sketch tool
+Machinations,https://machinations.io/,"Free, Subscription",Web,Systems Design,Simulation,"Browser-based platform to design, balance, and simulate game systems"
 Board Game Design Idea,http://www.boardgamizer.com/,Free,Web,Design,Game Idea Generator,
 Video Game Name Generator,https://videogamena.me/,Free,Web,Design,Game Idea Generator,
 Make Game,https://stuffbyspencer.itch.io/makegame,Free,Web,Design,Game Idea Generator,
@@ -11,14 +22,3 @@ Donjon Fantasy World Generator,http://donjon.bin.sh/fantasy/world/,Free,Web,Leve
 Medieval Fantasy City Generator,https://watabou.itch.io/medieval-fantasy-city-generator,Free,Web,Level Design,RPG Map Making Tools,
 Fantasy Map Generator,https://github.com/mewo2/terrain,Free,Web,Level Design,RPG Map Making Tools,
 Grid Cartographer,http://gridcartographer.com/,Paid,Web,Level Design,RPG Map Making Tools,
-Sentient Sketchbook,http://www.sentientsketchbook.com/index.php,Free,"Windows, Mac, Linux",Level Design,Simulation,Computer Assisted Map Sketch tool
-Machinations,https://machinations.io/,"Free, Subscription",Web,Systems Design,Simulation,"Browser-based platform to design, balance, and simulate game systems"
-Articy Draft,https://www.articy.com/en/,"Trial, Subscription",Windows,Writing,"Narrative, Game Design Doc, Collaboration",Solution for interactive storytelling and game content management.
-Dundoc,http://www.dundoc.com/,Free,Web,Writing,"Game Design Doc, Collaboration",
-Hack n' Plan,https://hacknplan.com/,"Free, Subscription",Web,Writing,"Game Design Doc, Collaboration",Game Design Doc that's combined with Project Management features
-Arcweave,https://arcweave.com/,"Free, Subscription",Web,Writing,Non-linear Script Writing,
-Inform,http://inform7.com/,Free,"Windows, Mac, Linux",Writing,Non-linear Script Writing,
-Chat Mapper,http://www.chatmapper.com/,"Trial, Subscritpion",Windows,Writing,Non-linear Script Writing,
-Edventrure Builder,https://edventurebuilder.com/,Free,Web,Writing,Non-linear Script Writing,
-Storyboarder,https://wonderunit.com/storyboarder/,Free,"Windows, Mac",Writing,Story Boarding,
-Celtx,https://www.celtx.com/,Subscription,Web,Writing,"Script Writing, Collaborate",
