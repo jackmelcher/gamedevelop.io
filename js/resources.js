@@ -39,7 +39,6 @@ function SelectTable(filename)
     ClearFilter("platform");
     ClearFilter("categories");
     ClearFilter("tag");
-    checkHeight(); //footer.js
 
     //Load CSV Data
     LoadDoc(filepath, CreateTableFromArray2D);
@@ -67,7 +66,6 @@ function CreateTableFromArray2D(array2D)
     // CREATE DYNAMIC TABLE.
     var table = document.createElement("table");
     table.setAttribute("id", "myTable");
-    table.onload = checkHeight();//footer.js
 
     // CREATE HTML TABLE HEADER ROW USING THE EXTRACTED HEADERS ABOVE.
 
@@ -98,7 +96,6 @@ function CreateTableFromArray2D(array2D)
                     });
                     img.src = "images/resources/" + GetImageName(array2D[i][j+1]) + ".png";
                     img.className = "tableimg";
-                    img.addEventListener('load',function(e){console.log(e.target.src);checkHeight()}); //footer.js
                     tabCell.appendChild(img);
                     tabCell = tr.insertCell(-1);
                     var a = document.createElement("a");
@@ -109,6 +106,7 @@ function CreateTableFromArray2D(array2D)
                 }
                 else{
                     tabCell.textContent = array2D[i][j];
+                    if(j==3){PlatformTextToIcon(tabCell);}//causing the footer function to stop working
                 }
             }
         }
@@ -152,7 +150,6 @@ function FilterTable()
     fitlersTag = UpdateFilterArray("tag");
 
     filterTableByColumn();
-    checkHeight();//footer.js
 }
 
 function filterTableByColumn() 
@@ -286,4 +283,80 @@ function MakeFilterChoices(column_index, filter_id)
 function ClearFilter(id)
 {
     document.getElementById(id).innerHTML = "";
+}
+
+function PlatformTextToIcon(tableCell){
+    platforms = tableCell.textContent.split(", ")
+    icons = [];
+    tableCell.textContent = "";
+    
+    platforms.forEach (element =>
+    {
+        icon = document.createElement("i");
+        div = document.createElement("div");
+        switch(element)
+        {
+            case "Windows":
+                icon.className = "fab fa-windows";
+                div.textContent = "Windows";
+                div.style = "display: none"
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+            case "Mac":
+                icon.className = "fab fa-apple";
+                div.textContent = "Mac";
+                div.style = "display: none"
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+            case "Linux":
+                icon.className = "fab fa-linux";
+                div.textContent = "Linux";
+                div.style = "display: none"
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+            case "Web":
+                icon.className = "fas fa-globe";
+                div.textContent = "Web";
+                div.style = "display: none"
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+            case "iOS":
+                icon.className = "fab fa-app-store";
+                div.textContent = "iOS";
+                div.style = "display: none"
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+            case "Android":
+                icon.className = "fab fa-android";
+                div.textContent = "Android";
+                div.style = "display: none"
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+            case "Xbox":
+                icon.className = "fab fa-xbox";
+                div.textContent = "Xbox";
+                div.style = "display: none"
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+            case "PlayStation":
+                icon.className = "fab fa-playstation";
+                div.textContent = "PlayStation";
+                div.style = "display: none"
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+            case "Nintendo":
+                div.textContent = "Nintendo";
+                icon.appendChild(div);
+                tableCell.appendChild(icon);
+                break;
+        }
+    });
 }

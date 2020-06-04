@@ -25,12 +25,31 @@ html[data-theme = "dark"]{
   --footer-bg-color: #272727;
   --footer-color: #b1b1b1;
 }
+html{/* Flex Box */height: 100%;}
 body{
   background-color: var(--bg-color);
   color: var(--font-color);
   margin: 0px;
   /*overflow: hidden;*/
   font-family: Arial, Helvetica, sans-serif;
+
+  /* Flex Box */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+}
+body > section {
+  /* Flex Box */
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 h1,h2,h3{
   color: var(--heading-color);
@@ -95,6 +114,9 @@ a:hover{
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding : 0;
+
+  /* Flex Box */
+  flex: none;
 }
 .button {
   background-color: var(--primary-color);
@@ -165,11 +187,15 @@ a:hover{
 }
 .footer{
   background-color: var(--footer-bg-color);
-  position: absolute;
-  bottom: 0;
+  position: relative;
   padding: 4px 0px;
   width: 100%;
   font-size: 10pt;
+
+  /* Flex Box */
+  -webkit-flex-shrink: 0;
+  -ms-flex-shrink: 0;
+  flex-shrink: 0;
 }
 .footer > a {
   text-decoration: none;
@@ -186,17 +212,18 @@ a:hover{
     width: calc(100vw);
     display: none;
   }
-  .sidenavbutton
-  {
+  .sidenavbutton{
     display: inline-block;
+  }
+  .button_logo{
+    padding: 10px 8px 4px 8px;  
   }
 }
 @media all and (min-width: 769px) and (max-width: 1280px){
   .sidenav{
     display: block;
   }
-  .sidenavbutton
-  {
+  .sidenavbutton{
     display: none;
   }
 }
