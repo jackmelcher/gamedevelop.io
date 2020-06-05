@@ -87,7 +87,7 @@ a:hover{
   width: 100%;
 }
 .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 240px;
   position: fixed;
   border-style: solid;
   border-color: var(--side-border-color);
@@ -95,11 +95,11 @@ a:hover{
   top: 0; /* Stay at the top */
   left: 0;
   margin-top: 50px;
-  margin-left: 0px;
   padding: 16px 16px;
   overflow-x: auto;
   height: calc(100vh - 82px);
   background-color: var(--side-bg-color);
+  z-index: 1;
 }
 .sidenavbutton{
   display: none;
@@ -187,9 +187,7 @@ a:hover{
 }
 .footer{
   background-color: var(--footer-bg-color);
-  position: relative;
-  padding: 4px 0px;
-  width: 100%;
+  padding: 8px 273px;
   font-size: 10pt;
 
   /* Flex Box */
@@ -217,6 +215,9 @@ a:hover{
   }
   .button_logo{
     padding: 10px 8px 4px 8px;  
+  }
+  .footer{
+    padding: 8px 0px;
   }
 }
 @media all and (min-width: 769px) and (max-width: 1280px){

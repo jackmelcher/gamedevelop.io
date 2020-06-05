@@ -1,26 +1,26 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-deltaDNA,https://deltadna.com/,"Trial, Subscription",,Game Analytics,,
-Game Analytics,https://gameanalytics.com/,Free,,Game Analytics,,
-Unity Analytics,https://unity.com/solutions/mobile-business/operate-your-live-game,"Free, Subscription",,Game Analytics,,Mobile Only
-Flurry,http://www.flurry.com/,Free,,Game Analytics,,
-DevtoDev,https://www.devtodev.com/,"Trial, Subscription",,Game Analytics,,
-GameBench,https://www.gamebench.net/,"Trial, Subscription",,Game Analytics,,Mobile Only
-UWA,https://en.uwa4d.com/,"Free, Subscription",,Game Analytics,,
-Anodot,https://www.anodot.com/,"Trial, Subscription",,Game Analytics,,Mobile Only
-Yokozuna,http://www.yokozunadata.com/,"Trial, Subscription",,Game Analytics,,
-App Annie,https://www.appannie.com/en/,"Free, Subscription",,Market Analytics,,Mobile Only
-App Trace,http://www.apptrace.com/,Free,,Market Analytics,,Mobile Only
-Pollen VC,https://pollen.vc/#/,"Free, Subscription",,Market Analytics,,
-StoreMaven,https://www.storemaven.com/,Paid,,Market Analytics,,App Store Optimization
-Steam Stats,https://store.steampowered.com/stats,Free,,Game Analytics,,Includes other analytics like Concurrent players and PC Hardware usage
-Steam Charts,https://steamcharts.com/,Free,,Game Analytics,,Steam Concurrent Playerbase Charts
-Steam Spy,https://steamspy.com/,"Free, Subscription",,Sales Charts,,
-VG Chartz,http://www.vgchartz.com/,Free,,Sales Charts,,
-Google Play Store,https://play.google.com/store/apps/top/category/GAME,Free,,Top Games Lists,,
-Android Rank,https://www.androidrank.org/,Free,,Top Games Lists,,
-iTune Charts,https://www.apple.com/itunes/charts/,Free,,Top Games Lists,,
-Facebook Games,https://www.facebook.com/games/query/top-grossing/,Free,,Top Games Lists,,
-InfluxData,https://www.influxdata.com/,"Trial, Subscription",,Business Analytics,,DevOps
-SignalFX,https://www.signalfx.com/,"Trial, Subscription",,Business Analytics,,Infrasturcure Monitoring
-Google Trends,https://trends.google.com/trends/?geo=US,Free,,Trend Info,,
-ESA Trends,https://www.theesa.com/esa-research/2019-essential-facts-about-the-computer-and-video-game-industry/,Free,,Trend Info,,
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+deltaDNA,https://deltadna.com/,Game Analytics,"Trial, Subscription",,,
+Game Analytics,https://gameanalytics.com/,Game Analytics,Free,,,
+Unity Analytics,https://unity.com/solutions/mobile-business/operate-your-live-game,Game Analytics,"Free, Subscription",,,Mobile Only
+Flurry,http://www.flurry.com/,Game Analytics,Free,,,
+DevtoDev,https://www.devtodev.com/,Game Analytics,"Trial, Subscription",,,
+GameBench,https://www.gamebench.net/,Game Analytics,"Trial, Subscription",,,Mobile Only
+UWA,https://en.uwa4d.com/,Game Analytics,"Free, Subscription",,,
+Anodot,https://www.anodot.com/,Game Analytics,"Trial, Subscription",,,Mobile Only
+Yokozuna,http://www.yokozunadata.com/,Game Analytics,"Trial, Subscription",,,
+App Annie,https://www.appannie.com/en/,Market Analytics,"Free, Subscription",,,Mobile Only
+App Trace,http://www.apptrace.com/,Market Analytics,Free,,,Mobile Only
+Pollen VC,https://pollen.vc/#/,Market Analytics,"Free, Subscription",,,
+StoreMaven,https://www.storemaven.com/,Market Analytics,Paid,,,App Store Optimization
+Steam Stats,https://store.steampowered.com/stats,Game Analytics,Free,,,Includes other analytics like Concurrent players and PC Hardware usage
+Steam Charts,https://steamcharts.com/,Game Analytics,Free,,,Steam Concurrent Playerbase Charts
+Steam Spy,https://steamspy.com/,Sales Charts,"Free, Subscription",,,
+VG Chartz,http://www.vgchartz.com/,Sales Charts,Free,,,
+Google Play Store,https://play.google.com/store/apps/top/category/GAME,Top Games Lists,Free,,,
+Android Rank,https://www.androidrank.org/,Top Games Lists,Free,,,
+iTune Charts,https://www.apple.com/itunes/charts/,Top Games Lists,Free,,,
+Facebook Games,https://www.facebook.com/games/query/top-grossing/,Top Games Lists,Free,,,
+InfluxData,https://www.influxdata.com/,Business Analytics,"Trial, Subscription",,,DevOps
+SignalFX,https://www.signalfx.com/,Business Analytics,"Trial, Subscription",,,Infrasturcure Monitoring
+Google Trends,https://trends.google.com/trends/?geo=US,Trend Info,Free,,,
+ESA Trends,https://www.theesa.com/esa-research/2019-essential-facts-about-the-computer-and-video-game-industry/,Trend Info,Free,,,

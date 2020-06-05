@@ -1,60 +1,60 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-Unity,https://unity3d.com/,"Free, Subscription","Windows, Mac, Linux",Game Engines,"2D, 3D, C#",
-Unreal Engine,https://www.unrealengine.com/,"Free, Royalty","Windows, Mac, Linux",Game Engines,"2D, 3D, Visual Scripting, C++",
-Game Maker Studio 2,https://www.yoyogames.com/gamemaker,"Trial, Paid, Subscription","Windows, Mac",Game Engines,"2D, Javascript, Drag & Drop","Uses GML Scripting, similar to Javascript"
-Havok,https://www.havok.com/,Paid,"Windows, Mac","Physics, Artificial Intelligence",,"Physics Engine, AI SDK, Cloth Physics"
-Vivox,https://www.vivox.com/features,"Free, Subscription","Windows, Mac, Linux",Audio,,Voice Communications Solution
-Easy,https://www.easy.ac/en-us/,License,,Anti-Cheat,,
-Adobe Photoshop,https://www.adobe.com/products/photoshop.html,"Trial, Subscription","Windows, Mac, iOS",Image Manipulation,Raster,
-gimp,https://www.gimp.org/,Free,"Windows, Mac, Linux",Image Manipulation,Raster,
-Pro Motion NG,https://www.cosmigo.com/,"Free, Paid","Windows, Mac, Linux","Pixel Art, Pixel Animation, Tiled Map",,
-Aseprite,https://www.aseprite.org/,"Trial, Paid","Windows, Mac, Linux","Pixel Art, Pixel Animation",,
-Tiled,https://www.mapeditor.org/,Free,"Windows, Mac, Linux","Pixel Art, Tiled Map",,Also useful for Isometric and Hexagonal Maps
-Adobe Illustrator,https://www.adobe.com/products/illustrator.html,"Trial, Subscription","Windows, Mac",Graphic Art,,
-Inkscape,https://inkscape.org/,Free,"Windows, Mac, Linux",Graphic Art,,
-Autodesk Maya,https://www.autodesk.com/products/maya/overview,"Trial, Subscription","Windows, Mac, Linux","Model, Texture, 3D Animation, Render",,
-Blender,https://www.blender.org/,Free,"Windows, Mac, Linux","Model, Sculpt, Texture, 3D Animation, Render",,
-zbrush,http://pixologic.com/,"Trial, Paid","Windows, Mac","Model, Sculpt, Texture, Paint",,
-Substance Painter,https://www.allegorithmic.com/products/substance-painter,"Trial, Paid, Subscription","Windows, Mac, Linux","Texture, Paint",,
-Houdini,https://www.sidefx.com/products/houdini/,"Free, Subscription, License","Windows, Mac, Linux","Model, Texture, Animate, Rendering, VFX, Terrain, Cloth, Hair",,Includes tools for Procedural Generation and Manipulation
-SpeedTree,https://store.speedtree.com/,"Trial, Paid","Windows, Mac, Linux",Plant Generator,,
-World Creator,https://www.world-creator.com/,Paid,"Windows, Mac",Terrain Generator,,
-Ableton Live,https://www.ableton.com/en/,Paid,"Windows, Mac",DAW,,
-Avid Pro Tools,https://www.avid.com/en/pro-tools,"Free, Trial, Paid","Windows, Mac",DAW,,
-DefleMask,http://deflemask.com/,Free,"Windows, Mac, Linux",Music Tracker,Retro Hardware Clone,
-Bfxr,https://www.bfxr.net/,Free,"Windows, Mac, Web",Video Game SFX,,
-Audacity,https://www.audacityteam.org/,Free,"Windows, Mac, Linux",Audio Editor,,
-Audiokinetic Wwise,https://www.audiokinetic.com/products/wwise/,"Free, Paid","Windows, Mac, Linux","Sound Engine, Authoring Tool",,
-FMOD Studio,https://www.fmod.com/studio,"Free, Paid","Windows, Mac, Linux","Sound Engine, Authoring Tool",,
-AWS GameLift,https://aws.amazon.com/gamelift/,"Trial, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution
-Google Cloud Platform,https://cloud.google.com/solutions/gaming,"Free, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution
-Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,"Free, Subscription",,Network,Game Server Hosting,Includes Matchmaking Solution and Back-End Game Solutions
-deltaDNA,https://deltadna.com/,"Trial, Subscription",,Game Analytics,,
-xsolla,https://xsolla.com/,Royalty,"Windows, Mac, Linux, Web",Monetization Services,,SDKs available for Unity and Unreal Engine
-Accelbyte,https://accelbyte.io/,Subscription,"Windows, Mac, Linux, Web","Monetization Services, Muliplayer Game Services, Game Analytics",,SDKs available for Unity and Unreal Engine
-Webflow,https://webflow.com/,"Free, Trial, Subscription",Web,"Website Maker, Website Hosting, Domain Name Registar",,
-Netlify,https://www.netlify.com/,"Free, Subscription",Web,"Website Hosting, Domain Name Registar",,Build Static websites from a Git Repository
-Porkbun,https://porkbun.com/,Subscription,Web,"Domain Name Registar, Website Hosting, Email Hosting",,Free Whois Privacy
-Discord,https://discord.com/,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",Communication,,
-Microsoft Teams,https://products.office.com/en-us/microsoft-teams/,Subscription,"Windows, Mac, Linux, iOS, Android, Web",Communication,,
-Slack,https://slack.com/,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",Communication,,
-Trello,https://trello.com/en,Free,Web,Task Management,,
-Atlassian JIRA,https://www.atlassian.com/software/jira,"Free, Trial, Subscription",Web,"Task Management, Bug Tracking",,
-Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Free, Subscription",Web,"Task Management, Bug Tracking",,
-Microsoft Office 365,https://products.office.com/en-us,"Free, Trial, Subscription, Paid","Windows, Mac, iOS, Android, Web","Office Software, Collaboration, Cloud Storage",,
-G Suite,https://gsuite.google.com/,"Free, Subscription","Web, iOS, Android","Office Software, Collaboration, Cloud Storage",,
-Atlassian Confluence,https://www.atlassian.com/software/confluence,"Free, Subscription","Web, iOS, Android","Collaboration, Cloud Storage",,
-GitHub,https://github.com/,"Free, Subscription",,VCS Hosting,Git,
-Assembla,https://www.assembla.com/home,Subscription,,VCS Hosting,"Perforce, Git, SVN",
-Git Kraken,https://www.gitkraken.com/,Free,"Windows, Mac, Linux",VCS GUI,Git,
-SourceTree,https://www.sourcetreeapp.com/,Free,"Windows, Mac",VCS GUI,"Git, Mercurial",
-Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,"Trial, Subscription","Windows, Mac",Video NLE,,
-DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,"Free, Paid","Windows, Mac, Linux",Video NLE,,
-OBS,https://obsproject.com/,Free,"Windows, Mac, Linux","Screen Record, Stream",,
-ESA Trends,https://www.theesa.com/esa-research/2019-essential-facts-about-the-computer-and-video-game-industry/,Free,,Trend Info,,
-PcPartPicker,https://pcpartpicker.com/,Free,Web,Business,,Build a PC
-Kickstarter,https://www.kickstarter.com/,Royalty,Web,Crowdfunding,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
-Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Free,Web,Funding,,
-Patreon,https://www.patreon.com/,Royalty,Web,Crowdfunding,,
-Global Game Jam,https://globalgamejam.org/,Free,Web,Jam,,
-Ludum Dare,https://ldjam.com/,Free,Web,Jam,,
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+Unity,https://unity3d.com/,Game Engines,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#",
+Unreal Engine,https://www.unrealengine.com/,Game Engines,"Free, Royalty","Windows, Mac, Linux","2D, 3D, Visual Scripting, C++",
+Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engines,"Trial, Paid, Subscription","Windows, Mac","2D, Javascript, Drag & Drop","Uses GML Scripting, similar to Javascript"
+Havok,https://www.havok.com/,"Physics, Artificial Intelligence",Paid,"Windows, Mac",,"Physics Engine, AI SDK, Cloth Physics"
+Vivox,https://www.vivox.com/features,Audio,"Free, Subscription","Windows, Mac, Linux",,Voice Communications Solution
+Easy,https://www.easy.ac/en-us/,Anti-Cheat,License,,,
+Adobe Photoshop,https://www.adobe.com/products/photoshop.html,Image Manipulation,"Trial, Subscription","Windows, Mac, iOS",Raster,
+gimp,https://www.gimp.org/,Image Manipulation,Free,"Windows, Mac, Linux",Raster,
+Pro Motion NG,https://www.cosmigo.com/,"Pixel Art, Pixel Animation, Tiled Map","Free, Paid","Windows, Mac, Linux",,
+Aseprite,https://www.aseprite.org/,"Pixel Art, Pixel Animation","Trial, Paid","Windows, Mac, Linux",,
+Tiled,https://www.mapeditor.org/,"Pixel Art, Tiled Map",Free,"Windows, Mac, Linux",,Also useful for Isometric and Hexagonal Maps
+Adobe Illustrator,https://www.adobe.com/products/illustrator.html,Graphic Art,"Trial, Subscription","Windows, Mac",,
+Inkscape,https://inkscape.org/,Graphic Art,Free,"Windows, Mac, Linux",,
+Autodesk Maya,https://www.autodesk.com/products/maya/overview,"Model, Texture, 3D Animation, Render","Trial, Subscription","Windows, Mac, Linux",,
+Blender,https://www.blender.org/,"Model, Sculpt, Texture, 3D Animation, Render",Free,"Windows, Mac, Linux",,
+zbrush,http://pixologic.com/,"Model, Sculpt, Texture, Paint","Trial, Paid","Windows, Mac",,
+Substance Painter,https://www.allegorithmic.com/products/substance-painter,"Texture, Paint","Trial, Paid, Subscription","Windows, Mac, Linux",,
+Houdini,https://www.sidefx.com/products/houdini/,"Model, Texture, Animate, Rendering, VFX, Terrain, Cloth, Hair","Free, Subscription, License","Windows, Mac, Linux",,Includes tools for Procedural Generation and Manipulation
+SpeedTree,https://store.speedtree.com/,Plant Generator,"Trial, Paid","Windows, Mac, Linux",,
+World Creator,https://www.world-creator.com/,Terrain Generator,Paid,"Windows, Mac",,
+Ableton Live,https://www.ableton.com/en/,DAW,Paid,"Windows, Mac",,
+Avid Pro Tools,https://www.avid.com/en/pro-tools,DAW,"Free, Trial, Paid","Windows, Mac",,
+DefleMask,http://deflemask.com/,Music Tracker,Free,"Windows, Mac, Linux",Retro Hardware Clone,
+Bfxr,https://www.bfxr.net/,Video Game SFX,Free,"Windows, Mac, Web",,
+Audacity,https://www.audacityteam.org/,Audio Editor,Free,"Windows, Mac, Linux",,
+Audiokinetic Wwise,https://www.audiokinetic.com/products/wwise/,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,
+FMOD Studio,https://www.fmod.com/studio,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,
+AWS GameLift,https://aws.amazon.com/gamelift/,Network,"Trial, Subscription",,Game Server Hosting,Includes Matchmaking Solution
+Google Cloud Platform,https://cloud.google.com/solutions/gaming,Network,"Free, Subscription",,Game Server Hosting,Includes Matchmaking Solution
+Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,Network,"Free, Subscription",,Game Server Hosting,Includes Matchmaking Solution and Back-End Game Solutions
+deltaDNA,https://deltadna.com/,Game Analytics,"Trial, Subscription",,,
+xsolla,https://xsolla.com/,Monetization Services,Royalty,"Windows, Mac, Linux, Web",,SDKs available for Unity and Unreal Engine
+Accelbyte,https://accelbyte.io/,"Monetization Services, Muliplayer Game Services, Game Analytics",Subscription,"Windows, Mac, Linux, Web",,SDKs available for Unity and Unreal Engine
+Webflow,https://webflow.com/,"Website Maker, Website Hosting, Domain Name Registar","Free, Trial, Subscription",Web,,
+Netlify,https://www.netlify.com/,"Website Hosting, Domain Name Registar","Free, Subscription",Web,,Build Static websites from a Git Repository
+Porkbun,https://porkbun.com/,"Domain Name Registar, Website Hosting, Email Hosting",Subscription,Web,,Free Whois Privacy
+Discord,https://discord.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
+Microsoft Teams,https://products.office.com/en-us/microsoft-teams/,Communication,Subscription,"Windows, Mac, Linux, iOS, Android, Web",,
+Slack,https://slack.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
+Trello,https://trello.com/en,Task Management,Free,Web,,
+Atlassian JIRA,https://www.atlassian.com/software/jira,"Task Management, Bug Tracking","Free, Trial, Subscription",Web,,
+Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Task Management, Bug Tracking","Free, Subscription",Web,,
+Microsoft Office 365,https://products.office.com/en-us,"Office Software, Collaboration, Cloud Storage","Free, Trial, Subscription, Paid","Windows, Mac, iOS, Android, Web",,
+G Suite,https://gsuite.google.com/,"Office Software, Collaboration, Cloud Storage","Free, Subscription","Web, iOS, Android",,
+Atlassian Confluence,https://www.atlassian.com/software/confluence,"Collaboration, Cloud Storage","Free, Subscription","Web, iOS, Android",,
+GitHub,https://github.com/,VCS Hosting,"Free, Subscription",,Git,
+Assembla,https://www.assembla.com/home,VCS Hosting,Subscription,,"Perforce, Git, SVN",
+Git Kraken,https://www.gitkraken.com/,VCS GUI,Free,"Windows, Mac, Linux",Git,
+SourceTree,https://www.sourcetreeapp.com/,VCS GUI,Free,"Windows, Mac","Git, Mercurial",
+Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,Video NLE,"Trial, Subscription","Windows, Mac",,
+DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
+OBS,https://obsproject.com/,"Screen Record, Stream",Free,"Windows, Mac, Linux",,
+ESA Trends,https://www.theesa.com/esa-research/2019-essential-facts-about-the-computer-and-video-game-industry/,Trend Info,Free,,,
+PcPartPicker,https://pcpartpicker.com/,Business,Free,Web,,Build a PC
+Kickstarter,https://www.kickstarter.com/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
+Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Funding,Free,Web,,
+Patreon,https://www.patreon.com/,Crowdfunding,Royalty,Web,,
+Global Game Jam,https://globalgamejam.org/,Jam,Free,Web,,
+Ludum Dare,https://ldjam.com/,Jam,Free,Web,,

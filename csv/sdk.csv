@@ -1,22 +1,22 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-Havok,https://www.havok.com/,Paid,"Windows, Mac","Physics, Artificial Intelligence",,"Physics Engine, AI SDK, Cloth Physics"
-Khronos Group,https://www.khronos.org/,Free,"Windows, Mac, Linux",Physics,,3D Graphics (OpenGL and Vulkan)
-Box2D,http://box2d.org/,Free,"Windows, Mac, Linux",Physics,,2D Physics
-Coherent Gameface,https://coherent-labs.com/products/coherent-gameface/,Paid,"Windows, Mac, Linux",User Interface,Plugin,"Game Engine UI Plug-in, HTML/CSS/JS"
-Noesis GUI,https://www.noesisengine.com/,"Free, Paid","Windows, Mac, Linux",User Interface,,Game Engine UI SDK
-Dolby Atmos,https://developer.dolby.com/,Paid,"Windows, Mac",Audio,Plugin,Game Engine Sound Plug-in
-Mercuna,https://mercuna.com/,Paid,"Windows, Mac",Artificial Intelligence,,Game Engine Navigation Solution
-NexPlayerSDK,https://www.nexplayersdk.com/,"Trial, Paid","Windows, Mac",Video,,Low Latency Video Player SDK
-Simul,https://simul.co/,Paid,"Windows, Mac",Environment,Plugin,Weather Plug-in and SDK
-Imgtec,https://www.imgtec.com/developers/,Free,"Windows, Mac, Linux",Engineering,,Mobile VR SDK
-Bink,http://www.radgametools.com/bnkmain.htm,Paid,Windows,Video,,Video Middleware
-Miles Sound System,http://www.radgametools.com/miles.htm,Paid,Windows,Audio,,Audio Middleware
-Genvidtech,https://www.genvidtech.com/,"Free, Subscription","Windows, Mac, Linux",Video,,Interactive Streaming SDK
-Launchpad,https://github.com/Nihlus/Launchpad/wiki/Game-Developer-Quickstart,Free,Linux,Engineering,,Game Launcher Tool
-Mod.io,https://mod.io/,Free,"Windows, Mac, Linux",Engineering,,Mod Support Tool
-Spiritai,https://www.spiritai.com/character-engine/,Free,"Windows, Mac",Artificial Intelligence,,Speech AI Solution
-Haden Aether Engine,https://www.hadean.com/aether-engine/features,Subsciption,Web,Engineering,,Cloud Gaming Solution
-Spatial OS,https://improbable.io/multiplayer-networking,"Free, Subscription","Windows, Mac, Linux",Engineering,,Networking Solution
-Vivox,https://www.vivox.com/features,"Free, Subscription","Windows, Mac, Linux",Communication,,Voice Communications Solution
-Photon Realtime,https://www.photonengine.com/en-US/Realtime,"Free, Trial, Subscription","Windows, Mac, Linux","Networking, Communication","",Cross-Platform Networking Engine with multiplayer platform and services
-Mirror,https://mirror-networking.com/,Free,"Windows, Mac, Linux",Networking,"",High level Networking API for Unity
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+Havok,https://www.havok.com/,"Physics, Artificial Intelligence",Paid,"Windows, Mac",,"Physics Engine, AI SDK, Cloth Physics"
+Khronos Group,https://www.khronos.org/,Physics,Free,"Windows, Mac, Linux",,3D Graphics (OpenGL and Vulkan)
+Box2D,http://box2d.org/,Physics,Free,"Windows, Mac, Linux",,2D Physics
+Coherent Gameface,https://coherent-labs.com/products/coherent-gameface/,User Interface,Paid,"Windows, Mac, Linux",Plugin,"Game Engine UI Plug-in, HTML/CSS/JS"
+Noesis GUI,https://www.noesisengine.com/,User Interface,"Free, Paid","Windows, Mac, Linux",,Game Engine UI SDK
+Dolby Atmos,https://developer.dolby.com/,Audio,Paid,"Windows, Mac",Plugin,Game Engine Sound Plug-in
+Mercuna,https://mercuna.com/,Artificial Intelligence,Paid,"Windows, Mac",,Game Engine Navigation Solution
+NexPlayerSDK,https://www.nexplayersdk.com/,Video,"Trial, Paid","Windows, Mac",,Low Latency Video Player SDK
+Simul,https://simul.co/,Environment,Paid,"Windows, Mac",Plugin,Weather Plug-in and SDK
+Imgtec,https://www.imgtec.com/developers/,Engineering,Free,"Windows, Mac, Linux",,Mobile VR SDK
+Bink,http://www.radgametools.com/bnkmain.htm,Video,Paid,Windows,,Video Middleware
+Miles Sound System,http://www.radgametools.com/miles.htm,Audio,Paid,Windows,,Audio Middleware
+Genvidtech,https://www.genvidtech.com/,Video,"Free, Subscription","Windows, Mac, Linux",,Interactive Streaming SDK
+Launchpad,https://github.com/Nihlus/Launchpad/wiki/Game-Developer-Quickstart,Engineering,Free,Linux,,Game Launcher Tool
+Mod.io,https://mod.io/,Engineering,Free,"Windows, Mac, Linux",,Mod Support Tool
+Spiritai,https://www.spiritai.com/character-engine/,Artificial Intelligence,Free,"Windows, Mac",,Speech AI Solution
+Haden Aether Engine,https://www.hadean.com/aether-engine/features,Engineering,Subsciption,Web,,Cloud Gaming Solution
+Spatial OS,https://improbable.io/multiplayer-networking,Engineering,"Free, Subscription","Windows, Mac, Linux",,Networking Solution
+Vivox,https://www.vivox.com/features,Communication,"Free, Subscription","Windows, Mac, Linux",,Voice Communications Solution
+Photon Realtime,https://www.photonengine.com/en-US/Realtime,"Networking, Communication","Free, Trial, Subscription","Windows, Mac, Linux",,Cross-Platform Networking Engine with multiplayer platform and services
+Mirror,https://mirror-networking.com/,Networking,Free,"Windows, Mac, Linux",,High level Networking API for Unity

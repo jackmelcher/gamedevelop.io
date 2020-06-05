@@ -1,15 +1,15 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-Steam Direct,https://partner.steamgames.com/steamdirect,Paid,"Windows, Mac, Linux",PC,Self-Publishing,Can register as an individual or as a company
-Epic Games Store,https://www.epicgames.com/store/en-US/about,Free,"Windows, Mac, Android",PC,Self-Publishing,Can register as an individual or as a company
-ID@XBOX Program,https://www.xbox.com/en-US/developers/id,Free,"Windows, Xbox, iOS, Android","PC, Console, Mobile",Self-Publishing,Requires proof of legally registered business
-Playstation Partner,https://partners.playstation.net/,Free,Playstation,Console,Self-Publishing,Requires proof of legally registered business
-Nintendo Developer,https://developer.nintendo.com/,Free,Nintendo,Console,Self-Publishing,Can register as an individual or as a company
-Apple Developer Program,https://developer.apple.com/programs/how-it-works/,"Free, Subscription","Mac, iOS",Mobile,Self-Publishing,Can register as an individual or as a company
-Google Play Developer,https://support.google.com/googleplay/android-developer/answer/6112435,Paid,Android,Mobile,Self-Publishing,Can register as an individual or as a company
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+Steam Direct,https://partner.steamgames.com/steamdirect,PC,Paid,"Windows, Mac, Linux",Self-Publishing,Can register as an individual or as a company
+Epic Games Store,https://www.epicgames.com/store/en-US/about,PC,Free,"Windows, Mac, Android",Self-Publishing,Can register as an individual or as a company
+ID@XBOX Program,https://www.xbox.com/en-US/developers/id,"PC, Console, Mobile",Free,"Windows, Xbox, iOS, Android",Self-Publishing,Requires proof of legally registered business
+Playstation Partner,https://partners.playstation.net/,Console,Free,Playstation,Self-Publishing,Requires proof of legally registered business
+Nintendo Developer,https://developer.nintendo.com/,Console,Free,Nintendo,Self-Publishing,Can register as an individual or as a company
+Apple Developer Program,https://developer.apple.com/programs/how-it-works/,Mobile,"Free, Subscription","Mac, iOS",Self-Publishing,Can register as an individual or as a company
+Google Play Developer,https://support.google.com/googleplay/android-developer/answer/6112435,Mobile,Paid,Android,Self-Publishing,Can register as an individual or as a company
 505 Games,https://505games.com/about,,,,,
 Akupara Games,https://www.akuparagames.com/,,,,,
 Armor Games,https://armorgamesstudios.com/,,,,,
-Big Fish,https://www.bigfishgames.com/daily/about/submit-games/,,,Mobile,,
+Big Fish,https://www.bigfishgames.com/daily/about/submit-games/,Mobile,,,,
 Focus Home Interactive,http://focus-home.com/en/company,,,,,
 Deep Silver,http://www.deepsilver.com/us/contact/,,,,,
 11 bit Studios,http://www.11bitstudios.com/publishing/,,,,,
@@ -21,15 +21,15 @@ Humble Bundle,https://www.humblebundle.com/publishing,,,,,
 Team 17,https://www.team17.com/submit-a-game/,,,,,
 Serenity Forge,http://serenityforge.com/publishing,,,,,
 Boombit,https://boombit.com/publish-with-us/,,,,,
-Noodlecake,http://www.noodlecake.com/publishing/,,,Mobile,,
+Noodlecake,http://www.noodlecake.com/publishing/,Mobile,,,,
 Kongregate,https://developers.kongregate.com/publishing/,,,,,
 Starbreeze,https://www.starbreeze.com/publishing/,,,,,
 Chucklefish,https://chucklefish.org/submit/,,,,,2D and Pixel Art
 Nicalis,https://www.nicalis.com/about,,,,,
-Gamepix,https://www.gamepix.com/publishers/,,Web,,,
+Gamepix,https://www.gamepix.com/publishers/,,,Web,,
 AdultSwimGames,https://www.adultswim.com/games/pitch/,,,,,
 TinyBuild,http://www.tinybuild.com/contact,,,,,
-FGL,https://www.fgl.com/,,,Mobile,,
+FGL,https://www.fgl.com/,Mobile,,,,
 RawFury,https://rawfury.com/about/,,,,,
 Good Shepard Entertainment,https://goodshepherd.games/submit-your-game,,,,,
 Reliance Games,https://www.reliancegames.com/send-us-your-game/,,,,,
@@ -40,17 +40,17 @@ Maximum Games,https://www.maximumgames.com/about-us/for-developers/,,,,,
 6 Waves,https://www.6waves.com/,,,,,
 Indie Champions,https://indiechampions.com/about.html,,,,,
 Forever Entertainment,http://forever-entertainment.com/en.4devs.html,,,,,
-Lab Cave,https://labcavegames.com/,,,Mobile,,
+Lab Cave,https://labcavegames.com/,Mobile,,,,
 LBC Games,https://lbc-games.com/game-submission/,,,,,
 MixedBag,http://mixedbag.it/the-studio/,,,,,
-Pebblekick Inc,http://pebblekickinc.com/,,,Mobile,,
+Pebblekick Inc,http://pebblekickinc.com/,Mobile,,,,
 PlayStack,https://www.playstack.com/ps-group,,,,,
 Dear Villagers,https://dearvillagers.com/publishing/,,,,,
 Strelka Games,https://www.strelkagames.com/micropublishing,,,,,
 Modularity,https://modularity.games/,,,,,
 Devolver Digital,https://www.devolverdigital.com/static/about/,,,,,
 Versus Evil,http://versusevil.com/about/,,,,,
-Yodo1,https://developer.yodo1.com/en/developer-portal-home/mobile-publishing/,,,Mobile,,
+Yodo1,https://developer.yodo1.com/en/developer-portal-home/mobile-publishing/,Mobile,,,,
 Ketchapp Games,http://www.ketchappgames.com/,,,,,
 Playdigious,https://playdigious.com/about/,,,,,
 Sodesco,http://soedesco.com/about/,,,,,
@@ -59,5 +59,5 @@ Blowfish,https://www.blowfishstudios.com/,,,,,
 Ludus.Games,http://ludus.games/,,,,,Also offers services to your game to potential partners.
 Curve Digital,http://www.curve-digital.com/en-gb/partner/,,,,,
 Playism,https://playism.com/page/about,,,,,
-Crazy Labs,https://www.crazylabs.com/publishing/,,,Mobile,,
+Crazy Labs,https://www.crazylabs.com/publishing/,Mobile,,,,
 Natsume Inc,https://community.natsume.com/?page_id=72,,,,,

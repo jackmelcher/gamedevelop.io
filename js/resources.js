@@ -96,6 +96,9 @@ function CreateTableFromArray2D(array2D)
                     });
                     img.src = "images/resources/" + GetImageName(array2D[i][j+1]) + ".png";
                     img.className = "tableimg";
+                    img.addEventListener('load',function(e){
+                        //console.log(e.target.src);
+                        checkHeight()});
                     tabCell.appendChild(img);
                     tabCell = tr.insertCell(-1);
                     var a = document.createElement("a");
@@ -106,7 +109,7 @@ function CreateTableFromArray2D(array2D)
                 }
                 else{
                     tabCell.textContent = array2D[i][j];
-                    if(j==3){PlatformTextToIcon(tabCell);}//causing the footer function to stop working
+                    if(j==4){PlatformTextToIcon(tabCell);}//causing the footer function to stop working
                 }
             }
         }
@@ -117,9 +120,9 @@ function CreateTableFromArray2D(array2D)
     divContainer.appendChild(table);
 
     //FilterTable();
-    MakeFilterChoices(2,"price");
-    MakeFilterChoices(3,"platform");
-    MakeFilterChoices(4,"categories");
+    MakeFilterChoices(3,"price");
+    MakeFilterChoices(4,"platform");
+    MakeFilterChoices(2,"categories");
     MakeFilterChoices(5,"tag");
 }
 
@@ -150,6 +153,7 @@ function FilterTable()
     fitlersTag = UpdateFilterArray("tag");
 
     filterTableByColumn();
+    checkHeight();
 }
 
 function filterTableByColumn() 
@@ -161,7 +165,7 @@ function filterTableByColumn()
         tr = table.getElementsByTagName("tr");
         for (i = 1; i < tr.length; i++) 
         {
-            if (CheckFilter(filtersPrice, tr, i, 2) && CheckFilter(fitlersPlat, tr, i, 3) && CheckFilter(fitlersCat, tr, i, 4) && CheckFilter(fitlersTag, tr, i, 5))
+            if (CheckFilter(filtersPrice, tr, i, 3) && CheckFilter(fitlersPlat, tr, i, 4) && CheckFilter(fitlersCat, tr, i, 2) && CheckFilter(fitlersTag, tr, i, 5))
             {
                 tr[i].style.display = "";
             } 

@@ -1,9 +1,9 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-Slack,https://slack.com/,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",Communication,,
-Discord,https://discord.com/,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",Communication,,
-Microsoft Teams,https://products.office.com/en-us/microsoft-teams/,Subscription,"Windows, Mac, Linux, iOS, Android, Web",Communication,,
-Skype,https://www.skype.com/en/,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",Communication,,
-Zoom,https://zoom.us/,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",Communication,,
-Teamspeak,https://www.teamspeak.com/en/,Free,"Windows, Mac, Linux, iOS, Android",Communication,,Requires a host/server
-Ventrilo,http://www.ventrilo.com/,Free,"Windows, Mac",Communication,,Requires a host/server
-Mumble,https://www.mumble.com/,Free,"Windows, Mac, Linux",Communication,,Requires a host/server
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+Slack,https://slack.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
+Discord,https://discord.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
+Microsoft Teams,https://products.office.com/en-us/microsoft-teams/,Communication,Subscription,"Windows, Mac, Linux, iOS, Android, Web",,
+Skype,https://www.skype.com/en/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
+Zoom,https://zoom.us/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
+Teamspeak,https://www.teamspeak.com/en/,Communication,Free,"Windows, Mac, Linux, iOS, Android",,Requires a host/server
+Ventrilo,http://www.ventrilo.com/,Communication,Free,"Windows, Mac",,Requires a host/server
+Mumble,https://www.mumble.com/,Communication,Free,"Windows, Mac, Linux",,Requires a host/server

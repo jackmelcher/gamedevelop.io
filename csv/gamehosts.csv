@@ -1,37 +1,37 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-Gamestop,https://www.gamestop.com/,,,Retail,"PC, Console",
-Best Buy,https://www.bestbuy.com/,,,Retail,"PC, Console",
-Target,https://www.target.com/,,,Retail,"PC, Console",
-Walmart,https://www.walmart.com/,,,Retail,"PC, Console",
-Newegg,https://www.newegg.com/,,,Online Retail,"PC, Console",
-Ebay,https://www.ebay.com/,,,Online Retail,"PC, Console",
-Amazon,https://www.amazon.com/,,,Online Retail,"PC, Console",
-Microsoft Store,https://www.microsoft.com/en-us/store/b/home,,,Digital Store,Console,
-Playstation Store,https://store.playstation.com/en-us/home/games,,,Digital Store,Console,
-Nintendo Eshop,https://www.nintendo.com/games/buy-digital,,,Digital Store,Console,
-Steam,https://store.steampowered.com/,,,Digital Store,PC,
-GOG,https://www.gog.com/,,,Digital Store,PC,
-Epic Games Store,https://www.epicgames.com/store/en-US/,,,Digital Store,PC,
-Humble Bundle,https://www.humblebundle.com/,,,Digital Store,PC,
-Kartridge (Kongregate),https://www.kartridge.com/,,,Digital Store,PC,
-GameJolt,https://gamejolt.com/,,,Digital Store,PC,
-Itch,https://itch.io/,,,Digital Store,PC,
-IndieDB,https://www.indiedb.com/,,,Digital Store,PC,
-Indiegala,https://www.indiegala.com/,,,Digital Store,PC,Possible NSFW
-Green Man Gaming,https://www.greenmangaming.com/,,,Digital Store,PC,
-Fanatical,https://www.fanatical.com/en/,,,Digital Store,PC,
-Google Play,https://play.google.com/store?hl=en,,,Digital Store,Mobile,
-Apple App Store,https://www.apple.com/ios/app-store/,,,Digital Store,Mobile,
-Amazon App Store,https://developer.amazon.com/apps-and-games,,,Digital Store,Mobile,
-Facebook Gaming,https://www.facebook.com/fbgaminghome/developers/get-started,,,HTML 5,"Web, Mobile",Facebook Instant
-Miniclip,https://www.miniclip.com/games/en/,,,HTML 5,Web,
-Armor Games,https://armorgames.com/,,,HTML 5,Web,
-Kongregate,https://www.kongregate.com/,,,HTML 5,Web,
-Newgrounds,https://www.newgrounds.com/games,,,HTML 5,Web,Possible NSFW
-GamePix,https://www.gamepix.com/,,,HTML 5,"Web, Mobile",
-Get Jar,https://www.getjar.com/,,,Digital Store,Mobile,Android Only
-Plug In Digital,https://plugindigital.com/,,,Distribution,,"Helps companies distribute games in other markets such as Brazil, China, and Russia."
-Alliance Entertainment,https://www.aent.com/selection/video-games,,,Distribution,,
-Click Entertainment,http://www.click-entertainment.com/,,,Distribution,,
-UCC Distributing,https://www.uccdist.com/,,,Distribution,,Toys
-Fishing Cactus,http://www.fishingcactus.com/,,,Distribution,Mobile,
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+Gamestop,https://www.gamestop.com/,Retail,,,"PC, Console",
+Best Buy,https://www.bestbuy.com/,Retail,,,"PC, Console",
+Target,https://www.target.com/,Retail,,,"PC, Console",
+Walmart,https://www.walmart.com/,Retail,,,"PC, Console",
+Newegg,https://www.newegg.com/,Online Retail,,,"PC, Console",
+Ebay,https://www.ebay.com/,Online Retail,,,"PC, Console",
+Amazon,https://www.amazon.com/,Online Retail,,,"PC, Console",
+Microsoft Store,https://www.microsoft.com/en-us/store/b/home,Digital Store,,,Console,
+Playstation Store,https://store.playstation.com/en-us/home/games,Digital Store,,,Console,
+Nintendo Eshop,https://www.nintendo.com/games/buy-digital,Digital Store,,,Console,
+Steam,https://store.steampowered.com/,Digital Store,,,PC,
+GOG,https://www.gog.com/,Digital Store,,,PC,
+Epic Games Store,https://www.epicgames.com/store/en-US/,Digital Store,,,PC,
+Humble Bundle,https://www.humblebundle.com/,Digital Store,,,PC,
+Kartridge (Kongregate),https://www.kartridge.com/,Digital Store,,,PC,
+GameJolt,https://gamejolt.com/,Digital Store,,,PC,
+Itch,https://itch.io/,Digital Store,,,PC,
+IndieDB,https://www.indiedb.com/,Digital Store,,,PC,
+Indiegala,https://www.indiegala.com/,Digital Store,,,PC,Possible NSFW
+Green Man Gaming,https://www.greenmangaming.com/,Digital Store,,,PC,
+Fanatical,https://www.fanatical.com/en/,Digital Store,,,PC,
+Google Play,https://play.google.com/store?hl=en,Digital Store,,,Mobile,
+Apple App Store,https://www.apple.com/ios/app-store/,Digital Store,,,Mobile,
+Amazon App Store,https://developer.amazon.com/apps-and-games,Digital Store,,,Mobile,
+Facebook Gaming,https://www.facebook.com/fbgaminghome/developers/get-started,HTML 5,,,"Web, Mobile",Facebook Instant
+Miniclip,https://www.miniclip.com/games/en/,HTML 5,,,Web,
+Armor Games,https://armorgames.com/,HTML 5,,,Web,
+Kongregate,https://www.kongregate.com/,HTML 5,,,Web,
+Newgrounds,https://www.newgrounds.com/games,HTML 5,,,Web,Possible NSFW
+GamePix,https://www.gamepix.com/,HTML 5,,,"Web, Mobile",
+Get Jar,https://www.getjar.com/,Digital Store,,,Mobile,Android Only
+Plug In Digital,https://plugindigital.com/,Distribution,,,,"Helps companies distribute games in other markets such as Brazil, China, and Russia."
+Alliance Entertainment,https://www.aent.com/selection/video-games,Distribution,,,,
+Click Entertainment,http://www.click-entertainment.com/,Distribution,,,,
+UCC Distributing,https://www.uccdist.com/,Distribution,,,,Toys
+Fishing Cactus,http://www.fishingcactus.com/,Distribution,,,Mobile,

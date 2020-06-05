@@ -1,28 +1,28 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-Unity Ads,https://unity.com/solutions/unity-ads/,"Free, Paid","Windows, Mac, Linux",Ads,,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, and Unity"
-ironSource,https://www.ironsrc.com/,"Free, Paid","Windows, Mac, Linux",Ads,,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, and Unity"
-Google AdMob,https://developers.google.com/admob/,"Free, Paid","Windows, Mac, Linux",Ads,,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, Unity, and Cocos"
-Apple Search Ads,https://searchads.apple.com/,Paid,Web,Ads,,Promote your app in the search results for Apple's App Store
-Google App Campaigns,https://support.google.com/google-ads/answer/6247380,Paid,Web,Ads,"",Promote your app in the search results for Google's platforms
-ChartBoost,https://www.chartboost.com/,,,Ads,,
-Appodeal,https://www.appodeal.com/home/,,,Ads,,
-Leadbolt,https://www.leadbolt.com/,,,Ads,,
-StartApp,https://www.startapp.com/,,,Ads,,
-AddApptr,http://www.addapptr.com/,,,Ads,,
-AdColony,https://www.adcolony.com/,,,Ads,,
-Greedy Games,https://www.greedygame.com/,,,Ads,,
-Game of Whales,http://www.gameofwhales.com/,,,Ads,,
-AppBi,https://www.appbi.com/us/index,,,Ads,,
-AdTiming,http://www.adtiming.com/en/,,,Ads,,
-Skillz,https://www.skillz.com/,,,Ads,,
-Do Global,http://www.do.global/en/,,,Ads,,
-Fyber,https://www.fyber.com/,,,Ads,,
-Mujitech,http://www.mujitech.cn/en/jisr_adshow.html,,,Ads,,
-NativeX,http://www.nativex.com/,,,Ads,,
-Synative,https://www.synative.com/,,,Ads,,
-xsolla,https://xsolla.com/,Royalty,"Windows, Mac, Linux, Web",Monetization Services,,SDKs available for Unity and Unreal Engine
-Terminal 3,https://www.terminal3.com/,,,Monetization Services,,
-IronSource,https://www.ironsrc.com/,,,Monetization Services,,
-Mintegral,https://www.mintegral.com/en/,,,Monetization Services,,
-Payletter,https://www.payletter.com/english/main.asp,,,Business,Billing Solution,
-Tipalti,https://tipalti.com/,,,Business,Payment Service,
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+Unity Ads,https://unity.com/solutions/unity-ads/,Ads,"Free, Paid","Windows, Mac, Linux",,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, and Unity"
+ironSource,https://www.ironsrc.com/,Ads,"Free, Paid","Windows, Mac, Linux",,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, and Unity"
+Google AdMob,https://developers.google.com/admob/,Ads,"Free, Paid","Windows, Mac, Linux",,"Free to start Monetizing. Pay for Ad campaigns. SDKs available for Android, iOS, Unity, and Cocos"
+Apple Search Ads,https://searchads.apple.com/,Ads,Paid,Web,,Promote your app in the search results for Apple's App Store
+Google App Campaigns,https://support.google.com/google-ads/answer/6247380,Ads,Paid,Web,,Promote your app in the search results for Google's platforms
+ChartBoost,https://www.chartboost.com/,Ads,,,,
+Appodeal,https://www.appodeal.com/home/,Ads,,,,
+Leadbolt,https://www.leadbolt.com/,Ads,,,,
+StartApp,https://www.startapp.com/,Ads,,,,
+AddApptr,http://www.addapptr.com/,Ads,,,,
+AdColony,https://www.adcolony.com/,Ads,,,,
+Greedy Games,https://www.greedygame.com/,Ads,,,,
+Game of Whales,http://www.gameofwhales.com/,Ads,,,,
+AppBi,https://www.appbi.com/us/index,Ads,,,,
+AdTiming,http://www.adtiming.com/en/,Ads,,,,
+Skillz,https://www.skillz.com/,Ads,,,,
+Do Global,http://www.do.global/en/,Ads,,,,
+Fyber,https://www.fyber.com/,Ads,,,,
+Mujitech,http://www.mujitech.cn/en/jisr_adshow.html,Ads,,,,
+NativeX,http://www.nativex.com/,Ads,,,,
+Synative,https://www.synative.com/,Ads,,,,
+xsolla,https://xsolla.com/,Monetization Services,Royalty,"Windows, Mac, Linux, Web",,SDKs available for Unity and Unreal Engine
+Terminal 3,https://www.terminal3.com/,Monetization Services,,,,
+IronSource,https://www.ironsrc.com/,Monetization Services,,,,
+Mintegral,https://www.mintegral.com/en/,Monetization Services,,,,
+Payletter,https://www.payletter.com/english/main.asp,Business,,,Billing Solution,
+Tipalti,https://tipalti.com/,Business,,,Payment Service,

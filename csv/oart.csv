@@ -1,20 +1,20 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-PureRef,https://www.pureref.com/,Free,"Windows, Mac, Linux",Reference Images Viewer,,
-Kuadro,http://kruelgames.com/tools/kuadro/,Free,"Windows, Mac",Reference Images Viewer,,
-Marmoset viewer,https://marmoset.co/viewer/,Free,"Windows, Mac",3D Art Viewer,,3D Art Viewer
-Colour Lover Seamless,http://www.colourlovers.com/seamless,Free,Web,Pattern Maker,,
-Pattern Cooler,https://www.patterncooler.com/,"Free, Subscription",Web,Pattern Maker,,Tiled Patterns
-Texture Exporter,http://www.unorthodoxentertainment.com/texture-exporter/,"Trial, Paid","Windows, Mac",Texture Exporter,Photoshop Plugin,
-Colour Lover Photocopa,https://www.colourlovers.com/photocopa,Free,Web,Palette Creator,,
-Colour Lover Copasco,https://www.colourlovers.com/copaso/ColorPaletteSoftware,Free,Web,Palette Creator,,
-paletton,http://paletton.com/,Free,Web,Palette Creator,,
-Google Art & Culture Art Palette,https://artsexperiments.withgoogle.com/artpalette/,Free,Web,Palette Creator,,
-Coolors,https://coolors.co/,Free,"Windows, Mac, Web, iOS",Palette Creator,"Photoshop Plugin, Illustrator Plugin",
-Color Supply,https://colorsupplyyy.com/,Free,Web,Palette Creator,,
-Cohesive Color,https://javier.xyz/cohesive-colors/,Free,Web,Palette Creator,,
-Adobe Color CC,https://color.adobe.com/create/color-wheel/,Free,Web,Palette Creator,,
-Color Lisa,http://www.colorlisa.com/,Free,Web,Color,,List of Color Palettes
-Colorable,http://jxnblk.com/colorable/,Free,Web,Color,,Color Contrast Tester
-Color Cop,http://colorcop.net/,Free,Windows,Color,,Color Sample
-Picular,https://picular.co/,Free,Web,Color,,Color Search Engine
-Color Oracle,http://colororacle.org/,Free,Web,Color,Accessibility,Color Blindness Checker
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+PureRef,https://www.pureref.com/,Reference Images Viewer,Free,"Windows, Mac, Linux",,
+Kuadro,http://kruelgames.com/tools/kuadro/,Reference Images Viewer,Free,"Windows, Mac",,
+Marmoset viewer,https://marmoset.co/viewer/,3D Art Viewer,Free,"Windows, Mac",,3D Art Viewer
+Colour Lover Seamless,http://www.colourlovers.com/seamless,Pattern Maker,Free,Web,,
+Pattern Cooler,https://www.patterncooler.com/,Pattern Maker,"Free, Subscription",Web,,Tiled Patterns
+Texture Exporter,http://www.unorthodoxentertainment.com/texture-exporter/,Texture Exporter,"Trial, Paid","Windows, Mac",Photoshop Plugin,
+Colour Lover Photocopa,https://www.colourlovers.com/photocopa,Palette Creator,Free,Web,,
+Colour Lover Copasco,https://www.colourlovers.com/copaso/ColorPaletteSoftware,Palette Creator,Free,Web,,
+paletton,http://paletton.com/,Palette Creator,Free,Web,,
+Google Art & Culture Art Palette,https://artsexperiments.withgoogle.com/artpalette/,Palette Creator,Free,Web,,
+Coolors,https://coolors.co/,Palette Creator,Free,"Windows, Mac, Web, iOS","Photoshop Plugin, Illustrator Plugin",
+Color Supply,https://colorsupplyyy.com/,Palette Creator,Free,Web,,
+Cohesive Color,https://javier.xyz/cohesive-colors/,Palette Creator,Free,Web,,
+Adobe Color CC,https://color.adobe.com/create/color-wheel/,Palette Creator,Free,Web,,
+Color Lisa,http://www.colorlisa.com/,Color,Free,Web,,List of Color Palettes
+Colorable,http://jxnblk.com/colorable/,Color,Free,Web,,Color Contrast Tester
+Color Cop,http://colorcop.net/,Color,Free,Windows,,Color Sample
+Picular,https://picular.co/,Color,Free,Web,,Color Search Engine
+Color Oracle,http://colororacle.org/,Color,Free,Web,Accessibility,Color Blindness Checker

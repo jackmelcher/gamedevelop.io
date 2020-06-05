@@ -1,22 +1,22 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-Webflow,https://webflow.com/,"Free, Trial, Subscription",Web,"Website Maker, Website Hosting, Domain Name Registar",,
-Wordpress,https://wordpress.com/,"Free, Subscription",Web,"Website Maker, Website Hosting",,
-Google Sites,https://sites.google.com/,"Free, Subscription",Web,"Website Maker, Website Hosting",,
-Squarespace,https://www.squarespace.com/,"Trial, Subscription",Web,"Website Maker, Website Hosting",,
-Wix,https://www.wix.com/,"Trial, Subscription",Web,"Website Maker, Website Hosting",,
-Strikingly,https://www.strikingly.com/,"Free, Trial, Subscription",Web,"Website Maker, Website Hosting",,
-Duda,https://www.duda.co/,"Trial, Subscription",Web,"Website Maker, Website Hosting",,
-Tilda,https://tilda.cc/,"Free, Subscription",Web,"Website Maker, Website Hosting",,
-Enjin,https://www.enjin.com/,"Free, Trial, Subscription",Web,"Website Maker, Website Hosting",,
-Netlify,https://www.netlify.com/,"Free, Subscription",Web,"Website Hosting, Domain Name Registar",,Build Static websites from a Git Repository
-Porkbun,https://porkbun.com/,Subscription,Web,"Domain Name Registar, Website Hosting, Email Hosting",,Free Whois Privacy
-Namecheap,https://www.namecheap.com/,Subscription,Web,"Domain Name Registar, Website Hosting, Email Hosting",,Free Whois Privacy
-Namecheckr,https://www.namecheckr.com/,Free,Web,Domain Name Helper,,
-Name Mesh,https://www.namemesh.com/,Free,Web,Domain Name Helper,,
-Name Vine,https://namevine.com/,Free,Web,Domain Name Helper,,
-Adobe XD,https://www.adobe.com/products/xd.html,"Free, Subscription","Windows, Mac",Website Designer,,
-Adobe Dreamweaver,https://www.adobe.com/products/dreamweaver.html,"Trial, Subscription","Windows, Mac",Website Maker,,
-RocketCake,https://www.ambiera.com/rocketcake/,"Free, Paid","Windows, Mac",Website Maker,,
-Bootstrap Studio,https://bootstrapstudio.io/,Paid,"Windows, Mac, Linux",Website Maker,,
-bitly,https://bitly.com/,Free,Web,Utility,URL Shortener,
-tinyurl,https://tinyurl.com/,Free,Web,Utility,URL Shortener,
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+Webflow,https://webflow.com/,"Website Maker, Website Hosting, Domain Name Registar","Free, Trial, Subscription",Web,,
+Wordpress,https://wordpress.com/,"Website Maker, Website Hosting","Free, Subscription",Web,,
+Google Sites,https://sites.google.com/,"Website Maker, Website Hosting","Free, Subscription",Web,,
+Squarespace,https://www.squarespace.com/,"Website Maker, Website Hosting","Trial, Subscription",Web,,
+Wix,https://www.wix.com/,"Website Maker, Website Hosting","Trial, Subscription",Web,,
+Strikingly,https://www.strikingly.com/,"Website Maker, Website Hosting","Free, Trial, Subscription",Web,,
+Duda,https://www.duda.co/,"Website Maker, Website Hosting","Trial, Subscription",Web,,
+Tilda,https://tilda.cc/,"Website Maker, Website Hosting","Free, Subscription",Web,,
+Enjin,https://www.enjin.com/,"Website Maker, Website Hosting","Free, Trial, Subscription",Web,,
+Netlify,https://www.netlify.com/,"Website Hosting, Domain Name Registar","Free, Subscription",Web,,Build Static websites from a Git Repository
+Porkbun,https://porkbun.com/,"Domain Name Registar, Website Hosting, Email Hosting",Subscription,Web,,Free Whois Privacy
+Namecheap,https://www.namecheap.com/,"Domain Name Registar, Website Hosting, Email Hosting",Subscription,Web,,Free Whois Privacy
+Namecheckr,https://www.namecheckr.com/,Domain Name Helper,Free,Web,,
+Name Mesh,https://www.namemesh.com/,Domain Name Helper,Free,Web,,
+Name Vine,https://namevine.com/,Domain Name Helper,Free,Web,,
+Adobe XD,https://www.adobe.com/products/xd.html,Website Designer,"Free, Subscription","Windows, Mac",,
+Adobe Dreamweaver,https://www.adobe.com/products/dreamweaver.html,Website Maker,"Trial, Subscription","Windows, Mac",,
+RocketCake,https://www.ambiera.com/rocketcake/,Website Maker,"Free, Paid","Windows, Mac",,
+Bootstrap Studio,https://bootstrapstudio.io/,Website Maker,Paid,"Windows, Mac, Linux",,
+bitly,https://bitly.com/,Utility,Free,Web,URL Shortener,
+tinyurl,https://tinyurl.com/,Utility,Free,Web,URL Shortener,

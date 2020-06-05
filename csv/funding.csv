@@ -1,22 +1,22 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-Kickstarter,https://www.kickstarter.com/,Royalty,Web,Crowdfunding,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
-Indiegogo,https://www.indiegogo.com/,Royalty,Web,Crowdfunding,,Percentage of raised funds goes to Indiegogo and transaction fees
-Patreon,https://www.patreon.com/,Royalty,Web,Crowdfunding,,
-Ko Fi,https://ko-fi.com/,"Free, Subscription",Web,Crowdfunding,,
-Fig,https://www.fig.co/,Royalty,Web,Crowdfunding,All-or-Nothing,Percentage of revenue is split among Fig and the investors
-Indie Fund,http://indie-fund.com/,Royalty,Web,Funding,,All revenue goes to repaying the funds then 25% rev-share until Indie Fund's investment is doubled within two years after your game is released
-Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Free,Web,Funding,,
-UK Games Fund,https://ukgamesfund.com/,Free,Web,Funding,,Provides support packages for early-stage projects being developed by small video game companies based in the United Kingdom
-GDBAY Global Games Pitch,https://gdbay.com/global-games-pitch/,Paid,Web,Investor,,Opprotunity to pitch game to audience of publishers
-Play Venture,http://www.playventures.vc/,,Web,Investor,,
-Bitkraft,https://www.bitkraft.net/,,Web,Investor,,"Early Stage Venture Capital investor for gaming, esports, and interactive media."
-Makers Fund,https://makersfund.com/,,Web,Investor,,
-London Venture Partners,https://londonvp.com/,,Web,Investor,,
-Wings Interactive,https://wingsfund.me/,,Web,Investor,,Focus on helping women and minority groups
-Execution Labs,http://www.executionlabs.com/,,Web,Investor,,
-Carbon,https://carbon-incubator.com/,Royalty,Web,Incubator,,
-Plaine Images,https://www.plaine-images.fr/,,Web,Incubator,,
-Game Camp,https://gamecamps.info/,Free,Web,Accelerator,,
-ISM,http://ism-agency.com/,,Web,Consulting,,Business and Publishing assistance
-Gamasutra Article,https://www.gamasutra.com/blogs/MichelleChen/20170911/305355/BIG_List_of_Incubators_Accelerators_and_Funding_Opportunities.php,,Web,Aggregator,,"List of Incubator, Accelerators, Funding Opprotunities"
-GamesRound,https://www.gamesround.com/,Free,Web,Investor,"",A platform to help studios partner with publishers and investors
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+Kickstarter,https://www.kickstarter.com/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
+Indiegogo,https://www.indiegogo.com/,Crowdfunding,Royalty,Web,,Percentage of raised funds goes to Indiegogo and transaction fees
+Patreon,https://www.patreon.com/,Crowdfunding,Royalty,Web,,
+Ko Fi,https://ko-fi.com/,Crowdfunding,"Free, Subscription",Web,,
+Fig,https://www.fig.co/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of revenue is split among Fig and the investors
+Indie Fund,http://indie-fund.com/,Funding,Royalty,Web,,All revenue goes to repaying the funds then 25% rev-share until Indie Fund's investment is doubled within two years after your game is released
+Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Funding,Free,Web,,
+UK Games Fund,https://ukgamesfund.com/,Funding,Free,Web,,Provides support packages for early-stage projects being developed by small video game companies based in the United Kingdom
+GDBAY Global Games Pitch,https://gdbay.com/global-games-pitch/,Investor,Paid,Web,,Opprotunity to pitch game to audience of publishers
+Play Venture,http://www.playventures.vc/,Investor,,Web,,
+Bitkraft,https://www.bitkraft.net/,Investor,,Web,,"Early Stage Venture Capital investor for gaming, esports, and interactive media."
+Makers Fund,https://makersfund.com/,Investor,,Web,,
+London Venture Partners,https://londonvp.com/,Investor,,Web,,
+Wings Interactive,https://wingsfund.me/,Investor,,Web,,Focus on helping women and minority groups
+Execution Labs,http://www.executionlabs.com/,Investor,,Web,,
+Carbon,https://carbon-incubator.com/,Incubator,Royalty,Web,,
+Plaine Images,https://www.plaine-images.fr/,Incubator,,Web,,
+Game Camp,https://gamecamps.info/,Accelerator,Free,Web,,
+ISM,http://ism-agency.com/,Consulting,,Web,,Business and Publishing assistance
+Gamasutra Article,https://www.gamasutra.com/blogs/MichelleChen/20170911/305355/BIG_List_of_Incubators_Accelerators_and_Funding_Opportunities.php,Aggregator,,Web,,"List of Incubator, Accelerators, Funding Opprotunities"
+GamesRound,https://www.gamesround.com/,Investor,Free,Web,,A platform to help studios partner with publishers and investors
