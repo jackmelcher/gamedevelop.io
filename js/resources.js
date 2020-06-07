@@ -1,10 +1,10 @@
 //Update the Table based on the url hash to support site navigation changes
 window.onhashchange = function(){
-    console.log("hash change");    
+    //console.log("hash change");    
     LoadTableFromHash();
 };
 window.onpageshow = function (){
-    console.log("page show");    
+    //console.log("page show");    
     LoadTableFromHash();
 };
 function LoadTableFromHash()
@@ -119,7 +119,7 @@ function CreateTableFromArray2D(array2D)
     var divContainer = document.getElementById("showData");
     divContainer.appendChild(table);
 
-    //FilterTable();
+    //Make Filter List
     MakeFilterChoices(3,"price");
     MakeFilterChoices(4,"platform");
     MakeFilterChoices(2,"categories");
@@ -154,6 +154,12 @@ function FilterTable()
 
     filterTableByColumn();
     checkHeight();
+
+    var filterids = ["categories","price","platform","tag"];
+    for(var i = 0; i < filterids.length; i++)
+    {
+        HideFilters(filterids[i], i+2);
+    }
 }
 
 function filterTableByColumn() 
@@ -231,14 +237,14 @@ function SetTableName()
 const ua = window.navigator.userAgent.toLowerCase();
 const isChrome = /chrome|crios/.test(ua) && ! /edge|opr\//.test(ua)
 const isBrave = isChrome && !window.googletag;
-console.log(isChrome);
-console.log(isBrave);
+//console.log(isChrome);
+//console.log(isBrave);
 if(isChrome || isBrave){
         setTimeout(function(){resetcat();}, 10) ;
 }
 function resetcat(){
     if(document.getElementById("category").selectedIndex != 0){
-        console.log("reset");
+        //console.log("reset");
         document.getElementById("category").selectedIndex = 0;
     }
 }
@@ -287,6 +293,64 @@ function MakeFilterChoices(column_index, filter_id)
 function ClearFilter(id)
 {
     document.getElementById(id).innerHTML = "";
+}
+
+function HideFilters(filterid, col)
+{
+    //make all filters visible
+    var filter = document.getElementById(filterid);
+    var flist = filter.getElementsByTagName("li");
+    for(var j = 0; j < flist.length; j++)
+    {
+        flist[j].style.display = "";
+    }
+
+    // iterate through the table and add visible cells to set
+    var table = document.getElementById("myTable");
+    var set = new Set();
+    for(var i = 1; i < table.rows.length; i++)
+    {
+        if(table.rows[i].style.display != "none")
+        {   
+            var cells
+            if(col == 4)
+            {
+                cells = Array.from(table.rows[i].cells[col].children);
+                cells.forEach(element => {
+                    set.add(element.textContent);
+                });
+            }
+            else
+            {
+                cells = table.rows[i].cells[col].textContent.split(", ");
+                cells.forEach(element => {
+                    set.add(element);
+                });
+            }
+        }
+    }
+   
+    /*
+    console.log("Set start");
+    var filtervis = Array.from(set).sort();
+    for(var i=0; i < filtervis.length; i++)
+    {
+        console.log(filtervis[i]);
+    }
+    console.log("Set end");
+    */
+
+    // make filter lists invisible
+    for(var i=0; i < flist.length; i++)
+    {
+        //console.log(flist[i].textContent);
+        //console.log(filtervis.includes(flist[i].textContent));
+        if(filtervis.includes(flist[i].textContent))
+        {
+            flist[i].style.display = "";
+        }
+        else{flist[i].style.display = "none";}
+    }
 }
 
 function PlatformTextToIcon(tableCell){
@@ -358,8 +422,7 @@ function PlatformTextToIcon(tableCell){
                 break;
             case "Nintendo":
                 div.textContent = "Nintendo";
-                icon.appendChild(div);
-                tableCell.appendChild(icon);
+                tableCell.appendChild(div);
                 break;
         }
     });

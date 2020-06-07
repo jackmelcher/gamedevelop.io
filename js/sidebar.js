@@ -68,7 +68,7 @@ function makeAnchors(divContainer,ids,sections)
 function makeSidebar()
 {
     var sidenav = document.getElementsByClassName("sidenav")[0];
-    var fileName = location.href.split("/").slice(-1); 
+    var fileName = location.href.split("/").slice(-1).toString(); 
     var pages =  ["beginner","industry","ip","pr","youtube","kickstarter","tactics"];
     var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter","Indie Business Tactics"];
 
@@ -80,7 +80,7 @@ function makeSidebar()
         a.innerHTML = pagetitle[j];
         a.classList.add("bold");
         divContainer.appendChild(a);
-        if(fileName == pages[j]+".html")
+        if(fileName.includes(pages[j]))
         {
             a.classList.add("underline");
             var h3s = document.getElementsByTagName("h3");

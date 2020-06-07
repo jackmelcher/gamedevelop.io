@@ -1,5 +1,5 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Unity,https://unity3d.com/,Game Engines,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#",
+Unity,https://unity.com/,Game Engines,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#",
 Unreal Engine,https://www.unrealengine.com/,Game Engines,"Free, Royalty","Windows, Mac, Linux","2D, 3D, Visual Scripting, C++",
 Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engines,"Trial, Paid, Subscription","Windows, Mac","2D, Javascript, Drag & Drop","Uses GML Scripting, similar to Javascript"
 Havok,https://www.havok.com/,"Physics, Artificial Intelligence",Paid,"Windows, Mac",,"Physics Engine, AI SDK, Cloth Physics"
