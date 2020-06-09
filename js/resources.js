@@ -329,10 +329,10 @@ function HideFilters(filterid, col)
             }
         }
     }
-   
+
+    var filtervis = Array.from(set).sort();
     /*
     console.log("Set start");
-    var filtervis = Array.from(set).sort();
     for(var i=0; i < filtervis.length; i++)
     {
         console.log(filtervis[i]);

@@ -6,6 +6,7 @@ html[data-theme = "dark"]{
     --guide-link-article-color: #ececec;
     --guide-link-header-color: #ececec;
 }
+.sidenav{width: 320px;}
 .sectionlimited{
     padding-left: 160px;
     padding-right: 160px;
