@@ -3,10 +3,10 @@
   --primary-color-v: #0079ca;
   --secondary-color: #f0ffff;
   --tertiary-color: #ffffff;
-  --font-color: #000000;
+  --font-color: #111111;
   --bg-color: #f5f5f5;
   --side-bg-color: #eeeeee; 
-  --side-border-color: #acacac; 
+  --side-border-color: #d4d4d4; 
   --heading-color: #000000;
   --link-color: #0043d3;
   --footer-bg-color: #e4e4e4;
@@ -19,7 +19,7 @@ html[data-theme = "dark"]{
   --font-color: #dfdfdf;
   --bg-color: #313131;
   --side-bg-color: #383838; 
-  --side-border-color: #acacac; 
+  --side-border-color: #4e4e4e; 
   --heading-color: #ececec;
   --link-color: #178fff;
   --footer-bg-color: #272727;
@@ -66,7 +66,10 @@ h3 {
 }
 p {
   font-size: 12pt;
+  line-height: 1.5em;
+  margin: 1.25em 0;
 }
+ul{line-height: 1.5;}
 a:link, a:visited {
   color: var(--link-color);
   text-decoration: none;
@@ -187,7 +190,7 @@ a:hover{
 }
 .footer{
   background-color: var(--footer-bg-color);
-  padding: 8px 273px;
+  padding: 8px 0px 8px 360px;
   font-size: 10pt;
 
   /* Flex Box */
