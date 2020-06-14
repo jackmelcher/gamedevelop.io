@@ -5,7 +5,7 @@ Mercurial,https://www.mercurial-scm.org/,VCS,Free,,Distributed,
 Perforce Helix Core,https://www.perforce.com/products/helix-core,VCS,"Free, Subscription","Windows, Mac, Linux",Centralized,Free for up to 5 users
 Plastic SCM,https://www.plasticscm.com/,VCS,"Free, Subscription",,"Centralized, Distributed",
 Team Foundation Version Control,https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/overview?view=vsts,VCS,Subscription,,Centralized,
-Unity Teams,https://unity3d.com/teams,VCS,"Free, Subscription",,Distributed,
+Unity Teams,https://unity.com/products/unity-teams,VCS,"Free, Subscription",,Distributed,
 GitHub,https://github.com/,VCS Hosting,"Free, Subscription",,Git,
 GitLab,https://gitlab.com/,VCS Hosting,"Free, Subscription",,Git,
 BitBucket,https://bitbucket.org/,VCS Hosting,"Free, Subscription",,"Git, Mercurial",

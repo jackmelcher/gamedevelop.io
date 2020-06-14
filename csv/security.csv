@@ -1,9 +1,9 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Easy,https://www.easy.ac/en-us/,Anti-Cheat,License,,,
+Easy,https://www.easy.ac/en-us/,Anti-Cheat,License,"Windows, Mac, Linux",,
 BattlEye,https://www.battleye.com/,Anti-Cheat,License,,,
 Faceit,https://www.faceit.com/en/anti-cheat,Anti-Cheat,License,,,
-Valve Anti-Cheat,https://partner.steamgames.com/doc/features/anticheat,Anti-Cheat,Free,,,
-Denuvo,https://denuvo.com/,Application Security,License,,Anti-Piracy,
+Valve Anti-Cheat,https://partner.steamgames.com/doc/features/anticheat,Anti-Cheat,Free,"Windows, Mac, Linux",,
+Denuvo,https://denuvo.com/,Application Security,License,"Windows, Mac, Linux",Anti-Piracy,
 Akami,https://www.akamai.com/,Network Security,"Trial, Subscription",,,
 Arxan,https://www.arxan.com/,Application Security,Subscription,,,
 Approov,https://www.approov.io/,Application Security,Subscription,,Mobile API,

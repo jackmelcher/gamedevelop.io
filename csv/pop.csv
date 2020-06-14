@@ -4,7 +4,7 @@ Unreal Engine,https://www.unrealengine.com/,Game Engines,"Free, Royalty","Window
 Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engines,"Trial, Paid, Subscription","Windows, Mac","2D, Javascript, Drag & Drop","Uses GML Scripting, similar to Javascript"
 Havok,https://www.havok.com/,"Physics, Artificial Intelligence",Paid,"Windows, Mac",,"Physics Engine, AI SDK, Cloth Physics"
 Vivox,https://www.vivox.com/features,Audio,"Free, Subscription","Windows, Mac, Linux",,Voice Communications Solution
-Easy,https://www.easy.ac/en-us/,Anti-Cheat,License,,,
+Easy,https://www.easy.ac/en-us/,Anti-Cheat,License,"Windows, Mac, Linux",,
 Adobe Photoshop,https://www.adobe.com/products/photoshop.html,Image Manipulation,"Trial, Subscription","Windows, Mac, iOS",Raster,
 gimp,https://www.gimp.org/,Image Manipulation,Free,"Windows, Mac, Linux",Raster,
 Pro Motion NG,https://www.cosmigo.com/,"Pixel Art, Pixel Animation, Tiled Map","Free, Paid","Windows, Mac, Linux",,
@@ -26,10 +26,10 @@ Bfxr,https://www.bfxr.net/,Video Game SFX,Free,"Windows, Mac, Web",,
 Audacity,https://www.audacityteam.org/,Audio Editor,Free,"Windows, Mac, Linux",,
 Audiokinetic Wwise,https://www.audiokinetic.com/products/wwise/,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,
 FMOD Studio,https://www.fmod.com/studio,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,
-AWS GameLift,https://aws.amazon.com/gamelift/,Network,"Trial, Subscription",,Game Server Hosting,Includes Matchmaking Solution
-Google Cloud Platform,https://cloud.google.com/solutions/gaming,Network,"Free, Subscription",,Game Server Hosting,Includes Matchmaking Solution
-Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,Network,"Free, Subscription",,Game Server Hosting,Includes Matchmaking Solution and Back-End Game Solutions
-deltaDNA,https://deltadna.com/,Game Analytics,"Trial, Subscription",,,
+AWS GameLift,https://aws.amazon.com/gamelift/,Network,"Trial, Subscription","Web, Linux",Game Server Hosting,Includes Matchmaking Solution
+Google Cloud Platform,https://cloud.google.com/solutions/gaming,Network,"Free, Subscription","Web, Linux",Game Server Hosting,Includes Matchmaking Solution
+Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,Network,"Free, Subscription",Web,Game Server Hosting,Includes Matchmaking Solution and Back-End Game Solutions
+deltaDNA,https://deltadna.com/,Game Analytics,"Trial, Subscription",Web,,
 xsolla,https://xsolla.com/,Monetization Services,Royalty,"Windows, Mac, Linux, Web",,SDKs available for Unity and Unreal Engine
 Accelbyte,https://accelbyte.io/,"Monetization Services, Muliplayer Game Services, Game Analytics",Subscription,"Windows, Mac, Linux, Web",,SDKs available for Unity and Unreal Engine
 Webflow,https://webflow.com/,"Website Maker, Website Hosting, Domain Name Registar","Free, Trial, Subscription",Web,,
@@ -44,8 +44,8 @@ Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Task 
 Microsoft Office 365,https://products.office.com/en-us,"Office Software, Collaboration, Cloud Storage","Free, Trial, Subscription, Paid","Windows, Mac, iOS, Android, Web",,
 G Suite,https://gsuite.google.com/,"Office Software, Collaboration, Cloud Storage","Free, Subscription","Web, iOS, Android",,
 Atlassian Confluence,https://www.atlassian.com/software/confluence,"Collaboration, Cloud Storage","Free, Subscription","Web, iOS, Android",,
-GitHub,https://github.com/,VCS Hosting,"Free, Subscription",,Git,
-Assembla,https://www.assembla.com/home,VCS Hosting,Subscription,,"Perforce, Git, SVN",
+GitHub,https://github.com/,VCS Hosting,"Free, Subscription",Web,Git,
+Assembla,https://www.assembla.com/home,VCS Hosting,Subscription,Web,"Perforce, Git, SVN",
 Git Kraken,https://www.gitkraken.com/,VCS GUI,Free,"Windows, Mac, Linux",Git,
 SourceTree,https://www.sourcetreeapp.com/,VCS GUI,Free,"Windows, Mac","Git, Mercurial",
 Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,Video NLE,"Trial, Subscription","Windows, Mac",,

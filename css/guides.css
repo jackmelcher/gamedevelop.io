@@ -43,6 +43,8 @@ html[data-theme = "dark"]{
 {
     margin-bottom: 24px;
 }
+ul{line-height: 1.5;}
+li{margin-bottom: 8px;}
 @media all and (max-width: 768px){
     .sectionlimited{
     padding-left: 20px;

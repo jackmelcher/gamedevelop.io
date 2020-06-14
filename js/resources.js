@@ -40,6 +40,7 @@ function SelectTable(filename)
     ClearFilter("categories");
     ClearFilter("tag");
 
+
     //Load CSV Data
     LoadDoc(filepath, CreateTableFromArray2D);
     
@@ -98,18 +99,19 @@ function CreateTableFromArray2D(array2D)
                     img.className = "tableimg";
                     img.addEventListener('load',function(e){
                         //console.log(e.target.src);
-                        checkHeight()});
+                        });
                     tabCell.appendChild(img);
                     tabCell = tr.insertCell(-1);
                     var a = document.createElement("a");
                     a.href = array2D[i][j+1];
+                    a.target = "blank_";
                     a.textContent = array2D[i][j];
                     tabCell.appendChild(a);
                     j++;
                 }
                 else{
                     tabCell.textContent = array2D[i][j];
-                    if(j==4){PlatformTextToIcon(tabCell);}//causing the footer function to stop working
+                    if(j==4){PlatformTextToIcon(tabCell);}
                 }
             }
         }
@@ -153,7 +155,6 @@ function FilterTable()
     fitlersTag = UpdateFilterArray("tag");
 
     filterTableByColumn();
-    checkHeight();
 
     var filterids = ["categories","price","platform","tag"];
     for(var i = 0; i < filterids.length; i++)
