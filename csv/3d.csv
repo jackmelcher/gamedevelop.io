@@ -7,12 +7,14 @@ Autodesk Mudbox,https://www.autodesk.com/products/mudbox/overview,"Model, Sculpt
 Autodesk Arnold,https://www.autodesk.com/products/arnold/overview,"Render, VFX","Trial, Subscription","Windows, Mac, Linux",,
 Houdini,https://www.sidefx.com/products/houdini/,"Model, Texture, Animate, Rendering, VFX, Terrain, Cloth, Hair","Free, Subscription, License","Windows, Mac, Linux",,Includes tools for Procedural Generation and Manipulation
 Microsoft 3D Paint,https://support.microsoft.com/en-us/help/4014938/windows-10-basic-3d-modeling,Model,Free,Windows,,
-Unity Pro Builder,https://unity3d.com/unity/features/worldbuilding/probuilder,Model,Free,"Windows, Mac, Linux",,
+Unity Pro Builder,https://unity3d.com/unity/features/worldbuilding/probuilder,"Model, Texture",Free,"Windows, Mac, Linux",,
+Unity Polybrush,https://unity3d.com/unity/features/worldbuilding/polybrush,"Sculpt, Texture, Paint",Free,"Windows, Mac, Linux","",""
 LightWave 3D,https://www.lightwave3d.com/,"Model, Texture, 3D Animation, Render","Trial, Paid","Windows, Mac",,
 Foundry Modo,https://www.foundry.com/products/modo,"Model, Texture, Render","Trial, Paid, Subscription","Windows, Mac, Linux",,
 Foundry Mari,https://www.foundry.com/products/mari,"Texture, Paint","Trial, Paid, Subscription","Windows, Mac, Linux",,
 Winds 3D,http://www.wings3d.com/,Model,Free,"Windows, Mac, Linux",,
-zbrush,http://pixologic.com/,"Model, Sculpt, Texture, Paint","Trial, Paid","Windows, Mac",,
+ZBrush,http://pixologic.com/,"Model, Sculpt, Texture, Paint","Trial, Paid, Subscription","Windows, Mac",,
+ZBrush Core,http://zbrushcore.com/index.html,"Model, Sculpt, Texture, Paint","Paid, Subscription","Windows, Mac",,
 Sculptris,http://pixologic.com/sculptris/,"Model, Sculpt, Texture, Paint",Free,"Windows, Mac",,
 3D Coat,https://3dcoat.com/features/,"Sculpt, Paint, Texture","Trial, Paid","Windows, Mac, Linux",,
 Teya Conceptor,http://polybrush.org/try/,Sculpt,Free,"Windows, Mac, Linux",Beta,

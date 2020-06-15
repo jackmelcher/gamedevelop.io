@@ -20,7 +20,7 @@ document.body.appendChild(div);
 
 checkHeight();
 window.addEventListener('resize', checkHeight());
-document.body.onresize() = function (){checkHeight();};
+document.body.addEventListener('resize',checkHeight());
 
 //turn into a media query or a flexbox
 function checkHeight(){
