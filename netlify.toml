@@ -1,0 +1,51 @@
+[[redirects]]
+from = "/index.html"
+to = "/"
+
+[[redirects]]
+from = "/resources.html"
+to = "/resources"
+
+[[redirects]]
+from = "/suggestion.html"
+to = "/suggestion"
+
+[[redirects]]
+from = "/about.html"
+to = "/about"
+
+[[redirects]]
+from = "/404.html"
+to = "/404"
+
+[[redirects]]
+from = "/guides.html"
+to = "/guides"
+
+[[redirects]]
+from = "/guides/beginner.html"
+to = "/guides/beginner"
+
+[[redirects]]
+from = "/guides/industry.html"
+to = "/guides/industry"
+
+[[redirects]]
+from = "/guides/ip.html"
+to = "/guides/ip"
+
+[[redirects]]
+from = "/guides/kickstarter.html"
+to = "/guides/kickstarter"
+
+[[redirects]]
+from = "/guides/pr.html"
+to = "/guides/pr"
+
+[[redirects]]
+from = "/guides/tactics.html"
+to = "/guides/tactics"
+
+[[redirects]]
+from = "/guides/youtube.html"
+to = "/guides/youtube"

@@ -204,7 +204,7 @@ a:hover{
 }
 .footer > p{
   color: var(--footer-color);
-  margin: 0 16px;
+  margin: 4px 16px 0px;
   font-size: 10pt;
 }
 @media all and (max-width: 768px){
