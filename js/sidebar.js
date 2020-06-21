@@ -69,8 +69,8 @@ function makeSidebar()
 {
     var sidenav = document.getElementsByClassName("sidenav")[0];
     var fileName = location.href.split("/").slice(-1).toString(); 
-    var pages =  ["beginner","industry","ip","pr","youtube","kickstarter","tactics"];
-    var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter","Indie Business Tactics"];
+    var pages =  ["beginner","industry","ip","pr","youtube","kickstarter","tactics","testing"];
+    var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter","Indie Business Tactics","Publisher QA Testing"];
 
     for(var j = 0; j < pages.length; j++)
     {

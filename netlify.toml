@@ -1,51 +1,83 @@
 [[redirects]]
+from = "https://gamedevelop.netlify.app/"
+to = "https://www.gamedevelop.io/"
+status = 301
+force = true
+
+[[redirects]]
 from = "/index.html"
 to = "/"
+status = 301
+force = true
 
 [[redirects]]
 from = "/resources.html"
 to = "/resources"
+status = 301
+force = true
 
 [[redirects]]
 from = "/suggestion.html"
 to = "/suggestion"
+status = 301
+force = true
 
 [[redirects]]
 from = "/about.html"
 to = "/about"
+status = 301
+force = true
 
 [[redirects]]
 from = "/404.html"
 to = "/404"
+status = 301
+force = true
 
 [[redirects]]
 from = "/guides.html"
 to = "/guides"
+status = 301
+force = true
 
 [[redirects]]
 from = "/guides/beginner.html"
 to = "/guides/beginner"
+status = 301
+force = true
 
 [[redirects]]
 from = "/guides/industry.html"
 to = "/guides/industry"
+status = 301
+force = true
 
 [[redirects]]
 from = "/guides/ip.html"
 to = "/guides/ip"
+status = 301
+force = true
 
 [[redirects]]
 from = "/guides/kickstarter.html"
 to = "/guides/kickstarter"
+status = 301
+force = true
 
 [[redirects]]
 from = "/guides/pr.html"
 to = "/guides/pr"
+status = 301
+force = true
 
 [[redirects]]
 from = "/guides/tactics.html"
 to = "/guides/tactics"
+status = 301
+force = true
 
 [[redirects]]
 from = "/guides/youtube.html"
 to = "/guides/youtube"
+status = 301
+force = true
