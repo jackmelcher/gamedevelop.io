@@ -99,6 +99,7 @@ function CreateTableFromArray2D(array2D)
                     img.className = "tableimg";
                     img.addEventListener('load',function(e){
                         //console.log(e.target.src);
+                        checkHeight(); //footer.js
                         });
                     tabCell.appendChild(img);
                     tabCell = tr.insertCell(-1);

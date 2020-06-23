@@ -1,12 +1,12 @@
-Name,Link,Costs,Platforms,Categories,Tags,Description
-PcPartPicker,https://pcpartpicker.com/,Free,Web,Business,,Build a PC
-Slide Bean Pitch Deck,https://slidebean.com/pitch-deck-template/,Free,Web,Business,Business Pitch,Pitch Deck Maker
-Attach.io Startup Pitch Deck,https://attach.io/startup-pitch-decks/,Free,Web,Business,Business Pitch,Pitch Deck Examples
-Keymailer,https://www.keymailer.co/,Free,Web,Business,,Game Key Service
-distribute(),https://dodistribute.com/,Free,Web,Business,,Game Key Distribution Tool to Press
-Monetize Generator,https://vlambeer.com/toolkit/monetize-generator/,Free,Web,Business,,Monetization Permission Form for content creators
-Sendy,https://sendy.co/,Paid,Linux,Marketing,Email,"Self-hosted application that works with AWS SES to manage, send, and analyze Email Newsletters"
-Mailchimp,https://mailchimp.com/,"Free, Subscription",Web,"Business, Marketing",Email,Email Hosting and Marketing Services
-Zoho,https://www.zoho.com/,"Free, Subscription",Web,"Business, Marketing",Email,Email Hosting and Marketing Services
-presskit(),http://dopresskit.com/,Free,"Windows, Mac, Linux",Public Relations,Press Page Tool,Requires a server that can host PHP
-HubSpot,https://www.hubspot.com/,"Free, Subscription",Web,Marketing,,Provide a wide variety of Sales and Marketing tools and services
+Name,Link,Categories,Pricing,Platforms,Tags,Description
+PcPartPicker,https://pcpartpicker.com/,Business,Free,Web,,Build a PC
+Slide Bean Pitch Deck,https://slidebean.com/pitch-deck-template/,Business,Free,Web,Business Pitch,Pitch Deck Maker
+Attach.io Startup Pitch Deck,https://attach.io/startup-pitch-decks/,Business,Free,Web,Business Pitch,Pitch Deck Examples
+Keymailer,https://www.keymailer.co/,Business,Free,Web,,Game Key Service
+distribute(),https://dodistribute.com/,Business,Free,Web,,Game Key Distribution Tool to Press
+Monetize Generator,https://vlambeer.com/toolkit/monetize-generator/,Business,Free,Web,,Monetization Permission Form for content creators
+Sendy,https://sendy.co/,Marketing,Paid,Linux,Email,"Self-hosted application that works with AWS SES to manage, send, and analyze Email Newsletters"
+Mailchimp,https://mailchimp.com/,"Business, Marketing","Free, Subscription",Web,Email,Email Hosting and Marketing Services
+Zoho,https://www.zoho.com/,"Business, Marketing","Free, Subscription",Web,Email,Email Hosting and Marketing Services
+presskit(),http://dopresskit.com/,Public Relations,Free,"Windows, Mac, Linux",Press Page Tool,Requires a server that can host PHP
+HubSpot,https://www.hubspot.com/,Marketing,"Free, Subscription",Web,,Provide a wide variety of Sales and Marketing tools and services

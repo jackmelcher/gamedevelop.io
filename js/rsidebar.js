@@ -15,7 +15,6 @@ function resizeSideNav(mq)
         side.style.display = "block";
         sidebutton.style.display = "none";
         menuicon.classList.replace("fa-times","fa-bars");
-
     }
 }
 mq.addListener(resizeSideNav);
@@ -28,11 +27,13 @@ function ToggleSide()
         {
             side.style.display = "block";
             menuicon.classList.replace("fa-bars","fa-times");
+            document.body.style.overflow = "hidden";
         }
         else
         {
             side.style.display = "none";
             menuicon.classList.replace("fa-times","fa-bars");
+            document.body.style.overflow = "";
         }
     }
 }

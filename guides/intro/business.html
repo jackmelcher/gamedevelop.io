@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GameDevelop.io Guides Beginner</title>
+        <meta name="description" content="GameDevelop.io is a Resource Website for Game Development.">
+        <link rel="canonical" href="https://www.gamedevelop.io/guides/beginner">
+        <!-- Site Settings -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="height=device-height, 
+            width=device-width, initial-scale=1.0, 
+            minimum-scale=1.0, maximum-scale=1.0, 
+            user-scalable=no, width=device-width">
+        
+        <!-- Meta Properties -->
+        <meta property="og:site_name" content="GameDevelop.io">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="GameDevelop.io Guides">
+        <meta property="og:description" content="Learn about various aspects of Game Development.">
+        <meta property="og:image" content="https://www.gamedevelop.io/images/logo1.png">
+        <meta property="og:url" content="https://www.gamedevelop.io/guides/beginner">
+
+        <base href = "../"/>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">   
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="favicons/site.webmanifest">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/guides.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <button class="button buttonside sidenavbutton" onclick="ToggleSide()">
+                <i class="menuicon fas fa-bars"></i>
+            </button>
+            <a href="/" class="button button_logo">
+                <img src="images/logo.svg" alt="logo" class="logoimg">
+            </a>
+            <a href="resources.html" class="button button_nav">
+                Resources
+            </a>
+            <a href="guides.html" class="button button_nav">
+                Guides
+            </a>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+        </nav>
+        
+        <section class="sectionlimited">
+            <div class="sidenav">
+                
+            </div>
+        <div>
+            <!-- Separate the guide out into Pre-Production, Production, and Post-Production -->
+            <div id="top" class="guideTop"><h1>Introduction to Running a Games Business</h1></div>
+            <div id="cost" class = "guideTop">
+                <h3>Cost of Development</h3>
+                <p>
+                    The cost of development includes both time and money.
+                    To get an idea of the costs, you need to answer the following questions:
+                </p>
+                <p>
+                    What skills are needed to develop the game?
+                    How long will it take to learn the necessary skills to develop the game?
+                    Will you make the game by yourself?
+                    Do you need a team?
+                    How will you compensate your teammates?
+                    What tools will you use?
+                    Do you need to purchase licenses for software?
+                    What assets will you need?
+                    What is the DevOps pipeline?
+                    Do you need servers to host your game?
+                </p>
+                <p>
+                    Will your game be free or paid?
+                    Will you include alternative monetization methods?
+                    What devices are you targeting? 
+                    What distribution platforms are you going to use? 
+                    What is the production schedule?
+                    How will you market your game?
+                    What is your planned release date?
+                </p>
+                <p>
+                    And most importantly, How will you fund the project?
+                </p>
+                <p>
+                    All projects require funding, whether it’s to hire professionals or just keep the lights on.
+                    Most people have a day job and only have their evenings and weekends available to contribute to a project.
+                    People will not dedicate themselves full-time to create a game without compensation.
+                    Everyone needs to pay for expenses, and it's difficult to work on something full-time without financial security.
+                </p>
+            </div>
+            <div id="funding" class = "guide">
+                <h3>Funding Options</h3>
+                <p>
+                    If you want to work full-time on your game, there are several funding options available.
+                    These include: using your savings, starting a crowdfunding campaign, partnering with publishers / investors, or applying for developer grants.
+                </p>
+                <p>
+                    For crowdfunding, publishing, and grants, you will be required to pitch your game to whomever you are seeking investment from.
+                    You will want to be able to show a solid concept, often a working prototype, detailed design descriptions, captivating screenshots or videos, a definite production deadline, a breakdown on how the money will be spent, and what will be the potential Return on Investment (monetary or product).
+                    The more clear, detailed, and marketable your pitch is, the greater your chances of success.
+                </p>
+            </div>
+            <div id="business" class = "guide">
+                <h3>Make a Business Plan</h3>
+                <p>
+                    What is the business model of your game? How will you make a Return on Investment (ROI) for the costs of development? 
+                </p>
+                <p>
+                    For hobbiests, the ROI is often the experience you gained from completing the project.
+                    Your new found knowledge can be put to use in future projects.
+                    You can also document the experience on your resume and portfolio site, which is valuable if you plan on pursuing a career in the Games Industry.
+                </p>
+                <p>
+                    But businesses, they expect to turn a profit from the game's revenue.
+                    What revenue model will you use?
+                    What price will you sell your game at?
+                    Will you also include microtransactions or a subscription?
+                    Do you plan to expand the game with free or paid DLC?
+                    What devices and distribution platforms are you targeting?
+                    When will you break even?
+                </p>
+                <p>
+                    But if you release a game for free and expect monetary gain, what approach will you take?
+                    Are you going to sell a soundtrack, digital art assest, or physical merchandise?
+                    Are you selling cosmetic goods from an in-game storefront?
+                    Sell in-game currency that can be used to purchase rolls on a gacha, or speed up actions to reduce wait times?
+                    Sell boosters to alleviate the amount of grinding a player has to do to progress?
+                    Have a subscription that gives players rewards for their participation?
+                </p>
+                <p>
+                    For live services, how do you maintain player retention?
+                    How do you reward players and encourage them to keep playing?
+                    Do you create daily, weekly, monthly objectives?
+                    Do you host limited timed events that introduces additional content?
+                </p>
+                <p>
+                    Who is your target audience?
+                    Are you targeting a general audience or a more niche audience?
+                    What is your marketing strategy to acquire an audience?
+                    Can you do any market research to estimate the market size based previously released games?
+                    Can you make any projections on revenue or user growth?
+                </p>
+            </div>
+            <div id="marketing" class = "guide">
+                <h3>Marketing and Release</h3>
+                <p>
+                    Marketing and advertising is critical to a game's success.
+                    The goal is to convert as many people within your target audience into buyers.
+                    Your team can make the most amazing game possible, but if nobody knows about it, then no one will play it.
+                    There are multiple avenues to spreading the word about your game and it’s development.
+                </p>
+                <p>
+                    If you have a publisher or are working with a marketing agency, they will assist your studio with traditional marketing and advertising.
+                    Publishers can assist with getting news coverage and reviews of your game through games media outlets.
+                    Publishers can also showcases your game at conferences, digital video promotions, and post about the game on their social media accounts.
+                    Publishers and marketing agencies can assist with creating cinematics, gameplay trailers, and screenshots for your website, store pages, or advertisement on websites.
+                </p>
+                <p>
+                    If you don't have the capital, you can take a more grassroots approach to your marketing.
+                    You can build up hype and grow an audience by: posting devlogs, making screenshots and gifs, showing game trailers, telling friends and family, launch a crowdfunding campaign, upload demo builds, or partnering with Let’s Players to showcase your game.
+                    Word-of-mouth is powerful, and has the potential to make your game go viral.
+                </p>
+                <p>
+                    Community engagement also helps with growing and maintaining an audience.
+                    By making connections with people in your community, people with become more emotionally invested in your journey and the game that your team ends up creating.
+                    Hold active discussions in comments of posts, in dedicated forums or chat rooms, and/or broadcast live streams regularly to keep the community engaged.
+                    Your community can also help with marketing efforts if they decide to share your game to others.
+                    The community can also be a good predictor to how successful the game will be when released.
+                </p>
+                <p>
+                    Especially for multiplayer games, hosting Alpha and Beta Testing sessions can be a good way to acquire users early on.
+                    Successful testing sessions can potentially increase the user growth substantially.
+                    Early players can help find major issues in the game as well as provide critical feedback.
+                    Using the feedback from the test session, you can rebalance gameplay or introduce additional quality of life improvements.
+                </p>
+                <p>
+                    Rarely, games are released with little-to-no marketing and simply go viral because the game is either so good, or so bad, that they want other people to play it.
+                    You should not expect your game will succeed on its own.
+                    If you want to ensure your game has a successful launch, market it before and after it releases.
+                </p>
+            </div>
+            <div id="postmortem" class = "guide">
+                <h3>Post Mortem</h3>
+                <p>
+                    You’ve finished your game and released it to market.
+                    Sales numbers are rolling in and you see a surge of active users.
+                    Your team gets word from the community of various bugs and glitches.
+                    Critics and users write reviews and provide feedback.
+                </p>
+                <p>
+                    Or, the project was a complete mess.
+                    Production was plagued by delays due to mismanagement and ran over budget.
+                    Team members couldn't work together and constantly argued over creative differences.
+                    Development had to stop because the project ran out of money.
+                    You release what was made, and those that played the game make scathing reviews.
+                </p>
+                <p>
+                    Post Mortems are meant to be a learning opportunity for team members.
+                    Ask questions such as: Did the team meet the original production schedule?
+                    Did the team have to Crunch and/or delay the release?
+                    Was production within budget?
+                    Does the game that was created match the original creative vision?
+                    Is the team satisfied with the results?
+                    Are players satisfied with the results?
+                    Did you reach your projected sales goals?
+                    How was the game received by the audience?
+                    What parts of the development process worked well?
+                    What mistakes were made along the way that could've been avoided?
+                    What processes could be improved and implemented in future projects?
+                    Is there any work that was completed that can be reused for future projects?
+                    Does the team feel like they can continue working together on future projects?
+                </p>
+                <p>
+                    It’s important to learn from the experience and for everyone to provide constructive criticism.
+                    Nobody is perfect, and there is plenty of room for growth.
+                    Take what you learned and apply it to improve the success of future projects.
+                </p>
+            </div>
+        </div>
+        </section>
+        <div class="footer">
+            <a href="about.html">About</a>
+            <a href="suggestion.html">Make a Suggestion</a>
+            <br>
+            <p>© 2020 GameDevelop.io All rights reserved. All trademarks and registered trademarks are the property of their respective owners.</p>
+        </div>
+    </body>
+</html>
+<script src="js/theme.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/footer.js"></script>

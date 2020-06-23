@@ -81,3 +81,9 @@ from = "/guides/youtube.html"
 to = "/guides/youtube"
 status = 301
 force = true
+
+[[redirects]]
+from = "/guides/testing.html"
+to = "/guides/youtube"
+status = 301
+force = true

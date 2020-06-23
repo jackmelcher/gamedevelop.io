@@ -21,7 +21,7 @@ html[data-theme = "dark"]{
   --side-bg-color: #383838; 
   --side-border-color: #4e4e4e; 
   --heading-color: #ececec;
-  --link-color: #178fff;
+  --link-color: #64b4ff;
   --footer-bg-color: #272727;
   --footer-color: #b1b1b1;
 }
@@ -30,7 +30,6 @@ body{
   background-color: var(--bg-color);
   color: var(--font-color);
   margin: 0px;
-  /*overflow: hidden;*/
   font-family: Arial, Helvetica, sans-serif;
 
   /* Flex Box */

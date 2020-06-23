@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GameDevelop.io Guides Beginner</title>
+        <meta name="description" content="GameDevelop.io is a Resource Website for Game Development.">
+        <link rel="canonical" href="https://www.gamedevelop.io/guides/beginner">
+        <!-- Site Settings -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="height=device-height, 
+            width=device-width, initial-scale=1.0, 
+            minimum-scale=1.0, maximum-scale=1.0, 
+            user-scalable=no, width=device-width">
+        
+        <!-- Meta Properties -->
+        <meta property="og:site_name" content="GameDevelop.io">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="GameDevelop.io Guides">
+        <meta property="og:description" content="Learn about various aspects of Game Development.">
+        <meta property="og:image" content="https://www.gamedevelop.io/images/logo1.png">
+        <meta property="og:url" content="https://www.gamedevelop.io/guides/beginner">
+
+        <base href = "../"/>
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.min.css">   
+        
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="favicons/site.webmanifest">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="css/guides.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <button class="button buttonside sidenavbutton" onclick="ToggleSide()">
+                <i class="menuicon fas fa-bars"></i>
+            </button>
+            <a href="/" class="button button_logo">
+                <img src="images/logo.svg" alt="logo" class="logoimg">
+            </a>
+            <a href="resources.html" class="button button_nav">
+                Resources
+            </a>
+            <a href="guides.html" class="button button_nav">
+                Guides
+            </a>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+        </nav>
+        
+        <section class="sectionlimited">
+            <div class="sidenav">
+                
+            </div>
+        <div>
+            <!-- Separate the guide out into Pre-Production, Production, and Post-Production -->
+            <div id="top" class="guideTop"><h1>Introduction to Concepting a Game</h1></div>
+            <div id="what" class="guideTop">
+                <h3>What is a Video Game?</h3> 
+                <p>
+                    A Video Game is a digital interactive experience that is created by combining programming and art, where a set of rules govern how players can achieve a goal. 
+                </p>
+                <p>
+                    Video Games can be a few squares jumping on rectangles, or a massive multiplayer online open world. 
+                    Art can be as simple as a few pixels, or as complex as high poly models with photorealistic textures. 
+                    Audio can be a few sound bites, or a grand composition played by an orchestra. 
+                </p>
+                <p>
+                    Games have been made by individuals, small groups, and large studios that span across the globe. 
+                    With a plethora of tools, assets, and services available, anyone can make a video game.
+                </p>
+                <p>
+                    Roles in game development include: engineers, producers, designers, artists, testers, composers, musicians, localizers, marketers, community managers, customer support, IT technicians, legal counselors, business administrators, accountants, facility managers, HR Reps, Recruiters, etc. 
+                    All these people come together to build an experience the masses can enjoy.
+                </p>
+                <p>
+                    Game ideas are created through brainstorming sessions then fleshed out through documentation and concept drawings. 
+                    Once all developers agree on the game's design, a prototype built to validate it. 
+                    As production of the game progresses, the game is iterated upon. More features are built, gameplay is tested and refined, finalized art and audio is added, and bugs are fixed. 
+                    In order to ensure financial success, the game is marketed to its target audience to garner a potential player base. 
+                    After months or years of hard work and dedication, the game is released.
+                </p>
+            </div>
+            <div id="startsmall" class = "guide">
+                <h3>What Game Should I Make?</h3>
+                <p>
+                    Make the game you want to make.
+                </p>
+                <p>
+                    Is it a clone of a popular game but with a twist?
+                    Or is it a completely original game idea?
+                    Do you want to make a simple 2D platformer?
+                    Or do you want to make a vast 3D open world RPG with a bunch of items, cool weapons, deadly monsters, touching cinematics, heated action, and a grand story?
+                </p>
+                <p>                    
+                    Feel free to go headlong into making the game of your dreams, or start out by making smaller games to gradually build up your skills.                    
+                    But no matter how big or how small your game is, do not underestimate how long it takes to make a game. 
+                </p>
+                <p>
+                    By producing small games, you will more quickly grasp the game development process.
+                    Smaller projects are more manageable, team members are more likely to stick around, and there is a greater chance the game will get finished and launch.
+                    By failing quickly, you will be able to discover the best path for success.
+                    As you complete more projects, you will gradually build up the experience and skills necessary to produce bigger games.
+                </p>
+                <p>
+                    If you are still set on making your big dream game as your first game, then make sure to break it down into smaller chunks.
+                    The feeling of progress will help with maintaining your motivation to work on projects that may take years to complete.
+                    By accomplishing small goals, it becomes easier to achieve big goals.
+                    If you dont feel confident that you can make your big dream game yet, then take a small fraction of the features from your big game idea to make your first small game.
+                    If you are whole-heartedly commited to making your big dream game, then go for it.
+                </p>
+                <p>
+                    If you can't think of a game idea, then here are some common points of inspiration:
+                    <ul>
+                        <li>
+                            Take a proven game idea and innovate on top of it.
+                        </li>
+                        <li>
+                            Reuse the same genre and mechanics from a game, but use them in a different setting.
+                        </li>
+                        <li>
+                            Combine two or more genres to create a new experience that poses a different set of challenges.
+                        </li>
+                        <li>
+                            Participate in a Game Jam. Often, novel game ideas come from having to brainstorm around the proposed theme.
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Now that you've decided on the game you want to make, let's start concepting it.
+                </p>
+            </div>
+            <div id="concept" class = "guide">
+                <h3>Concepting the Game Idea</h3>
+                <p>
+                    Start brainstorming and put your game idea on paper.
+                </p>
+                <p>
+                    What is your game's vision?
+                    What are your expectations of the player experience?
+                    What emotions do you want the experience to evoke from the players?
+                </p>
+                <p>
+                    Elaborate on all the higher level features of the game.
+                    Jot down the theme, genre, goals, features, game pieces, game loop, progression, rewards, art style, type of music, target platform/s, etc.
+                    Describe the setting, the game world, story, premise, lore, characters.
+                    Make sketches of environments, levels, characters, and game objects to get a sense of scale and art direction.
+                    Think about the audience your game is targeting and the experience you want them to have.
+                </p>
+                <p>
+                    Now that you have all the big ideas of your game on paper, the next step is to evaluate the game's scope.
+                </p>
+            </div>
+            <div id="scope" class = "guide">
+                <h3>Evaluating Scope</h3>
+                <p>
+                    Scope equates to a game’s complexity.
+                    The more features and content a game has, the greater the game's scope.
+                    By evaluating the scope, you can get a better idea of how big your game will be.
+                </p>
+                <p>
+                    Take a moment to break out your Game Concept into two categories: the Minimum Viable Product, and Additional Features and Content.
+                    The Minimum Viable Product (MVP) is the minimum finished state the game needs to be in before it can ship.
+                    The MVP includes all essential features that makes up the game (mechanics and systems), and the content the game has to offer (characters, levels, art, audio, etc).
+                    Anything that doesn't need to be in the game at launch are then categorized as Additional Features and Content.
+                    The sum of the MVP and the Additional Features and Content is the Desired Product.
+                </p>
+                <p>
+                    Now review the overall scope of the game and ask yourself, is the scope too big?
+                    Can your team execute this game idea and create a finished product in the desired production timeframe?
+                    Are there things that can be recategorized as Additional Features and Content?
+                    If it comes down to it, what things would you be okay with cutting completely from the game?
+                    You can always release a MVP and update it with any Additional Features and Content in future updates.
+                </p>
+                <p>
+                    Also keep in mind that your game's design is always subject to change.
+                    In the event you have to redesign a feature, you will need to re-evaluate the game's scope to ensure that none of the changes severely impact your production timeline.
+                    Avoid Feature Creep, which is the tendency to add a lot of new features and content to the game's design over the course of development.
+                    Team members often overestimate their production capacity, and forget how much work there still is to make the MVP.
+                    Try to make sure that any design changes to the MVP are not drastic, but sometimes such changes cannot be avoided.
+                </p>
+                <p>
+                    Now that you've narrowed down the scope and are committed to making your game, let's start filling in the details.
+                </p>
+            </div>
+            <div id="gdd" class = "guide">
+                <h3>Writing a Game Design Doc</h3>
+                <p>
+                    A Game Design Document (GDD) is pretty self-explantory. It's a document that contains all of a game's design details.
+                    It functions as a written blueprint and can be as broad or specific as necessary.
+                    At the very least, it should contain all the high level design and technical details of your game.
+                </p>
+                <p>
+                    Use the notes from your Game Concepting session to outline the Game Design Doc.
+                    Elaborate on all of the rules, mechanics, systems, game objects, functionality, interfaces, control schemes, and game options.
+                </p>
+                <p>
+                    Solidify the art style and list out the necessary 3D models, 2D graphics, textures, animations.
+                    Determine the level design and the necessary environments, lighting, shaders, post processing, and particle effects.
+                    Draw some concept art of the game and create references of the world establish a more cohesive theme and aesthetic of environments, set pieces, scale of the world, props, characters.
+                </p>
+                <p>
+                    Flesh out the lore, world building, story beats, plot, narrative, script, and character interactions.
+                    Storyboard  scenes and cinematics of key plot points.
+                </p>
+                <p>
+                    Figure out what music and the sound effects are necessary for menus, actions, or event sequences.
+                    Make wireframes, layouts, and flowcharts of the User Experience and User Interface.
+                </p>
+                <p>
+                    Overall, the GDD should contain the most recent agreed upon design of the game and serve as a reference during development.
+                    But, it is very likely design will change after several sessions of prototyping, playtesting, and discussing.
+                    As a result, the GDD will evolve as designs are iterated upon.
+                </p>
+                <p>
+                    With your game design and scope set for now, how are you going to make your game?
+                    What are the necessary tools to make your design a reality?
+                </p>
+            </div>
+        </div>
+        </section>
+        <div class="footer">
+            <a href="about.html">About</a>
+            <a href="suggestion.html">Make a Suggestion</a>
+            <br>
+            <p>© 2020 GameDevelop.io All rights reserved. All trademarks and registered trademarks are the property of their respective owners.</p>
+        </div>
+    </body>
+</html>
+<script src="js/theme.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/footer.js"></script>
