@@ -162,6 +162,8 @@ function FilterTable()
     {
         HideFilters(filterids[i], i+2);
     }
+
+    checkHeight();//footer.js
 }
 
 function filterTableByColumn() 
