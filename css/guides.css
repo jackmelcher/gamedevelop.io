@@ -26,6 +26,12 @@ html[data-theme = "dark"]{
 .guidelink > ul > li >a{
     color: var(--guide-link-header-color);
 }
+.guidelink > ul > li > ul > li > a{
+    color: var(--guide-link-header-color);
+}
+.guidelink > ul > li > ul{
+    margin-top: 8px;
+}
 .guide{
     margin-left: 25%;
     margin-top: 64px;
@@ -42,6 +48,11 @@ html[data-theme = "dark"]{
 .guideHeaders > *
 {
     margin-bottom: 24px;
+}
+.guideHeaders > a {
+    color: var(--link-color);
+    font-size: 16pt;
+    font-weight: bold;
 }
 ul{line-height: 1.5;}
 li{margin-bottom: 8px;}

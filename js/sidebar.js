@@ -49,6 +49,78 @@ function secjump(id)
     ToggleSide();
 }
 
+function makeSidebar()
+{
+    var intro = ["business","concept","production"];
+    var introtitle = ["Introduction to Games Concepting","Introduction to Games Production","Introduction to Games Business"];
+    var business = ["ip","youtube","tactics","kickstarter","pr"];
+    var businesstitle = ["The Strength of Intellectual Property","Building a Successful YouTube Channel","Indie Business Tactics","How to be Successful at Kickstarter","Public Relations and Marketing"];
+    var industry = ["overview","jobs","testing","culture"];
+    var industrytitle = ["Overview","Games Industry Jobs","Publisher QA Testing","Games Industry Work Culture"];
+
+    makeSidebar2("introductory","Introductory Guides",intro,introtitle)
+    makeSidebar2("industry","The Computer and Video Game Industry",industry,industrytitle)
+    makeSidebar2("business","Business and Marketing Guides",business,businesstitle)
+}
+
+function makeSidebar2(guideFile,guideTitle,fileArr,titleArr)
+{
+    var sidenav = document.getElementsByClassName("sidenav")[0];
+    var fileName = location.href.split("/").slice(-1).toString(); 
+    var div = document.createElement("div");
+    div.classList.add("guidelink");
+    
+    // Make Guide Type link
+    var a = document.createElement("a");
+    a.textContent = guideTitle;
+    a.href = "/guides/"+guideFile+".html";
+    a.classList.add("bold");
+    if(fileName.includes(guideFile))
+    {
+        a.classList.add("underline");
+    }
+    div.appendChild(a);
+
+    var list = document.createElement("ul");
+    list.classList.add("nobullets");
+    
+    // Make list of guides
+    for(var i=0; i < fileArr.length; i++)
+    {
+        var litem = document.createElement("li");
+        var link = document.createElement("a");
+        link.href = "/guides/"+guideFile+"/"+fileArr[i]+".html";
+        link.textContent = titleArr[i];
+
+        litem.appendChild(link);
+
+        if(fileName.includes(fileArr[i]))
+        {
+            link.classList.add("underline");
+            
+            console.log(location.href.split("/").slice(-3).toString())
+            if(location.href.split("/").slice(-3)[0] == "guides")
+            {
+                // Make anchor links
+                var h3s = document.getElementsByTagName("h3");
+                
+                var sections = [];
+                var ids = [];
+                for (var j = 0; j < h3s.length; j++)
+                {
+                    ids.push(h3s[j].parentElement.id);
+                    sections.push(h3s[j].textContent);
+                }
+                makeAnchors(litem,ids,sections)
+            }
+        }
+        list.appendChild(litem);
+    }
+    div.appendChild(list);
+
+    sidenav.appendChild(div);
+}
+
 function makeAnchors(divContainer,ids,sections)
 {
     var list = document.createElement("ul");
@@ -60,42 +132,9 @@ function makeAnchors(divContainer,ids,sections)
         litem = document.createElement("li");
         anchor = document.createElement("a");
         anchor.href = "javascript:secjump(\""+ids[a]+"\")";
-        anchor.innerHTML = sections[a];
+        anchor.textContent = sections[a];
         litem.appendChild(anchor);
         list.appendChild(litem);
     }
     divContainer.appendChild(list);
-}
-
-function makeSidebar()
-{
-    var sidenav = document.getElementsByClassName("sidenav")[0];
-    var fileName = location.href.split("/").slice(-1).toString(); 
-    var pages =  ["beginner","industry","ip","pr","youtube","kickstarter","tactics","testing"];
-    var pagetitle = ["Beginner's Guide","The Computer and Video Game Industry","The Strength of Intellectual Property","Public Relations and Marketing","Building a Successful YouTube Channel","How to be successful at Kickstarter","Indie Business Tactics","Publisher QA Testing"];
-
-    for(var j = 0; j < pages.length; j++)
-    {
-        var divContainer = document.createElement("div");
-        var a = document.createElement("a");
-        a.href = "guides/"+pages[j]+".html";
-        a.innerHTML = pagetitle[j];
-        a.classList.add("bold");
-        divContainer.appendChild(a);
-        if(fileName.includes(pages[j]))
-        {
-            a.classList.add("underline");
-            var h3s = document.getElementsByTagName("h3");
-            var sections = [];
-            var ids = [];
-            for (var i = 0; i < h3s.length; i++)
-            {
-                ids.push(h3s[i].parentElement.id);
-                sections.push(h3s[i].innerHTML);
-            }
-            makeAnchors(divContainer, ids, sections);
-        }
-        divContainer.classList.add("guidelink");
-        sidenav.appendChild(divContainer);
-    }
 }

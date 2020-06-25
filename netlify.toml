@@ -84,6 +84,6 @@ force = true
 
 [[redirects]]
 from = "/guides/testing.html"
-to = "/guides/youtube"
+to = "/guides/testing"
 status = 301
 force = true
