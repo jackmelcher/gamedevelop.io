@@ -41,8 +41,26 @@ status = 301
 force = true
 
 [[redirects]]
-from = "/guides/beginner.html"
-to = "/guides/beginner"
+from = "/guides/introductory.html"
+to = "/guides/introductory"
+status = 301
+force = true
+
+[[redirects]]
+from = "/guides/introductory/concept.html"
+to = "/guides/introductory/concept"
+status = 301
+force = true
+
+[[redirects]]
+from = "/guides/introductory/business.html"
+to = "/guides/introductory/business"
+status = 301
+force = true
+
+[[redirects]]
+from = "/guides/introductory/production.html"
+to = "/guides/introductory/production"
 status = 301
 force = true
 
@@ -53,37 +71,49 @@ status = 301
 force = true
 
 [[redirects]]
-from = "/guides/ip.html"
-to = "/guides/ip"
+from = "/guides/industry/testing.html"
+to = "/guides/industry/testing"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/kickstarter.html"
-to = "/guides/kickstarter"
+from = "/guides/industry/overview.html"
+to = "/guides/industry/overview"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/pr.html"
-to = "/guides/pr"
+from = "/guides/industry/culture.html"
+to = "/guides/industry/culture"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/tactics.html"
-to = "/guides/tactics"
+from = "/guides/business/ip.html"
+to = "/guides/business/ip"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/youtube.html"
-to = "/guides/youtube"
+from = "/guides/business/kickstarter.html"
+to = "/guides/business/kickstarter"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/testing.html"
-to = "/guides/testing"
+from = "/guides/business/pr.html"
+to = "/guides/business/pr"
+status = 301
+force = true
+
+[[redirects]]
+from = "/guides/business/tactics.html"
+to = "/guides/business/tactics"
+status = 301
+force = true
+
+[[redirects]]
+from = "/guides/business/youtube.html"
+to = "/guides/business/youtube"
 status = 301
 force = true
