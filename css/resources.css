@@ -10,10 +10,16 @@ html[data-theme = "dark"]{
   --table-row-color-1: #525252;
   --table-row-color-2: #424242;
 }
+.sidenav {
+  width: 240px;
+}
 .resource {
   padding-left: 340px;
   padding-right: 160px;
   padding-bottom: 64px;
+}
+table{
+  width: 100%;
 }
 table,
 th,
@@ -58,14 +64,40 @@ table{
   vertical-align: middle;
 }
 
-@media all and (min-width: 769px) and (max-width: 1280px) {
+@media all and (min-width: 1180px) and (max-width: 1330px) {
   .resource {
     padding-left: 340px;
     padding-right: 40px;
   }
   td,
   th {
-    padding: 8px 16px;
+    padding: 8px 14px;
+  }
+}
+@media all and (min-width: 920px) and (max-width: 1179px) {
+  .resource {
+    padding-left: 340px;
+    padding-right: 40px;
+  }
+  td,
+  th {
+    padding: 6px 14px;
+  }
+  th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
+    display: none;
+  }
+}
+@media all and (min-width: 769px) and (max-width: 919px) {
+  .resource {
+    padding-left: 300px;
+    padding-right: 40px;
+  }
+  td,
+  th {
+    padding: 6px 14px;
+  }
+  th:nth-child(4),td:nth-child(4),th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
+    display: none;
   }
 }
 @media all and (max-width: 768px) {
@@ -75,7 +107,7 @@ table{
   }
   td,
   th {
-    padding: 8px 12px;
+    padding: 4px 12px;
     font-size: 11pt;
   }
   td:nth-child(2){
@@ -85,7 +117,7 @@ table{
     display: none;
   }
 }
-@media all and (max-width: 420px) {
+@media all and (max-width: 529px) {
   th:nth-child(4),td:nth-child(4),th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
     display: none;
   }

@@ -221,14 +221,6 @@ a:hover{
     padding: 8px 0px;
   }
 }
-@media all and (min-width: 769px) and (max-width: 1280px){
-  .sidenav{
-    display: block;
-  }
-  .sidenavbutton{
-    display: none;
-  }
-}
 
  /* The switch - the box around the slider */
  .switch {
