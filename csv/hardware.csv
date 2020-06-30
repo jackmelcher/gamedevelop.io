@@ -1,14 +1,22 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Microsoft,https://www.microsoft.com/en-us/,,,,,
-Apple,https://www.apple.com/,,,,,
-Samsung,https://www.samsung.com/us/,,,,,
-Intel,https://www.intel.com/,,,,,
-AMD,https://www.amd.com/en,,,,,
-Nvidia,https://www.nvidia.com/en-us/,,,,,
-Qualcomm,https://www.qualcomm.com/,,,,,
-Oculus,https://www.oculus.com/,,,,,
-HTC,https://www.htc.com/us/,,,,,
-Valve,https://www.valvesoftware.com/en/,,,,,
-Magic Leap,https://www.magicleap.com/,,,,,
-Leap Motion,https://developer.leapmotion.com/,,,,,
-Pico Interactive,https://www.pico-interactive.com/,,,,,
+Microsoft,https://www.microsoft.com/en-us/,"Software, Hardware","Free, Paid",Web,"OS, Laptop, Console",
+Apple,https://www.apple.com/,"Software, Hardware","Free, Paid",Web,"OS, Desktop, Laptop, Mobile",
+Samsung,https://www.samsung.com/us/,Hardware,Paid,Web,Mobile,
+Intel,https://www.intel.com/,Hardware,Paid,Web,CPU,
+AMD,https://www.amd.com/en,Hardware,Paid,Web,"CPU, GPU",
+Nvidia,https://www.nvidia.com/en-us/,Hardware,Paid,Web,GPU,
+Qualcomm,https://www.qualcomm.com/,Hardware,Paid,Web,CPU,
+Oculus,https://www.oculus.com/,Hardware,Paid,Web,VR,
+HTC,https://www.htc.com/us/,Hardware,Paid,Web,VR,
+Valve,https://www.valvesoftware.com/en/,"Software, Hardware","Free, Paid",Web,"OS, VR",
+Magic Leap,https://www.magicleap.com/,Hardware,Paid,Web,AR,
+Leap Motion,https://developer.leapmotion.com/,Hardware,Paid,Web,AR,
+Pico Interactive,https://www.pico-interactive.com/,Hardware,Paid,Web,VR,
+Acer,https://www.acer.com/ac/en/US/content/home,Hardware,Paid,Web,"Desktop, Laptop",""
+Asus,https://www.asus.com/us/,Hardware,Paid,Web,"Desktop, Laptop",""
+Dell,https://www.dell.com/en-us,Hardware,Paid,Web,"Desktop, Laptop",""
+MSI,https://www8.hp.com/us/en/home.html,Hardware,Paid,Web,"Desktop, Laptop, Parts",""
+ASRock,https://www.asrock.com/index.us.asp,Hardware,Paid,Web,Parts,""
+Zotac,https://www.zotac.com/us/,Hardware,Paid,Web,"Desktop, Parts",""
+EVGA,https://www.evga.com/,Hardware,Paid,Web,Parts,""
+Lenovo,https://www.lenovo.com/us/en/,Hardware,Paid,Web,"Desktop, Laptop",""

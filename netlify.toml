@@ -1,6 +1,6 @@
 [[redirects]]
 from = "https://gamedevelop.netlify.app/"
-to = "https://www.gamedevelop.io/"
+to = "https://gamedevelop.io/"
 status = 301
 force = true
 

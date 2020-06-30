@@ -40,6 +40,7 @@ function SelectTable(filename)
     ClearFilter("categories");
     ClearFilter("tag");
 
+    checkHeight(); //footer.js
 
     //Load CSV Data
     LoadDoc(filepath, CreateTableFromArray2D);
