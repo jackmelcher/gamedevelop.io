@@ -37,7 +37,7 @@
             <a href="/" class="button button_logo">
                 <img src="images/logo.svg" alt="logo" class="logoimg">
             </a>
-            <a href="/resources.html" class="button button_nav">
+            <a href="resources.html" class="button button_nav">
                 Resources
             </a>
             <a href="guides.html" class="button button_nav">
@@ -49,14 +49,24 @@
             </label>         
         </nav>
         <section class="site-flex-content">
-            <h1 style="text-align: center; font-size: 36px;">Welcome to GameDevelop.io</h1> 
-
-            <div style="text-align: center; padding: 0px 16px;">
-                <img src="images/logo1.svg" alt="logo" class="logomain">
-                <h2>404 Page Not Found</h2>
-                <p style="font-size: 16pt;">
+            <h1 style="text-align: center; font-size: 36px;">Contact</h1> 
+            <form name="contact" method="POST" data-netlify="true" style="justify-content: middle;">
+                <p class="bold" style="text-align: center;">
+                    <label>Name: <input type="text" name="name"/></label>   
                 </p>
-            </div>
+                <p class="bold" style="text-align: center;">
+                    <label>Email: <input type="email" name="email"/></label>
+                </p>
+                <p class="bold" style="text-align: center;">
+                    <label>Subject: <input type="subject" name="subject"/></label>
+                </p>
+                <p class="bold" style="text-align: center;">
+                    <label>Message: <textarea name="message"></textarea></label>
+                </p>
+                <p class="bold" style="text-align: center;">
+                    <button type="submit" class="button button_main">Send</button>
+                </p>
+            </form>
         </section>
         <div class="footer">
             <a href="/about.html">About</a>

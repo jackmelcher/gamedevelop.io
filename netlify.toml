@@ -29,6 +29,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/contact.html"
+to = "/contact"
+status = 301
+force = true
+
+[[redirects]]
 from = "/404.html"
 to = "/404"
 status = 301
