@@ -1,71 +1,114 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://www.gamedevelop.io/</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
+  <loc>https://gamedevelop.io/</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/resources</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
+  <loc>https://gamedevelop.io/resources</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
+  <loc>https://gamedevelop.io/guides</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/about</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
+  <loc>https://gamedevelop.io/about</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/suggestion</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
+  <loc>https://gamedevelop.io/suggestion</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides/beginner</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
+  <loc>https://gamedevelop.io/contact</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://gamedevelop.io/guides/introductory</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides/industry</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
+  <loc>https://gamedevelop.io/guides/industry</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides/ip</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
+  <loc>https://gamedevelop.io/guides/business.html</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides/pr</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://gamedevelop.io/guides/introductory/concept</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides/youtube</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://gamedevelop.io/guides/introductory/production</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides/kickstarter</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://gamedevelop.io/guides/introductory/business</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides/tactics</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://gamedevelop.io/guides/industry/overview</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.gamedevelop.io/guides/testing</loc>
-  <lastmod>2020-06-19T03:45:00+00:00</lastmod>
-  <priority>0.64</priority>
+  <loc>https://gamedevelop.io/guides/industry/jobs.html</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
+<url>
+  <loc>https://gamedevelop.io/guides/industry/testing</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gamedevelop.io/guides/industry/culture</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gamedevelop.io/guides/business/ip</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gamedevelop.io/guides/business/youtube</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gamedevelop.io/guides/business/tactics</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gamedevelop.io/guides/business/kickstarter</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://gamedevelop.io/guides/business/pr</loc>
+  <lastmod>2020-07-02T07:09:44+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>

@@ -32,7 +32,7 @@
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     </head>
 
-    <body class="site-flex-container">
+    <body>
         <nav class="navbar">
             <a href="/" class="button button_logo">
                 <img src="images/logo.svg" alt="logo" class="logoimg">
@@ -48,25 +48,29 @@
                 <span class="slider round"></span>
             </label>         
         </nav>
-        <section class="site-flex-content">
-            <h1 style="text-align: center; font-size: 36px;">Contact</h1> 
-            <form name="contact" method="POST" data-netlify="true" style="justify-content: middle;">
-                <p class="bold" style="text-align: center;">
-                    <label>Name: <input type="text" name="name"/></label>   
-                </p>
-                <p class="bold" style="text-align: center;">
-                    <label>Email: <input type="email" name="email"/></label>
-                </p>
-                <p class="bold" style="text-align: center;">
-                    <label>Subject: <input type="subject" name="subject"/></label>
-                </p>
-                <p class="bold" style="text-align: center;">
-                    <label>Message: <textarea name="message"></textarea></label>
-                </p>
-                <p class="bold" style="text-align: center;">
-                    <button type="submit" class="button button_main">Send</button>
-                </p>
-            </form>
+        <section>
+            <h1 class="header">Contact</h1> 
+            <div class="flex-container">
+               <div class="contact">
+                    <form name="contact" method="POST" data-netlify="true">
+                        <p>
+                            <label>Name: <br> <input type="text" name="name"/></label>   
+                        </p>
+                        <p>
+                            <label>Email: <br> <input type="email" name="email"/></label>
+                        </p>
+                        <p>
+                            <label>Subject: <br> <input type="subject" name="subject"/></label>
+                        </p>
+                        <p>
+                            <label>Message: <br> <textarea name="message"></textarea></label>
+                        </p>
+                        <p>
+                            <button type="submit" class="button button_main">Send</button>
+                        </p>
+                    </form>
+                </div>  
+            </div>
         </section>
         <div class="footer">
             <a href="/about.html">About</a>
