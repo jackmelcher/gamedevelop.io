@@ -275,7 +275,6 @@ input, textarea{
 .home{
   max-width: 1600px;
   text-align: center;
-  padding: 0px 8px;
   padding-bottom: 32px;
 }
 .home > p {
@@ -339,7 +338,7 @@ input, textarea{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgb(187, 187, 187);
+  background-color: var(--bg-color);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -358,15 +357,15 @@ input, textarea{
   font-family: "Font Awesome 5 Free";
   font-size: 19pt;
   font-weight: bold;
-  color: rgb(46, 46, 45);
+  color: var(--font-color);
 }
 
 input:checked + .slider {
-  background-color: #505355;
+  background-color: var(--bg-color);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #505355;
+  box-shadow: 0 0 1px var(--bg-color);
 }
 
 input:checked + .slider:before {
@@ -381,7 +380,7 @@ input:checked + .slider:before {
   font-family: "Font Awesome 5 Free";
   font-size: 19pt;
   font-weight: bold;
-  color: rgb(214, 214, 213);
+  color: var(--font-color);
 }
 
 /* Rounded sliders */
@@ -392,12 +391,3 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 } 
-
-
-/* Font Awesome thing */
-.slider+.theme_switch{
-
-}
-.slider+.theme_switch:before{
-
-}
