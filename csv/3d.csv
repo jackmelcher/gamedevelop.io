@@ -41,7 +41,7 @@ Knald and Lys,https://www.knaldtech.com/,Texture,"Trial, Paid",Windows,,
 MindTex 2,https://store.steampowered.com/app/441770/MindTex_2/,"Texture, Normal Map",Paid,Windows,,
 PixaFlux,http://www.pixaflux.com/index.php,Texture,Free,Windows,,
 CrazyBump,http://www.crazybump.com/,"Texture, Normal Map",Free,"Windows, Mac",,
-Handplane3d,www.handplane3d.com/index.html,Texture,Free,Windows,,
+Handplane3d,http://www.handplane3d.com/index.html,Texture,Free,Windows,,
 Njob,http://charles.hollemeersch.net/njob/,Texture,Free,Windows,,
 SSbump Generator,https://sourceforge.net/projects/ssbumpgenerator/,"Texture, Normal Map",Free,Windows,,
 SmartNormal,http://www.smart-page.net/smartnormal/,"Texture, Normal Map",Free,Web,,
@@ -68,11 +68,9 @@ TerreSculptor,http://www.demenzunmedia.com/home/terresculptor/,Terrain Generator
 Gaia (Unity Plugin),https://assetstore.unity.com/packages/tools/terrain/gaia-42618,Terrain Generator,Paid,"Windows, Mac",,
 L3DT,http://www.bundysoft.com/L3DT/,Terrain Generator,"Free, Trial, Paid",Windows,,
 Artifex Terra 3D,http://www.artifexterra.com/,Terrain Generator,Free,Windows,,
-Nem's Mega 3D Terrain Generator,http://nemesis.thewavelength.net/index.php,Terrain Generator,Free,Windows,,
 SpeedTree,https://store.speedtree.com/,Plant Generator,"Trial, Paid","Windows, Mac, Linux",,
 Arbaro,http://arbaro.sourceforge.net/,Plant Generator,Free,"Windows, Mac, Linux",,
 ngPlant,http://ngplant.sourceforge.net/,Plant Generator,Free,"Windows, Linux",,
-GuruWare Ivy,http://www.guruware.at/main/,Plant Generator,Free,Windows,3DS Max Plugin,
 EVOLVED Tree It,http://www.evolved-software.com/treeit/treeit,Plant Generator,Free,Windows,,Only for Dark GDK Kits
 EVOLVED Mapscape,http://www.evolved-software.com/mapscape/mapscape,Terrain Generator,Free,Windows,Beta,Free while software is in Beta
 Texture Tool,http://www.evolved-software.com/texturetool/texturetool,Texture,Free,Windows,,Only for Dark GDK Kits
@@ -83,9 +81,8 @@ Shader Frog,https://shaderfrog.com/,Shader,Free,Web,,
 Shader Tool,https://store.steampowered.com/app/314720/ShaderTool/,Shader,Paid,"Windows, Mac, Linux",,
 Spacescape,https://sourceforge.net/projects/spacescape/,HDRI,Free,"Windows, Mac, Linux",,
 Google Tiltbrush,https://www.tiltbrush.com/,"Model, Paint",Paid,Windows,,"VR 3D Paint, HTC Vive, Oculus Rift, Windows Hololens"
-Google Blocks,https://vr.google.com/blocks/,Model,Free,Windows,,"VR 3D Modeling, HTC Vive, Oculus Rift, Windows Hololens"
+Google Blocks,https://arvr.google.com/blocks/,Model,Free,Windows,,"VR 3D Modeling, HTC Vive, Oculus Rift, Windows Hololens"
 Simplygon,https://www.simplygon.com/,Optimization,"Free, Subscription",Windows,,
 MeshLab,http://www.meshlab.net/,"Optimization, Texture, Render",Free,"Windows, Mac, Linux",,
 InstaLOD,https://instalod.com/,Optimization,"Free, Paid","Windows, Mac",,
-Umbra3D,https://www.umbra3d.com/,Optimization,Paid,Web,,
 CrocoTiled,http://www.crocotile3d.com/,Model,Free,"Windows, Mac, Linux",,Model Using Tiled Maps
