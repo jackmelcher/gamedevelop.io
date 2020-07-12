@@ -109,8 +109,7 @@ a:hover{
   border-style: solid;
   border-color: var(--side-border-color);
   border-width: 0px 1px 0px 0px;
-  top: 0;
-  margin-top: 50px;
+  top: 51px;
   padding: 16px 16px;
   overflow-x: auto;
   height: calc(100vh - 82px);
@@ -119,7 +118,7 @@ a:hover{
 }
 .settingsnav{
   position: fixed;
-  top: 50px;
+  top: 51px;
   right: 0;
   width: 200px;
   height: 128px;
