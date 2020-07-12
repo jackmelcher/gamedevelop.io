@@ -109,8 +109,7 @@ a:hover{
   border-style: solid;
   border-color: var(--side-border-color);
   border-width: 0px 1px 0px 0px;
-  top: 0; /* Stay at the top */
-  left: 0;
+  top: 0;
   margin-top: 50px;
   padding: 16px 16px;
   overflow-x: auto;
@@ -118,8 +117,21 @@ a:hover{
   background-color: var(--side-bg-color);
   z-index: 1;
 }
-.sidenavbutton{
+.settingsnav{
+  position: fixed;
+  top: 50px;
+  right: 0;
+  width: 200px;
+  height: 128px;
+  color: var(--font-color);
+  background-color: var(--side-bg-color);
+  border-style: solid;
+  border-width: 0px 0px 1px 1px;
+  border-color: var(--side-border-color);
+  z-index: 1;
   display: none;
+  text-align: center;
+  font-weight: bold;
 }
 .nobullets{
   list-style-type: none;
@@ -140,7 +152,7 @@ a:hover{
   border: none; /* 2px solid #000000; */
   border-radius: 2px;
   color: var(--secondary-color) !important; /* Text Color */
-  padding: 16px 16px;
+  padding: 16px;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
@@ -149,15 +161,20 @@ a:hover{
   cursor: pointer;
   display: inline-block;
 }
-.button_logo{
-  background-color: transparent;
-  font-weight: bold;
-  border-radius: 0;
-  vertical-align: top;
-  padding: 10px 16px 4px 16px;  
-  margin-right: -4px;
+.sidenavbutton{
+  display: none;
 }
-.button_nav{
+.settingsnavbutton{
+  float: right;
+  padding: 13px;
+}
+.button_logo{
+  padding: 9px;
+}
+.button_logo > img {
+  vertical-align: middle;
+}
+.button_nav, .button_logo{
   background-color: transparent;
   font-weight: bold;
   border-radius: 0;
@@ -320,7 +337,7 @@ input, textarea{
   width: 60px;
   height: 34px;
   float: right;
-  margin: 8px 8px;
+  margin: -4px 8px;
 }
 
 /* Hide default HTML checkbox */
@@ -338,7 +355,7 @@ input, textarea{
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--bg-color);
+  background-color: var(--primary-color);
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -348,7 +365,7 @@ input, textarea{
   height: 26px;
   width: 26px;
   left: 4px;
-  bottom: 5px;
+  bottom: 4px;
   -webkit-transition: .4s;
   transition: .4s;
 
@@ -357,15 +374,15 @@ input, textarea{
   font-family: "Font Awesome 5 Free";
   font-size: 19pt;
   font-weight: bold;
-  color: var(--font-color);
+  color: var(--secondary-color);
 }
 
 input:checked + .slider {
-  background-color: var(--bg-color);
+  background-color: var(--primary-color);
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px var(--bg-color);
+  box-shadow: 0 0 1px var(--primary-color);
 }
 
 input:checked + .slider:before {
@@ -373,14 +390,14 @@ input:checked + .slider:before {
   -ms-transform: translateX(26px);
   transform: translateX(26px);
 
-  bottom: 5px;
+  bottom: 4px;
 
   /* Font Awesome thing */
   content: "\f186";
   font-family: "Font Awesome 5 Free";
   font-size: 19pt;
   font-weight: bold;
-  color: var(--font-color);
+  color: var(--secondary-color);
 }
 
 /* Rounded sliders */
