@@ -38,6 +38,7 @@ function applyInitialTheme () {
         const htmlTag = document.getElementsByTagName("html")[0]
         htmlTag.setAttribute("data-theme", theme)
         toggle.checked = true;
+        themetext.textContent = "Dark Mode:";
     }
 }
 applyInitialTheme();
