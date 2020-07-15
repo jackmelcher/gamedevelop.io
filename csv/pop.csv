@@ -2,7 +2,6 @@ Name,Link,Categories,Pricing,Platforms,Tags,Description
 Unity,https://unity.com/,Game Engines,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#",
 Unreal Engine,https://www.unrealengine.com/,Game Engines,"Free, Royalty","Windows, Mac, Linux","2D, 3D, Visual Scripting, C++",
 Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engines,"Trial, Paid, Subscription","Windows, Mac","2D, Javascript, Drag & Drop","Uses GML Scripting, similar to Javascript"
-Havok,https://www.havok.com/,"Physics, Artificial Intelligence",Paid,"Windows, Mac",,"Physics Engine, AI SDK, Cloth Physics"
 Vivox,https://www.vivox.com/features,Audio,"Free, Subscription","Windows, Mac, Linux",,Voice Communications Solution
 Easy,https://www.easy.ac/en-us/,Anti-Cheat,License,"Windows, Mac, Linux",,
 Adobe Photoshop,https://www.adobe.com/products/photoshop.html,Image Manipulation,"Trial, Subscription","Windows, Mac, iOS",Raster,
@@ -53,8 +52,8 @@ DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,Video 
 OBS,https://obsproject.com/,"Screen Record, Stream",Free,"Windows, Mac, Linux",,
 ESA Trends,https://www.theesa.com/esa-research/2019-essential-facts-about-the-computer-and-video-game-industry/,Trend Info,Free,Web,,
 PcPartPicker,https://pcpartpicker.com/,Business,Free,Web,,Build a PC
-Kickstarter,https://www.kickstarter.com/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
 Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Funding,Free,Web,,
+Kickstarter,https://www.kickstarter.com/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
 Patreon,https://www.patreon.com/,Crowdfunding,Royalty,Web,,
 Global Game Jam,https://globalgamejam.org/,Jam,Free,Web,,
 Ludum Dare,https://ldjam.com/,Jam,Free,Web,,
