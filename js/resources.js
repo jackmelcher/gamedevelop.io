@@ -106,7 +106,8 @@ function CreateTableFromArray2D(array2D)
                     tabCell = tr.insertCell(-1);
                     var a = document.createElement("a");
                     a.href = array2D[i][j+1];
-                    a.target = "blank_";
+                    a.target = "_blank";
+                    a.rel="noopener noreferrer";
                     a.textContent = array2D[i][j];
                     tabCell.appendChild(a);
                     j++;

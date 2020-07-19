@@ -1,9 +1,7 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 Unity,https://unity.com/,Game Engines,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#",
 Unreal Engine,https://www.unrealengine.com/,Game Engines,"Free, Royalty","Windows, Mac, Linux","2D, 3D, Visual Scripting, C++",
-Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engines,"Trial, Paid, Subscription","Windows, Mac","2D, Javascript, Drag & Drop","Uses GML Scripting, similar to Javascript"
-Vivox,https://www.vivox.com/features,Audio,"Free, Subscription","Windows, Mac, Linux",,Voice Communications Solution
-Easy,https://www.easy.ac/en-us/,Anti-Cheat,License,"Windows, Mac, Linux",,
+Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engines,"Trial, Paid, Subscription","Windows, Mac","2D, Javascript, Visual Scripting","Uses GML Scripting, similar to Javascript"
 Adobe Photoshop,https://www.adobe.com/products/photoshop.html,Image Manipulation,"Trial, Subscription","Windows, Mac, iOS",Raster,
 gimp,https://www.gimp.org/,Image Manipulation,Free,"Windows, Mac, Linux",Raster,
 Pro Motion NG,https://www.cosmigo.com/,"Pixel Art, Pixel Animation, Tiled Map","Free, Paid","Windows, Mac, Linux",,
@@ -34,9 +32,9 @@ Accelbyte,https://accelbyte.io/,"Monetization Services, Muliplayer Game Services
 Webflow,https://webflow.com/,"Website Maker, Website Hosting, Domain Name Registar","Free, Trial, Subscription",Web,,
 Netlify,https://www.netlify.com/,"Website Hosting, Domain Name Registar","Free, Subscription",Web,,Build Static websites from a Git Repository
 Porkbun,https://porkbun.com/,"Domain Name Registar, Website Hosting, Email Hosting",Subscription,Web,,Free Whois Privacy
+Slack,https://slack.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
 Discord,https://discord.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
 Microsoft Teams,https://products.office.com/en-us/microsoft-teams/,Communication,Subscription,"Windows, Mac, Linux, iOS, Android, Web",,
-Slack,https://slack.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
 Trello,https://trello.com/en,Task Management,Free,Web,,
 Atlassian JIRA,https://www.atlassian.com/software/jira,"Task Management, Bug Tracking","Free, Trial, Subscription",Web,,
 Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Task Management, Bug Tracking","Free, Subscription",Web,,

@@ -48,7 +48,7 @@ li{margin-bottom: 8px;}
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
 
-    padding-left: 35%;
+    padding-left: 33%;
     padding-right: 40px;
     padding-bottom: 64px;
 }
@@ -59,7 +59,7 @@ li{margin-bottom: 8px;}
     -webkit-flex-grow: 1;
 }
 .guideflex{
-    max-width: 60% !important;
+    max-width: 33vw !important;
 }
 .guideflex > div{
     margin-bottom: 64px;
