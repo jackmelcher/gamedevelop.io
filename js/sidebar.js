@@ -56,7 +56,7 @@ function makeSidebar()
     var business = ["ip","youtube","tactics","kickstarter","pr"];
     var businesstitle = ["The Strength of Intellectual Property","Building a Successful YouTube Channel","Indie Business Tactics","How to be Successful at Kickstarter","Public Relations and Marketing"];
     var industry = ["overview","jobs","testing","culture"];
-    var industrytitle = ["Overview","Games Industry Jobs","Publisher QA Testing","Games Industry Work Culture"];
+    var industrytitle = ["Overview","Jobs in the Games Industry","Publisher QA Testing","Games Industry Work Culture"];
 
     makeSidebar2("introductory","Introductory Guides",intro,introtitle)
     makeSidebar2("industry","The Computer and Video Game Industry",industry,industrytitle)
