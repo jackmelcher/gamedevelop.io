@@ -109,7 +109,7 @@ a:hover{
   border-style: solid;
   border-color: var(--side-border-color);
   border-width: 0px 1px 0px 0px;
-  top: 51px;
+  top: 50px;
   padding: 16px 16px;
   overflow-x: auto;
   height: calc(100vh - 82px);
@@ -118,7 +118,7 @@ a:hover{
 }
 .settingsnav{
   position: fixed;
-  top: 51px;
+  top: 50px;
   right: 0;
   width: 200px;
   height: 72px;
@@ -142,6 +142,14 @@ a:hover{
   background-color: var(--primary-color);
   color: var(--secondary-color);
   padding : 0;
+
+  /* Keep navbar as 50px height*/
+  max-height: 50px !important;
+}
+.button_nav,.settingsnavbutton,.sidenavbutton
+{
+  /* Keep navbar buttons as 50px height*/
+    line-height: 1.125;
 }
 .button {
   background-color: var(--primary-color);
@@ -159,16 +167,27 @@ a:hover{
 }
 .sidenavbutton{
   display: none;
+  background-color: transparent;
+  margin: 0;
+  font-weight: bold;
+  border-radius: 0;
+  vertical-align: top;
+  padding: 13px 8px 13px 8px;  
+  margin-right: -4px;
 }
 .settingsnavbutton{
   float: right;
   padding: 13px;
 }
 .button_logo{
-  padding: 9px;
+  padding: 0px 9px;
+  padding-top: 10.5px;
+  padding-bottom: 7.5px;
 }
 .button_logo > img {
   vertical-align: middle;
+  position: relative;
+  top: -2px;
 }
 .button_nav, .button_logo{
   background-color: transparent;
@@ -204,15 +223,6 @@ a:hover{
 }
 .kofi{
   background-color: #29abe0;
-}
-.buttonside{
-  background-color: transparent;
-  margin: 0;
-  font-weight: bold;
-  border-radius: 0;
-  vertical-align: top;
-  padding: 15px 8px 11px 8px;  
-  margin-right: -4px;
 }
 .menuicon{
   font-size: 24px;
@@ -319,11 +329,12 @@ input, textarea{
   .sidenavbutton{
     display: inline-block;
   }
-  .button_logo{
-    padding: 10px 8px 4px 8px;  
-  }
   .footer{
     padding: 8px 0px;
+  }
+  .flex-container {
+  padding-left: 20px;
+  padding-right: 20px;
   }
 }
 
