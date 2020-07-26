@@ -1,25 +1,27 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Descriptions
-Gameinformer,https://www.gameinformer.com/,News Outlet,,,,
+Gameinformer,https://www.gameinformer.com/,"News Outlet, Magazine",,,,
 IGN,https://www.ign.com/,News Outlet,,,,
 Gamespot,https://www.gamespot.com/,News Outlet,,,,
 Kotaku,https://kotaku.com/,News Outlet,,,,
 Polygon,https://www.polygon.com/,News Outlet,,,,
 Rock Paper Shotgun,https://www.rockpapershotgun.com/,News Outlet,,,,
 gameindustrybiz,https://www.gamesindustry.biz/,News Outlet,,,,
+GamesRadar,https://www.gamesradar.com/,"News Outlet, Magazine","","","",""
 escapist,https://www.escapistmagazine.com/v2/,News Outlet,,,,
-verge,https://www.theverge.com/,News Outlet,,,,
-engadget,https://www.engadget.com/,News Outlet,,,,
-gamasutra,https://www.gamasutra.com/,News Outlet,,,,
-indie database,https://www.indiedb.com/,News Outlet,,,,
-giant bomb,https://www.giantbomb.com/,News Outlet,,,,
+Verge,https://www.theverge.com/,News Outlet,,,,
+Engadget,https://www.engadget.com/,News Outlet,,,,
+Gamasutra,https://www.gamasutra.com/,News Outlet,,,,
+Indie Database,https://www.indiedb.com/,News Outlet,,,,
+Giant Bomb,https://www.giantbomb.com/,News Outlet,,,,
 PC Gamer,https://www.pcgamer.com/,News Outlet,,,,
 Rooster teeth,https://roosterteeth.com/,News Outlet,,,,
 PC  Mag,https://www.pcmag.com/,News Outlet,,,,
 Eurogamer,https://www.eurogamer.net/,News Outlet,,,,
 Game Zone,https://www.gamezone.com/,News Outlet,,,,
 Destructoid,https://www.destructoid.com/,News Outlet,,,,
+IGDB,https://www.igdb.com/,Aggregator,"","","",Video Games and Games Company Database with a Review Aggregator
+GameFAQs,https://gamefaqs.gamespot.com/,Aggregator,,,,"Video Games Database with Guides, Q&A, Boards, and Reviews"
 Metacritic,https://www.metacritic.com/,Aggregator,,,,Review Aggregator
 Game Rankings,https://www.gamerankings.com/,Aggregator,,,,Review Aggregator
-GameFAQs,https://gamefaqs.gamespot.com/,Other,,,,"Walkthroughs, QA"
 Submit,https://submit.co/,Aggregator,,,,List of News Outlets
 Next Generation Esports,http://nge.io/,Other,,,,Esports

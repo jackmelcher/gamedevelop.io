@@ -1,5 +1,5 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Webflow,https://webflow.com/,"Website Maker, Website Hosting, Domain Name Registar","Free, Trial, Subscription",Web,,
+Webflow,https://webflow.com/,"Website Maker, Website Hosting, Domain Name Registrar","Free, Trial, Subscription",Web,,
 Wordpress,https://wordpress.com/,"Website Maker, Website Hosting","Free, Subscription",Web,,
 Google Sites,https://sites.google.com/,"Website Maker, Website Hosting","Free, Subscription",Web,,
 Squarespace,https://www.squarespace.com/,"Website Maker, Website Hosting","Trial, Subscription",Web,,
@@ -8,9 +8,11 @@ Strikingly,https://www.strikingly.com/,"Website Maker, Website Hosting","Free, T
 Duda,https://www.duda.co/,"Website Maker, Website Hosting","Trial, Subscription",Web,,
 Tilda,https://tilda.cc/,"Website Maker, Website Hosting","Free, Subscription",Web,,
 Enjin,https://www.enjin.com/,"Website Maker, Website Hosting","Free, Trial, Subscription",Web,,
-Netlify,https://www.netlify.com/,"Website Hosting, Domain Name Registar","Free, Subscription",Web,,Build Static websites from a Git Repository
-Porkbun,https://porkbun.com/,"Domain Name Registar, Website Hosting, Email Hosting",Subscription,Web,,Free Whois Privacy
-Namecheap,https://www.namecheap.com/,"Domain Name Registar, Website Hosting, Email Hosting",Subscription,Web,,Free Whois Privacy
+Netlify,https://www.netlify.com/,"Website Hosting, Domain Name Registrar","Free, Subscription",Web,,Deploy websites from a Git Repository
+Vercel,https://vercel.com/,"Website Hosting, Domain Name Registrar","Free, Subscription",Web,"",Deploy websites from a Git Repository
+Porkbun,https://porkbun.com/,"Domain Name Registrar, Website Hosting, Email Hosting",Subscription,Web,,Free Whois Privacy
+Namecheap,https://www.namecheap.com/,"Domain Name Registrar, Website Hosting, Email Hosting",Subscription,Web,,Free Whois Privacy
+Google Domains,https://domains.google/,Domain Name Registrar,Subscription,Web,"",""
 Namecheckr,https://www.namecheckr.com/,Domain Name Helper,Free,Web,,
 Name Mesh,https://www.namemesh.com/,Domain Name Helper,Free,Web,,
 Name Vine,https://namevine.com/,Domain Name Helper,Free,Web,,
