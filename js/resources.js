@@ -40,8 +40,6 @@ function SelectTable(filename)
     ClearFilter("categories");
     ClearFilter("tag");
 
-    checkHeight(); //footer.js
-
     //Load CSV Data
     LoadDoc(filepath, CreateTableFromArray2D);
     
@@ -100,7 +98,6 @@ function CreateTableFromArray2D(array2D)
                     img.className = "tableimg";
                     img.addEventListener('load',function(e){
                         //console.log(e.target.src);
-                        checkHeight(); //footer.js
                         });
                     tabCell.appendChild(img);
                     tabCell = tr.insertCell(-1);
@@ -164,8 +161,6 @@ function FilterTable()
     {
         HideFilters(filterids[i], i+2);
     }
-
-    checkHeight();//footer.js
 }
 
 function filterTableByColumn() 
