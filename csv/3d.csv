@@ -1,15 +1,15 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Blender,https://www.blender.org/,"Model, Sculpt, Texture, 3D Animation, Render",Free,"Windows, Mac, Linux",,
-Cinema 4D,https://www.maxon.net/en-us/products/cinema-4d/overview/,"Model, Sculpt, Texture, 3D Animation, Render","Trial, Paid","Windows, Mac",,
-Autodesk 3DS Max,https://www.autodesk.com/products/3ds-max/overview,"Model, Texture, 3D Animation, Render","Trial, Subscription",Windows,,
-Autodesk Maya,https://www.autodesk.com/products/maya/overview,"Model, Texture, 3D Animation, Render","Trial, Subscription","Windows, Mac, Linux",,
+Blender,https://www.blender.org/,"Model, Sculpt, Texture, Animate, Render",Free,"Windows, Mac, Linux",,
+Cinema 4D,https://www.maxon.net/en-us/products/cinema-4d/overview/,"Model, Sculpt, Texture, Animate, Render","Trial, Paid","Windows, Mac",,
+Autodesk 3DS Max,https://www.autodesk.com/products/3ds-max/overview,"Model, Texture, Animate, Render","Trial, Subscription",Windows,,
+Autodesk Maya,https://www.autodesk.com/products/maya/overview,"Model, Texture, Animate, Render","Trial, Subscription","Windows, Mac, Linux",,
 Autodesk Mudbox,https://www.autodesk.com/products/mudbox/overview,"Model, Sculpt, Texture","Trial, Subscription","Windows, Mac, Linux",,
 Autodesk Arnold,https://www.autodesk.com/products/arnold/overview,"Render, VFX","Trial, Subscription","Windows, Mac, Linux",,
-Houdini,https://www.sidefx.com/products/houdini/,"Model, Texture, Animate, Rendering, VFX, Terrain, Cloth, Hair","Free, Subscription, License","Windows, Mac, Linux",,Includes tools for Procedural Generation and Manipulation
+Houdini,https://www.sidefx.com/products/houdini/,"Model, Texture, Animate, Render, VFX, Terrain, Cloth, Hair","Free, Subscription, License","Windows, Mac, Linux",,Includes tools for Procedural Generation and Manipulation
 Microsoft 3D Paint,https://support.microsoft.com/en-us/help/4014938/windows-10-basic-3d-modeling,Model,Free,Windows,,
 Unity Pro Builder,https://unity3d.com/unity/features/worldbuilding/probuilder,"Model, Texture",Free,"Windows, Mac, Linux",,
-Unity Polybrush,https://unity3d.com/unity/features/worldbuilding/polybrush,"Sculpt, Texture, Paint",Free,"Windows, Mac, Linux","",""
-LightWave 3D,https://www.lightwave3d.com/,"Model, Texture, 3D Animation, Render","Trial, Paid","Windows, Mac",,
+Unity Polybrush,https://unity3d.com/unity/features/worldbuilding/polybrush,"Sculpt, Texture, Paint",Free,"Windows, Mac, Linux",,
+LightWave 3D,https://www.lightwave3d.com/,"Model, Texture, Animate, Render","Trial, Paid","Windows, Mac",,
 Foundry Modo,https://www.foundry.com/products/modo,"Model, Texture, Render","Trial, Paid, Subscription","Windows, Mac, Linux",,
 Foundry Mari,https://www.foundry.com/products/mari,"Texture, Paint","Trial, Paid, Subscription","Windows, Mac, Linux",,
 Winds 3D,http://www.wings3d.com/,Model,Free,"Windows, Mac, Linux",,
@@ -18,16 +18,17 @@ ZBrush Core,http://zbrushcore.com/index.html,"Model, Sculpt, Texture, Paint","Pa
 Sculptris,http://pixologic.com/sculptris/,"Model, Sculpt, Texture, Paint",Free,"Windows, Mac",,
 3D Coat,https://3dcoat.com/features/,"Sculpt, Paint, Texture","Trial, Paid","Windows, Mac, Linux",,
 Teya Conceptor,http://polybrush.org/try/,Sculpt,Free,"Windows, Mac, Linux",Beta,
-bforartists (UI Focused Blender),https://bforartists.de/,"Model, Sculpt, 3D Animation, Texture, Render",Free,"Windows, Mac, Linux",,
+bforartists (UI Focused Blender),https://bforartists.de/,"Model, Sculpt, Animate, Texture, Render",Free,"Windows, Mac, Linux",,
 Dilay,https://abau.org/dilay/,Sculpt,Free,"Windows, Linux",,
 SculptGL,https://stephaneginier.com/sculptgl/,"Sculpt, Paint, Render",Free,Web,,
-Daz3D,https://www.daz3d.com/,"Model, Human, Paint, 3D Animation, Render","Free, Paid","Windows, Mac",,
-Real Illusion Character Creator,https://www.reallusion.com/character-creator/,"Model, Human, 3D Animation","Trial, Paid",Windows,,
-Adobe Fuse (Beta),https://www.adobe.com/products/fuse.html#x,"Model, Human, 3D Animation",Trial,"Windows, Mac",,Trial lasts for 500 days
+Daz3D,https://www.daz3d.com/,"Model, Human, Paint, Animate, Render","Free, Paid","Windows, Mac",,
+Reallusion iClone,https://www.reallusion.com/iclone/,"Animate, Render","Trial, Paid",Windows,"",""
+Reallusion Character Creator,https://www.reallusion.com/character-creator/,"Model, Human, Animate","Trial, Paid",Windows,,
+Adobe Fuse (Beta),https://www.adobe.com/products/fuse.html#x,"Model, Human, Animate",Trial,"Windows, Mac",,Trial lasts for 500 days
 MakeHuman,http://www.makehumancommunity.org/,"Model, Human",Free,"Windows, Mac",,
 Marvelous Designer,https://www.marvelousdesigner.com/,"3D Clothing, Texture","Trial, Paid, Subscription, License","Windows, Mac",,
-Moka Studio,https://mokastudio.com/,3D Animation,"Trial, Paid","Windows, Mac",,
-Akeytsu,https://www.nukeygara.com/,3D Animation,"Trial, Subscription",Windows,,
+Moka Studio,https://mokastudio.com/,Animate,"Trial, Paid","Windows, Mac",,
+Akeytsu,https://www.nukeygara.com/,Animate,"Trial, Subscription",Windows,,
 Popcorn FX,https://www.popcornfx.com/,VFX,"Free, Subscription","Windows, Linux",,
 Quixel Mixer,https://quixel.com/mixer,"Texture, Paint",Free,"Windows, Mac",Beta,Free while software is in Beta
 Substance Painter,https://www.allegorithmic.com/products/substance-painter,"Texture, Paint","Trial, Paid, Subscription","Windows, Mac, Linux",,
@@ -52,18 +53,18 @@ Seamless Texture Generator,http://www.seamlesstexturegenerator.com/,Texture Gene
 Spiral Graphics Wood Workshop,http://spiralgraphics.biz/ww_overview.htm,Texture Generator,Free,Windows,,
 Spiral Graphics Genetica,http://spiralgraphics.biz/genetica.htm,Texture Generator,"Trial, Paid",Windows,,
 Qubicle,http://www.minddesk.com/get.php,Voxel,"Trial, Paid","Windows, Mac",,
-VoxelShop,https://blackflux.com/node/11,"Voxel, Texture, 3D Animation",Free,"Windows, Mac, Linux",,
+VoxelShop,https://blackflux.com/node/11,"Voxel, Texture, Animate",Free,"Windows, Mac, Linux",,
 magicavoxel,https://ephtracy.github.io/,"Voxel, Render",Free,"Windows, Mac",,
 Goxel,https://github.com/guillaumechereau/goxel,"Voxel, Render",Free,"Windows, Mac, iOS",,
 Zoxel,http://zoxel.blogspot.com/p/about-zoxel.html,Voxel,Free,"Windows, Mac, Linux",,
 1001 binvox,https://www.patrickmin.com/binvox/,Voxel,Free,"Windows, Mac, Linux",,
 Sproxel,https://code.google.com/archive/p/sproxel/,Voxel,Free,"Windows, Mac",,
 Kovel,https://github.com/aarroyoc/kovel,Voxel,Free,"Windows, Linux",,
-E-On Software,https://info.e-onsoftware.com/home,"Terrain, 3D Animation, VFX, Render, Plant Generator","Trial, Subscription",Windows,,
+E-On Software,https://info.e-onsoftware.com/home,"Terrain, Animate, VFX, Render, Plant Generator","Trial, Subscription",Windows,,
 World Machine,http://www.world-machine.com/,Terrain Generator,"Free, Paid",Windows,,
 World Creator,https://www.world-creator.com/,Terrain Generator,Paid,"Windows, Mac",,
 Instant Terra,https://www.wysilab.com/,Terrain Generator,"Trial, Subscription",Windows,,
-Bryce 7 Pro,https://www.daz3d.com/bryce-7-pro,"Model, Terrain Generator, Texture, 3D Animation, Render",Paid,Windows,,
+Bryce 7 Pro,https://www.daz3d.com/bryce-7-pro,"Model, Terrain Generator, Texture, Animate, Render",Paid,Windows,,
 TerreSculptor,http://www.demenzunmedia.com/home/terresculptor/,Terrain Generator,"Free, Paid",Windows,,
 Gaia (Unity Plugin),https://assetstore.unity.com/packages/tools/terrain/gaia-42618,Terrain Generator,Paid,"Windows, Mac",,
 L3DT,http://www.bundysoft.com/L3DT/,Terrain Generator,"Free, Trial, Paid",Windows,,
@@ -75,7 +76,7 @@ EVOLVED Tree It,http://www.evolved-software.com/treeit/treeit,Plant Generator,Fr
 EVOLVED Mapscape,http://www.evolved-software.com/mapscape/mapscape,Terrain Generator,Free,Windows,Beta,Free while software is in Beta
 Texture Tool,http://www.evolved-software.com/texturetool/texturetool,Texture,Free,Windows,,Only for Dark GDK Kits
 3DS Max Rock Generator,http://www.scriptspot.com/3ds-max/scripts/rock-generator,Model,Free,Windows,3DS Max Plugin,"Rock Generator, 3DS Maxscript"
-Marmoset Toolbag,https://marmoset.co/toolbag/,"3D Animation, Render","Trial, Paid","Windows, Mac",,
+Marmoset Toolbag,https://marmoset.co/toolbag/,"Animate, Render","Trial, Paid","Windows, Mac",,
 Clarisse,https://www.isotropix.com/products,Render,"Trial, Paid","Windows, Mac, Linux",,
 Shader Frog,https://shaderfrog.com/,Shader,Free,Web,,
 Shader Tool,https://store.steampowered.com/app/314720/ShaderTool/,Shader,Paid,"Windows, Mac, Linux",,
