@@ -14,8 +14,9 @@ Stencyl,http://www.stencyl.com/,Game Engine,"Free, Subscription","Windows, Mac, 
 RPG Maker MV,http://www.rpgmakerweb.com/products/programs/rpg-maker-mv,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, Javascript",RPG
 RPG Maker VX Lite,http://www.rpgmakerweb.com/download/free-programs/rpg-maker-vx-ace-lite,Game Engine,Free,Windows,"2D, Javascript",RPG
 LibGDX,https://libgdx.badlogicgames.com/,Framework,Free,"Windows, Mac, Linux","3D, Java",
-Cocos,https://www.cocos.com/en/,Game Engine,Free,"Windows, Mac, Web","2D, 3D, Lua, Javascript",
+Cocos,https://www.cocos.com/en/,Game Engine,Free,"Windows, Mac, Web","2D, 3D, Lua, Javascript",Mobile games
 Apple Dev Kits,https://developer.apple.com/games/,Framework,Free,Mac,"2D, 3D, Swift, Objective-C",
+Pygame,https://www.pygame.org/,Framework,Free,"Windows, Mac, Linux","2D, Python",
 Ren'py,https://www.renpy.org/,Framework,Free,"Windows, Mac, Linux","2D, Python",Visual Novel
 Buildbox,https://www.buildbox.com/,Game Engine,"Free, Subscription","Windows, Mac","2D, 3D, Visual Scripting",Mobile games only
 Heaps.io,https://heaps.io/,Game Engine,Free,Windows,"2D, Haxe",
@@ -25,24 +26,26 @@ id Tech,https://github.com/id-Software,Game Engine,Free,"Windows, Mac, Linux","3
 Mono Game,http://www.monogame.net/,Framework,Free,"Windows, Mac, Linux","2D, C#",
 Defold,https://www.defold.com/,Game Engine,Free,"Windows, Mac, Linux","2D, Lua",
 Visionaire Studio,https://www.visionaire-studio.net/cms/visionaire-studio-english.html,Game Engine,Paid,"Windows, Mac","2D, Lua",Point & Click
-Phaser,http://phaser.io/,Game Engine,Free,"Windows, Mac, Linux","2D, Javascript",
-PlayCanvas,https://playcanvas.com/,Game Engine,"Free, Subscription",Web,"2D, 3D, Javascript",
+Adventure Games Studio,https://www.adventuregamestudio.co.uk/,Game Engine,Free,Windows,"2D, Javascript",Point & Click
+Wintermute Engine,http://dead-code.org/home/index.php/about/,Game Engine,"Free, Paid",Windows,"2D, 3D Javascript",Point & Click
+StoryStylus,https://storystylus.com/,Game Engine,"Trial, Subscription",Web,"2D, Javascript",Point & Click
+Phaser,http://phaser.io/,Game Engine,Free,"Windows, Mac, Linux","2D, Javascript",HTML 5
+PlayCanvas,https://playcanvas.com/,Game Engine,"Free, Subscription",Web,"2D, 3D, Javascript",HTML 5
 Spring,https://springrts.com/,Game Engine,Free,"Windows, Mac, Linux","3D, Lua",RTS
+ADLENGINE,https://store.steampowered.com/app/657180/The_Adliberum_Engine_ADLENGINE/,Game Engine,Free,"Windows, Mac, Linux","2D, Javascript",Text Adventure
 Twine,http://twinery.org/,Game Engine,Free,"Windows, Mac, Linux","2D, Javascript",Interactive Fiction Game Tool
-ADLENGINE,https://store.steampowered.com/app/657180/The_Adliberum_Engine_ADLENGINE/,Game Engine,Free,"Windows, Mac, Linux","2D, Javascript",Interactive Fiction Game Tool
-StoryStylus,https://storystylus.com/storystylus/,Game Engine,"Trial, Subscription",Web,"2D, Javascript",Interactive Fiction Game Tool
 ChoiceScript,https://www.choiceofgames.com/make-your-own-games/choicescript-intro/,Game Engine,Free,"Windows, Mac, Linux","2D, Javascript",Interactive Fiction Game Tool
 TADS,http://www.tads.org/,Game Engine,Free,"Windows, Mac, Linux","2D, Javascript",Interactive Fiction Game Tool
 Adventure Cow,http://adventurecow.com/,Game Engine,Free,Web,"2D, Javascript",Interactive Fiction Game Tool
-TreeTalk,https://winterdrake.itch.io/talktree,Plugin,"Trial, Paid","Windows, Mac","2D, Visual Scripting","Interactive Fiction Game Tool, GameMakerStudio Plugin"
 Solar2D,https://solar2d.com/,Game Engine,Free,"Windows, Mac, Linux","2D, Lua",Open Source 2D game engine
 SDL,https://www.libsdl.org/,Framework,Free,"Windows, Mac, Linux","2D, 3D, C, C++","A cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D"
 Babylon.JS,https://www.babylonjs.com/,Framework,Free,Web,"3D, Javascript","JavaScript framework for building 3D games with HTML5, WebGL, WebVR, and Web Audio."
 Microsoft DirectX Graphics,https://docs.microsoft.com/en-us/windows/win32/directx?redirectedfrom=MSDN,Framework,Free,Windows,"2D, 3D, C, C++",Provides a set of APIs that you can use to create games and includes support for high-performance 2-D and 3-D graphics.
-GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, Visual Scripting",""
-Visual Novel Maker,https://www.rpgmakerweb.com/products/programs/visual-novel-maker,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, Javascript",""
-PICO-8,https://www.lexaloffle.com/pico-8.php,Fantasy Console,Paid,"Windows, Mac, Linux","2D, 3D, Lua",""
+GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, Visual Scripting",
+Visual Novel Maker,https://www.rpgmakerweb.com/products/programs/visual-novel-maker,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, Javascript",
+PICO-8,https://www.lexaloffle.com/pico-8.php,Fantasy Console,Paid,"Windows, Mac, Linux","2D, 3D, Lua",
 Voxatron,https://www.lexaloffle.com/voxatron.php,Fantasy Console,Paid,"Windows, Mac, Linux","3D, Lua",
-TIC-80,https://tic.computer/,Fantasy Console,"Free, Paid","Windows, Mac, Linux, Android, iOS","2D, Lua, Javascript",""
-Pixel Vision 8,https://www.pixelvision8.com/,Fantasy Console,Free,"Windows, Mac, Linux","2D, C#, Lua",""
-LIKO-12,https://liko-12.github.io/#/,Fantasy Console,Free,"Windows, Mac, Linux, Android","2D, Lua",""
+TIC-80,https://tic.computer/,Fantasy Console,"Free, Paid","Windows, Mac, Linux, Android, iOS","2D, Lua, Javascript",
+Pixel Vision 8,https://www.pixelvision8.com/,Fantasy Console,Free,"Windows, Mac, Linux","2D, C#, Lua",
+LIKO-12,https://liko-12.github.io/#/,Fantasy Console,Free,"Windows, Mac, Linux, Android","2D, Lua",
+GB Studio,https://www.gbstudio.dev/,Game Engine,Free,"Windows, Mac, Linux","2D, Visual Scripting",Make Gamboy style games.

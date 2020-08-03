@@ -12,15 +12,16 @@ App Annie,https://www.appannie.com/en/,Market Analytics,"Free, Subscription",,,M
 App Trace,http://www.apptrace.com/,Market Analytics,Free,,,Mobile Only
 Pollen VC,https://pollen.vc/#/,Market Analytics,"Free, Subscription",,,
 StoreMaven,https://www.storemaven.com/,Market Analytics,Paid,,,App Store Optimization
-Steam Stats,https://store.steampowered.com/stats,Game Analytics,Free,,,Includes other analytics like Concurrent players and PC Hardware usage
-Steam Charts,https://steamcharts.com/,Game Analytics,Free,,,Steam Concurrent Playerbase Charts
-Steam Spy,https://steamspy.com/,Sales Charts,"Free, Subscription",,,
-VG Chartz,http://www.vgchartz.com/,Sales Charts,Free,,,
+Steam Stats,https://store.steampowered.com/stats,Game Analytics,Free,Web,,Includes other analytics like Concurrent players and PC Hardware usage
+Steam Charts,https://steamcharts.com/,Game Analytics,Free,Web,,Steam Concurrent Playerbase Charts
+Steam Spy,https://steamspy.com/,Sales Charts,"Free, Subscription",Web,,
+VG Insights,https://vginsights.com/,Sales Charts,Free,Web,"",""
+VG Chartz,http://www.vgchartz.com/,Sales Charts,Free,Web,,
 Google Play Store,https://play.google.com/store/apps/top/category/GAME,Top Games Lists,Free,,,
 Android Rank,https://www.androidrank.org/,Top Games Lists,Free,,,
 iTune Charts,https://www.apple.com/itunes/charts/,Top Games Lists,Free,,,
 Facebook Games,https://www.facebook.com/games/query/top-grossing/,Top Games Lists,Free,,,
 InfluxData,https://www.influxdata.com/,Business Analytics,"Trial, Subscription",,,DevOps
 SignalFX,https://www.signalfx.com/,Business Analytics,"Trial, Subscription",,,Infrasturcure Monitoring
-Google Trends,https://trends.google.com/trends/?geo=US,Trend Info,Free,,,
-ESA Trends,https://www.theesa.com/esa-research/2019-essential-facts-about-the-computer-and-video-game-industry/,Trend Info,Free,,,
+Google Trends,https://trends.google.com/trends/?geo=US,Trend Info,Free,Web,,
+ESA Trends,https://www.theesa.com/esa-research/2019-essential-facts-about-the-computer-and-video-game-industry/,Trend Info,Free,Web,,

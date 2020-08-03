@@ -1,15 +1,17 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-GDC,https://www.gdconf.com/,,,,,
-E3,https://www.e3expo.com/,,,,,
-PAX,http://www.paxsite.com/,,,,,
-IndieCade,https://www.indiecade.com/,,,,,
-Blizz Con,https://blizzcon.com/en-us/,,,,,
-Quake Con,https://www.quakecon.org,,,,,
-RTX,https://www.rtxaustin.com/,,,,,
-MAGFest,https://www.magfest.org/,,,,,
-Dreamhack,https://dreamhack.com/,,,,,
-Momocon,https://www.momocon.com/,,,,,
-Wikipedia list,https://en.wikipedia.org/wiki/List_of_gaming_conventions,,,,List of game conferences,
-Gameconfs,http://www.gameconfs.com/,,,,List of game conferences,
-Game Dev World,https://gamedev.world/en/,,,,,
-Indie Game Business,https://www.powellgroupconsulting.com/online-business-matchmaking-events/#hero,"","","","",""
+GDC,https://www.gdconf.com/,Conference,Paid,,Professional,Game Developers Conference
+E3,https://www.e3expo.com/,Expo,"Free, Paid",,Fan,Electronic Entertainment Expo
+PAX,http://www.paxsite.com/,Expo,Paid,,Fan,Penny Arcade Expo
+IndieCade,https://www.indiecade.com/,Festival,"Free, Paid",,"Professional, Fans",International Festival of Independent Games
+Blizz Con,https://blizzcon.com/en-us/,Convention,Paid,,Fan,
+Quake Con,https://www.quakecon.org,Convention,Paid,,Fan,
+RTX,https://rtxevent.com/,Expo,Paid,,Fan,Rooster Teeth Expo
+MAGFest,https://www.magfest.org/,Festival,Paid,,Fan,Music And Gaming Festival
+Dreamhack,https://dreamhack.com/,Festival,Paid,,Fan,
+Momocon,https://www.momocon.com/,Convention,Paid,,Fan,
+Wikipedia list,https://en.wikipedia.org/wiki/List_of_gaming_conventions,Convention,"Free, Paid",,Fan,List of game conventions
+Gameconfs,http://www.gameconfs.com/,Conference,"Free, Paid",,Professional,List of game conferences
+Game Dev World,https://gamedev.world/en/,Conference,Paid,,Professional,
+Indie Game Business,https://www.powellgroupconsulting.com/online-business-matchmaking-events/,Conference,Paid,,Professional,
+XDS,https://xdsummit.com/,Summit,Paid,"",Professional,External Development Summit
+TwitchCon,https://www.twitchcon.com/,Convention,Paid,"",Fan,""
