@@ -307,14 +307,17 @@ input, textarea{
 .home > a {margin-bottom: 16px;}
 .about{
   max-width: 800px;
-  padding: 0px 8px;
   padding-bottom: 32px;
   text-align: center;
 }
 .about>p{
-  font-size: 14pt;
+  font-size: 16pt;
 }
-.about > a {margin-bottom: 16px;}
+.about > a {
+  margin-bottom: 16px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
 
 @media all and (max-width: 768px){
   .sidenav{
