@@ -52,7 +52,7 @@ function secjump(id)
 function makeSidebar()
 {
     var intro = ["concept","production","business"];
-    var introtitle = ["Introduction to Games Concepting","Introduction to Games Production","Introduction to Games Business"];
+    var introtitle = ["Conceptualizing a Video Game","Producing a Video Game","Running a Games Business"];
     var business = ["ip","youtube","tactics","kickstarter","pr"];
     var businesstitle = ["The Strength of Intellectual Property","Building a Successful YouTube Channel","Indie Business Tactics","How to be Successful at Kickstarter","Public Relations and Marketing"];
     var industry = ["overview","jobs","testing","culture"];
