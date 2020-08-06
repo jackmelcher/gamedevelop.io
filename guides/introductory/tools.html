@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GameDevelop.io Guides Beginner</title>
+        <meta name="description" content="GameDevelop.io is a Resource Website for Game Development.">
+        <link rel="canonical" href="https://www.gamedevelop.io/guides/introductory/production">
+        <!-- Site Settings -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="height=device-height, 
+            width=device-width, initial-scale=1.0, 
+            minimum-scale=1.0, maximum-scale=1.0, 
+            user-scalable=no, width=device-width">
+        
+        <!-- Meta Properties -->
+        <meta property="og:site_name" content="GameDevelop.io">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="GameDevelop.io Guides">
+        <meta property="og:description" content="Learn about various aspects of Game Development.">
+        <meta property="og:image" content="https://www.gamedevelop.io/images/logo1.png">
+        <meta property="og:url" content="https://www.gamedevelop.io/guides/beginner">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="/css/guides.css">
+        <link rel="stylesheet" type="text/css" href="/css/fontawesome-free-5.13.1-web/css/all.min.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <button class="button sidenavbutton" onclick="ToggleSide()">
+                <i class="menuicon fas fa-bars"></i>
+            </button>
+            <a href="/" class="button button_logo">
+                <img src="/images/logo.svg" alt="logo" class="logoimg">
+            </a>
+            <a href="/resources.html" class="button button_nav">
+                Resources
+            </a>
+            <a href="/guides.html" class="button button_nav">
+                Guides
+            </a>
+            <button class="button settingsnavbutton" onclick="ToggleSettings()">
+                <i class="menuicon fas fa-cog"></i>
+            </button>
+        </nav>
+        <div class="settingsnav">
+            <p>
+                <span id="themetext">Light Mode:</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round"></span>
+                </label>
+            </p>
+        </div>
+        <div class="sidenav">
+                
+        </div>
+        <section class="guideflex-container">
+            <div class="guideflex">
+                <h1 id="top">Selecting a Toolkit</h1>
+                <div id="tools">
+                    <h3>What Tools will you need?</h3>
+                    <p>
+                        WIP
+                    </p>
+                </div>
+                <div id="faq">
+                    <h3 id="top">Frequently Asked Questions</h3>
+                    <p>
+                        <span class="bold">
+                        Q: What Engine, Frameworks, Libraries, APIs, SDKs, Programming Languages, and Tools do I use?<br>
+                        </span>
+                        A: Pick the tools that will make developing your game easier.
+                        It does not matter what tools you use to make your game, what matters is making it.
+                        If you know what type of game you are making, then find a toolset that is tailored for making your game.
+                    </p>
+                    <p>
+                        <span class="bold">
+                        Q: I’ve never programmed before and want to make games. Where do I start?<br>
+                        </span>
+                        A: Learn to program while making your game in a Game Engine.
+                        Google search for introductory tutorials and documentation on game engine programming.
+                        Search for guides or videos on how to program game mechanics or systems.
+                        Search for answers to questions in forums or Q&A hubs, it is very likely someone else has already asked them.
+                        If you can't find an answer to a question you have, then make a post about your question.
+                    </p>
+                    <p>
+                        <span class="bold">
+                        Q: I'm a programmer. Should I make my own Game Engine / Framework for making my game?<br>
+                        </span>
+                        A: No.
+                        If you want to be a game developer, then make games.
+                        Do not make a Game Engine.
+                        An Engine is a tool to make game creation easier.
+                        Some engines are general-purpose, and provide a standard set of tools and functions to create any type of game.
+                        Other engines are specialized and come equipped with tools to make a game for a specific genre.
+                        If an engine lacks the functionality you need, you can extend it with plugins or by modifying the engine’s source code. 
+                    </p>
+                    <p>
+                        <span class="bold">
+                        Q: When would I make my own Game Engine?<br>
+                        </span>
+                        A: Only make a game engine if: 
+                        <ul>
+                            <li>
+                                You want to be a professional Engine Programmer.
+                            </li>
+                            <li>
+                                All the available engines aren’t suitable for making your game.
+                            </li>
+                            <li>
+                                You want a specialized tool that you own and you plan on reusing it to make sequels or similar games.
+                            </li>
+                            <li>
+                                You are adamant about avoiding royalties or subscriptions for the use of a commercial engine.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        <span class="bold">
+                        Q: I'm using a general-purpose Game Engine, and I don’t want to spend time programming key game systems. What should I do?<br>
+                        </span>
+                        A: Purchase plugins for an engine from their respective marketplace or asset store. Many people work on extending the functionality of an engine to save others time and speed up the development process.
+                    </p>
+                    <p>
+                        <span class="bold">
+                        Q: Are there other ways to program a game without learning a programming language?<br>
+                        </span>
+                        A: Some engines use visual scripting systems to make it easier for designers and artists to program game logic.
+                    </p>
+                    <p>
+                        <span class="bold">
+                        Q: I want to make a game, but I don’t want to program it. What do I do?<br>
+                        </span>
+                        A: Team up, hire, or contract programmers.
+                    </p>
+                    <p>
+                        <span class="bold">
+                        Q: I don’t want to make the art and audio for my game. What do I do? <br>
+                        </span>
+                        A: Team up, hire, or contract artists.
+                        Alternatively, you can purchase art assets from digital marketplaces.
+                    </p>
+                    <p>
+                        <span class="bold">
+                        Q: Are there free tools and assets?<br> 
+                        </span>
+                        A: There are plenty of free tools and assets available for download.
+                        Most game engines are free so you can start development right away. A lot of asset creation tools are free or offer free trials. There are also many websites that provide free assets for anyone to use to make games.
+                    </p>
+                </div>
+                <!-- Provide examples of game toolkits as another article -->
+                <div id="toolkits">
+                    <h3 id="top">Toolkit Recommendations</h3>
+                    <p>
+                        WIP
+                        <!-- 2D Game -->
+                        <!-- 3D Game -->
+                        <!-- Classic JRPG Game -->
+                        <!-- Multiplayer Game -->
+                        <!-- Visual Novel Game -->
+                        <!-- Mobile Game -->
+                        <!-- Web Game -->
+                        <!-- Point n Click -->
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <a href="/about.html">About</a>
+            <a href="/suggestion.html">Suggestion Box</a>
+            <a href="/contact.html">Contact</a>
+            <a href="https://www.patreon.com/jackmelcher" target="_blank">Patreon</a>
+            <a href="https://www.ko-fi.com/jackmelcher" target="_blank">Ko-fi</a>
+            <br>
+            <p>© 2020 GameDevelop.io All rights reserved. All trademarks and registered trademarks are the property of their respective owners.</p>
+        </div>
+    </body>
+</html>
+<script src="/js/theme.js"></script>
+<script src="/js/sidebar.js"></script>

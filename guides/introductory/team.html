@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>GameDevelop.io Guides Beginner</title>
+        <meta name="description" content="GameDevelop.io is a Resource Website for Game Development.">
+        <link rel="canonical" href="https://www.gamedevelop.io/guides/introductory/production">
+        <!-- Site Settings -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="height=device-height, 
+            width=device-width, initial-scale=1.0, 
+            minimum-scale=1.0, maximum-scale=1.0, 
+            user-scalable=no, width=device-width">
+        
+        <!-- Meta Properties -->
+        <meta property="og:site_name" content="GameDevelop.io">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="GameDevelop.io Guides">
+        <meta property="og:description" content="Learn about various aspects of Game Development.">
+        <meta property="og:image" content="https://www.gamedevelop.io/images/logo1.png">
+        <meta property="og:url" content="https://www.gamedevelop.io/guides/beginner">
+
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+        <link rel="manifest" href="/favicons/site.webmanifest">
+        <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="/css/stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="/css/guides.css">
+        <link rel="stylesheet" type="text/css" href="/css/fontawesome-free-5.13.1-web/css/all.min.css">
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <button class="button sidenavbutton" onclick="ToggleSide()">
+                <i class="menuicon fas fa-bars"></i>
+            </button>
+            <a href="/" class="button button_logo">
+                <img src="/images/logo.svg" alt="logo" class="logoimg">
+            </a>
+            <a href="/resources.html" class="button button_nav">
+                Resources
+            </a>
+            <a href="/guides.html" class="button button_nav">
+                Guides
+            </a>
+            <button class="button settingsnavbutton" onclick="ToggleSettings()">
+                <i class="menuicon fas fa-cog"></i>
+            </button>
+        </nav>
+        <div class="settingsnav">
+            <p>
+                <span id="themetext">Light Mode:</span>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider round"></span>
+                </label>
+            </p>
+        </div>
+        <div class="sidenav">
+                
+        </div>
+        <section class="guideflex-container">
+            <div class="guideflex">
+                <!-- Separate the guide out into Pre-Production, Production, and Post-Production -->
+                <h1 id="top">Forming a Team</h1>
+                <div id="team">
+                    <h3>Recruiting Team Members</h3>
+                    <p>
+                        If you plan on making your game with a team, you're gonna have to make a layout of the team's size and various roles.
+                        Determine what tasks each role will be responsible for, and how many individuals you will need for each role.
+                        Once you've decide on what role you want to play, you can fill the remaining roles by recruiting additional members.
+                    </p>
+                    <p>
+                        Draft a recruitment post for your project and the open roles.
+                        Describe the game's premise, the game's genre, the available roles, each role's responsiblilities, skill and experience requirements, the estimated production time, and minimum time commitment per week.
+                        Also, make it clear if you are offerring any form of compensation (Unpaid, revenue-share, hourly payment, or commission based payment).
+                        The more detail you provide, the more likely people will inquire and join your team.
+                    </p>
+                    <p>
+                        The best way to recruit team members is by publishing your recruitment post on subreddits, forums, and discord servers.
+                        You can also contact individuals directly who post that they are open to joining a team.
+                        If there are any local game dev meetups, you can attend and ask attendees if they would be interested in joining your project.
+                        In the event you have trouble recruiting people, then consider contracting freelancers instead.
+                    </p>
+                    <p>
+                        If you make people sign a Non-Disclosure Agreement (NDA) before divulging any details about your game, then people may be less likely to contact you about your project.
+                        While an NDA is a good way to keep your business and game idea a secret, the lack of information about the project may inhibit your ability to recruit the right individuals to your team.
+                    </p>
+                </div>
+                <div id="factors">
+                    <h3>Factors to Consider While Recruiting</h3>
+                    <p>
+                        Factors to consider while recruiting members are: experience and compensation, availabile time commitment, physical location, and time zone.
+                    </p>
+                    <p>
+                        Less experienced individuals will be willing to work for free, but may lead to slower production.
+                        More experienced individuals will expect payment for their high skill labor, especially if your project requires a significant time commitment.
+                    </p>
+                    <p>
+                        If a person is only available a few hours out of the week, then progress on the project will be very slow and not be suitable to meet your intended release deadline.
+                        Most people are available part-time to work on projects, so progress will be steady.
+                        Someone working on the project full-time means daily progress can be made and weekly production schedules will be more necessary.
+                    </p>
+                    <p>
+                        Working with people locally allows you to meet up in person, which makes it easier for people to motivate each other and hold each other accountable.
+                        Working with people in the same time zone also makes it easier to synchronize the production schedule and ensure everyone is working around the same time.
+                    </p>
+                    <p>
+                        Working remotely will require more leadership and management to make sure team members are on task, as it takes more time to build trust and maintain moral.
+                        While working with people in different time zones is possible, even with those on different continents, there may be substantial delays in communication and it will take a lot more effort to manage.
+                        But if you can manage to create a global team, it allows people to work on the project anytime, anywhere, around the clock.
+                    </p>
+                </div>
+                <div id="experience">
+                    <h3>How Team Size and Experience Affects Production</h3>
+                    <p>
+                        The team’s skill level will determine whether implementing certain features is feasible and if it can be done in a timely manner.
+                        The team's size will determine how much of the work can be distributed and completed in parallel.
+                    </p>
+                    <p>
+                        A team comprised of inexperienced members may result in poor implementation of complex features.
+                        Development will take longer as team members spend time gathering the new information and learning new skills.
+                        Experienced members likely already know how to build the required systems and have an easier time expanding upon them.
+                        Production time will also be more predictable and move at a steadier pace with a more experienced team.
+                    </p>
+                    <p>
+                        If you are a solo dev, then production time is entirely decided by you.
+                        Every aspect of the game will require your attention.
+                        You will be knowledgeable in multiple areas, but the trade off is that you will not be specialized into one discipline.
+                        As a result, production times will drastically increase because all tasks will have to be performed sequentially.
+                        But, you have full creative control of your game.
+                    </p>
+                    <p>
+                        With a team of specialized individuals, tasks can be divided up and completed in parallel.
+                        Multiple tasks can be finished during each iteration cycle, allowing the team to build prototypes of the game faster.
+                        Smaller teams will still require members to complete tasks in several departments, but still allow development to move faster than a solo developer.
+                        The final product will be a culmination of the all creative efforts.
+                    </p>
+                    <p>
+                        As the team size increases, management of the project gets more difficult.
+                        You will have to spend more time organizing task work and making sure team members have something to work on.
+                        Managing efforts also helps prevents team members working on the same task by accident.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <a href="/about.html">About</a>
+            <a href="/suggestion.html">Suggestion Box</a>
+            <a href="/contact.html">Contact</a>
+            <a href="https://www.patreon.com/jackmelcher" target="_blank">Patreon</a>
+            <a href="https://www.ko-fi.com/jackmelcher" target="_blank">Ko-fi</a>
+            <br>
+            <p>© 2020 GameDevelop.io All rights reserved. All trademarks and registered trademarks are the property of their respective owners.</p>
+        </div>
+    </body>
+</html>
+<script src="/js/theme.js"></script>
+<script src="/js/sidebar.js"></script>
