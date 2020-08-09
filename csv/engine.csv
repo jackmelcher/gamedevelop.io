@@ -49,3 +49,4 @@ TIC-80,https://tic.computer/,Fantasy Console,"Free, Paid","Windows, Mac, Linux, 
 Pixel Vision 8,https://www.pixelvision8.com/,Fantasy Console,Free,"Windows, Mac, Linux","2D, C#, Lua",
 LIKO-12,https://liko-12.github.io/#/,Fantasy Console,Free,"Windows, Mac, Linux, Android","2D, Lua",
 GB Studio,https://www.gbstudio.dev/,Game Engine,Free,"Windows, Mac, Linux","2D, Visual Scripting",Make Gamboy style games.
+OpenFL,https://www.openfl.org/,Game Engine,Free,"Windows, Mac, Linux","2D, Actionscript","Uses an API similar to Adobe Flash's Actionscript, but exports as HTMl5"

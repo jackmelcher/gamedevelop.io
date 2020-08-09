@@ -1,10 +1,10 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 Blender,https://www.blender.org/,"Model, Sculpt, Texture, Animate, Render",Free,"Windows, Mac, Linux",,
-Cinema 4D,https://www.maxon.net/en-us/products/cinema-4d/overview/,"Model, Sculpt, Texture, Animate, Render","Trial, Paid","Windows, Mac",,
 Autodesk 3DS Max,https://www.autodesk.com/products/3ds-max/overview,"Model, Texture, Animate, Render","Trial, Subscription",Windows,,
 Autodesk Maya,https://www.autodesk.com/products/maya/overview,"Model, Texture, Animate, Render","Trial, Subscription","Windows, Mac, Linux",,
 Autodesk Mudbox,https://www.autodesk.com/products/mudbox/overview,"Model, Sculpt, Texture","Trial, Subscription","Windows, Mac, Linux",,
 Autodesk Arnold,https://www.autodesk.com/products/arnold/overview,"Render, VFX","Trial, Subscription","Windows, Mac, Linux",,
+Cinema 4D,https://www.maxon.net/en-us/products/cinema-4d/overview/,"Model, Sculpt, Texture, Animate, Render","Trial, Paid","Windows, Mac",,
 Houdini,https://www.sidefx.com/products/houdini/,"Model, Texture, Animate, Render, VFX, Terrain, Cloth, Hair","Free, Subscription, License","Windows, Mac, Linux",,Includes tools for Procedural Generation and Manipulation
 Microsoft 3D Paint,https://support.microsoft.com/en-us/help/4014938/windows-10-basic-3d-modeling,Model,Free,Windows,,
 Unity Pro Builder,https://unity3d.com/unity/features/worldbuilding/probuilder,"Model, Texture",Free,"Windows, Mac, Linux",,
@@ -22,7 +22,7 @@ bforartists (UI Focused Blender),https://bforartists.de/,"Model, Sculpt, Animate
 Dilay,https://abau.org/dilay/,Sculpt,Free,"Windows, Linux",,
 SculptGL,https://stephaneginier.com/sculptgl/,"Sculpt, Paint, Render",Free,Web,,
 Daz3D,https://www.daz3d.com/,"Model, Human, Paint, Animate, Render","Free, Paid","Windows, Mac",,
-Reallusion iClone,https://www.reallusion.com/iclone/,"Animate, Render","Trial, Paid",Windows,"",""
+Reallusion iClone,https://www.reallusion.com/iclone/,"Animate, Render","Trial, Paid",Windows,,
 Reallusion Character Creator,https://www.reallusion.com/character-creator/,"Model, Human, Animate","Trial, Paid",Windows,,
 Adobe Fuse (Beta),https://www.adobe.com/products/fuse.html#x,"Model, Human, Animate",Trial,"Windows, Mac",,Trial lasts for 500 days
 MakeHuman,http://www.makehumancommunity.org/,"Model, Human",Free,"Windows, Mac",,
@@ -30,11 +30,11 @@ Marvelous Designer,https://www.marvelousdesigner.com/,"3D Clothing, Texture","Tr
 Moka Studio,https://mokastudio.com/,Animate,"Trial, Paid","Windows, Mac",,
 Akeytsu,https://www.nukeygara.com/,Animate,"Trial, Subscription",Windows,,
 Popcorn FX,https://www.popcornfx.com/,VFX,"Free, Subscription","Windows, Linux",,
-Quixel Mixer,https://quixel.com/mixer,"Texture, Paint",Free,"Windows, Mac",Beta,Free while software is in Beta
 Substance Painter,https://www.allegorithmic.com/products/substance-painter,"Texture, Paint","Trial, Paid, Subscription","Windows, Mac, Linux",,
+Quixel Mixer,https://quixel.com/mixer,"Texture, Paint",Free,"Windows, Mac",Beta,Free while software is in Beta
+Armor Paint,https://armorpaint.org/,"Texture, Paint",Paid,"Windows, Linux",,
 P-XCEL,https://forums.tigsource.com/index.php?topic=14503.15,"Texture, Paint",Free,Windows,,
 Pixexix,http://pixexix.sophiehoulden.com/,"Texture, Paint","Free, Paid","Windows, Mac",,
-Armor Paint,https://armorpaint.org/,"Texture, Paint",Paid,"Windows, Linux",,
 Substance B2M,https://www.allegorithmic.com/products/bitmap2material,Texture,"Free, Paid","Windows, Mac, Linux",,
 Substance Designer,https://www.allegorithmic.com/products/substance-designer,"Texture, Render","Free, Trial, Paid","Windows, Mac, Linux",,
 ShaderMap,https://shadermap.com/,Texture,"Free, Paid",Windows,,
