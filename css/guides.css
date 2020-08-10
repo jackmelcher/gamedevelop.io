@@ -1,6 +1,6 @@
 :root{
-    --guide-link-article-color: #2b2b2b;
-    --guide-link-header-color: #474747;
+    --guide-link-article-color: #000000;
+    --guide-link-header-color: #000000;
 }
 html[data-theme = "dark"]{
     --guide-link-article-color: #ececec;

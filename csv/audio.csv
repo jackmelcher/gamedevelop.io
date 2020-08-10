@@ -63,7 +63,9 @@ Audiokinetic Wwise,https://www.audiokinetic.com/products/wwise/,"Sound Engine, A
 FMOD Studio,https://www.fmod.com/studio,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,
 Elias Studio,https://www.eliassoftware.com/,Authoring Tool,"Free, Paid","Windows, Mac",,
 Fabric,http://www.tazman-audio.co.uk/,Authoring Tool,"Free, Paid","Windows, Mac, Linux",Unity Plugin,
-Bfxr,https://www.bfxr.net/,Video Game SFX,Free,"Windows, Mac, Web",,
+Bfxr,https://www.bfxr.net/,Video Game SFX,Free,"Windows, Mac, Web",,An elaboration of Sfxr
+Jsfxr,http://sfxr.me/,Video Game SFX,Free,Web,,HTML5 port of Sfxr
+Sfxr,http://www.drpetter.se/project_sfxr.html,Video Game SFX,Free,"Windows, Linux","",Sound Effects generator made to support entrants during the 10th Ludum Dare
 ChipTone,http://sfbgames.com/chiptone/,Video Game SFX,Free,Web,,
 Leshy SF Designer,https://www.leshylabs.com/apps/sfMaker/,Video Game SFX,Free,Web,,
 LabChirp,http://labbed.net/software/labchirp/,Video Game SFX,Free,Windows,,
