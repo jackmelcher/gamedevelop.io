@@ -1,5 +1,6 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Agile Alliance,https://www.agilealliance.org/agile101/,Organization,Free,Web,,"Organization dedicated to supporting people that use the Agile Software Development Methodology"
+Agile Alliance,https://www.agilealliance.org/agile101/,Organization,Free,Web,,Organization dedicated to supporting people that use the Agile Software Development Methodology
+Scrum.org,https://www.scrum.org/,Organization,Free,Web,"",Organization for training and certifying people that use the Scrum framework
 Atlassian JIRA,https://www.atlassian.com/software/jira,"Task Management, Bug Tracking","Free, Trial, Subscription","iOS, Android, Web",,
 Perforce Hansoft,https://www.perforce.com/products/hansoft,Task Management,"Free, Subscription",Web,,
 Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Task Management, Bug Tracking","Free, Subscription",Web,,
@@ -11,13 +12,13 @@ Monday.com,https://monday.com/,Task Management,"Trial, Subscription",Web,,
 Freeter,https://freeter.io/,Task Management,"Free, Paid",Web,,
 Todoist,https://todoist.com/,Task Management,"Free, Subscription",Web,,
 Asana,https://asana.com/,Task Management,"Trial, Subscription",Web,,
-Evernote Business,https://evernote.com/business,Task Management,"Trial, Subscription",Web,,
+Evernote,https://evernote.com/,Task Management,"Free, Trial, Subscription",Web,,
 Taiga,https://taiga.io/,Task Management,"Free, Subscription",Web,,
 Casual,https://casual.pm/,Task Management,"Trial, Subscription",Web,,
 Wrike,https://www.wrike.com/,Task Management,"Free, Subscription",Web,,
 Basecamp,https://basecamp.com/,Task Management,"Free, Subscription",Web,,
 Git Kraken Glo,https://www.gitkraken.com/,Task Management,"Free, Subscription",Web,,
-Pivotal Tracker,https://www.pivotaltracker.com/,Task Management,"Free, Subscription","iOS, Android, Web","",""
+Pivotal Tracker,https://www.pivotaltracker.com/,Task Management,"Free, Subscription","iOS, Android, Web",,
 Github Issue Tracker,https://help.github.com/en/articles/about-issues,"Task Management, Bug Tracking",Free,Web,,
 Gitlab Issue Tracker,https://docs.gitlab.com/ee/user/project/issues/,"Task Management, Bug Tracking",Free,Web,,
 Redmine,https://www.redmine.org/,Task Management,Free,Web,,Requires host/server
@@ -29,3 +30,4 @@ Microsoft Sharepoint,https://products.office.com/en-us/sharepoint/compare-sharep
 Google Suite,https://gsuite.google.com/,"Collaboration, Cloud Storage","Free, Subscription",Web,,
 Dropbox,https://www.dropbox.com/,Cloud Storage,"Free, Subscription",Web,,
 Mega,https://mega.nz/,Cloud Storage,"Free, Subscription",Web,,
+TickTick,https://ticktick.com/,Task Management,"Free, Subscription","Windows, Mac, iOS, Android, Web","",""
