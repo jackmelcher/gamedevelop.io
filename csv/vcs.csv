@@ -1,24 +1,27 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-GIT,https://git-scm.com/,VCS,Free,,Distributed,
-SVN,https://subversion.apache.org/,VCS,Free,,Centralized,
-Mercurial,https://www.mercurial-scm.org/,VCS,Free,,Distributed,
+GIT,https://git-scm.com/,VCS,Free,"Windows, Mac, Linux",Distributed,
 Perforce Helix Core,https://www.perforce.com/products/helix-core,VCS,"Free, Subscription","Windows, Mac, Linux",Centralized,Free for up to 5 users
-Plastic SCM,https://www.plasticscm.com/,VCS,"Free, Subscription",,"Centralized, Distributed",
-Team Foundation Version Control,https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/overview?view=vsts,VCS,Subscription,,Centralized,
-Unity Teams,https://unity.com/products/unity-teams,VCS,"Free, Subscription",,Distributed,
-GitHub,https://github.com/,VCS Hosting,"Free, Subscription",,Git,
-GitLab,https://gitlab.com/,VCS Hosting,"Free, Subscription",,Git,
-BitBucket,https://bitbucket.org/,VCS Hosting,"Free, Subscription",,"Git, Mercurial",
-Assembla,https://www.assembla.com/home,VCS Hosting,Subscription,,"Perforce, Git, SVN",
-Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,VCS Hosting,Subscription,,"Git, TFVC",
-Perforce HelixTeamHub,https://www.perforce.com/products/helix-teamhub,VCS Hosting,"Free, Subscription",,"Git, SVN, Mercurial",
-Plastic Cloud server,https://www.plasticscm.com/plasticscm-cloud-edition,VCS Hosting,"Trial, Subscription",,"Plastic, Git",
-RiouxSVN,https://riouxsvn.com/,VCS Hosting,"Free, Subscription",,SVN,
-Unity Teams,https://unity3d.com/teams,VCS Hosting,"Free, Subscription",,Unity,Unity Only
-Gogs,https://gogs.io/,VCS GUI,Free,,Git,Self Hosting
-Github Desktop,https://desktop.github.com/,VCS GUI,Free,"Windows, Mac",Git,
-Git Kraken,https://www.gitkraken.com/,VCS GUI,Free,"Windows, Mac, Linux",Git,
+Plastic SCM,https://www.plasticscm.com/,VCS,"Free, Subscription","Windows, Mac, Linux","Centralized, Distributed",
+Unity Teams,https://unity.com/products/unity-teams,VCS,"Free, Subscription","Windows, Mac, Linux",Distributed,Integrated into Unity
+Mercurial,https://www.mercurial-scm.org/,VCS,Free,"Windows, Mac, Linux",Distributed,
+SVN,https://subversion.apache.org/,VCS,Free,"Windows, Mac, Linux",Centralized,
+Team Foundation Version Control,https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/overview?view=vsts,VCS,Subscription,Windows,Centralized,
+GitHub,https://github.com/,VCS Hosting,"Free, Subscription",Web,Git,
+BitBucket,https://bitbucket.org/,VCS Hosting,"Free, Subscription",Web,Git,
+GitLab,https://gitlab.com/,VCS Hosting,"Free, Subscription",Web,Git,
+Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,VCS Hosting,"Free, Subscription",Web,"Git, TFVC",
+Assembla,https://www.assembla.com/home,VCS Hosting,"Trial, Subscription",Web,"Perforce, Git, SVN",
+Perforce HelixTeamHub,https://www.perforce.com/products/helix-teamhub,VCS Hosting,"Free, Subscription",Web,"Git, SVN, Mercurial",
+Plastic Cloud,https://www.plasticscm.com/plasticscm-cloud-edition,VCS Hosting,"Trial, Subscription",Web,"Plastic, Git",
+RiouxSVN,https://riouxsvn.com/,VCS Hosting,"Free, Subscription",Web,SVN,
+Unity Teams Cloud,https://unity.com/products/unity-teams,VCS Hosting,"Free, Subscription",Web,Unity,Integrated into Unity
+Gogs,https://gogs.io/,VCS GUI,Free,"Windows, Mac, Linux",Git,Self Hosting
 SourceTree,https://www.sourcetreeapp.com/,VCS GUI,Free,"Windows, Mac","Git, Mercurial",
+Github Desktop,https://desktop.github.com/,VCS GUI,Free,"Windows, Mac",Git,
+GitKraken,https://www.gitkraken.com/,VCS GUI,"Free, Subscription","Windows, Mac, Linux",Git,
+Git Tower,https://www.git-tower.com/,VCS GUI,"Trial, Subscription","Windows, Mac",Git,
+Perforce Helix Visual Client,https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v,VCS GUI,"Free, Subscription","Windows, Mac, Linux",Perforce,Visual Client included with Helix Core
+Plastic SCM GUI,https://www.plasticscm.com/documentation/gui/plastic-scm-version-control-gui-guide,VCS GUI,"Free, Subscription","Windows, Mac, Linux",Plastic,GUI Client included with Plastic SCM
 TortoiseSVN,https://tortoisesvn.net/,VCS GUI,Free,Windows,SVN,
 VisualSVN,https://www.visualsvn.com/,VCS GUI,Free,"Windows, Mac",SVN,
 SmartSVN,https://www.smartsvn.com/,VCS GUI,Free,Mac,SVN,

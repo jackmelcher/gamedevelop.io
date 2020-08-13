@@ -1,10 +1,13 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
+Agile Manifesto,https://agilemanifesto.org/,Mindset,Free,Web,"",Manifesto for Agile Software Development
+Scrum Guide,https://www.scrumguides.org/,Framework,Free,Web,"",Detailed guide for the Scrum Framework of Agile Software Development
 Agile Alliance,https://www.agilealliance.org/agile101/,Organization,Free,Web,,Organization dedicated to supporting people that use the Agile Software Development Methodology
-Scrum.org,https://www.scrum.org/,Organization,Free,Web,"",Organization for training and certifying people that use the Scrum framework
-Atlassian JIRA,https://www.atlassian.com/software/jira,"Task Management, Bug Tracking","Free, Trial, Subscription","iOS, Android, Web",,
+Scrum.org,https://www.scrum.org/,Organization,Free,Web,,Organization for training and certifying people that use the Scrum framework
+Atlassian Jira Software,https://www.atlassian.com/software/jira,"Task Management, Bug Tracking","Free, Trial, Subscription","iOS, Android, Web",,
 Perforce Hansoft,https://www.perforce.com/products/hansoft,Task Management,"Free, Subscription",Web,,
 Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Task Management, Bug Tracking","Free, Subscription",Web,,
 Trello,https://trello.com/en,Task Management,Free,Web,,
+TickTick,https://ticktick.com/,Task Management,"Free, Subscription","Windows, Mac, iOS, Android, Web",,
 Airtable,https://airtable.com/,Task Management,"Free, Subscription",Web,,
 ClickUp,https://clickup.com/,"Task Management, Collaboration","Free, Subscription",Web,,
 Notion,https://www.notion.so/,"Task Management, Collaboration","Free, Subscription",Web,,
@@ -30,4 +33,3 @@ Microsoft Sharepoint,https://products.office.com/en-us/sharepoint/compare-sharep
 Google Suite,https://gsuite.google.com/,"Collaboration, Cloud Storage","Free, Subscription",Web,,
 Dropbox,https://www.dropbox.com/,Cloud Storage,"Free, Subscription",Web,,
 Mega,https://mega.nz/,Cloud Storage,"Free, Subscription",Web,,
-TickTick,https://ticktick.com/,Task Management,"Free, Subscription","Windows, Mac, iOS, Android, Web","",""

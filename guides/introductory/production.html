@@ -70,106 +70,172 @@
                 <div id="vc">
                     <h3>Setup Version Control</h3>
                     <p>
-                        Version Control Systems lets you backup your game, keep a history of changes in the codebase and assets, and collaborate with multiple developers on the same project.
+                        Version Control Systems (VCS) let you backup your work, keep a history of changes, and collaborate with multiple developers on the same project.
+                        Pick a system that works bet for you and your team.
                     </p>
-                    <h3>Recommended Version Control Systems, Hosts, and Tools</h3>
+                    <p>
+                        A distributed VCS, such as Git, keeps a copy of the codebase and the change history on a repository on all machines.
+                        When a user pushes changes to the master repository, other users can pull those changes to their machines.
+                        Users can also make branches of the codebase to isolate development, then merge the changes into the master copy.
+                    </p>
+                    <p>
+                        A centralized VCS, such as Perforce, keeps a master copy and the change history on a central server.
+                        Users connect to the server and checkout a copy of a file they would like to work on.
+                        Checking out a file locks it out, and prevents other users from modifying it until the file is checked back in.
+                    </p>
+                    <p>
+                        Git is the most widely used VCS because it is easy to learn, setup, and use.
+                        Remote work is also easily supported thanks to the multitude of platforms that offer free cloud hosting for git repositories.
+                        But large files and large change histories may be an issue for machines with little local storage space.
+                    </p>
+                    <p>
+                        Perforce is widely used in AAA Studios because it's an excellent system for projects with many large assets and files.
+                        Users only have to copy files to their machine that they need to work on.
+                        Users also can't work on the same file simultaneously.
+                    </p>
+                    <p>
+                        Select a VCS that works best for your team and the project's needs.
+                    </p>
+                </div>
+                <div id="vcstools">
+                    <h3>Version Control Recommendations</h3>
                     Version Control Systems
                     <ul>
                         <li>
-                            Git
+                            <a href="https://git-scm.com/">Git</a>
                         </li>
                         <li>
-                            Perforce
+                            <a href="https://www.perforce.com/products/helix-core">Perforce Helix Core</a> (Includes GUI Client)
                         </li>
                         <li>
-                            Plastics SCM
+                            <a href="https://www.plasticscm.com/">Plastic SCM</a> (Includes GUI Client and offers Repo Hosting)
                         </li>
                     </ul>
-                    Version Control Hosting
+                    Version Control Repo Hosts
                     <ul>
                         <li>
-                            Github
+                            <a href="https://github.com/">Github</a> (Git)
                         </li>
                         <li>
-                            Gitlab
+                            <a href="https://bitbucket.org/">BitBucket</a> (Git)
                         </li>
                         <li>
-                            Bitbucket
-                        </li>
-                        <li>
-                            Assembla
+                            <a href="https://www.assembla.com/home">Assembla</a> (Perforce)
                         </li>
                     </ul>
-                    Version Control GUI Tools
+                    Git GUI Clients
                     <ul>
                         <li>
-                            Github Desktop
+                            <a href="https://www.sourcetreeapp.com/">SourceTree</a>
                         </li>
                         <li>
-                            GitKraken
+                            <a href="https://desktop.github.com/">Github Desktop</a>
                         </li>
                         <li>
-                            SourceTree
+                            <a href="https://www.gitkraken.com/">GitKraken</a>
                         </li>
                     </ul>
                     <p>
-                        Full list of Version Control Systems, Hosts, and Tools
+                        <a href="/resources.html#vcs">Full list of Version Control Systems, Hosts, and Tools</a>
                     </p>
                 </div>
-                <div id="iterate">
-                    <!-- Setup Version Control -->
-                    <!-- Setup Task Management and Collaboration Process -->
-                    <!-- Set Goals and Deadlines -->
-                    <!-- Develop using Agile  -->
-                    <!-- Iterate Based on Feedback -->
-                    <h3>Intro to Agile Development</h3>
+                <div id="tasking">
+                    <h3>Setup Task Management</h3>
                     <p>
-                        Just like modern Software Development, game development is an iterative process.
-                        To support rapid prototyping, studios often employ an Agile model of development using a Scrum Framework.
+                        Use a task management process in order to keep track of tasking on a daily, weekly, and monthly basis.
+                        Pick a method that works best for you and your team.
                     </p>
                     <p>
-                        The premise of Agile is to make software with a focus on the end-user experience.
-                        Production is flexible and open to rapid design changes.
-                        Regular reviews of the product are done at the end of every milestone to verify and validate the product.
-                        Through continuous iteration and collaboration, the product continues to evolve.
+                        If you are working as a solo dev or in a small team, then it's usually best to use TODO lists and Kanban Boards.
+                        Some are as simple as paper TODO lists, sticky note scrum boards, or digital kanban boards.
                     </p>
                     <p>
-                        At the start of a project, development is brokendown into multiple sprints / milestones.
-                        Each milestone has a set of features and user stories that developers work on implementing.
-                        At the end of the milestone, users and testers evaluate the product.
-                        Testers verify that features are implemented based on specified design.
-                        Users perform validation, providing praise or criticism on the User Experience.
-                        Lastly, developers review the feedback and integrate plans for design changes and bug fixes into future milestone.
+                        If you are working with a very large team, then a more complex system is necessary.
+                        Agile task manamgement applications let teams plan out a production schedule, organize development, track progress, and report issues.
                     </p>
                     <p>
-                        Source:<br>
-                        <a href="https://www.agilealliance.org/agile101/">Agile 101 - Agile Alliance</a> <br>
-                        <a href="https://www.scrum.org/resources/what-is-scrum">What is Scrum? - Scrum.org</a>
+                        Use the system that works best for you and fits your needs.
                     </p>
                 </div>
-                <div id="feedback">
-                    <h3>Handling Feedback</h3>
+                <div id="tasktools">
+                    <h3>Task Managment Recommendations</h3>
+                    Physical TODO Lists
+                    <ul>
+                        <li>
+                            Pencil and Paper
+                        </li>
+                        <li>
+                            Sticky Notes
+                        </li>
+                        <li>
+                            Whiteboard
+                        </li>
+                    </ul>
+                    Digital TODO Lists
+                    <ul>
+                        <li>
+                            <a href="https://todoist.com/">Todoist</a>
+                        </li>
+                        <li>
+                            <a href="https://ticktick.com/">TickTick</a>
+                        </li>
+                        <li>
+                            <a href="https://evernote.com/">Evernote</a>
+                        </li>
+                    </ul>
+                    Collaborative Tasking and File Sharing
+                    <ul>
+                        <li>
+                            <a href="https://trello.com/">Trello</a>
+                        </li>
+                        <li>
+                            <a href="https://drive.google.com/">Google Drive</a>
+                        </li>
+                        <li>
+                            <a href="https://www.notion.so/">Notion</a>
+                        </li>
+                        <li>
+                            <a href="https://clickup.com/">ClickUp</a>
+                        </li>
+                    </ul>
+                    Agile Production
+                    <ul>
+                        <li>
+                            <a href="https://www.atlassian.com/software/jira">Atlassian Jira Software</a>
+                        </li>
+                        <li>
+                            <a href="https://azure.microsoft.com/en-us/services/devops/">Microsoft Azure DevOps</a>
+                        </li>
+                        <li>
+                            <a href="https://www.perforce.com/products/hansoft">Perforce Hansoft</a>
+                        </li>
+                    </ul>
                     <p>
-                        Because video games are an artistic endeavor, designs are subject to change.
-                        Features need to be built and tested, then refined based on player feedback.
+                        <a href="/resources.html#tasking">Full List of Task Management Platforms</a>
+                    </p>
+                </div>
+                <div id="goals">
+                    <h3>Set Goals and Deadlines</h3>
+                    <p>
+                        Set goals for what you want to accomplish. <br>
+                        Set deadlines for when you want to accomplish them.
                     </p>
                     <p>
-                        A Feature that looks good on paper may result in a horrible gameplay experience for players.
-                        Along with criticism, players may also suggest improvements or changes to the existing design.
-                        Even bugs and glitches can potentially become features or lead to other design changes.
+                        Make a list of tasks you would like to complete.
+                        Make these lists every day, week, or as often as you need to.
                     </p>
                     <p>
-                        As the developer, you need to take user feedback and make some tough decisions:
-                        Keep the existing design, Adjust existing design to improve it, implement a new design to replace it, or scrap the design entirely.
+                        Set a goal for what state you want to game to be in after a week, two weeks, or a month of work.
+                        Set a deadline for when you want to release your game.
                     </p>
                     <p>
-                        Due to design changes, development setbacks, and production constraints, the game you originally envisioned may not be the game that gets shipped.
-                        Along the way, your team will have to make tough decisions on what content to keep or cut.
+                        Deadlines for tasks and goals is a means to motivate production, as they encourage team members to make progress on the project.
+                        Completing tasks regularly helps maintain your team's motivation.
+                        Don't forget to take a moment to celebrate when you achieve a major goal.
                     </p>
                     <p>
-                        Anything that is cut might be removed from production entirely, or set aside as a post-launch update.
-                        With the advent of "Early Access" releases and the "Games as a Service" business model, developers will often continue to provide Content Updates long after a game has been released.
-                        Content Updates and patches may include new features, new content, gameplay rebalance, and bug fixes.
+                        The most important factor is that progress is being made on developing your game.
+                        If you miss a deadline, re-evaluate your team's production capacity and set a new deadline.
                     </p>
                 </div>
                 <div id="production">
@@ -198,11 +264,9 @@
                         </ul>
                     </p>
                     <p>
-                        A Proof of Concept Prototype is a build that validates the game's design.
-                        It contains as most of the necessary components to make a playable experience.
-                        Any visual and audio assets are commonly placeholder.
-                        This phase undergoes rapid prototyping to solidify the gameplay experience.
-                        If the game design is deemed not fun during the early stages of development, then it will save time and money that would've been lost during full-scale production.
+                        After rapid prototyping, a Proof of Concept build is made to validate the game's design.
+                        At this stage, the game contains most of its core components which make up the playable experience.
+                        The game should be fun on gameplay alone, as a majority of the visual and audio assets are placeholder.
                     </p>
                     <p>
                         The Vertical Slice is a polished pre-alpha demo that showcases all of the game's core features with mostly finalized assets.
@@ -237,45 +301,56 @@
                         Development of Post-Launch content may follow a similar set of production goals as the ones listed above.
                     </p>
                 </div>
-                <div id="tasking">
-                    <h3>Recommended Production Methods</h3>
+                <div id="iterate">
+                    <!-- Develop using Agile  -->
+                    <!-- Iterate Based on Feedback -->
+                    <h3>Use Agile Development</h3>
                     <p>
-                        There are a variety of task management applications available to help facilitate production.
-                        Some are as simple as paper TODO lists, sticky note scrum boards, or digital issue lists and kanban boards.
-                        Others are more complex and can encompass every aspect of production, from departments, scheduling, velocity, complexity, feature criteria, task lists, dashboards, etc.
-                        Use the system that works best for you and fits your needs.
-                        Pick the method that works best for you and your team size.
+                        Just like modern Software Development, game development is an iterative process.
+                        To support changes in design, studios often utilize an Agile model of development using a Scrum Framework.
                     </p>
                     <p>
-                        <ul>
-                            <li>
-                                TODO list (Paper & Pen, Sticky Notes, Whiteboard.)
-                            </li>
-                            <li>
-                                TODO List apps (
-                                <a href="https://todoist.com/">Todoist</a>,
-                                <a href="https://ticktick.com/">TickTick</a>,
-                                <a href="https://evernote.com/">Evernote</a>
-                                )
-                            </li>
-                            <li>
-                                Collaborative Tasking (
-                                <a href="https://trello.com/">Trello</a>,
-                                <a href="https://www.notion.so/">Notion</a>,
-                                <a href="https://clickup.com/">ClickUp</a>,
-                                )
-                            </li>
-                            <li>
-                                Agile Production (
-                                    <a href="https://www.atlassian.com/software/jira">Atlassian Jira</a>,
-                                    <a href="https://azure.microsoft.com/en-us/services/devops/">Azure DevOps</a>,
-                                    <a href="https://www.perforce.com/products/hansoft">Perforce Hansoft</a>
-                                    )
-                            </li>
-                        </ul>
+                        The premise of Agile is to make software with a focus on the end-user experience.
+                        Production is flexible and open to rapid design changes.
+                        Regular reviews of the product are done to verify and validate the product.
+                        Through continuous iteration and collaboration, the product continues to evolve and improve.
                     </p>
                     <p>
-                        <a href="/resources.html#tasking">Full List of Task Management Platforms</a>
+                        The Scrum Framework assists in achieving an Agile model of development.
+                        At the start of a project, development is brokendown into sprints.
+                        Each sprint has a set of features and user stories that developers work on implementing.
+                        At the end of the sprint, users and testers evaluate the product by submitting feedback and bug reports.
+                        Lastly, developers review the feedback and integrate plans for design changes and bug fixes into future sprints.
+                    </p>
+                    <p>
+                        Source:<br>
+                        <a href="https://www.agilealliance.org/agile101/">Agile 101 - Agile Alliance</a> <br>
+                        <a href="https://www.scrum.org/resources/what-is-scrum">What is Scrum? - Scrum.org</a>
+                    </p>
+                </div>
+                <div id="feedback">
+                    <h3>Handling Feedback</h3>
+                    <p>
+                        Because video games are an artistic endeavor, designs are subject to change.
+                        Features need to be built and tested, then refined based on player feedback.
+                    </p>
+                    <p>
+                        A Feature that looks good on paper may result in a horrible gameplay experience for players.
+                        Along with criticism, players may also suggest improvements or changes to the existing design.
+                        Even bugs and glitches can potentially become features or lead to other design changes.
+                    </p>
+                    <p>
+                        As the developer, you need to take user feedback and make some tough decisions:
+                        Keep the existing design, Adjust existing design to improve it, implement a new design to replace it, or scrap the design entirely.
+                    </p>
+                    <p>
+                        Due to design changes, development setbacks, and production constraints, the game you originally envisioned may not be the game that gets shipped.
+                        Along the way, your team will have to make tough decisions on what content to keep or cut.
+                    </p>
+                    <p>
+                        Anything that is cut might be removed from production entirely, or set aside as a post-launch update.
+                        With the advent of "Early Access" releases and the "Games as a Service" business model, developers will often continue to provide Content Updates long after a game has been released.
+                        Content Updates and patches may include new features, new content, gameplay rebalance, and bug fixes.
                     </p>
                 </div>
                 <div id="production">
