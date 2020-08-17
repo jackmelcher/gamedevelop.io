@@ -95,31 +95,37 @@ status = 301
 force = true
 
 [[redirects]]
-from = "/guides/business/ip.html"
+from = "/guides/business-and-marketing.html"
 to = "/guides/business/ip"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/business/kickstarter.html"
+from = "/guides/business-and-marketing/ip.html"
+to = "/guides/business/ip"
+status = 301
+force = true
+
+[[redirects]]
+from = "/guides/business-and-marketing/kickstarter.html"
 to = "/guides/business/kickstarter"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/business/pr.html"
+from = "/guides/business-and-marketing/pr.html"
 to = "/guides/business/pr"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/business/tactics.html"
+from = "/guides/business-and-marketing/tactics.html"
 to = "/guides/business/tactics"
 status = 301
 force = true
 
 [[redirects]]
-from = "/guides/business/youtube.html"
+from = "/guides/business-and-marketing/youtube.html"
 to = "/guides/business/youtube"
 status = 301
 force = true
