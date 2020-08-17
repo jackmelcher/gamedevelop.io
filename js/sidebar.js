@@ -52,7 +52,7 @@ function secjump(id)
 function makeSidebar()
 {
     var intro = ["concept","business","tools","team","production"];
-    var introtitle = ["Conceptualize a Video Game","Make a Business Strategy","Select a Toolkit","Form a Team","Produce a Video Game"];
+    var introtitle = ["Conceptualizing a Video Game","Making a Business Strategy","Selecting a Toolkit","Forming a Team","Producing a Video Game"];
     var business = ["ip","youtube","tactics","kickstarter","pr"];
     var businesstitle = ["The Strength of Intellectual Property","Building a Successful YouTube Channel","Indie Business Tactics","How to be Successful at Kickstarter","Public Relations and Marketing"];
     var industry = ["overview","jobs","testing","culture"];
@@ -61,6 +61,11 @@ function makeSidebar()
     makeSidebar2("introductory","Introductory Guides",intro,introtitle)
     makeSidebar2("industry","The Computer and Video Game Industry",industry,industrytitle)
     makeSidebar2("business-and-marketing","Business and Marketing Guides",business,businesstitle)
+
+    var sidenav = document.getElementsByClassName("sidenav")[0];
+    var div = document.createElement("div");
+    div.innerHTML = "<br><br>";
+    sidenav.appendChild(div);
 }
 
 function makeSidebar2(guideFile,guideTitle,fileArr,titleArr)
