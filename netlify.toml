@@ -71,6 +71,18 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/guides/introductory/tools.html"
+to = "/guides/introductory/tools"
+status = 301
+force = true
+
+[[redirects]]
+from = "/guides/introductory/team.html"
+to = "/guides/introductory/team"
+status = 301
+force = true
+
+[[redirects]]
 from = "/guides/industry.html"
 to = "/guides/industry"
 status = 301
@@ -89,6 +101,12 @@ status = 301
 force = true
 
 [[redirects]]
+from = "/guides/industry/jobs.html"
+to = "/guides/industry/jobs"
+status = 301
+force = true
+
+[[redirects]]
 from = "/guides/industry/culture.html"
 to = "/guides/industry/culture"
 status = 301
@@ -96,36 +114,36 @@ force = true
 
 [[redirects]]
 from = "/guides/business-and-marketing.html"
-to = "/guides/business/ip"
+to = "/guides/business-and-marketing"
 status = 301
 force = true
 
 [[redirects]]
 from = "/guides/business-and-marketing/ip.html"
-to = "/guides/business/ip"
+to = "/guides/business-and-marketing/ip"
 status = 301
 force = true
 
 [[redirects]]
 from = "/guides/business-and-marketing/kickstarter.html"
-to = "/guides/business/kickstarter"
+to = "/guides/business-and-marketing/kickstarter"
 status = 301
 force = true
 
 [[redirects]]
 from = "/guides/business-and-marketing/pr.html"
-to = "/guides/business/pr"
+to = "/guides/business-and-marketing/pr"
 status = 301
 force = true
 
 [[redirects]]
 from = "/guides/business-and-marketing/tactics.html"
-to = "/guides/business/tactics"
+to = "/guides/business-and-marketing/tactics"
 status = 301
 force = true
 
 [[redirects]]
 from = "/guides/business-and-marketing/youtube.html"
-to = "/guides/business/youtube"
+to = "/guides/business-and-marketing/youtube"
 status = 301
 force = true

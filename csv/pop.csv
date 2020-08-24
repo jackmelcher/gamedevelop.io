@@ -3,15 +3,15 @@ Unity,https://unity.com/,Game Engines,"Free, Subscription","Windows, Mac, Linux"
 Unreal Engine,https://www.unrealengine.com/,Game Engines,"Free, Royalty","Windows, Mac, Linux","2D, 3D, Visual Scripting, C++",
 Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engines,"Trial, Paid, Subscription","Windows, Mac","2D, Javascript, Visual Scripting","Uses GML Scripting, similar to Javascript"
 Adobe Photoshop,https://www.adobe.com/products/photoshop.html,Image Manipulation,"Trial, Subscription","Windows, Mac, iOS",Raster,
-gimp,https://www.gimp.org/,Image Manipulation,Free,"Windows, Mac, Linux",Raster,
-Pro Motion NG,https://www.cosmigo.com/,"Pixel Art, Pixel Animation, Tiled Map","Free, Paid","Windows, Mac, Linux",,
-Aseprite,https://www.aseprite.org/,"Pixel Art, Pixel Animation","Trial, Paid","Windows, Mac, Linux",,
-Tiled,https://www.mapeditor.org/,"Pixel Art, Tiled Map",Free,"Windows, Mac, Linux",,Also useful for Isometric and Hexagonal Maps
-Adobe Illustrator,https://www.adobe.com/products/illustrator.html,Graphic Art,"Trial, Subscription","Windows, Mac",,
-Inkscape,https://inkscape.org/,Graphic Art,Free,"Windows, Mac, Linux",,
+Gimp,https://www.gimp.org/,Image Manipulation,Free,"Windows, Mac, Linux",Raster,
+Pro Motion NG,https://www.cosmigo.com/,"Pixel Art, Pixel Animation, Tiled Map","Free, Paid","Windows, Mac, Linux",Raster,
+Aseprite,https://www.aseprite.org/,"Pixel Art, Pixel Animation","Trial, Paid","Windows, Mac, Linux",Raster,
+Tiled,https://www.mapeditor.org/,"Pixel Art, Tiled Map",Free,"Windows, Mac, Linux",Raster,Also useful for Isometric and Hexagonal Maps
+Adobe Illustrator,https://www.adobe.com/products/illustrator.html,Graphic Art,"Trial, Subscription","Windows, Mac",Vector,
+Inkscape,https://inkscape.org/,Graphic Art,Free,"Windows, Mac, Linux",Vector,
 Autodesk Maya,https://www.autodesk.com/products/maya/overview,"Model, Texture, Animate, Render","Trial, Subscription","Windows, Mac, Linux",,
 Blender,https://www.blender.org/,"Model, Sculpt, Texture, Animate, Render",Free,"Windows, Mac, Linux",,
-zbrush,http://pixologic.com/,"Model, Sculpt, Texture, Paint","Trial, Paid","Windows, Mac",,
+ZBrush,http://pixologic.com/,"Model, Sculpt, Texture, Paint","Trial, Paid","Windows, Mac",,
 Substance Painter,https://www.allegorithmic.com/products/substance-painter,"Texture, Paint","Trial, Paid, Subscription","Windows, Mac, Linux",,
 Houdini,https://www.sidefx.com/products/houdini/,"Model, Texture, Animate, Render, VFX, Terrain, Cloth, Hair","Free, Subscription, License","Windows, Mac, Linux",,Includes tools for Procedural Generation and Manipulation
 SpeedTree,https://store.speedtree.com/,Plant Generator,"Trial, Paid","Windows, Mac, Linux",,
