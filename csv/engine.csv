@@ -12,8 +12,7 @@ Construct 3,https://www.construct.net/en,Game Engine,"Free, Subscription","Windo
 Armory,https://armory3d.org/,Plugin,Free,"Windows, Mac, Linux","3D, Haxe",Plugin for Blender to make it a Game Engine
 Stencyl,http://www.stencyl.com/,Game Engine,"Free, Subscription","Windows, Mac, Linux","2D, Visual Scripting",
 Scratch,https://scratch.mit.edu/,Game Engine,Free,Web,"2D, Visual Scripting",Education Tool designed to help teach kids programming my making games and animations.
-RPG Maker MV,http://www.rpgmakerweb.com/products/programs/rpg-maker-mv,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, JavaScript",RPG
-RPG Maker VX Lite,http://www.rpgmakerweb.com/download/free-programs/rpg-maker-vx-ace-lite,Game Engine,Free,Windows,"2D, JavaScript",RPG
+RPG Maker MZ,https://www.rpgmakerweb.com/products/rpg-maker-mz,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, Visual Scripting, JavaScript",RPG
 LibGDX,https://libgdx.badlogicgames.com/,Framework,Free,"Windows, Mac, Linux","3D, Java",
 Cocos,https://www.cocos.com/en/,Game Engine,Free,"Windows, Mac, Web","2D, 3D, Lua, JavaScript",Mobile games
 Apple Dev Kits,https://developer.apple.com/games/,Framework,Free,Mac,"2D, 3D, Swift, Objective-C",
@@ -28,7 +27,7 @@ Mono Game,http://www.monogame.net/,Framework,Free,"Windows, Mac, Linux","2D, C#"
 Defold,https://www.defold.com/,Game Engine,Free,"Windows, Mac, Linux","2D, Lua",
 Visionaire Studio,https://www.visionaire-studio.net/cms/visionaire-studio-english.html,Game Engine,Paid,"Windows, Mac","2D, Lua",Point & Click
 Adventure Games Studio,https://www.adventuregamestudio.co.uk/,Game Engine,Free,Windows,"2D, JavaScript",Point & Click
-Wintermute Engine,http://dead-code.org/home/index.php/about/,Game Engine,"Free, Paid",Windows,"2D, 3D JavaScript",Point & Click
+Wintermute Engine,http://dead-code.org/home/index.php/about/,Game Engine,"Free, Paid",Windows,"2D, 3D, JavaScript",Point & Click
 StoryStylus,https://storystylus.com/,Game Engine,"Trial, Subscription",Web,"2D, JavaScript",Point & Click
 Phaser,http://phaser.io/,Game Engine,Free,"Windows, Mac, Linux","2D, JavaScript",HTML 5
 PlayCanvas,https://playcanvas.com/,Game Engine,"Free, Subscription",Web,"2D, 3D, JavaScript",HTML 5
@@ -60,7 +59,7 @@ OpenFL,https://www.openfl.org/,Game Engine,Free,"Windows, Mac, Linux","2D, Actio
 Flixel,http://www.flixel.org/index.html,Framework,Free,"Windows, Mac, Linux","2D, Actionscript",Library for making games in Adobe Flash's Actionscript
 Starling,https://gamua.com/starling/,Game Engine,Free,"Windows, Mac, Linux","2D, Actionscript",Make games using Adobe Air and Adobe Flash Actionscript
 CopperCube,https://www.ambiera.com/coppercube/,Game Engine,Free,"Windows, Mac","3D, JavaScript, Visual Scripting",
-Ogre,https://www.ogre3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, C++",""
-Torque3D,http://www.garagegames.com/products/torque-3d,Game Engine,Free,Windows,"3D, C++",""
-Torque2D,http://www.garagegames.com/products/torque-2d,Game Engine,Free,"Windows, Mac","2D, C++",""
-jMonkeyEngine,https://jmonkeyengine.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Java",""
+Ogre,https://www.ogre3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Custom Scripting",
+Torque3D,http://www.garagegames.com/products/torque-3d,Game Engine,Free,Windows,"3D, C++",
+Torque2D,http://www.garagegames.com/products/torque-2d,Game Engine,Free,"Windows, Mac","2D, C++",
+jMonkeyEngine,https://jmonkeyengine.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Java",
