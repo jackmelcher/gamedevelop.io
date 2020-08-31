@@ -301,11 +301,7 @@ function HideFilters(filterid, col)
     //make all filters visible
     var filter = document.getElementById(filterid);
     var flist = filter.getElementsByTagName("li");
-    for(var j = 0; j < flist.length; j++)
-    {
-        flist[j].style.display = "";
-    }
-
+    
     // iterate through the table and add visible cells to set
     var table = document.getElementById("myTable");
     var set = new Set();
