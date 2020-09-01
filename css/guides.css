@@ -75,8 +75,8 @@ li{margin-bottom: 8px;}
     display: block;
 }
 .guideflex > div > .guideimg > * > img{
-    max-height: 120px;
-    max-width: 75%;
+    max-height: 100px;
+    max-width: 90%;
 }
 @media all and (min-width: 1080px) and (max-width: 1250px){
     .guideflex-container{
