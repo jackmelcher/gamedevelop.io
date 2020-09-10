@@ -70,6 +70,7 @@ li{margin-bottom: 8px;}
 .guideflex > div > .guideimg {
     text-align: center;
     background-color: var(--bg-img-color);
+    padding-bottom: 16px;
 }
 .guideflex > div > .guideimg > a{
     display: block;
@@ -77,10 +78,10 @@ li{margin-bottom: 8px;}
     padding-bottom: 8px;
 }
 .guideflex > div > .guideimg > * > img{
-    max-height: 100px;
+    max-height: 80px;
     max-width: 90%;
 }
-@media all and (min-width: 1080px) and (max-width: 1250px){
+@media (min-width: 1080px) and (max-width: 1250px){
     .guideflex-container{
         padding-left: 440px;
         padding-right: 30px;
@@ -89,7 +90,7 @@ li{margin-bottom: 8px;}
         max-width: 70% !important;
     }
 }
-@media all and (min-width: 769px) and (max-width: 1080px){
+@media (min-width: 769px) and (max-width: 1080px){
     .guideflex-container{
     padding-left: 380px;
     padding-right: 20px;
@@ -98,7 +99,7 @@ li{margin-bottom: 8px;}
         max-width: 90% !important;
     }
 }
-@media all and (max-width: 768px){
+@media (max-width: 768px){
     .guideflex-container{
     padding-left: 20px;
     padding-right: 20px;

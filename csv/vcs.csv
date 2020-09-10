@@ -16,7 +16,7 @@ Plastic Cloud,https://www.plasticscm.com/plasticscm-cloud-edition,VCS Hosting,"T
 RiouxSVN,https://riouxsvn.com/,VCS Hosting,"Free, Subscription",Web,SVN,
 Unity Teams Cloud,https://unity.com/products/unity-teams,VCS Hosting,"Free, Subscription",Web,Unity,Integrated into Unity
 Gogs,https://gogs.io/,VCS GUI,Free,"Windows, Mac, Linux",Git,Self Hosting
-SourceTree,https://www.sourcetreeapp.com/,VCS GUI,Free,"Windows, Mac","Git, Mercurial",
+Sourcetree,https://www.sourcetreeapp.com/,VCS GUI,Free,"Windows, Mac","Git, Mercurial",
 Github Desktop,https://desktop.github.com/,VCS GUI,Free,"Windows, Mac",Git,
 GitKraken,https://www.gitkraken.com/,VCS GUI,"Free, Subscription","Windows, Mac, Linux",Git,
 Git Tower,https://www.git-tower.com/,VCS GUI,"Trial, Subscription","Windows, Mac",Git,

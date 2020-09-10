@@ -14,6 +14,10 @@
  <desc>Created with Sketch.</desc>
  <defs>
   <path id="path-1" d="m279.28 0h-137.42l-141.86 247.25 67.062 119.05h287.02l67.062-119.05-141.86-247.25zm-143.26 247.25 74.546-128.66 74.546 128.66h-149.09z"/>
+  <linearGradient id="linearGradient-3" x1="25.31%" x2="100.67%" y1="50.199%" y2="97.589%">
+   <stop stop-color="#1A237E" stop-opacity=".2" offset="0"/>
+   <stop stop-color="#1A237E" stop-opacity=".02" offset="1"/>
+  </linearGradient>
   <path id="path-4" d="m279.28 0h-137.42l-141.86 247.25 67.062 119.05h287.02l67.062-119.05-141.86-247.25zm-143.26 247.25 74.546-128.66 74.546 128.66h-149.09z"/>
   <path id="path-6" d="m279.28 0h-137.42l-141.86 247.25 67.062 119.05h287.02l67.062-119.05-141.86-247.25zm-143.26 247.25 74.546-128.66 74.546 128.66h-149.09z"/>
   <path id="path-8" d="m279.28 0h-137.42l-141.86 247.25 67.062 119.05h287.02l67.062-119.05-141.86-247.25zm-143.26 247.25 74.546-128.66 74.546 128.66h-149.09z"/>
@@ -29,8 +33,14 @@
       <use xlink:href="#path-1"/>
      </mask>
      <g mask="url(#mask-2)">
-      <g transform="translate(67.019 247.25)">
-       <polygon id="Shape" points="0.042915 0 0.042915 119.05 287.06 119.05 354.12 0" fill="#4285F4" fill-rule="nonzero"/>
+      <g transform="translate(67.019 247.25)" fill-rule="nonzero">
+       <polygon id="Shape" points="0.042915 0 0.042915 119.05 287.06 119.05 354.12 0" fill="#4285F4"/>
+       <polygon points="69.005 0 137.99 119.05 0.042915 119.05" fill="url(#linearGradient-3)"/>
+       <g id="Group">
+        <polygon points="67.677 2.2893 350.21 2.2893 350.21 2.2893 354.12 0 69.005 0 69.005 0" fill="#fff" fill-opacity=".2"/>
+        <polygon points="350.21 2.2893 285.73 116.76 1.3704 116.76 0.042915 119.05 287.06 119.05 354.12 0" fill="#1A237E" fill-opacity=".2"/>
+        <polygon points="70.332 2.2893 69.005 0 0.042915 119.05 2.675 119.05" fill="#1A237E" fill-opacity=".05"/>
+       </g>
       </g>
      </g>
      <mask id="mask-5" fill="white">
@@ -38,13 +48,19 @@
      </mask>
      <g fill-rule="nonzero" mask="url(#mask-5)">
       <polygon points="141.86 0 0 247.25 67.062 366.29 228.86 87.018" fill="#0F9D58"/>
+      <polygon points="141.86 0 143.12 6.7535 207.91 118.59 67.085 361.67 2.6321 247.25 0 247.25 67.062 366.29 210.57 118.59" fill="#263238" fill-opacity=".1"/>
+      <polygon points="2.6321 247.25 143.19 2.2893 141.86 0 141.86 0 0 247.25" fill="#fff" fill-opacity=".2"/>
      </g>
      <mask id="mask-7" fill="white">
       <use xlink:href="#path-6"/>
      </mask>
      <g mask="url(#mask-7)">
-      <g transform="translate(141.76)">
-       <polygon points="137.52 0 0.097274 0 143.35 247.25 279.38 247.25" fill="#FFCD40" fill-rule="nonzero"/>
+      <g transform="translate(141.76)" fill-rule="nonzero">
+       <polygon points="137.52 0 0.097274 0 143.35 247.25 279.38 247.25" fill="#FFCD40"/>
+       <g>
+        <polygon points="137.52 0 0.097274 0 4.0569 2.2893 136.19 2.2893 276.74 247.25 279.38 247.25" fill="#fff" fill-opacity=".2"/>
+        <polygon points="144.66 244.96 4.0569 2.2893 4.0569 2.2893 0.097274 0 143.35 247.25" fill="#BF360C" fill-opacity=".1"/>
+       </g>
       </g>
      </g>
      <mask id="mask-9" fill="white">

@@ -18,6 +18,9 @@ html[data-theme = "dark"]{
   padding-right: 160px;
   padding-bottom: 64px;
 }
+.rside{
+  color: var(--font-color);
+}
 table{
   width: 100%;
 }
@@ -64,7 +67,7 @@ table{
   vertical-align: middle;
 }
 
-@media all and (min-width: 1180px) and (max-width: 1330px) {
+@media (min-width: 1180px) and (max-width: 1330px) {
   .resource {
     padding-left: 340px;
     padding-right: 40px;
@@ -74,7 +77,7 @@ table{
     padding: 8px 14px;
   }
 }
-@media all and (min-width: 920px) and (max-width: 1179px) {
+@media (min-width: 920px) and (max-width: 1179px) {
   .resource {
     padding-left: 340px;
     padding-right: 40px;
@@ -87,7 +90,7 @@ table{
     display: none;
   }
 }
-@media all and (min-width: 769px) and (max-width: 919px) {
+@media (min-width: 769px) and (max-width: 919px) {
   .resource {
     padding-left: 300px;
     padding-right: 40px;
@@ -100,7 +103,7 @@ table{
     display: none;
   }
 }
-@media all and (max-width: 768px) {
+@media (max-width: 768px) {
   .resource {
     padding-left: 10px;
     padding-right: 10px;
@@ -117,7 +120,7 @@ table{
     display: none;
   }
 }
-@media all and (max-width: 529px) {
+@media (max-width: 529px) {
   th:nth-child(4),td:nth-child(4),th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
     display: none;
   }
