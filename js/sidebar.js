@@ -1,6 +1,7 @@
 var side = document.getElementsByClassName("sidenav")[0];
 var sidebutton = document.getElementsByClassName("sidenavbutton")[0];
 var menuicon = document.getElementsByClassName("menuicon")[0];
+menuicon.classList.replace("fa-bars","fa-list");
 
 var mq = window.matchMedia("(max-width: 768px)");
 
@@ -17,8 +18,7 @@ function resizeSideNav(mq)
     {
         side.style.display = "block";
         sidebutton.style.display = "none";
-        menuicon.classList.replace("fa-times","fa-bars");
-
+        menuicon.classList.replace("fa-times","fa-list");
     }
 }
 mq.addListener(resizeSideNav);
@@ -30,13 +30,13 @@ function ToggleSide()
         if(side.style.display == "none" || side.style.display == "")
         {
             side.style.display = "block";
-            menuicon.classList.replace("fa-bars","fa-times");
+            menuicon.classList.replace("fa-list","fa-times");
             document.body.style.overflow = "hidden";
         }
         else
         {
             side.style.display = "none";
-            menuicon.classList.replace("fa-times","fa-bars");
+            menuicon.classList.replace("fa-times","fa-list");
             document.body.style.overflow = "";
         }
     }

@@ -110,7 +110,6 @@ a:hover{
   overflow-x: auto;
   height: calc(100vh - 82px);
   background-color: var(--side-bg-color);
-  z-index: 1;
 }
 .settingsnav{
   position: fixed;
@@ -123,7 +122,6 @@ a:hover{
   border-style: solid;
   border-width: 0px 0px 1px 1px;
   border-color: var(--side-border-color);
-  z-index: 2;
   display: none;
   text-align: center;
   font-weight: bold;
@@ -170,7 +168,6 @@ a:hover{
   vertical-align: top;
   padding: 13px 8px 13px 8px;  
   margin-right: -4px;
-  z-index: 3;
 }
 .settingsnavbutton{
   float: right;
@@ -324,32 +321,24 @@ input, textarea{
 }
 @media (max-width: 768px){
   .sidenavbutton{
-    display: inline-block !important;
+    display: inline-block;
   }
   .sidenav{
     display: none;
-    width: calc(100vw - 32px) !important;
-  }
-  .sidenavbutton{
-    position: fixed;
-    bottom: 32px;
-    left: calc(100vw - 80px);
-    background-color: var(--primary-color);
-    box-shadow: 3px 3px 6px grey;
-    border-radius: 50%;
   }
   .footer{
-    padding: 8px 0px 8px 0px !important;
-  }
-  .footer > p {
-    max-width: 75vw;
+    padding: 8px 0px 8px 0px;
   }
   .flex-container {
   padding-left: 20px;
   padding-right: 20px;
   }
 }
-
+@media (max-width: 360px){
+  .sidenav{
+    width: calc(100vw - 33px) !important;
+  }
+}
 /* The switch - the box around the slider */
 .switch {
   position: relative;

@@ -18,9 +18,6 @@ html[data-theme = "dark"]{
   padding-right: 160px;
   padding-bottom: 64px;
 }
-.rside{
-  color: var(--font-color);
-}
 table{
   width: 100%;
 }
