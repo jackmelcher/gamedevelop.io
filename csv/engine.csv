@@ -63,4 +63,6 @@ Ogre,https://www.ogre3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Custom 
 Torque3D,http://www.garagegames.com/products/torque-3d,Game Engine,Free,Windows,"3D, C++",
 Torque2D,http://www.garagegames.com/products/torque-2d,Game Engine,Free,"Windows, Mac","2D, C++",
 jMonkeyEngine,https://jmonkeyengine.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Java",
-PIxel Game Maker MV,https://tkool.jp/act/en/index.html,Game Engine,"Trial, Paid",Windows,"2D, Visual Scripting",""
+PIxel Game Maker MV,https://tkool.jp/act/en/index.html,Game Engine,"Trial, Paid",Windows,"2D, Visual Scripting",
+Gamebryo,http://www.gamebryo.com/index.php,Game Engine,"Trial, License",Windows,"3D, C++",""
+Panda3D,https://www.panda3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, C++, Python",""

@@ -3,10 +3,12 @@ AirConsole,https://developers.airconsole.com/#!/,Engineering,Free,"Windows, Mac,
 W3 Gamepad,https://www.w3.org/TR/gamepad/,Engineering,Free,"Windows, Mac, Linux",Gamepad API,Gamepad API for Desktop
 Flight Arcade,http://flightarcade.com/learn/gamepad,Engineering,Free,"Windows, Mac, Linux",Gamepad API,Gamepad API for Web
 Smartbox,https://github.com/immosmart/smartbox,Engineering,Free,Linux,Gamepad API,Gamepad API for Smart TV
-InControl,https://assetstore.unity.com/packages/tools/input-management/incontrol-14695,Engineering,Paid,"Windows, Mac, Linux",Unity Plug-in,Gamepad Mapping Plug-in for Unity
+InControl,https://assetstore.unity.com/packages/tools/input-management/incontrol-14695,Engineering,Paid,"Windows, Mac, Linux",Unity Plugin,Gamepad Mapping Plug-in for Unity
 DS4,http://ds4windows.com/,Utility,Free,Windows,,Dual Shock 4 Controller input
 AutoHotkey,https://www.autohotkey.com/,Utility,Free,Windows,Automation,Scripting Language for Automating Windows desktop
 Macro Creator,https://www.macrocreator.com/,Utility,Free,Windows,Automation,GUI for making AutoHotkey scripts
 AntiMicro,https://github.com/AntiMicro/antimicro,Utility,Free,"Windows, Linux",Input,Map Gamepad input to Mouse and Keyboard input
 JoyToKey,https://joytokey.net/en/,Utility,"Trial, Paid",Windows,Input,Map Gamepad input to Mouse and Keyboard input
 Xpadder,https://www.xpadder.com/,Utility,Paid,Windows,Input,Map Gamepad input to Mouse and Keyboard input
+Bluestacks,https://www.bluestacks.com/,Utility,Free,"Windows, Mac","",Play Android Games on PC
+Parsec,https://parsecgaming.com/,Utility,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,Stream and play local co-op games over the internet

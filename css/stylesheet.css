@@ -140,10 +140,11 @@ a:hover{
   /* Keep navbar as 50px height*/
   max-height: 50px !important;
 }
-.button_nav,.settingsnavbutton,.sidenavbutton
+.button_nav,.settingsnavbutton,.sidenavbutton,.button_logo
 {
   /* Keep navbar buttons as 50px height*/
-    line-height: 1.125;
+  background-color: transparent;
+  line-height: 1.125;
 }
 .button {
   background-color: var(--primary-color);
@@ -161,7 +162,6 @@ a:hover{
 }
 .sidenavbutton{
   display: none;
-  background-color: transparent;
   margin: 0;
   font-weight: bold;
   border-radius: 0;
@@ -184,7 +184,6 @@ a:hover{
   top: -2px;
 }
 .button_nav, .button_logo{
-  background-color: transparent;
   font-weight: bold;
   border-radius: 0;
   margin-right: -4px;

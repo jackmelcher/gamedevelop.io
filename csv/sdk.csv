@@ -21,4 +21,6 @@ Imgtec,https://www.imgtec.com/developers/,Engineering,Free,"Windows, Mac, Linux"
 Launchpad,https://github.com/Nihlus/Launchpad/wiki/Game-Developer-Quickstart,Engineering,Free,Linux,,Game Launcher Tool
 Mod.io,https://mod.io/,Engineering,Free,"Windows, Mac, Linux",,Mod Support Tool
 Haden Aether Engine,https://www.hadean.com/aether-engine/features,Engineering,Subsciption,Web,,Cloud Gaming Solution
-GGPO,https://www.ggpo.net/,Networking,Free,"Windows, Mac, Linux","","Rollback networking in peer-to-peer games, designed specifically to hide network latency in fighting games"
+GGPO,https://www.ggpo.net/,Networking,Free,"Windows, Mac, Linux",,"Rollback networking in peer-to-peer games, designed specifically to hide network latency in fighting games"
+GeForce NOW Developer Program,https://developer.nvidia.com/join-geforce-now-dev-program,Networking,Free,Windows,"",SDK for integrating your game with the GeForce NOW cloud gaming service
+Facebook Games SDKs,https://developers.facebook.com/docs/games,Engineering,Free,"Windows, Mac","",SDKs to integrate your games into the various Facebook Gaming platforms

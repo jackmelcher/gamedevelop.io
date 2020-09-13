@@ -2,25 +2,57 @@ Name,Link,Categories,Pricing,Platforms,Tags,Description
 Kickstarter,https://www.kickstarter.com/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
 Indiegogo,https://www.indiegogo.com/,Crowdfunding,Royalty,Web,,Percentage of raised funds goes to Indiegogo and transaction fees
 Patreon,https://www.patreon.com/,Crowdfunding,Royalty,Web,,Allows people to support you via subscription
-Buy Me a Coffee,https://www.buymeacoffee.com/,Crowdfunding,Royalty,Web,"",Allows people to support you via one-time donations and subscriptions
+Buy Me a Coffee,https://www.buymeacoffee.com/,Crowdfunding,Royalty,Web,,Allows people to support you via one-time donations and subscriptions
 Ko Fi,https://ko-fi.com/,Crowdfunding,"Free, Subscription",Web,,Allows people to support you via one-time donations and subscriptions
 Fig,https://www.fig.co/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of revenue is split among Fig and the investors
-Indie Fund,http://indie-fund.com/,Grant,Royalty,Web,,All revenue goes to repaying the funds then 25% rev-share until Indie Fund's investment is doubled within two years of your game's release
+Steam Early Access,https://store.steampowered.com/earlyaccessfaq/?snr=1_200_200_Early+Access,Crowdfunding,Paid,Web,,
+Itch.io Pay What You Want,https://itch.io/docs/creators/pricing#pay-what-you-want-pricing,Crowdfunding,Free,Web,,
+Indie Fund,http://indie-fund.com/,Grant,Free,Web,Royalty,All revenue goes to repaying the funds then 25% rev-share until Indie Fund's investment is doubled within two years of your game's release
 Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Grant,Free,Web,,
 UK Games Fund,https://ukgamesfund.com/,Grant,Free,Web,,Provides support packages for early-stage projects being developed by small video game companies based in the United Kingdom
+Wings,https://wingsfund.me/,Investor,Free,Web,Royalty,"Teams applying must have women and/or marginalized genders in key technical or managerial positions. PC, Console"
 GDBAY Global Games Pitch,https://gdbay.com/global-games-pitch/,Investor,Paid,Web,,Opprotunity to pitch game to audience of publishers
 Play Venture,http://www.playventures.vc/,Investor,,Web,,
 Bitkraft,https://www.bitkraft.net/,Investor,,Web,,"Early Stage Venture Capital investor for gaming, esports, and interactive media."
 Makers Fund,https://makersfund.com/,Investor,,Web,,
 London Venture Partners,https://londonvp.com/,Investor,,Web,,
-Wings Interactive,https://wingsfund.me/,Investor,,Web,,Focus on helping women and minority groups
-Execution Labs,http://www.executionlabs.com/,Investor,,Web,,
+The Venture Reality Fund,https://www.thevrfund.com/,Investor,,Web,,Virtual Reality
 Game Seer Venture Partners,https://www.game-seer.com/,Investor,,Web,,
 Carbon,https://carbon-incubator.com/,Incubator,Royalty,Web,,
 Plaine Images,https://www.plaine-images.fr/,Incubator,,Web,,
 Game Camp,https://gamecamps.info/,Accelerator,Free,Web,,
 ISM,http://ism-agency.com/,Consulting,,Web,,Business and Publishing assistance
-Gamasutra Article,https://www.gamasutra.com/blogs/MichelleChen/20170911/305355/BIG_List_of_Incubators_Accelerators_and_Funding_Opportunities.php,Aggregator,,Web,,"List of Incubator, Accelerators, Funding Opprotunities"
 GamesRound,https://www.gamesround.com/,Investor,Free,Web,,A platform to help studios partner with publishers and investors
 Launchpad,https://www.falmouth.ac.uk/study/postgraduate/launchpad,Incubator,Paid,Web,UK,An innovative postgraduate incubation and acceleration programme
 Transcend,https://www.transcend.fund/,Investor,,Web,,
+Teespring,https://teespring.com/for/how-it-works,Merchandise,Free,Web,,Design Merchandise and sell it
+Redbubble,https://www.redbubble.com/about/selling,Merchandise,Free,Web,,Design Merchandise and sell it
+TeePublic,https://www.teepublic.com/signup/designer/sell-art-online,Merchandise,Free,Web,,Design Merchandise and sell it
+Threadless,https://www.threadless.com/artist-shops/signup/art,Merchandise,Free,Web,,Design Merchandise and sell it
+DesingByHumans,https://www.designbyhumans.com/store-signup/artist/,Merchandise,Free,Web,,Design Merchandise and sell it
+Vision+,http://www.visionplus.fi/,Investor,,Web,"Royalty, Loan",Offer Royalty Share or Capital Loans financing. Mobile
+V2 Games,https://www.v2g.io/,Investor,"",Web,"",Mobile
+Altered Ventures,https://www.venturecapital.game/,Investor,"",Web,"",""
+Sugar,https://www.add-sugar.io/,Investor,"",Web,Loan,""
+Pollen VC,https://pollen.vc/,Investor,"",Web,Line of Credit,""
+Creative England Game Scale Up,https://www.creativeengland.co.uk/games-scale-up/,Accelerator,"",Web,UK,Programme to help games businesses get expert advice and build a network
+GameFounders,http://www.gamefounders.com/,Accelerator,"",Web,"",""
+Pixelles Game Incubator,http://pixelles.ca/pixelles-game-incubator/,Incubator,"",Web,Canada,"The game incubator is a free, eight-week workshop series designed to help twelve gender-marginalized people make their first game."
+Pixelles Creator Fund,http://pixelles.ca/pixelles-creator-fund/,Grant,"",Web,Canada,Grant of up to $5k CAD to Canadian game creators of marginalized genders
+Dutch Game Garden,https://www.dutchgamegarden.nl/incubation/,Incubator,"",Web,Netherlands,""
+Disney Accelerator,https://disneyaccelerator.com/,Accelerator,Free,Web,USA,""
+Tranzfuser,https://tranzfuser.com/,Accelerator,Free,Web,"UK, Startup",Teams apply for an initial grant then pitch their prototype for additional funding
+2Tons,https://2tons.org/,Accelerator,Free,Web,Turkey,Mobile
+Yangler,http://yangler.me/,Accelerator,Subscription,Web,Startup,Finish the program and get $50k - $200k in seed funding in exchange for 7% - 10% of equity shares
+Techstars,https://www.techstars.com/,Accelerator,Free,Web,Startup,Provide seed funding in exchange for equity
+Y Combinator,https://www.ycombinator.com/,Accelerator,Free,Web,Startup,Provide seed funding in exchange for equity
+NYU Game Center Incubator,https://gamecenter.nyu.edu/about/incubator/,Incubator,Free,Web,USA,3 month incubator program from June to August
+Minc,https://www.minc.se/,"Incubator, Accelerator",Free,Web,Sweden,"Offers coworking spaces, and incubator program, and accelerator program"
+Signia Venture Partners,https://signiaventurepartners.com/,Investor,"","","",""
+Super!com,https://super.com/products/investment/,"Investor, Accelerator",Free,Web,"",""
+ZhenFund,http://en.zhenfund.com/,Investor,"","",China,
+Nordic XR Startup,http://nordicxrstartups.com/,"Investor, Accelerator","","","Sweden, Finland",Invests in companies working with VR and AR
+Mercia,https://www.mercia.co.uk/,Investor,"","",UK,""
+Amplifyer Game Invest,https://www.amplifiergameinvest.com/,"Investor, Accelerator","","","",""
+Execution Labs,http://www.executionlabs.com/,Investor,,Web,,No longer accepting new studios
+Games for Change Accelerator,https://www.g4caccelerator.com/,Accelerator,"","",USA,Postponed indefinitely

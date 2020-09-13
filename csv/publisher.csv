@@ -4,8 +4,12 @@ Epic Games Store,https://www.epicgames.com/store/en-US/about,PC,Free,"Windows, M
 ID@XBOX Program,https://www.xbox.com/en-US/developers/id,"PC, Console, Mobile",Free,"Windows, Xbox, iOS, Android",Self-Publishing,Requires proof of legally registered business
 Playstation Partner,https://partners.playstation.net/,Console,Free,PlayStation,Self-Publishing,Requires proof of legally registered business
 Nintendo Developer,https://developer.nintendo.com/,Console,Free,Nintendo,Self-Publishing,Can register as an individual or as a company
-Apple Developer Program,https://developer.apple.com/programs/how-it-works/,Mobile,"Free, Subscription","Mac, iOS",Self-Publishing,Can register as an individual or as a company
+Apple Developer Program,https://developer.apple.com/programs/how-it-works/,"PC, Mobile",Subscription,"Mac, iOS",Self-Publishing,Can register as an individual or as a company
+Apple Arcade,https://developer.apple.com/apple-arcade/,Mobile,Subscription,iOS,Self-Publishing,Can register as an individual or as a company
 Google Play Developer,https://support.google.com/googleplay/android-developer/answer/6112435,Mobile,Paid,Android,Self-Publishing,Can register as an individual or as a company
+Stadia,https://stadia.dev/apply/,Cloud,Free,Web,Self-Publishing,Requires proof of legally registered business
+Galaxy Store Games,https://developer.samsung.com/galaxy-games,Mobile,Free,Android,Self-Publishing,Can register as an individual or as a company
+Amazon Appstore,https://developer.amazon.com/apps-and-games/app-submission,Mobile,Free,"Android, Web",Self-Publishing,Can register as an individual or as a company
 505 Games,https://505games.com/about,,,,,
 Akupara Games,https://www.akuparagames.com/,,,,,
 Armor Games,https://armorgamesstudios.com/,,,,,
@@ -26,7 +30,6 @@ Kongregate,https://developers.kongregate.com/publishing/,,,,,
 Starbreeze,https://www.starbreeze.com/publishing/,,,,,
 Chucklefish,https://chucklefish.org/submit/,,,,,2D and Pixel Art
 Nicalis,https://www.nicalis.com/about,,,,,
-Gamepix,https://www.gamepix.com/publishers/,,,Web,,
 AdultSwimGames,https://www.adultswim.com/games/pitch/,,,,,
 TinyBuild,http://www.tinybuild.com/contact,,,,,
 FGL,https://www.fgl.com/,Mobile,,,,
@@ -62,7 +65,13 @@ Playism,https://playism.com/page/about,,,,,
 Crazy Labs,https://www.crazylabs.com/publishing/,Mobile,,,,
 Natsume Inc,https://community.natsume.com/?page_id=72,,,,,
 The Awesome Guys,https://thoseawesomeguys.com/publishing/,,,,,
-Limited Run Games,https://www.limitedrungames.com/pages/developers,Console,,,,"Assists in the manufacturing, distribution, and marketing of physical releases for digital games."
-Dagen Entertainment,https://pitch.dangenentertainment.com/,"","","","",
-GameraGame,www.gameragame.com,"","","","",Publish game in China
-Intragames,https://intragames.co.kr/,"","","","",""
+Limited Run Games,https://limitedrungames.com/pages/developers,Console,,,,"Assists in the manufacturing, distribution, and marketing of physical releases for digital games."
+Dagen Entertainment,https://pitch.dangenentertainment.com/,,,,,
+GameraGame,www.gameragame.com,,,,,Publish game in China
+Intragames,https://intragames.co.kr/,,,,,
+Bluestacks,https://www.bluestacks.com/promote-your-game.html,Mobile,,,,Promote your Android game to users of the Bluestacks app
+Merge,https://www.mergegames.com/hey-devs,,,,,
+Signature Edition,https://signatureeditiongames.com/pages/developers,,,,,"Assists in the manufacturing, distribution, and marketing of physical releases for digital games."
+Irregular Corporation,https://theirregularcorporation.com/developers/,,,,,
+Coffee Stain,https://www.coffeestainpublishing.com/,"PC, Console",,,,
+Super!com,https://super.com/products/publishing/,"","","","",""

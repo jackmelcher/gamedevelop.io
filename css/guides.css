@@ -70,12 +70,12 @@ li{margin-bottom: 8px;}
 .guideflex > div > .guideimg {
     text-align: center;
     background-color: var(--bg-img-color);
-    padding-bottom: 16px;
 }
 .guideflex > div > .guideimg > a{
     display: block;
     padding-top: 8px;
     padding-bottom: 8px;
+    line-height: 0;
 }
 .guideflex > div > .guideimg > * > img{
     max-height: 80px;
