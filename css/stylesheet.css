@@ -140,12 +140,6 @@ a:hover{
   /* Keep navbar as 50px height*/
   max-height: 50px !important;
 }
-.button_nav,.settingsnavbutton,.sidenavbutton,.button_logo
-{
-  /* Keep navbar buttons as 50px height*/
-  background-color: transparent;
-  line-height: 1.125;
-}
 .button {
   background-color: var(--primary-color);
   border: none; /* 2px solid #000000; */
@@ -210,6 +204,12 @@ a:hover{
 .button_support > img {
   vertical-align: middle;
   margin-right: 8px;
+}
+.button_nav,.settingsnavbutton,.sidenavbutton,.button_logo
+{
+  /* Keep navbar buttons as 50px height*/
+  line-height: 1.125;
+  background-color: transparent;
 }
 .patreon{
   background-color: #f96853;
