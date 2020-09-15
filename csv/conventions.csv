@@ -2,7 +2,7 @@ Name,Link,Categories,Pricing,Platforms,Tags,Description
 GDC,https://www.gdconf.com/,Conference,Paid,,Professional,Game Developers Conference
 E3,https://www.e3expo.com/,Expo,"Free, Paid",,Fan,Electronic Entertainment Expo
 PAX,http://www.paxsite.com/,Expo,Paid,,Fan,Penny Arcade Expo
-IndieCade,https://www.indiecade.com/,Festival,"Free, Paid",,"Professional, Fans",International Festival of Independent Games
+IndieCade,https://www.indiecade.com/,Festival,"Free, Paid",,"Professional, Fan",International Festival of Independent Games
 Blizz Con,https://blizzcon.com/en-us/,Convention,Paid,,Fan,
 Quake Con,https://www.quakecon.org,Convention,Paid,,Fan,
 RTX,https://rtxevent.com/,Expo,Paid,,Fan,Rooster Teeth Expo
@@ -15,7 +15,10 @@ Game Dev World,https://gamedev.world/en/,Conference,Paid,,Professional,
 Indie Game Business,https://www.powellgroupconsulting.com/online-business-matchmaking-events/,Conference,Paid,,Professional,
 XDS,https://xdsummit.com/,Summit,Paid,,Professional,External Development Summit
 TwitchCon,https://www.twitchcon.com/,Convention,Paid,,Fan,
-Game Development Events,https://www.gamedevelopment.events/,List,"Free, Paid",Web,"Professional, Fans",List of events occuring this year
-Gamesindustry.biz Events,https://www.gamesindustry.biz/network/events,List,"Free, Paid",Web,"Professional, Fans",List of events occuring this year
-Events for Gamers,https://www.eventsforgamers.com/,List,"Free, Paid",Web,"Professional, Fans",List of events occuring this year
-GDEX,https://www.thegdex.com/,Convention,Paid,"",Fan,Ohio
+Game Development Events,https://www.gamedevelopment.events/,List,"Free, Paid",Web,"Professional, Fan",List of events occuring this year
+Gamesindustry.biz Events,https://www.gamesindustry.biz/network/events,List,"Free, Paid",Web,"Professional, Fan",List of events occuring this year
+Events for Gamers,https://www.eventsforgamers.com/,List,"Free, Paid",Web,"Professional, Fan",List of events occuring this year
+GDEX,https://www.thegdex.com/,Convention,Paid,,Fan,Ohio
+Ludicious,http://www.ludicious.ch/,Festival,Paid,"",Professional,Switzerland
+gamesweekberlin,https://www.gamesweekberlin.com/,"Festival, Conference",Paid,"","Professional, Fans",Germany. Hosts several conferences and festivals
+Develop:Brighton,https://www.developconference.com/,Conference,"Free, Paid","",Professional,UK

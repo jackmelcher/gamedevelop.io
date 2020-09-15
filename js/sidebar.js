@@ -5,9 +5,9 @@ menuicon.classList.replace("fa-bars","fa-list");
 
 var mq = window.matchMedia("(max-width: 768px)");
 
-makeSidebar();
+window.addEventListener('load', makeSidebar());
 
-function resizeSideNav(mq)
+function resizeSideNav()
 {
     if(mq.matches)
     {
@@ -21,7 +21,7 @@ function resizeSideNav(mq)
         menuicon.classList.replace("fa-times","fa-list");
     }
 }
-mq.addListener(resizeSideNav);
+mq.addEventListener('resize',resizeSideNav);
 
 function ToggleSide()
 {

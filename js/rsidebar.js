@@ -4,7 +4,7 @@ var menuicon = document.getElementsByClassName("menuicon")[0];
 menuicon.classList.replace("fa-bars","fa-filter");
 
 var mq = window.matchMedia("(max-width: 768px)");
-function resizeSideNav(mq)
+function resizeSideNav()
 {
     if(mq.matches)
     {
@@ -17,7 +17,7 @@ function resizeSideNav(mq)
         menuicon.classList.replace("fa-times","fa-filter");
     }
 }
-mq.addListener(resizeSideNav);
+mq.addEventListener('resize',resizeSideNav);
 
 function ToggleSide()
 {
