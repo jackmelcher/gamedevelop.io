@@ -344,9 +344,16 @@ function HideFilters(filterid, col)
         //console.log(filtervis.includes(flist[i].textContent));
         if(filtervis.includes(flist[i].textContent))
         {
-            flist[i].style.display = "";
+            //flist[i].style.display = "";
+            flist[i].children[0].style.opacity = 1;
+            flist[i].children[0].children[0].disabled = false;
         }
-        else{flist[i].style.display = "none";}
+        else
+        {
+            //flist[i].style.display = "none";
+            flist[i].children[0].style.opacity = 0.5;
+            flist[i].children[0].children[0].disabled = true;
+        }
     }
 }
 

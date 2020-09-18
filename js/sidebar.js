@@ -75,7 +75,7 @@ function makeSidebar2(guideFile,guideTitle,fileArr,titleArr)
     var div = document.createElement("div");
     div.classList.add("guidelink");
     
-    // Make Guide Type link
+    // Make Top-level Guide Type link
     var a = document.createElement("a");
     a.textContent = guideTitle;
     a.href = "/guides/"+guideFile+".html";
@@ -99,11 +99,11 @@ function makeSidebar2(guideFile,guideTitle,fileArr,titleArr)
 
         litem.appendChild(link);
 
-        if(fileName.includes(fileArr[i]+".html"))
+        if(fileName.includes(fileArr[i]))
         {
             link.classList.add("underline");
             
-            console.log(location.href.split("/").slice(-3).toString())
+            //console.log(location.href.split("/").slice(-3).toString())
             if(location.href.split("/").slice(-3)[0] == "guides")
             {
                 // Make anchor links

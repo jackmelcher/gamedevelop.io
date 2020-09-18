@@ -25,6 +25,7 @@ Kontakt 6,https://www.native-instruments.com/en/products/komplete/samplers/konta
 Guitar Rig 5,https://www.native-instruments.com/en/products/komplete/guitar/guitar-rig-5-player/,VST,Free,"Windows, Mac",VST Plugin,VST package
 Yamaha VCS-5,http://yamamavcs5.weebly.com/,VST,Free,"Windows, Mac",VST Plugin,VST Instrument
 Reverb,https://reverb.com/software,VST,"Free, Paid","Windows, Mac",VST Plugin,"VST package, VST Instrument, Audio Sample Packages. Also sells music equipment."
+VST4Free,https://vst4free.com/,VST,Free,"Windows, Mac",VST Plugin,
 Audacity,https://www.audacityteam.org/,Audio Editor,Free,"Windows, Mac, Linux",,
 Ocean Audio,http://www.ocenaudio.com/,Audio Editor,Free,"Windows, Mac, Linux",,
 Magix Sound Forge Pro,https://www.magix.com/us/music/sound-forge/sound-forge-pro/,Audio Editor,"Trial, Paid, Subscription","Windows, Mac",,
@@ -36,6 +37,7 @@ Audiotool,https://www.audiotool.com/,Music Editor,Free,Web,Collaborative,
 Soundation,https://soundation.com/,Music Editor,"Free, Subscription",Web,Collaborative,
 Soundtrap,https://www.soundtrap.com/,Music Editor,"Free, Subscription",Web,Collaborative,
 Splice,https://splice.com/,Music Editor,Free,Web,Collaborative,
+Ecrett Music,https://ecrettmusic.com/,Music Editor,"Free, Subscription",Web,"",""
 DefleMask,http://deflemask.com/,Music Tracker,Free,"Windows, Mac, Linux",Retro Hardware Clone,
 OpenMPT,https://openmpt.org/,Music Tracker,Free,Windows,Retro Hardware Clone,"Clone of Impulse Tracker, FastTracker, Scream Tracker and ProTracker"
 Psycle,https://sourceforge.net/projects/psycle/,Music Tracker,Free,"Windows, Linux",Retro Hardware Clone,"FastTracker II  Clone, ProTracker Clone"
@@ -47,8 +49,9 @@ Renoise,https://www.renoise.com/products/,"Music Tracker, DAW","Trial, Paid","Wi
 MadTracker,http://www.madtracker.org/,Music Tracker,Free,Windows,,
 Klystrack,https://kometbomb.github.io/klystrack/,Music Tracker,Free,"Windows, Linux",Retro Hardware Clone,
 Bosca Ceoil,https://boscaceoil.net/,Music Tracker,Free,"Windows, Mac, Linux, Web",,
-Tracktion Waverazor,https://www.tracktion.com/products/waverazor,Virtual Modular Synthesizer,"Free, Trial, Paid","Windows, Mac, Linux",,
+FamiTracker,http://famitracker.com/,Music Tracker,Free,Windows,Retro Hardware Clone,NES/Famicom
 VCV Rack,https://vcvrack.com/,Virtual Modular Synthesizer,Free,"Windows, Mac, Linux",,
+Tracktion Waverazor,https://www.tracktion.com/products/waverazor,Virtual Modular Synthesizer,"Free, Trial, Paid","Windows, Mac, Linux",,
 SunVox,http://www.warmplace.ru/soft/sunvox/,Virtual Modular Synthesizer,Free,"Windows, Mac, Linux, iOS, Android",,
 Audio Sauna,http://www.audiosauna.com/,Virtual Modular Synthesizer,Free,Web,Chrome Plugin,Also available as a Google Chrome Plugin
 ZynAddSubFX,https://zynaddsubfx.sourceforge.io/,Virtual Modular Synthesizer,"Trial, Paid","Windows, Mac, Linux",,
@@ -65,7 +68,7 @@ Elias Studio,https://www.eliassoftware.com/,Authoring Tool,"Free, Paid","Windows
 Fabric,http://www.tazman-audio.co.uk/,Authoring Tool,"Free, Paid","Windows, Mac, Linux",Unity Plugin,
 Bfxr,https://www.bfxr.net/,Video Game SFX,Free,"Windows, Mac, Web",,An elaboration of Sfxr
 Jsfxr,http://sfxr.me/,Video Game SFX,Free,Web,,HTML5 port of Sfxr
-Sfxr,http://www.drpetter.se/project_sfxr.html,Video Game SFX,Free,"Windows, Linux","",Sound Effects generator made to support entrants during the 10th Ludum Dare
+Sfxr,http://www.drpetter.se/project_sfxr.html,Video Game SFX,Free,"Windows, Linux",,Sound Effects generator made to support entrants during the 10th Ludum Dare
 ChipTone,http://sfbgames.com/chiptone/,Video Game SFX,Free,Web,,
 Leshy SF Designer,https://www.leshylabs.com/apps/sfMaker/,Video Game SFX,Free,Web,,
 LabChirp,http://labbed.net/software/labchirp/,Video Game SFX,Free,Windows,,

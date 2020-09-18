@@ -1,7 +1,7 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Agile Manifesto,https://agilemanifesto.org/,Mindset,Free,Web,"",Manifesto for Agile Software Development
+Agile Manifesto,https://agilemanifesto.org/,Mindset,Free,Web,,Manifesto for Agile Software Development
 Agile Alliance,https://www.agilealliance.org/agile101/,Organization,Free,Web,,Organization dedicated to supporting people that use the Agile Software Development Methodology
-Scrum Guide,https://www.scrumguides.org/,Framework,Free,Web,"",Detailed guide for the Scrum Framework of Agile Software Development
+Scrum Guide,https://www.scrumguides.org/,Framework,Free,Web,,Detailed guide for the Scrum Framework of Agile Software Development
 Scrum.org,https://www.scrum.org/,Organization,Free,Web,,Organization for training and certifying people that use the Scrum framework
 Microsoft Sharepoint,https://products.office.com/en-us/sharepoint/compare-sharepoint-plans,"Collaboration, Cloud Storage",Subscription,"iOS, Android, Web",,
 Google Drive,https://www.google.com/drive/,"Collaboration, Cloud Storage","Free, Subscription","iOS, Android, Web",,
@@ -34,3 +34,4 @@ Bugzilla,https://www.bugzilla.org/,Bug Tracking,Free,Web,,
 Bugsnag,https://www.bugsnag.com/,Bug Tracking,"Free, Trial, Subscription",Web,,
 Bugsplat,https://www.bugsplat.com/,Bug Tracking,"Trial, Subscription",Web,Crash Report,
 Backtrace,https://backtrace.io/,Bug Tracking,"Free, Subscription",Web,Crash Report,
+Codecks,https://www.codecks.io/,Task Management,"Free, Subscription",Web,"",Uses card and deck creation to track task work

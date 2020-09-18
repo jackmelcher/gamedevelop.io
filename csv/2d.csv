@@ -18,6 +18,7 @@ Black Ink,http://www.bleank.com/BlackInk-a115.html,Digital Painting,"Trial, Paid
 Paint Tool Sai,https://www.systemax.jp/en/sai/,Digital Painting,"Trial, Paid",Windows,Raster,
 OpenToonz,https://opentoonz.github.io/e/,"Digital Painting, 2D Animation",Free,"Windows, Mac, Linux",Raster,
 Clip Studio Paint,http://www.clipstudio.net/en,"Digital Painting, 2D Animation, Graphic Art","Trial, Paid","Windows, Mac, iOS","Raster, Vector",
+Magma Studio,https://magmastudio.io/,Digital Painting,"Free, Subscription",Web,Raster,A collaborative digital painting app that runs in the browser
 Pencil 2D,https://www.pencil2d.org/,"2D Animation, Graphic Art",Free,"Windows, Mac, Linux","Raster, Vector",
 Synfig,https://www.synfig.org/,"2D Animation, Graphic Art",Free,"Windows, Mac, Linux","Vector, Skeletal",
 Spine,http://esotericsoftware.com/,2D Animation,"Trial, Paid","Windows, Mac, Linux","Raster, Vector, Skeletal",
@@ -82,3 +83,4 @@ Angel Code Bitmap Font Generator,http://www.angelcode.com/products/bmfont/,Font 
 High Logic FontCreator,https://www.high-logic.com/font-editor/fontcreator,Font Editor,"Trial, Paid",Windows,Vector,
 71 Square Glyph Designer,https://www.71squared.com/glyphdesigner,Font Editor,"Trial, Paid",Mac,Vector,
 Cool Text Graphics Generator,https://cooltext.com/,"Font Editor, Graphic Art",Free,Web,Raster,
+ShoeBox,https://renderhjs.net/shoebox/,"Pixel Art, Image Editing",Free,"Windows, Mac",Raster,"A collection of sprite, font, and texture extraction and editing tools"
