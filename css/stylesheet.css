@@ -32,6 +32,10 @@ html[data-theme = "dark"]{
   --input--border-color: #808080;
   --input-bg-color: #272727;
 }
+*:focus {
+  /* Remove Outline after interacting with elements*/
+  outline: 0;
+}
 body{
   background-color: var(--bg-color);
   color: var(--font-color);
