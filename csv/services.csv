@@ -1,7 +1,7 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 Upwork,https://www.upwork.com/,All,,,Freelancers,
 Fiverr,https://www.fiverr.com/,All,,,Freelancers,
-Bunker,https://bunkervfx.com/,Marketing,,,Game Trailers,""
+Bunker,https://bunkervfx.com/,Marketing,,,Game Trailers,
 M. Joshua Makes Trailers,http://mjoshua.com/,Marketing,,,Game Trailers,
 Gabe Allen,https://vimeo.com/173878248,Marketing,,,Game Trailers,
 Cap and Cut,http://capandcut.com/,Marketing,,,Game Trailers,
@@ -34,7 +34,7 @@ Swrve,http://www.swrve.com/,Marketing,,,,Engagement Service
 Sherimedia,https://sheri.media/,Marketing,,,,
 EtchPlay,https://etchplay.com/,Marketing,,,,
 TAKEOFF,https://takeoffstudios.com/,Marketing,,,,
-GosuRabbit,https://www.gosurabbit.com/,Marketing,"","",,Gaming and Esports
+GosuRabbit,https://www.gosurabbit.com/,Marketing,,,,Gaming and Esports
 BitCake Studio,https://bitcakestudio.com/,Development,,,,
 BlindFlung Studios,https://www.blindflugstudios.com/hire-us/,Development,,,,
 Gameanax,https://www.gameanax.com/,Development,,,,
@@ -81,7 +81,8 @@ Katan Games,https://en.kantan-games.co.jp/,Consulting,,,Consulting services for 
 Apple TestFlight,https://developer.apple.com/testflight/,Game Testing,,,,
 Testify,https://gotestify.com/,Game Testing,,,,Game Testing and Retention
 AbleGamers Player Panels,https://accessible.games/player-panels-projects/,Game Testing,Paid,,Accessibility Testing Services,
-Outsource Media,https://omuk.com/,Voice Acting,"","","Voice Acting, Recording, and Performance Capture",""
+No More Robots,https://nomorerobots.io/nomorebugs/,Game Testing,Free,,Free QA Testing for Indie Studios that can't afford dedicated QA,
+Outsource Media,https://omuk.com/,Voice Acting,,,"Voice Acting, Recording, and Performance Capture",
 Voices.com,https://www.voices.com/,Voice Acting,,,,
 Voice123,https://voice123.com/,Voice Acting,,,,
 VoiceBunny,https://voicebunny.com/,Voice Acting,,,,
@@ -160,3 +161,7 @@ Adia Entertainment,http://adiadigital.com/,Development,,,"Game Art, Cinematics",
 PTW,https://www.ptw.com/,Development,,,,"Customer Experience, Quality Assurance, Localization, Audio Production, Engineering"
 Remote Control Productions,http://r-control.de/index_en.php,"Business, Development, Production, Marketing, Consulting",,,,
 Cathar Games,http://www.cathargames.com/?page_id=908,"Development, Consulting",,,,
+Resistance Studio,https://www.resistancestudio.com/about.html,Development,,,Porting,Netherlands
+IGDB,https://www.igdb.com/,Aggregator,,,,Video Games and Games Company Database with a Review Aggregator
+Abstraction Games,https://abstraction.games/services,Development,,,Porting,
+Crunching Koalas,http://crunchingkoalas.com/,Development,,,Porting,""
