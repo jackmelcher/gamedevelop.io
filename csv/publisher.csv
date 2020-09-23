@@ -15,7 +15,7 @@ Amazon Appstore,https://developer.amazon.com/apps-and-games/app-submission,Mobil
 Akupara Games,https://www.akuparagames.com/,"PC, Console, Mobile",,,USA,
 Armor Games,https://armorgamesstudios.com/,,,,,
 Big Fish,https://www.bigfishgames.com/daily/about/submit-games/,Mobile,,,USA,
-Focus Home Interactive,http://focus-home.com/en/company,,,,,
+Focus Home Interactive,http://focus-home.com/en/company,"PC, Console, Mobile",,,France,
 Deep Silver,http://www.deepsilver.com/us/contact/,"PC, Console, Mobile",,,UK,AAA
 11 bit Studios,http://www.11bitstudios.com/publishing/,"PC, Console, Mobile",,,Poland,
 Iceberg Interactive,https://www.iceberg-games.com/fordevelopers/,,,,,
@@ -44,7 +44,7 @@ Daedalic Entertainment,https://www.daedalic.com/about-us,"PC, Console",,,Germany
 Maximum Games,https://www.maximumgames.com/about-us/for-developers/,,,,,
 6 Waves,https://www.6waves.com/,Mobile,,,China,
 Indie Champions,https://indiechampions.com/about.html,"Mobile, VR",,,,
-Forever Entertainment,http://forever-entertainment.com/en.4devs.html,,,,,
+Forever Entertainment,"https://forever-entertainment.com/for-developers,8,en",Console,,,Poland,
 Lab Cave,https://labcavegames.com/,Mobile,,,,
 LBC Games,https://lbc-games.com/game-submission/,,,,,
 MixedBag,http://mixedbag.it/the-studio/,,,,,
@@ -121,46 +121,67 @@ iDreamSky,http://www.idreamsky.com/en/contactUs/,Mobile,,,China,
 Mode7,https://www.mode7.games/,PC,,,UK,
 No More Robots,https://nomorerobots.io/contact-get-in-touch/,"PC, Console",,,UK,
 777 Studios,http://777studios.net/,PC,,,USA,
-2Awesome Studio,http://www.2awesomestudio.com/about.html,"PC, Console","","",Netherlands,""
-2tainment,https://www.2tainment.com/aboutus/,"PC, Console","","",Germany,""
-Abylight Studios,http://abylight.com/about-us/,"Console, Mobile","","",Spain,""
-Aksys Games,http://www.aksysgames.com/aboutus/,"PC, Console","","",USA,Specialize in localizing Japanese games
-Alawar,https://company.alawar.com/en/developers/,"PC, Console, Mobile","","",Russia,""
-Alliance Games,https://www.alliance.games/about,PC,"","",USA,""
-All in Games,https://www.allingames.com/submit-game/,"PC, Console","","",Poland,""
-Alternative Soft,http://www.alternativesoft.co.uk/3rdParty.html,"PC, Console, Mobile","","",UK,""
-"Annapurna Interactive ",https://annapurnainteractive.com/about,"PC, Console","","",USA,contact@annapurnainteractive.com
-Another Indie,https://anotherindie.com/about/,"PC, Console","","",Ireland,""
-Arc System Works,https://arcsystemworks.com/contact/,"PC, Console","","","Japan, USA",""
-Art Games Studio,https://art-games.com/,"PC, Console","","",Poland,""
-Artifex Mundi,https://www.artifexmundi.com/faq/,"PC, Console, Mobile","","",Poland,""
-Asiasoft,https://www.asiasoft.net/en-sea/business/,"PC, Mobile","","",Thailand,Publish your game in Southeast Asia
-Astragon,https://www.astragon.de/en/company/services/,"PC, Console","","",Germany,""
-Atari,https://www.atari.com/contact-support/,"PC, Console, Mobile","","",France,""
-Autumn Games,http://www.autumngames.com/,"PC, Console","","",USA,""
-Axolot Games,https://www.axolotgames.com/info/,PC,"","",Sweden,""
-Atlus,https://www.atlus.co.jp/,"PC, Console","","",Japan,AAA
-Badland Publishing,https://badlandpublishing.com/,"PC, Console","","",Spain,""
-Bandai Namco Entertainment,https://www.bandainamcoent.com/,"PC, Console, Mobile","","",Japan,AAA
-Zenimax,https://www.zenimax.com/publishing,"PC, Console, Mobile","","",USA,AAA
-Bitfrost Entertainment,https://bifrostent.com/,"PC, Console","","",Norway,""
-Nacon,https://corporate.nacongaming.com/en/,"PC, Console, Mobile","","",Germany,""
-Big Sugar,https://www.bigsugar.games/,"PC, Console","","","",""
-Bilibili,https://game.bilibili.com/,Mobile,"","",China,""
-Broccoli,https://www.broccoli.co.jp/company/faq/faq.php,Console,"","",Japan,""
-Buka,https://buka.com/publishing/,"PC, Console, Mobile","","",Russia,""
-Capcom,https://www.capcom.com/,"PC, Console, Mobile","","",Japan,AAA
-Ci Games,https://cigames.com/en/,"PC, Console","","",Poland,""
-Coastsink,https://coatsink.com/partner,"PC, Console","","",UK,""
-Coconut Island,https://www.coconutislandgames.com/,PC,"","",Japan,""
-Crescent Moon Games,http://www.crescentmoongames.com/,"PC, Console, Mobile","","","",""
-Crytivo,https://crytivo.com/en/publishing,PC,"","",USA,""
-D3 Publisher,https://www.d3p.co.jp/,"PC, Console, Mobile","","",Japan,AAA
-Deck 13 Spotlight,https://spotlight.deck13.com/,"PC, Console","","",Germany,""
-Digerati,https://www.digerati.games/#about,"PC, Console","","","",""
-Dispatch Games,https://readytodispatch.com/,Console,"","",Japan,""
-DMM Games,https://games.dmm.com/,"PC, Console, Mobile","","",Japan,""
-Double Eleven,https://www.double11.com/publishing/,"PC, Console, Mobile","","",UK,""
-Doublesided Games,https://doublesidedgames.com/,Console,"","",France,Publish a game on a retro console
-East2West Games,https://east2west.cn/east2west_en/,"PC, Console, Mobile","","",China,""
-Excalibur Games,https://www.excalibur-games.com/contact-us/,"PC, Console","","",UK,""
+2Awesome Studio,http://www.2awesomestudio.com/about.html,"PC, Console",,,Netherlands,
+2tainment,https://www.2tainment.com/aboutus/,"PC, Console",,,Germany,
+Abylight Studios,http://abylight.com/about-us/,"Console, Mobile",,,Spain,
+Aksys Games,http://www.aksysgames.com/aboutus/,"PC, Console",,,USA,Specialize in localizing Japanese games
+Alawar,https://company.alawar.com/en/developers/,"PC, Console, Mobile",,,Russia,
+Alliance Games,https://www.alliance.games/about,PC,,,USA,
+All in Games,https://www.allingames.com/submit-game/,"PC, Console",,,Poland,
+Alternative Soft,http://www.alternativesoft.co.uk/3rdParty.html,"PC, Console, Mobile",,,UK,
+"Annapurna Interactive ",https://annapurnainteractive.com/about,"PC, Console",,,USA,contact@annapurnainteractive.com
+Another Indie,https://anotherindie.com/about/,"PC, Console",,,Ireland,
+Arc System Works,https://arcsystemworks.com/contact/,"PC, Console",,,"Japan, USA",
+Art Games Studio,https://art-games.com/,"PC, Console",,,Poland,
+Artifex Mundi,https://www.artifexmundi.com/faq/,"PC, Console, Mobile",,,Poland,
+Asiasoft,https://www.asiasoft.net/en-sea/business/,"PC, Mobile",,,Thailand,Publish your game in Southeast Asia
+Astragon,https://www.astragon.de/en/company/services/,"PC, Console",,,Germany,
+Atari,https://www.atari.com/contact-support/,"PC, Console, Mobile",,,France,
+Autumn Games,http://www.autumngames.com/,"PC, Console",,,USA,
+Axolot Games,https://www.axolotgames.com/info/,PC,,,Sweden,
+Atlus,https://www.atlus.co.jp/,"PC, Console",,,Japan,AAA
+Badland Publishing,https://badlandpublishing.com/,"PC, Console",,,Spain,
+Bandai Namco Entertainment,https://www.bandainamcoent.com/,"PC, Console, Mobile",,,Japan,AAA
+Zenimax,https://www.zenimax.com/publishing,"PC, Console, Mobile",,,USA,AAA
+Bitfrost Entertainment,https://bifrostent.com/,"PC, Console",,,Norway,
+Nacon,https://corporate.nacongaming.com/en/,"PC, Console, Mobile",,,Germany,
+Big Sugar,https://www.bigsugar.games/,"PC, Console",,,,
+Bilibili,https://game.bilibili.com/,Mobile,,,China,
+Broccoli,https://www.broccoli.co.jp/company/faq/faq.php,Console,,,Japan,
+Buka,https://buka.com/publishing/,"PC, Console, Mobile",,,Russia,
+Capcom,https://www.capcom.com/,"PC, Console, Mobile",,,Japan,AAA
+Ci Games,https://cigames.com/en/,"PC, Console",,,Poland,
+Coastsink,https://coatsink.com/partner,"PC, Console",,,UK,
+Coconut Island,https://www.coconutislandgames.com/,PC,,,Japan,
+Crescent Moon Games,http://www.crescentmoongames.com/,"PC, Console, Mobile",,,,
+Crytivo,https://crytivo.com/en/publishing,PC,,,USA,
+D3 Publisher,https://www.d3p.co.jp/,"PC, Console, Mobile",,,Japan,AAA
+Deck 13 Spotlight,https://spotlight.deck13.com/,"PC, Console",,,Germany,
+Digerati,https://www.digerati.games/#about,"PC, Console",,,,
+Dispatch Games,https://readytodispatch.com/,Console,,,Japan,
+DMM Games,https://games.dmm.com/,"PC, Console, Mobile",,,Japan,
+Double Eleven,https://www.double11.com/publishing/,"PC, Console, Mobile",,,UK,
+Doublesided Games,https://doublesidedgames.com/,Console,,,France,Publish a game on a retro console
+East2West Games,https://east2west.cn/east2west_en/,"PC, Console, Mobile",,,China,
+Excalibur Games,https://www.excalibur-games.com/contact-us/,"PC, Console",,,UK,
+FDG Entertainment,https://www.fdg-entertainment.com/,"PC, Console, Mobile","","",Germany,""
+Flyhigh Works,http://flyhighworks.com/,"PC, Console, Mobile","","","",""
+Circle Entertainment,http://www.cir-ent.com/,Console,"","","UK, China",Publish digital and retail in western and asian markets
+Frontier,https://www.frontier.co.uk/foundry,"PC, Console","","",UK,""
+Frozen District,http://frozendistrict.com/,PC,"","",Poland,""
+Fundamentally Games,http://www.fundamentally.games/,,"","","",""
+GameClub,https://gameclub.io/about,Mobile,"","",USA,""
+Gameforge,https://corporate.gameforge.com/about/?lang=en,"PC, Mobile","","",Germany,MMORPG
+GameOn,https://www.gameon.co.jp/contact,"PC, Mobile","","",Japan,""
+Gamepix,https://company.gamepix.com/game-developers/,"Web, Mobile","","","",Submit your HTML5 Game to their catalogue
+Gamepoch,https://www.gamepoch.com/,Console,"","",China,""
+GamersGate,https://www.gamersgate.com/info/about-us,PC,"","","",Submit your game to the store
+Games Operators,http://www.gameops.pl/en/contact/,PC,"","",Poland,""
+Games Co London,http://www.gamescolondon.com/,"PC, Console","","",UK,""
+European Games Group,https://gamesgroup.eu/partner-with-us/,Mobile,"","",Germany,Free2play
+Gearbox Publishing,https://www.gearboxpublishing.com/,"PC, Console, VR","","",USA,""
+Ghostlight,http://www.ghostlight.uk.com/,Console,"","",UK,Helps eastern companys publish in the west
+Giant Games Network,http://giant.games/,"PC, Console, Mobile","","",China,""
+Goblinz Studio,https://goblinzstudio.com/goblinz-publishing/,"PC, Console, Mobile","","",France,""
+Graffiti Games,https://www.graffitigames.com/,"PC, Console","","","",""
+GoLive Games,http://www.golive.games/,Mobile,"","","Switzerland, India",""
