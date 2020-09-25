@@ -18,11 +18,11 @@ Big Fish,https://www.bigfishgames.com/daily/about/submit-games/,Mobile,,,USA,
 Focus Home Interactive,http://focus-home.com/en/company,"PC, Console, Mobile",,,France,
 Deep Silver,http://www.deepsilver.com/us/contact/,"PC, Console, Mobile",,,UK,AAA
 11 bit Studios,http://www.11bitstudios.com/publishing/,"PC, Console, Mobile",,,Poland,
-Iceberg Interactive,https://www.iceberg-games.com/fordevelopers/,,,,,
+Iceberg Interactive,https://www.iceberg-games.com/fordevelopers/,"PC, Console",,,Netherlands,
 Thunderful Games,https://www.thunderfulgames.com/index.php/pitch,"PC, Console",,,Sweden,
 Rising Star Games,https://www.risingstargames.com/,"PC, Console",,,UK,Helping indie developers in Japan publish their games.
 Rooster Teeth Games,https://www.games.roosterteeth.com/publishing/,,,,,
-Humble Bundle,https://www.humblebundle.com/publishing,,,,,
+Humble Bundle,https://www.humblegames.com/,"PC, Console, Mobile",,,USA,
 Team 17,https://www.team17.com/submit-a-game/,"PC, Console, Mobile, Web",,,UK,
 Serenity Forge,http://serenityforge.com/publishing,,,,,
 Boombit,https://boombit.com/publish-with-us/,,,,,
@@ -39,7 +39,7 @@ PQube,https://pqube.co.uk/our-services/,"PC, Console",,,UK,International Publish
 Good Shepard Entertainment,https://goodshepherd.games/submit-your-game,,,,,
 Reliance Games,https://www.reliancegames.com/send-us-your-game/,,,,,
 Gaijin Entertainment,https://gaijinent.com/en/incubator/,,,,,
-Handy Games,https://handy-games.com/en/publishing/,,,,,
+Handy Games,https://handy-games.com/en/publishing/,"PC, Console, Mobile",,,Germany,
 Daedalic Entertainment,https://www.daedalic.com/about-us,"PC, Console",,,Germany,
 Maximum Games,https://www.maximumgames.com/about-us/for-developers/,,,,,
 6 Waves,https://www.6waves.com/,Mobile,,,China,
@@ -60,7 +60,7 @@ Yodo1,https://developer.yodo1.com/en/developer-portal-home/mobile-publishing/,Mo
 Ketchapp Games,http://www.ketchappgames.com/,Mobile,,,France,
 Playdigious,https://playdigious.com/about/,,,,,
 Sodesco,http://soedesco.com/about/,,,,,
-Hound Picked,https://www.houndpicked.com/submit-your-game/,,,,,
+Hound Picked Games,https://www.houndpicked.com/submit-your-game/,"PC, Console",,,,
 Blowfish,https://www.blowfishstudios.com/,"PC, Console, Mobile, VR",,,Australia,
 Ludus.Games,http://ludus.games/,,,,,Also offers services to pitch your game to potential partners.
 Curve Digital,http://www.curve-digital.com/en-gb/partner/,"PC, Console",,,UK,
@@ -164,24 +164,43 @@ Double Eleven,https://www.double11.com/publishing/,"PC, Console, Mobile",,,UK,
 Doublesided Games,https://doublesidedgames.com/,Console,,,France,Publish a game on a retro console
 East2West Games,https://east2west.cn/east2west_en/,"PC, Console, Mobile",,,China,
 Excalibur Games,https://www.excalibur-games.com/contact-us/,"PC, Console",,,UK,
-FDG Entertainment,https://www.fdg-entertainment.com/,"PC, Console, Mobile","","",Germany,""
-Flyhigh Works,http://flyhighworks.com/,"PC, Console, Mobile","","","",""
-Circle Entertainment,http://www.cir-ent.com/,Console,"","","UK, China",Publish digital and retail in western and asian markets
-Frontier,https://www.frontier.co.uk/foundry,"PC, Console","","",UK,""
-Frozen District,http://frozendistrict.com/,PC,"","",Poland,""
-Fundamentally Games,http://www.fundamentally.games/,,"","","",""
-GameClub,https://gameclub.io/about,Mobile,"","",USA,""
-Gameforge,https://corporate.gameforge.com/about/?lang=en,"PC, Mobile","","",Germany,MMORPG
-GameOn,https://www.gameon.co.jp/contact,"PC, Mobile","","",Japan,""
-Gamepix,https://company.gamepix.com/game-developers/,"Web, Mobile","","","",Submit your HTML5 Game to their catalogue
-Gamepoch,https://www.gamepoch.com/,Console,"","",China,""
-GamersGate,https://www.gamersgate.com/info/about-us,PC,"","","",Submit your game to the store
-Games Operators,http://www.gameops.pl/en/contact/,PC,"","",Poland,""
-Games Co London,http://www.gamescolondon.com/,"PC, Console","","",UK,""
-European Games Group,https://gamesgroup.eu/partner-with-us/,Mobile,"","",Germany,Free2play
-Gearbox Publishing,https://www.gearboxpublishing.com/,"PC, Console, VR","","",USA,""
-Ghostlight,http://www.ghostlight.uk.com/,Console,"","",UK,Helps eastern companys publish in the west
-Giant Games Network,http://giant.games/,"PC, Console, Mobile","","",China,""
-Goblinz Studio,https://goblinzstudio.com/goblinz-publishing/,"PC, Console, Mobile","","",France,""
-Graffiti Games,https://www.graffitigames.com/,"PC, Console","","","",""
-GoLive Games,http://www.golive.games/,Mobile,"","","Switzerland, India",""
+FDG Entertainment,https://www.fdg-entertainment.com/,"PC, Console, Mobile",,,Germany,
+Flyhigh Works,http://flyhighworks.com/,"PC, Console, Mobile",,,,
+Circle Entertainment,http://www.cir-ent.com/,Console,,,"UK, China",Publish digital and retail in western and asian markets
+Frontier,https://www.frontier.co.uk/foundry,"PC, Console",,,UK,
+Frozen District,http://frozendistrict.com/,PC,,,Poland,
+Fundamentally Games,http://www.fundamentally.games/,,,,,
+GameClub,https://gameclub.io/about,Mobile,,,USA,
+Gameforge,https://corporate.gameforge.com/about/?lang=en,"PC, Mobile",,,Germany,MMORPG
+GameOn,https://www.gameon.co.jp/contact,"PC, Mobile",,,Japan,
+Gamepix,https://company.gamepix.com/game-developers/,"Web, Mobile",,,,Submit your HTML5 Game to their catalogue
+Gamepoch,https://www.gamepoch.com/,Console,,,China,
+GamersGate,https://www.gamersgate.com/info/about-us,PC,,,,Submit your game to the store
+Games Operators,http://www.gameops.pl/en/contact/,PC,,,Poland,
+Games Co London,http://www.gamescolondon.com/,"PC, Console",,,UK,
+European Games Group,https://gamesgroup.eu/partner-with-us/,Mobile,,,Germany,Free2play
+Gearbox Publishing,https://www.gearboxpublishing.com/,"PC, Console, VR",,,USA,
+Ghostlight,http://www.ghostlight.uk.com/,Console,,,UK,Helps eastern companys publish in the west
+Giant Games Network,http://giant.games/,"PC, Console, Mobile",,,China,
+Goblinz Studio,https://goblinzstudio.com/goblinz-publishing/,"PC, Console, Mobile",,,France,
+Graffiti Games,https://www.graffitigames.com/,"PC, Console",,,,
+GoLive Games,http://www.golive.games/,Mobile,,,"Switzerland, India",
+Hitcents,https://hitcents.com/,"PC, Console, Mobile","","","",""
+Huey Games,https://www.hueygames.com/,"PC, Console","","",UK,""
+HypeTrain Digital,https://hypetraindigital.com/,"PC, Console","","",Cyprus,""
+JoyPac Games,https://joypacgames.com/,Mobile,"","","Denmark, Netherlands, Japan, China",""
+Idea Factory International,http://ideafintl.com/about.php,"PC, Console","","","Japan, USA",Publishes games from Japan in Western markets
+Ignition Publishing,https://www.ignitionpublishing.com/en/,"PC, Console","","",Italy,""
+Inca Games,https://www.incagames.com/partnership.html,PC,"","",Argentina,""
+iWin,https://www.iplay.com/about,"PC, Web","","",USA,""
+IQ Publishing,https://iq-publishing.com/,PC,"","",UK,""
+Jagex,https://www.jagex.com/en-GB/partners,PC,"","",UK,""
+JanduSoft,https://www.jandusoft.com/,"PC, Console","","",Spain,""
+Kakao Games,https://www.kakaogamescorp.com/business/partnership,"PC, Mobile",,"",Korea,""
+Kakehashi Games,https://www.kakehashigames.com/about-us-english.html,"PC, Console","","",Japan,Helps western developers release games in Japan
+Kiss Publishing,http://www.kiss-ltd.co.uk/,"","","",UK,""
+Klabater,https://klabater.com/,"PC, Console","","",Poland,""
+KLab,https://www.klab.com/en/about/publishing/,Mobile,"","",Japan,AAA
+Koei Tecmo,https://www.koeitecmo.co.jp/e/,"PC, Console, Mobile","","",Japan,AAA
+Konami,https://www.konami.com/games/corporate/en/,"PC, Console, Mobile","","",Japan,AAA
+Activision Blizzard,https://www.activisionblizzard.com/who-we-are,"PC, Console, Mobile","","","",""
