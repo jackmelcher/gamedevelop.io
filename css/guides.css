@@ -67,6 +67,13 @@ li{margin-bottom: 8px;}
 .guideflex > div{
     margin-bottom: 64px;
 }
+.guideflex > .lastmodified{
+    font-size: 12px; 
+    color: var(--footer-color);
+    margin: 0;
+    margin-top: -24px;
+    font-style: italic;
+}
 .guideflex > div > .guideimg {
     text-align: center;
     background-color: var(--bg-img-color);
