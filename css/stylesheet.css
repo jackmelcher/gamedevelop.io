@@ -201,13 +201,15 @@ a:hover{
   text-decoration: none;
 }
 .button_support{
-  vertical-align: middle;
+  vertical-align: top;
   font-weight: bold;
-  padding: 8px 16px;
+  padding: 4px 16px;
 }
 .button_support > img {
   vertical-align: middle;
   margin-right: 8px;
+  margin-right: -4px;
+  max-height: 48px;
 }
 .button_nav,.settingsnavbutton,.sidenavbutton,.button_logo
 {
@@ -215,11 +217,18 @@ a:hover{
   line-height: 1.125;
   background-color: transparent;
 }
+.bcm{
+  background-color: #FFDD00;
+  padding: 0;
+}
 .patreon{
   background-color: #f96853;
 }
 .kofi{
   background-color: #29abe0;
+}
+.discord{
+  background-color: #7289da;
 }
 .menuicon{
   font-size: 24px;
@@ -250,6 +259,7 @@ a:hover{
   text-decoration: none;
   color: var(--footer-color);
   margin: 4px 16px;
+  display: inline-block;
 }
 .footer > p{
   margin: 4px 16px 0px;
@@ -273,8 +283,9 @@ a:hover{
   font-weight: bold;
   background-color: var(--form-bg-color);
   border-radius: 4px;
-  box-shadow: 0 4px 8px 0 #00000033;
+  box-shadow: 0 4px 8px 0 #00000071;
   margin: 10px;
+  margin-bottom: 32px;
   padding: 0px 32px;
 }
 .contact > form > p{

@@ -58,9 +58,12 @@
         </div>
         <section>
             <h1 class="header">Contact</h1>
+            <p style="text-align: center;">
+                <b>For all enquiries, please fill out the Form below.</b>
+            </p>
             <div class="flex-container">
-               <div class="contact">
-                    <form name="contact" method="POST" data-netlify="true">
+                <div class="contact">
+                    <form name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
                         <p>
                             <label>Name: <br> <input type="text" name="name"/></label>   
                         </p>
@@ -73,8 +76,9 @@
                         <p>
                             <label>Message: <br> <textarea name="message"></textarea></label>
                         </p>
-                        <p>
-                            <button type="submit" class="button button_main">Send</button>
+                        <div data-netlify-recaptcha="true"></div>
+                        <p style="text-align: center;">
+                            <button type="submit" class="button button_main">Submit</button>
                         </p>
                     </form>
                 </div>  
@@ -84,8 +88,8 @@
             <a href="/about.html">About</a>
             <a href="/suggestion.html">Suggestion Box</a>
             <a href="/contact.html">Contact</a>
-            <a href="https://www.patreon.com/jackmelcher" target="_blank">Patreon</a>
-            <a href="https://www.ko-fi.com/jackmelcher" target="_blank">Ko-fi</a>
+            <a href="https://www.buymeacoffee.com/gamedevelop" target="_blank" rel="noopener noreferrer">Support Us</a>
+            <a href="https://discord.gg/xZPUrKR" target="_blank" rel="noopener noreferrer">Discord</a>
             <br>
             <p>© 2020 GameDevelop.io All rights reserved. All trademarks and registered trademarks are the property of their respective owners.</p>
         </div>
