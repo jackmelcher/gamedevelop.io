@@ -1,10 +1,10 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 Kickstarter,https://www.kickstarter.com/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of raised funds goes to Kickstarter and transaction fees
 Indiegogo,https://www.indiegogo.com/,Crowdfunding,Royalty,Web,,Percentage of raised funds goes to Indiegogo and transaction fees
+Fig,https://www.fig.co/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of revenue is split among Fig and the investors
 Patreon,https://www.patreon.com/,Crowdfunding,Royalty,Web,,Allows people to support you via subscription
 Buy Me a Coffee,https://www.buymeacoffee.com/,Crowdfunding,Royalty,Web,,Allows people to support you via one-time donations and subscriptions
 Ko Fi,https://ko-fi.com/,Crowdfunding,"Free, Subscription",Web,,Allows people to support you via one-time donations and subscriptions
-Fig,https://www.fig.co/,Crowdfunding,Royalty,Web,All-or-Nothing,Percentage of revenue is split among Fig and the investors
 Steam Early Access,https://store.steampowered.com/earlyaccessfaq/?snr=1_200_200_Early+Access,Crowdfunding,Paid,Web,,
 Itch.io Pay What You Want,https://itch.io/docs/creators/pricing#pay-what-you-want-pricing,Crowdfunding,,Web,,
 Indie Fund,http://indie-fund.com/,Grant,Royalty,,,All revenue goes to repaying the funds then 25% rev-share until Indie Fund's investment is doubled within two years of your game's release
@@ -12,7 +12,7 @@ Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Grant,,,,
 UK Games Fund,https://ukgamesfund.com/,Grant,,,,Provides support packages for early-stage projects being developed by small video game companies based in the United Kingdom
 Wings,https://wingsfund.me/,Investor,Royalty,,,"Teams applying must have women and/or marginalized genders in key technical or managerial positions. PC, Console"
 GDBAY Global Games Pitch,https://gdbay.com/global-games-pitch/,Pitch,Paid,,,Opprotunity to pitch game to audience of publishers
-PitchYaGame,https://pitchyagame.com/,Pitch,Free,"","","Twitter hastag to get indie games noticed by publishers, scouts, investors, media, and players"
+PitchYaGame,https://pitchyagame.com/,Pitch,Free,,,"Twitter hastag to get indie games noticed by publishers, scouts, investors, media, and players"
 Play Venture,http://www.playventures.vc/,Investor,,,,
 Bitkraft,https://www.bitkraft.net/,Investor,,,,"Early Stage Venture Capital investor for gaming, esports, and interactive media."
 Makers Fund,https://makersfund.com/,Investor,,,,
@@ -93,4 +93,6 @@ PRO X Dev Booster,https://www.gamesweekberlin.com/devbooster/,Pitch,Free,,German
 My.Games VC,https://mgvc.com/en,Investor,,,Russia,
 Digital Tibe Games,https://www.digitaltribegames.com/about,Accelerator,,,,
 PlayFund,https://www.playfund.co.uk/,Investor,,,UK,
-NGDC,https://discovery-contest.nordicgame.com/,Pitch,"","","",Nordic Game Discovery Contest
+NGDC,https://discovery-contest.nordicgame.com/,"Pitch, Contest",,,,Nordic Game Discovery Contest
+AT&T Unlocked_Games,https://attunlockedgames.com/,Contest,"","","","Contest for games being developed that are led by a women, or the team comprises of 50% women"
+BigGame Group,http://biggame.group/,Incubator,"","","",""
