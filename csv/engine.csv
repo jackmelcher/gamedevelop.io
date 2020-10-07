@@ -44,7 +44,7 @@ inklewriter,https://www.inklewriter.com/,Game Engine,Free,Web,"2D, Visual Script
 Adventure Cow Storylab,http://adventurecow.com/,Game Engine,Free,Web,"2D, Visual Scripting",Interactive Fiction Game Tool
 ChoiceScript,https://www.choiceofgames.com/make-your-own-games/choicescript-intro/,Game Engine,Free,"Windows, Mac, Linux","2D, Markup",Interactive Fiction Game Tool
 Solar2D,https://solar2d.com/,Game Engine,Free,"Windows, Mac, Linux","2D, Lua",Open Source 2D game engine. Formerly known as Corona
-SDL,https://www.libsdl.org/,Framework,Free,"Windows, Mac, Linux","2D, 3D, C, C++","A cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D"
+SDL,https://www.libsdl.org/,Library,Free,"Windows, Mac, Linux","2D, 3D, C, C++","A cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D"
 Babylon.JS,https://www.babylonjs.com/,Framework,Free,Web,"3D, JavaScript","JavaScript framework for building 3D games with HTML5, WebGL, WebVR, and Web Audio."
 Microsoft DirectX Graphics,https://docs.microsoft.com/en-us/windows/win32/directx?redirectedfrom=MSDN,Framework,Free,Windows,"2D, 3D, C, C++",Provides a set of APIs that you can use to create games and includes support for high-performance 2-D and 3-D graphics.
 GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, Visual Scripting",
@@ -64,5 +64,7 @@ Torque3D,http://www.garagegames.com/products/torque-3d,Game Engine,Free,Windows,
 Torque2D,http://www.garagegames.com/products/torque-2d,Game Engine,Free,"Windows, Mac","2D, C++",
 jMonkeyEngine,https://jmonkeyengine.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Java",
 PIxel Game Maker MV,https://tkool.jp/act/en/index.html,Game Engine,"Trial, Paid",Windows,"2D, Visual Scripting",
-Gamebryo,http://www.gamebryo.com/index.php,Game Engine,"Trial, License",Windows,"3D, C++",""
-Panda3D,https://www.panda3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, C++, Python",""
+Gamebryo,http://www.gamebryo.com/index.php,Game Engine,"Trial, License",Windows,"3D, C++",
+Panda3D,https://www.panda3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, C++, Python",
+GameSalad,https://gamesalad.com/,Game Engine,Subscription,"Windows, Mac, Web","2D, JavaScript",""
+SFML,https://www.sfml-dev.org/,Library,Free,"Windows, Mac, Linux","3D, C++","composed of five modules: system, window, graphics, audio and network. "
