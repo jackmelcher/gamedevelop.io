@@ -1,16 +1,22 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 Microsoft 365,https://products.office.com/en-us,"Office Software, Collaboration, Cloud Storage","Free, Trial, Subscription, Paid","Windows, Mac, iOS, Android, Web",,
 G Suite,https://gsuite.google.com/,"Office Software, Collaboration, Cloud Storage","Free, Subscription","Web, iOS, Android",,
-PcPartPicker,https://pcpartpicker.com/,Business,Free,Web,,Build a PC
+Libre Office,https://www.libreoffice.org/,Office Software,Free,"Windows, Mac, Linux",,
+WPS Office,https://www.wps.com/office,Office Software,Free,"Windows, Linux, iOS, Android",,
+Free Office,https://www.freeoffice.com/en/,Office Software,Free,"Windows, Mac, Linux",,
+Open Office,https://www.openoffice.org/,Office Software,Free,"Windows, Mac, Linux",,
+Polaris Office,https://www.polarisoffice.com/en/office,Office Software,"Free, Subscription","Windows, Mac, iOS, Android",,
+Mailchimp,https://mailchimp.com/,"Business, Marketing","Free, Subscription",Web,Email,Email Hosting and Marketing Services
+Zoho,https://www.zoho.com/,Business,"Free, Subscription",Web,Email,A suite of tools for a business
+Yandex,https://connect.yandex.com/,Business,"Free, Subscription",Web,Email,A suite of tools for a business
+Sendy,https://sendy.co/,Marketing,Paid,Linux,Email,"Self-hosted application that works with AWS SES to manage, send, and analyze Email Newsletters"
+HubSpot,https://www.hubspot.com/,Marketing,"Free, Subscription",Web,,Provide a wide variety of Sales and Marketing tools and services
+Tipalti,https://tipalti.com/,Business,,,Billing Solution,
+Payletter,https://www.payletter.com/english/main.asp,Business,,,Billing Solution,
 Slide Bean Pitch Deck,https://slidebean.com/pitch-deck-template/,Business,Free,Web,Business Pitch,Pitch Deck Maker
 Attach.io Startup Pitch Deck,https://attach.io/startup-pitch-decks/,Business,Free,Web,Business Pitch,Pitch Deck Examples
 Keymailer,https://www.keymailer.co/,Business,Free,Web,,Game Key Service
 distribute(),https://dodistribute.com/,Business,Free,Web,,Game Key Distribution Tool to Press
 Monetize Generator,https://vlambeer.com/toolkit/monetize-generator/,Business,Free,Web,,Monetization Permission Form for content creators
-Sendy,https://sendy.co/,Marketing,Paid,Linux,Email,"Self-hosted application that works with AWS SES to manage, send, and analyze Email Newsletters"
-Mailchimp,https://mailchimp.com/,"Business, Marketing","Free, Subscription",Web,Email,Email Hosting and Marketing Services
-Zoho,https://www.zoho.com/,Business,"Free, Subscription",Web,Email,A suite of tools for a business
-Yandex,https://connect.yandex.com/,Business,"Free, Subscription",Web,Email,A suite of tools for a business
 presskit(),http://dopresskit.com/,Public Relations,Free,"Windows, Mac, Linux",Press Page Tool,Requires a server that can host PHP
-HubSpot,https://www.hubspot.com/,Marketing,"Free, Subscription",Web,,Provide a wide variety of Sales and Marketing tools and services
 Mighty Recruiter,https://www.mightyrecruiter.com/,Recruitment,Free,Web,,

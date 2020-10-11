@@ -1,12 +1,12 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Desciption
 Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,Video NLE,"Trial, Subscription","Windows, Mac",,
 Adobe After Effects,https://www.adobe.com/products/aftereffects.html,Video NLE,"Trial, Subscription","Windows, Mac",,
+DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
+DaVinci Fusion,https://www.blackmagicdesign.com/products/fusion/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
 Apple Final Cut Pro,https://www.apple.com/final-cut-pro/,Video NLE,"Trial, Paid",Mac,,
 Magix Vegas,https://www.vegascreativesoftware.com/us/,Video NLE,"Trial, Paid",Windows,,
 Avid Media Composer,https://www.avid.com/media-composer-first,Video NLE,"Free, Subscription","Windows, Mac",,
 Lightworks,https://www.lwks.com/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
-DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
-DaVinci Fusion,https://www.blackmagicdesign.com/products/fusion/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
 FXHome Hitfilms,https://fxhome.com/,Video NLE,"Free, Paid","Windows, Mac",,
 Foundry Nuke,https://www.foundry.com/products/nuke,Video NLE,"Trial, Paid, Subscription","Windows, Mac, Linux",,
 Foundry Hiero,https://www.foundry.com/products/hiero,Video NLE,"Trial, Paid, Subscription","Windows, Mac, Linux",,
@@ -15,6 +15,7 @@ Shotcut,https://shotcut.org/,Video NLE,Free,"Windows, Mac, Linux",,
 OpenShot,https://www.openshot.org/,Video NLE,Free,"Windows, Mac, Linux",,
 Widows 10 Video Editor,https://www.microsoft.com/en-us/windows/photo-movie-editor,Video Editor,Free,Windows,,
 Apple iMovie,https://www.apple.com/imovie/,Video Editor,Free,Mac,,
+XSplit Express Video Editor,https://www.xsplit.com/video-editor,Video Editor,Free,Windows,"",""
 ScreenToGif,https://www.screentogif.com/,"Gif Maker, Screen Capture",Free,Windows,,
 GifCam,http://blog.bahraniapps.com/gifcam/,"Gif Maker, Screen Capture",Free,Windows,,
 Gyazo,https://gyazo.com/,"Gif Maker, Screen Capture",Free,"Windows, Mac, iOS, Android",Share,
@@ -27,8 +28,8 @@ OBS Studio,https://obsproject.com/,"Screen Record, Stream",Free,"Windows, Mac, L
 Streamlabs,https://streamlabs.com/,"Screen Record, Stream, Stream Enhancer",Free,"Windows, Mac, iOS, Android, Web",,Includes customizable widgets that make streams more engaging for viewers.
 Elgato Game Capture,https://www.elgato.com/en/gaming/game-capture-software,"Screen Record, Stream",Free,"Windows, Mac",,Requires External Hardware
 Elgato Screen Link,https://www.elgato.com/en/gaming/screen-link,"Screen Record, Stream","Free, Subscription",iOS,,
-Windows Game Bar,https://support.xbox.com/en-US/xbox-on-windows/social/use-game-bar-on-windows-10,"Screen Record, Stream",Free,Windows,,Windows 10 Feature (Shortcut: Win+G)
-XSplit for Indie,http://indie.xsplit.com/,"Screen Record, Stream","Trial, Subscription",Windows,,Free 12 month trial of XSplit Broadcasting Software
+Windows 10 Game Bar,https://support.xbox.com/en-US/xbox-on-windows/social/use-game-bar-on-windows-10,"Screen Record, Stream",Free,Windows,,Windows 10 Feature (Shortcut: Win+G)
+XSplit Broadcaster,https://www.xsplit.com/broadcaster,"Screen Record, Stream, Stream Enhancer. Video Editor","Free, Subscription, Paid",Windows,,Free 12 month trial of XSplit Broadcasting Software
 Handbrake,https://handbrake.fr/,Video Encoder,Free,"Windows, Mac, Linux",,
 SQUARED 5,http://www.squared5.com/svideo/mpeg-streamclip-win.html,Video Encoder,Free,"Windows, Mac",,
 Freemake,https://www.freemake.com/,Video Encoder,Free,"Windows, Mac",,
