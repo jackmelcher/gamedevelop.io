@@ -1,26 +1,34 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Havok,https://www.havok.com/,"Physics, Artificial Intelligence",Paid,"Windows, Mac",,"Physics Engine, AI SDK, Cloth Physics"
-Khronos Group,https://www.khronos.org/,Physics,Free,"Windows, Mac, Linux",,3D Graphics (OpenGL and Vulkan)
-Box2D,http://box2d.org/,Physics,Free,"Windows, Mac, Linux",,2D Physics
-Umbra,https://umbra3d.com/gaming/,Engineering,License,"Windows, Mac, Linux",Plugin,"Optimization for occulsion culling, shadow mapping, ray casting, and spatial awareness"
-Vivox,https://www.vivox.com/features,Communication,"Free, Subscription","Windows, Mac, Linux",,Voice Communications Solution
-Photon Realtime,https://www.photonengine.com/en-US/Realtime,"Networking, Communication","Free, Trial, Subscription","Windows, Mac, Linux",,Cross-Platform Networking Engine with multiplayer platform and services
-Mirror,https://mirror-networking.com/,Networking,Free,"Windows, Mac, Linux",,High level Networking API for Unity
-Spatial OS,https://improbable.io/multiplayer-networking,Networking,"Free, Subscription","Windows, Mac, Linux",,Networking Solution
-Bink,http://www.radgametools.com/bnkmain.htm,Video,Paid,Windows,,Video Middleware
-Miles Sound System,http://www.radgametools.com/miles.htm,Audio,Paid,Windows,,Audio Middleware
-Dolby Atmos,https://developer.dolby.com/,Audio,Paid,"Windows, Mac",Plugin,Game Engine Sound Plugin
-Coherent Gameface,https://coherent-labs.com/products/coherent-gameface/,User Interface,Paid,"Windows, Mac, Linux",Plugin,"Game Engine UI Plug-in, HTML/CSS/JS"
-Noesis GUI,https://www.noesisengine.com/,User Interface,"Free, Paid","Windows, Mac, Linux",,Game Engine UI SDK
-Mercuna,https://mercuna.com/,Artificial Intelligence,Paid,"Windows, Mac",,Game Engine Navigation Solution
-Spiritai,https://www.spiritai.com/character-engine/,Artificial Intelligence,Free,"Windows, Mac",,Speech AI Solution
-NexPlayerSDK,https://www.nexplayersdk.com/,Video,"Trial, Paid","Windows, Mac",,Low Latency Video Player SDK
-Genvidtech,https://www.genvidtech.com/,Video,"Free, Subscription","Windows, Mac, Linux",,Interactive Streaming SDK
-Simul,https://simul.co/,Environment,Paid,"Windows, Mac",Plugin,Weather Plugin and SDK
-Imgtec,https://www.imgtec.com/developers/,Engineering,Free,"Windows, Mac, Linux",,Mobile VR SDK
-Launchpad,https://github.com/Nihlus/Launchpad/wiki/Game-Developer-Quickstart,Engineering,Free,Linux,,Game Launcher Tool
-Mod.io,https://mod.io/,Engineering,Free,"Windows, Mac, Linux",,Mod Support Tool
-Haden Aether Engine,https://www.hadean.com/aether-engine/features,Engineering,Subsciption,Web,,Cloud Gaming Solution
-GGPO,https://www.ggpo.net/,Networking,Free,"Windows, Mac, Linux",,"Rollback networking in peer-to-peer games, designed specifically to hide network latency in fighting games"
-GeForce NOW Developer Program,https://developer.nvidia.com/join-geforce-now-dev-program,Networking,Free,Windows,"",SDK for integrating your game with the GeForce NOW cloud gaming service
-Facebook Games SDKs,https://developers.facebook.com/docs/games,Engineering,Free,"Windows, Mac","",SDKs to integrate your games into the various Facebook Gaming platforms
+Havok,https://www.havok.com/,API,Paid,"Windows, Mac","Physics, Artificial Intelligence","Physics Engine, AI SDK, Cloth Physics"
+Khronos Group,https://www.khronos.org/,API,Free,"Windows, Mac, Linux",Graphics,3D Graphics (OpenGL and Vulkan)
+Box2D,http://box2d.org/,Library,Free,"Windows, Mac, Linux",Physics,2D Physics
+Umbra,https://umbra3d.com/gaming/,"SDK, Plugin",License,"Windows, Mac, Linux",Engineering,"Optimization for occulsion culling, shadow mapping, ray casting, and spatial awareness."
+Vivox,https://www.vivox.com/features,SDK,"Free, Subscription","Windows, Mac, Linux",Communication,Voice Communications Solution
+Photon Realtime,https://www.photonengine.com/en-US/Realtime,SDK,"Free, Trial, Subscription","Windows, Mac, Linux","Networking, Communication",Cross-Platform Networking Engine with multiplayer platform and services
+Mirror,https://mirror-networking.com/,API,Free,"Windows, Mac, Linux",Networking,High level Networking API for Unity
+Spatial OS,https://improbable.io/multiplayer-networking,SDK,"Free, Subscription","Windows, Mac, Linux",Networking,Networking Solution
+Bink,http://www.radgametools.com/bnkmain.htm,Video Codec,Paid,Windows,Video,Video Middleware
+Audiokinetic Wwise,https://www.audiokinetic.com/products/wwise/,Sound System,"Free, Paid","Windows, Mac, Linux",Audio,
+FMOD Studio,https://www.fmod.com/studio,Sound System,"Free, Paid","Windows, Mac, Linux",Audio,
+Miles Sound System,http://www.radgametools.com/miles.htm,Sound System,Paid,Windows,Audio,Audio Middleware
+Elias Studio,https://www.eliassoftware.com/,Sound System,"Free, Paid","Windows, Mac",Audio,
+Fabric,http://www.tazman-audio.co.uk/,Sound System,"Free, Paid","Windows, Mac, Linux",Audio,Plugins available for Unity and Unreal
+Dolby Atmos,https://developer.dolby.com/,Sound System,Paid,"Windows, Mac",Audio,Game Engine Sound Plugin
+Coherent Gameface,https://coherent-labs.com/products/coherent-gameface/,Middleware,Paid,"Windows, Mac, Linux",User Interface,"Game Engine UI Plug-in, HTML/CSS/JS"
+Noesis GUI,https://www.noesisengine.com/,Middleware,"Free, Paid","Windows, Mac, Linux",User Interface,Game Engine UI SDK
+Mercuna,https://mercuna.com/,Middleware,Paid,"Windows, Mac",Artificial Intelligence,Game Engine Navigation Solution
+Spiritai,https://www.spiritai.com/character-engine/,SDK,Free,"Windows, Mac",Artificial Intelligence,Speech AI Solution
+NexPlayerSDK,https://www.nexplayersdk.com/,SDK,"Trial, Paid","Windows, Mac",Video,Low Latency Video Player SDK
+Genvidtech,https://www.genvidtech.com/,SDK,"Free, Subscription","Windows, Mac, Linux",Video,Interactive Streaming SDK
+Simul,https://simul.co/,API,Paid,"Windows, Mac",Environment,Weather Plugin and SDK
+Imgtec,https://www.imgtec.com/developers/,"SDK, API",Free,"Windows, Mac, Linux",Engineering,Mobile VR SDK
+Mod.io,https://mod.io/,"SDK, API, Plugin",Free,"Windows, Mac, Linux",Engineering,Mod Support Tool
+Haden Aether Engine,https://www.hadean.com/aether-engine/features,SDK,Subsciption,Web,Engineering,Cloud Gaming Solution
+GGPO,https://www.ggpo.net/,SDK,Free,"Windows, Mac, Linux",Networking,"Rollback networking in peer-to-peer games, designed specifically to hide network latency in fighting games"
+GeForce NOW Developer Program,https://developer.nvidia.com/join-geforce-now-dev-program,SDK,Free,Windows,Networking,SDK for integrating your game with the GeForce NOW cloud gaming service
+Facebook Games SDKs,https://developers.facebook.com/docs/games,SDK,Free,"Windows, Mac",Engineering,SDKs to integrate your games into the various Facebook Gaming platforms
+SFML,https://www.sfml-dev.org/,Library,Free,"Windows, Mac, Linux","Audio, Graphics, 3D, C++","composed of five modules: system, window, graphics, audio and network."
+LWJGL,https://www.lwjgl.org/,Library,Free,"Windows, Mac, Linux","Graphics, 3D, Java","Library that enables cross-platform access to popular native APIs useful in the development of graphics (OpenGL, Vulkan), audio (OpenAL) and parallel computing (OpenCL) applications."
+SDL,https://www.libsdl.org/,Library,Free,"Windows, Mac, Linux","Audio, Graphics, 2D, 3D, C, C++","A cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D"
+LibGDX,https://libgdx.badlogicgames.com/,Framework,Free,"Windows, Mac, Linux","Graphics, 3D, Java",
+Microsoft DirectX Graphics,https://docs.microsoft.com/en-us/windows/win32/directx?redirectedfrom=MSDN,API,Free,Windows,"Graphics, 2D, 3D, C, C++",Provides a set of APIs that you can use to create games and includes support for high-performance 2-D and 3-D graphics.

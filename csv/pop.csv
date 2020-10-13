@@ -1,9 +1,13 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 Unity,https://unity.com/,Game Engine,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#, Visual Scripting",
 Unreal Engine,https://www.unrealengine.com/,Game Engine,"Free, Royalty","Windows, Mac, Linux","2D, 3D, C++, Visual Scripting",
+Godot,https://godotengine.org/,Game Engine,Free,"Windows, Mac, Linux","2D, 3D, C#, C++",
+GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, Visual Scripting",
 Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engine,"Trial, Paid, Subscription","Windows, Mac","2D, JavaScript, Visual Scripting","Uses GML Scripting, similar to JavaScript"
 Adobe Photoshop,https://www.adobe.com/products/photoshop.html,Image Manipulation,"Trial, Subscription","Windows, Mac, iOS",Raster,
 Gimp,https://www.gimp.org/,Image Manipulation,Free,"Windows, Mac, Linux",Raster,
+Autodesk Sketchbook,https://www.autodesk.com/products/sketchbook/overview,Digital Painting,"Trial, Subscription","Windows, Mac, Android, iOS",Raster,
+Krita,https://krita.org/en/,Digital Painting,Free,"Windows, Mac, Linux",Raster,
 Pro Motion NG,https://www.cosmigo.com/,"Pixel Art, Pixel Animation, Tiled Map","Free, Paid","Windows, Mac, Linux",Raster,
 Aseprite,https://www.aseprite.org/,"Pixel Art, Pixel Animation","Trial, Paid","Windows, Mac, Linux",Raster,
 Tiled,https://www.mapeditor.org/,"Pixel Art, Tiled Map",Free,"Windows, Mac, Linux",Raster,Also useful for Isometric and Hexagonal Maps
@@ -43,7 +47,6 @@ Google Drive,https://www.google.com/drive/,"Collaboration, Cloud Storage","Free,
 Atlassian Confluence,https://www.atlassian.com/software/confluence,"Collaboration, Cloud Storage","Free, Subscription","iOS, Android, Web",,
 GitHub,https://github.com/,VCS Hosting,"Free, Subscription",Web,Git,
 Assembla,https://www.assembla.com/home,VCS Hosting,Subscription,Web,"Perforce, Git, SVN",
-Git Kraken,https://www.gitkraken.com/,VCS GUI,Free,"Windows, Mac, Linux",Git,
 Sourcetree,https://www.sourcetreeapp.com/,VCS GUI,Free,"Windows, Mac","Git, Mercurial",
 Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,Video NLE,"Trial, Subscription","Windows, Mac",,
 DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,Video NLE,"Free, Paid","Windows, Mac, Linux",,

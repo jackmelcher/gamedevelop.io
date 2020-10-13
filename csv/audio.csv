@@ -37,7 +37,7 @@ Audiotool,https://www.audiotool.com/,Music Editor,Free,Web,Collaborative,
 Soundation,https://soundation.com/,Music Editor,"Free, Subscription",Web,Collaborative,
 Soundtrap,https://www.soundtrap.com/,Music Editor,"Free, Subscription",Web,Collaborative,
 Splice,https://splice.com/,Music Editor,Free,Web,Collaborative,
-Ecrett Music,https://ecrettmusic.com/,Music Editor,"Free, Subscription",Web,"",""
+Ecrett Music,https://ecrettmusic.com/,Music Editor,"Free, Subscription",Web,,
 DefleMask,http://deflemask.com/,Music Tracker,Free,"Windows, Mac, Linux",Retro Hardware Clone,
 OpenMPT,https://openmpt.org/,Music Tracker,Free,Windows,Retro Hardware Clone,"Clone of Impulse Tracker, FastTracker, Scream Tracker and ProTracker"
 Psycle,https://sourceforge.net/projects/psycle/,Music Tracker,Free,"Windows, Linux",Retro Hardware Clone,"FastTracker II  Clone, ProTracker Clone"
@@ -62,10 +62,6 @@ Deckadance,http://www.stantondj.com/deckadance-2.html,DJ,"Free, Paid","Windows, 
 Serato DJ,https://serato.com/dj,DJ,"Free, Subscription","Windows, Mac",,
 Cross DJ,https://www.mixvibes.com/cross-dj-4/,DJ,"Trial, Paid","Windows, Mac, iOS, Android",,
 Giada,https://www.giadamusic.com/index,DJ,Free,"Windows, Mac, Linux",,
-Audiokinetic Wwise,https://www.audiokinetic.com/products/wwise/,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,
-FMOD Studio,https://www.fmod.com/studio,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,
-Elias Studio,https://www.eliassoftware.com/,Authoring Tool,"Free, Paid","Windows, Mac",,
-Fabric,http://www.tazman-audio.co.uk/,Authoring Tool,"Free, Paid","Windows, Mac, Linux",Unity Plugin,
 Bfxr,https://www.bfxr.net/,Video Game SFX,Free,"Windows, Mac, Web",,An elaboration of Sfxr
 Jsfxr,http://sfxr.me/,Video Game SFX,Free,Web,,HTML5 port of Sfxr
 Sfxr,http://www.drpetter.se/project_sfxr.html,Video Game SFX,Free,"Windows, Linux",,Sound Effects generator made to support entrants during the 10th Ludum Dare
