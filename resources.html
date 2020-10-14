@@ -55,7 +55,7 @@
             </button>
         </nav>
         <div class="settingsnav">
-            <p >
+            <p>
                 <span id="themetext">Light Mode:</span>
                 <label class="switch">
                     <input type="checkbox" id="theme-toggle">
@@ -64,8 +64,9 @@
             </p>
         </div>
         <div class="sidenav">
-            <div class="bold">Table:</div>
-            <br>
+            <div class="tableTitle">
+                <b style="font-size: 18px;">Table:</b>
+            </div>
             <div>
                 <select id="category" onchange="SetHash(this.value)">
                     <option value="pop">Popular Tools and Services</option>
@@ -111,8 +112,7 @@
                         <option value="publisher">Publishers</option>
                         <option value="awards">Awards</option>
                         <option value="ratings">Ratings Boards</option>
-                    </optgroup> 
-                    <optgroup label="Learning & Communities">
+                    </optgroup>                     <optgroup label="Learning & Communities">
                         <option value="communities">Communities</option>
                         <option value="conventions">Conventions</option>
                         <option value="jams">Game Jams</option>
@@ -128,24 +128,24 @@
             </div>
             <br>
             <div>
-                <div class="bold">Filters:</div>
-                <div>
-                    <p class="listTitle">Price:</p>
+                <b style="font-size: 18px;">Filters:</b>
+                <div class="listTitle">
+                    <b>Price:</b>
                     <ul id="price" class="nobullets">
                     </ul>    
                 </div>
-                <div>
-                    <p class="listTitle">Platform:</p>
+                <div class="listTitle">
+                    <b>Platform:</b>
                     <ul id="platform" class="nobullets">
                     </ul>    
                 </div>   
-                <div>
-                    <p class="listTitle">Categories:</p>
+                <div class="listTitle">
+                    <b>Categories:</b>
                     <ul id="categories" class="nobullets">
                     </ul>
                 </div>
-                <div>
-                    <p class="listTitle">Tags:</p>
+                <div class="listTitle">
+                    <b>Tags:</b>
                     <ul id="tag" class="nobullets">
                     </ul>
                 </div>

@@ -18,6 +18,22 @@ html[data-theme = "dark"]{
   padding-right: 160px;
   padding-bottom: 64px;
 }
+.tableTitle{
+  margin-bottom: 4px;
+}
+.listTitle{
+  margin-top: 16px;
+  margin-bottom: 12px;
+  margin-left: 16px;
+}
+.listTitle > ul{
+  margin-top: 4px;
+  margin-bottom: 0px;
+  padding-left: 12px;
+}
+.listTitle > * > *>*>input{
+  margin: 4px 8px 6px 4px;
+}
 table{
   width: 100%;
 }
@@ -62,6 +78,7 @@ table{
 .tableimg {
   width: 32px;
   vertical-align: middle;
+  image-rendering: pixelated;
   image-rendering: crisp-edges;
 }
 
