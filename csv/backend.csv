@@ -1,11 +1,12 @@
 AWS Game Tech,https://aws.amazon.com/gametech/,Network,"Trial, Subscription",Web,"Game Server Hosting, Live Ops, Game Services, Game Analytics",Includes Matchmaking Solution
 Google Cloud Platform,https://cloud.google.com/solutions/gaming,Network,"Free, Subscription",Web,"Game Server Hosting, Game Services, Game Analytics",Includes Matchmaking Solution
 Azure PlayFab,https://azure.microsoft.com/en-us/services/playfab/,Network,"Free, Subscription",Web,"Game Server Hosting, Live Ops, Game Services, Game Analytics",Includes Matchmaking Solution and Back-End Game Solutions
-DigitalOcean,https://www.digitalocean.com/,Network,"Subscription",Web,"Game Server Hosting",""
+DigitalOcean,https://www.digitalocean.com/,Network,"Subscription",Web,"Game Server Hosting",
 Game Sparks,https://www.gamesparks.com/,Network,"Free, Subscription",Web,"Game Server Hosting, Live Ops, Game Services, Game Analytics",Includes Matchmaking Solution and Back-End Game Solutions
 Stormancer,http://www.stormancer.com/,Network,"Subscription",Web,"Game Server Hosting, Consulting, Outsourcing",Includes Back-End Game Solutions
 Accelbyte,https://accelbyte.io/,"Business, Network","Subscription",Web,"Live Ops, Game Services, Game Analytics",
 ChillConnect,https://www.chilliconnect.com/,"Business, Network","Trial, Subscription",Web,"Live Ops, Game Services, Game Analytics",
+Nakama,https://heroiclabs.com,Network,"Free, Subscription",Web,"Game Server Hosting, Game Services, Live Ops","Open source multiplayer game services solution, including chat, friends, lobbys, matchmaking, currencies, and inventory management."
 Tencent,https://intl.cloud.tencent.com/solution/game,Network,"Subscription",Web,"Game Server Hosting",
 Xtralife,https://xtralife.cloud/,Network,"Free, Subscription",Web,"Game Server Hosting",Includes Back-End Game Solutions (Free to use for Open Source games)
 LeaseWeb,https://www.leaseweb.com/solutions/gaming,Network,"Subscription",Web,"Game Server Hosting",

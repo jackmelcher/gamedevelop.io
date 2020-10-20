@@ -1,7 +1,7 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 Unity,https://unity.com/,Game Engine,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#, Visual Scripting",
 Unreal Engine,https://www.unrealengine.com/,Game Engine,"Free, Royalty","Windows, Mac, Linux","2D, 3D, C++, Visual Scripting",
-Godot,https://godotengine.org/,Game Engine,Free,"Windows, Mac, Linux","2D, 3D, C#, C++",
+Godot,https://godotengine.org/,Game Engine,Free,"Windows, Mac, Linux","2D, 3D, C#, C++",Free and open-source game engine under the MIT license.
 GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, Visual Scripting",
 Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engine,"Trial, Paid, Subscription","Windows, Mac","2D, JavaScript, Visual Scripting","Uses GML Scripting, similar to JavaScript"
 Game Maker Studio,https://store.yoyogames.com/downloads/gm-studio/release-notes-studio.html,Game Engine,Free,"Windows, Mac","2D, JavaScript","Uses GML Scripting, similar to JavaScript"
@@ -11,7 +11,7 @@ Scratch,https://scratch.mit.edu/,Game Engine,Free,Web,"2D, Visual Scripting",Edu
 RPG Maker MZ,https://www.rpgmakerweb.com/products/rpg-maker-mz,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, Visual Scripting, JavaScript",RPG
 Cocos,https://www.cocos.com/en/,Game Engine,Free,"Windows, Mac, Web","2D, 3D, Lua, JavaScript",Mobile games
 Apple Dev Kits,https://developer.apple.com/games/,Framework,Free,Mac,"2D, 3D, Swift, Objective-C",
-MonoGame,http://www.monogame.net/,Framework,Free,"Windows, Mac, Linux","2D, C#",
+MonoGame,http://www.monogame.net/,Framework,Free,"Windows, Mac, Linux","2D, 3D, C#",
 Ren'py,https://www.renpy.org/,Framework,Free,"Windows, Mac, Linux","2D, Python",Visual Novel
 Visual Novel Maker,https://www.rpgmakerweb.com/products/programs/visual-novel-maker,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, JavaScript, Visual Scripting",
 Defold,https://www.defold.com/,Game Engine,Free,"Windows, Mac, Linux","2D, Lua",
@@ -21,10 +21,11 @@ Heaps.io,https://heaps.io/,Game Engine,Free,Windows,"2D, Haxe",
 M.U.G.E.N,https://mugenarchive.com/forums/downloads.php?s=bb7a44b61f4a0bf73ecdd71459ec780f&do=file&id=5283--official-mugen-1-1-beta-1-elecbyte,Game Engine,Free,Windows,"2D, Custom Scripting",Fighting (Latest version is 1.1 Beta)
 LOVE,https://love2d.org/,Framework,Free,"Windows, Mac","2D, Lua",
 Cry Engine,https://www.cryengine.com/,Game Engine,"Free, Royalty",Windows,"3D, Lua, C++",
-Lumber Yard,https://aws.amazon.com/lumberyard/,Game Engine,Free,Windows,"3D, Lua, C++",
+Lumberyard,https://aws.amazon.com/lumberyard/,Game Engine,Free,Windows,"3D, C++, Lua, Visual Scripting",AAA game engine developed with an extensible C++ architecture. Deeply integrated with AWS and Twitch. Comes with full source. Games must use AWS for cloud services.
 Stride,https://stride3d.net/,Game Engine,Free,Windows,"2D, 3D, C#",Formerly known as Xenko
+Unigine,https://unigine.com/,Game Engine,"Free, Subscription","Windows, Linux","3D, C#, C++","Photorealistic graphics, large virtual worlds, with C++ and C# API."
 UPBGE,https://upbge.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Python",Game Engine that is integrated with Blender
-Armory,https://armory3d.org/,Plugin,Free,"Windows, Mac, Linux","3D, Haxe",Plugin for Blender to make it a Game Engine
+Armory,https://armory3d.org/,Plugin,Free,"Windows, Mac, Linux","3D, Python",Plugin for Blender to make it a Game Engine
 Pygame,https://www.pygame.org/,Framework,Free,"Windows, Mac, Linux","2D, Python",
 id Tech,https://github.com/id-Software,Game Engine,Free,"Windows, Mac, Linux","3D, C, C++",FPS
 Visionaire Studio,https://www.visionaire-studio.net/cms/visionaire-studio-english.html,Game Engine,Paid,"Windows, Mac","2D, Lua",Point & Click
@@ -65,3 +66,5 @@ Pixel Game Maker MV,https://tkool.jp/act/en/index.html,Game Engine,"Trial, Paid"
 Gamebryo,http://www.gamebryo.com/index.php,Game Engine,"Trial, License",Windows,"3D, C++",
 Panda3D,https://www.panda3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, C++, Python",
 GameSalad,https://gamesalad.com/,Game Engine,Subscription,"Windows, Mac, Web","2D, JavaScript",
+HaxeFlixel,https://haxeflixel.com/,Framework,Free,"Windows, Mac, Linux, iOS, Android, Web","2D, Haxe",Open source cross-platform game framework
+LibGDX,https://libgdx.badlogicgames.com/,Framework,Free,"Windows, Mac, Linux","Graphics, 3D, Java",

@@ -2,6 +2,7 @@ Name,Link,Categories,Pricing,Platforms,Tags,Description
 Slack,https://slack.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
 Discord,https://discord.com/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
 Microsoft Teams,https://products.office.com/en-us/microsoft-teams/,Communication,Subscription,"Windows, Mac, Linux, iOS, Android, Web",,
+Rocket Chat,https://rocket.chat,Communication,Free,"Windows, Mac, Linux, iOS, Android, Web",,"Self-hosted open source team chat, like Slack / Discord."
 Skype,https://www.skype.com/en/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
 Zoom,https://zoom.us/,Communication,"Free, Subscription","Windows, Mac, Linux, iOS, Android, Web",,
 Teamspeak,https://www.teamspeak.com/en/,Communication,Free,"Windows, Mac, Linux, iOS, Android",,Requires a host/server
