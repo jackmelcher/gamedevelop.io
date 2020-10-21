@@ -1,7 +1,7 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 Ableton Live,https://www.ableton.com/en/,DAW,Paid,"Windows, Mac",,
 Avid Pro Tools,https://www.avid.com/en/pro-tools,DAW,"Free, Trial, Paid","Windows, Mac",,
-Presonus Studio One,https://www.presonus.com/products/Studio-One,DAW,"Free, Paid","Windows, Mac, iOS",,
+Presonus Studio One,https://www.presonus.com/products/Studio-One,"DAW, Music Notation","Free, Paid","Windows, Mac, iOS",,
 Cockos Reaper,https://www.reaper.fm/,DAW,Paid,"Windows, Mac, Linux",,
 Apple Logic Pro,https://www.apple.com/logic-pro/,DAW,Paid,Mac,,
 Apple GarageBand,https://apps.apple.com/us/app/garageband/id682658836?ign-mpt=uo%3D4&mt=12,DAW,Free,"Mac, iOS",,
@@ -53,7 +53,7 @@ FamiTracker,http://famitracker.com/,Music Tracker,Free,Windows,Retro Hardware Cl
 VCV Rack,https://vcvrack.com/,Virtual Modular Synthesizer,Free,"Windows, Mac, Linux",,
 Tracktion Waverazor,https://www.tracktion.com/products/waverazor,Virtual Modular Synthesizer,"Free, Trial, Paid","Windows, Mac, Linux",,
 SunVox,http://www.warmplace.ru/soft/sunvox/,Virtual Modular Synthesizer,Free,"Windows, Mac, Linux, iOS, Android",,
-Audio Sauna,http://www.audiosauna.com/,Virtual Modular Synthesizer,Free,Web,Chrome Plugin,Also available as a Google Chrome Plugin
+AudioSauna,http://www.audiosauna.com/,Virtual Modular Synthesizer,Free,Web,Chrome Plugin,Also available as a Google Chrome Plugin
 ZynAddSubFX,https://zynaddsubfx.sourceforge.io/,Virtual Modular Synthesizer,"Trial, Paid","Windows, Mac, Linux",,
 Traktor,https://www.native-instruments.com/en/products/traktor/dj-software/,DJ,"Free, Paid","Windows, Mac, iOS",,
 Mixxx,https://mixxx.org/,DJ,Free,"Windows, Mac, Linux",,

@@ -1,27 +1,29 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Desciption
-Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,Video NLE,"Trial, Subscription","Windows, Mac",,
-Adobe After Effects,https://www.adobe.com/products/aftereffects.html,Video NLE,"Trial, Subscription","Windows, Mac",,
-DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
-DaVinci Fusion,https://www.blackmagicdesign.com/products/fusion/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
-Apple Final Cut Pro,https://www.apple.com/final-cut-pro/,Video NLE,"Trial, Paid",Mac,,
-Magix Vegas,https://www.vegascreativesoftware.com/us/,Video NLE,"Trial, Paid",Windows,,
-Avid Media Composer,https://www.avid.com/media-composer-first,Video NLE,"Free, Subscription","Windows, Mac",,
-Lightworks,https://www.lwks.com/,Video NLE,"Free, Paid","Windows, Mac, Linux",,
-FXHome Hitfilms,https://fxhome.com/,Video NLE,"Free, Paid","Windows, Mac",,
-Foundry Nuke,https://www.foundry.com/products/nuke,Video NLE,"Trial, Paid, Subscription","Windows, Mac, Linux",,
-Foundry Hiero,https://www.foundry.com/products/hiero,Video NLE,"Trial, Paid, Subscription","Windows, Mac, Linux",,
-Kdenlive,https://kdenlive.org/en/about/,Video NLE,Free,"Windows, Mac, Linux",,
-Shotcut,https://shotcut.org/,Video NLE,Free,"Windows, Mac, Linux",,
-OpenShot,https://www.openshot.org/,Video NLE,Free,"Windows, Mac, Linux",,
+Adobe Premiere Pro,https://www.adobe.com/products/premiere.html,Video Editor,"Trial, Subscription","Windows, Mac",NLE,
+Adobe After Effects,https://www.adobe.com/products/aftereffects.html,Video Editor,"Trial, Subscription","Windows, Mac",NLE,
+DaVinci Resolve,https://www.blackmagicdesign.com/products/davinciresolve/,Video Editor,"Free, Paid","Windows, Mac, Linux",NLE,
+DaVinci Fusion,https://www.blackmagicdesign.com/products/fusion/,Video Editor,"Free, Paid","Windows, Mac, Linux",NLE,
+Apple Final Cut Pro,https://www.apple.com/final-cut-pro/,Video Editor,"Trial, Paid",Mac,NLE,
+Magix Vegas,https://www.vegascreativesoftware.com/us/,Video Editor,"Trial, Paid",Windows,NLE,
+Avid Media Composer,https://www.avid.com/media-composer-first,Video Editor,"Free, Subscription","Windows, Mac",NLE,
+Lightworks,https://www.lwks.com/,Video Editor,"Free, Paid","Windows, Mac, Linux",NLE,
+FXHome Hitfilms,https://fxhome.com/,Video Editor,"Free, Paid","Windows, Mac",NLE,
+Foundry Nuke,https://www.foundry.com/products/nuke,Video Editor,"Trial, Paid, Subscription","Windows, Mac, Linux",NLE,
+Foundry Hiero,https://www.foundry.com/products/hiero,Video Editor,"Trial, Paid, Subscription","Windows, Mac, Linux",NLE,
+VSDC,http://www.videosoftdev.com/,"Video Editor, Video Converter, Audio Converter",Free,Windows,NLE,""
+Kdenlive,https://kdenlive.org/en/about/,Video Editor,Free,"Windows, Mac, Linux",NLE,
+Shotcut,https://shotcut.org/,Video Editor,Free,"Windows, Mac, Linux",NLE,
+OpenShot,https://www.openshot.org/,Video Editor,Free,"Windows, Mac, Linux",NLE,
 Widows 10 Video Editor,https://www.microsoft.com/en-us/windows/photo-movie-editor,Video Editor,Free,Windows,,
 Apple iMovie,https://www.apple.com/imovie/,Video Editor,Free,Mac,,
-XSplit Express Video Editor,https://www.xsplit.com/video-editor,Video Editor,Free,Windows,"",""
+XSplit Express Video Editor,https://www.xsplit.com/video-editor,Video Editor,Free,Windows,,
+Blender,https://www.blender.org/features/video-editing/,Video Editor,Free,"Windows, Mac, Linux",,
 ScreenToGif,https://www.screentogif.com/,"Gif Maker, Screen Capture",Free,Windows,,
 GifCam,http://blog.bahraniapps.com/gifcam/,"Gif Maker, Screen Capture",Free,Windows,,
 Gyazo,https://gyazo.com/,"Gif Maker, Screen Capture",Free,"Windows, Mac, iOS, Android",Share,
 ShareX,https://getsharex.com/,"Screen Capture, Screen Record",Free,Windows,Share,
 Puush,http://puush.me/,Screen Capture,Free,"Windows, Mac, iOS, Web",Share,
-Tech Smith Camtasia,https://www.techsmith.com/video-editor.html,"Screen Record, NLE","Trial, Paid","Windows, Mac",,
+Tech Smith Camtasia,https://www.techsmith.com/video-editor.html,"Screen Record, Video Editor","Trial, Paid","Windows, Mac",NLE,
 Tech Smith Snagit,https://www.techsmith.com/screen-capture.html,"Screen Capture, Screen Record","Trial, Paid","Windows, Mac",,
 Fraps,http://www.fraps.com/,"Screen Capture, Screen Record","Free, Paid",Windows,,Includes FPS Benchmarking
 OBS Studio,https://obsproject.com/,"Screen Record, Stream",Free,"Windows, Mac, Linux",,
@@ -29,10 +31,12 @@ Streamlabs,https://streamlabs.com/,"Screen Record, Stream, Stream Enhancer",Free
 Elgato Game Capture,https://www.elgato.com/en/gaming/game-capture-software,"Screen Record, Stream",Free,"Windows, Mac",,Requires External Hardware
 Elgato Screen Link,https://www.elgato.com/en/gaming/screen-link,"Screen Record, Stream","Free, Subscription",iOS,,
 Windows 10 Game Bar,https://support.xbox.com/en-US/xbox-on-windows/social/use-game-bar-on-windows-10,"Screen Record, Stream",Free,Windows,,Windows 10 Feature (Shortcut: Win+G)
-XSplit Broadcaster,https://www.xsplit.com/broadcaster,"Screen Record, Stream, Stream Enhancer. Video Editor","Free, Subscription, Paid",Windows,,Free 12 month trial of XSplit Broadcasting Software
-Handbrake,https://handbrake.fr/,Video Encoder,Free,"Windows, Mac, Linux",,
-SQUARED 5,http://www.squared5.com/svideo/mpeg-streamclip-win.html,Video Encoder,Free,"Windows, Mac",,
-Freemake,https://www.freemake.com/,Video Encoder,Free,"Windows, Mac",,
+XSplit Broadcaster,https://www.xsplit.com/broadcaster,"Screen Record, Stream, Stream Enhancer, Video Editor","Free, Subscription, Paid",Windows,,Free 12 month trial of XSplit Broadcasting Software
+FFmpeg,https://ffmpeg.org/,"Video Editor, Video Converter, Audio Converter",Free,"Windows, Mac, Linux","","The leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything"
+Handbrake,https://handbrake.fr/,Video Converter,Free,"Windows, Mac, Linux",,
+MPEG Streamclip,http://www.squared5.com/svideo/mpeg-streamclip-win.html,Video Converter,Free,"Windows, Mac",,
+Freemake,https://www.freemake.com/,"Video Editor, Video Converter, Audio Converter",Free,"Windows, Mac",,
+VirtualDub,http://www.virtualdub.org/,"Video Editor, Video Converter",Free,Windows,"",""
 YouTube,https://www.youtube.com/,"Video Hosting, Stream Hosting",Free,Web,,
 Twitch,https://www.twitch.tv/,"Video Hosting, Stream Hosting",Free,Web,,
 Facebook Gaming,https://www.facebook.com/gaming/?external_ref=games_video_bookmark,"Video Hosting, Stream Hosting",Free,Web,,

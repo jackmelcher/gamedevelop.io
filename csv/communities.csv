@@ -2,12 +2,12 @@ Name,Link,Categories,Pricing,Platforms,Tags,Description
 Game Dev Network,https://discord.com/invite/gdn,Communication,,,Discord,
 Game Dev League,https://discord.com/invite/gamedev,Communication,,,Discord,
 Unreal Slackers,https://discord.com/invite/unreal-slackers,Communication,,,Discord,
-Unity Official Discord,https://discord.com/invite/unity,Communication,"","",Discord,""
-Unity Developer Community,https://discord.com/invite/vsN2eYZf,Communication,"","",Discord,""
-r/Game Dev Discord,https://discord.com/invite/vupRVHT,Communication,"","",Discord,""
+Unity Official Discord,https://discord.com/invite/unity,Communication,,,Discord,
+Unity Developer Community,https://discord.com/invite/vsN2eYZf,Communication,,,Discord,
+r/Game Dev Discord,https://discord.com/invite/vupRVHT,Communication,,,Discord,
 r/Game Dev,https://www.reddit.com/r/gamedev/,Social Media,,,Reddit,
 r/Game Dev Classified,https://www.reddit.com/r/gameDevClassifieds/,Social Media,,,Reddit,
-r/INAT,https://www.reddit.com/r/INAT,Social Media,,,Reddit,
+r/INAT,https://www.reddit.com/r/INAT,"Social Media, Team Building",,,Reddit,
 r/Game Design,https://www.reddit.com/r/gamedesign/,Social Media,,,Reddit,
 r/Dev Blogs,https://www.reddit.com/r/devblogs/,Social Media,,,Reddit,
 r/Indie Dev,https://www.reddit.com/r/IndieDev/,Social Media,,,Reddit,
@@ -19,16 +19,20 @@ r/Game Maker,https://www.reddit.com/r/gamemaker/,Social Media,,,Reddit,
 r/Godot,https://www.reddit.com/r/godot/,Social Media,,,Reddit,
 r/Play My Game,https://www.reddit.com/r/playmygame/,Social Media,,,Reddit,
 Reddit,https://www.reddit.com/,Social Media,,,Reddit,
+Twitter,https://twitter.com/,Social Media,,,Twitter,#gamedev #indiedev #indiegames #screenshotsaturday
+IndieDevHour,https://twitter.com/hashtag/indiedevhour,Social Media,,,Twitter,Twitter event to showcase your game. Starts Wednesday at 7pm UK Time
+ScreenshotSaturday,https://twitter.com/hashtag/screenshotsaturday,Social Media,"","",Twitter,Twitter event to showcase your game
+Indie Game Devolpers,https://www.facebook.com/groups/IndieGameDevs/,Social Media,,,"Facebook ",
 Imgur,https://imgur.com/,Social Media,,,,Useful for sharing devlogs and marketing your indie game
-Twitter,https://twitter.com/,Social Media,,,,#gamedev #indiedev #indiegames #screenshotsaturday
-Indie Game Devolpers,https://www.facebook.com/groups/IndieGameDevs/,Social Media,"","","Facebook ",""
-Gamedev.net,https://www.gamedev.net/,Social Media,,,,
-Gamesmith,https://www.gamesmith.com/,Social Media,,,," "
-Gamejolt,https://gamejolt.com/,Game Hosting,,,,
-Itchio,https://itch.io/,Game Hosting,,,,
-IndieDB,https://www.indiedb.com/,Game Hosting,,,,
-Devel Team,https://www.develteam.com/,Team Building,,,,
-TIGSource,https://forums.tigsource.com/index.php,Social Media,,,,
+Gamedev.net,https://www.gamedev.net/,Community,,,,
+Itchio,https://itch.io/,"Game Hosting, Community, Team Building",,,,
+IndieDB,https://www.indiedb.com/,"Game Hosting, Community, Team Building",,,,
+Devel Team,https://www.develteam.com/,"Community, Team Building",,,,
+NeoGAF,https://www.neogaf.com/,Forum,,,,
+TIGSource,https://forums.tigsource.com/index.php,Forum,,,,
+Make Games SA,http://makegamessa.com/,Forum,"","","",""
+Game Development Stack Exchange,https://gamedev.stackexchange.com/,FAQ,,,,
+Gamesmith,https://www.gamesmith.com/,Professional Network,,,," "
 GDBay Network,https://gdbay.com/network/,Professional Network,Subscritption,,B2B,Professional Game Developers Network
 Deviant Art,https://www.deviantart.com/,Art,,,,
 Art Station,https://www.artstation.com/,Art,,,,
@@ -40,6 +44,7 @@ CG Society,https://cgsociety.org/,Art,,,,
 3dtotal,https://3dtotal.com/,Art,,,,
 p3d,https://p3d.in/,Art,,,,
 Google Poly,https://poly.google.com/,Art,,,,"VR 3D Sharing Platforms, Only for Google Tiltbrush and Blocks"
+Shadertoy,https://www.shadertoy.com/,Art,,,Shader,Platform to build and share shader art
 Fandom Wikia,https://www.fandom.com/,Wiki,Free,Web,,
 Gamepedia,https://www.gamepedia.com/,Wiki,Free,Web,,
 Fextralife Wikis,https://www.wiki.fextralife.com/,Wiki,Free,Web,,

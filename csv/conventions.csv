@@ -1,11 +1,11 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-GDC,https://www.gdconf.com/,Conference,Paid,,Professional,Game Developers Conference
-E3,https://www.e3expo.com/,Expo,"Free, Paid",,Fan,Electronic Entertainment Expo
-PAX,http://www.paxsite.com/,Expo,Paid,,Fan,Penny Arcade Expo
+GDC,https://www.gdconf.com/,Conference,Paid,USA,Professional,Game Developers Conference
+E3,https://www.e3expo.com/,Expo,"Free, Paid",USA,Fan,Electronic Entertainment Expo
+PAX,http://www.paxsite.com/,Expo,Paid,USA,Fan,Penny Arcade Expo
 IndieCade,https://www.indiecade.com/,Festival,"Free, Paid",,"Professional, Fan",International Festival of Independent Games
 Blizz Con,https://blizzcon.com/en-us/,Convention,Paid,,Fan,
 Quake Con,https://www.quakecon.org,Convention,Paid,,Fan,
-RTX,https://rtxevent.com/,Expo,Paid,,Fan,Rooster Teeth Expo
+RTX,https://rtxevent.com/,Expo,Paid,USA,Fan,Rooster Teeth Expo
 MAGFest,https://www.magfest.org/,Festival,Paid,,Fan,Music And Gaming Festival
 Dreamhack,https://dreamhack.com/,Festival,Paid,,Fan,
 Momocon,https://www.momocon.com/,Convention,Paid,,Fan,
@@ -14,19 +14,25 @@ Game Dev World,https://gamedev.world/en/,Conference,Paid,,Professional,
 Indie Game Business,https://www.powellgroupconsulting.com/online-business-matchmaking-events/,Conference,Paid,,Professional,
 XDS,https://xdsummit.com/,Summit,Paid,,Professional,External Development Summit
 TwitchCon,https://www.twitchcon.com/,Convention,Paid,,Fan,
-GDEX,https://www.thegdex.com/,Convention,Paid,,Fan,Ohio
-Ludicious,http://www.ludicious.ch/,Festival,Paid,,Professional,Switzerland
-gamesweekberlin,https://www.gamesweekberlin.com/,"Festival, Conference",Paid,,"Professional, Fans",Germany. Hosts several conferences and festivals
-Develop:Brighton,https://www.developconference.com/,Conference,"Free, Paid",,Professional,UK
+GDEX,https://www.thegdex.com/,Convention,Paid,USA,Fan,Ohio
+Ludicious,http://www.ludicious.ch/,Festival,Paid,Switzerland,Professional,
+gamesweekberlin,https://www.gamesweekberlin.com/,"Festival, Conference",Paid,Germany,"Professional, Fans",Hosts several conferences and festivals
+Develop:Brighton,https://www.developconference.com/,Conference,"Free, Paid",UK,Professional,
 GAconf,https://www.gaconf.com/,Conference,Free,Web,Professional,Games Accessibility Conference
 Games For Change Festival,http://www.gamesforchange.org/festival/,Festival,Free,,"Professional, Fan",
-Sweden Game Conference,https://swedengameconference.se/en/,Conference,"","","",""
+Sweden Game Conference,https://swedengameconference.se/en/,Conference,,,,
 Game Development Events,https://www.gamedevelopment.events/,List,"Free, Paid",Web,"Professional, Fan",List of events occuring this year
 Gamesindustry.biz Events,https://www.gamesindustry.biz/network/events,List,"Free, Paid",Web,"Professional, Fan",List of events occuring this year
 Events for Gamers,https://www.eventsforgamers.com/,List,"Free, Paid",Web,"Professional, Fan",List of events occuring this year
 Wikipedia list,https://en.wikipedia.org/wiki/List_of_gaming_conventions,List,"Free, Paid",,Fan,List of game conventions
 MeetToMatch,https://www.meettomatch.com/,App,Paid,Web,Professional,Web app service that helps conventions facilitate professional networking at industry events
 BizzTech,https://bizztechconnect.com/,App,Paid,Web,Professional,Web app service that helps conventions facilitate professional networking at industry events
-Eurogamer Expo,www.egx.net,Conference,Paid,"",Fan,"UK, Germany"
-Pocket Gamer Connects,https://www.pgconnects.com/,Conference,Paid,"",Professional,""
-Tokyo Game Show,https://tgs.nikkeibp.co.jp/,Conference,Paid,"",Professional,Japan
+Eurogamer Expo,www.egx.net,Conference,Paid,"UK, Germany",Fan,
+Pocket Gamer Connects,https://www.pgconnects.com/,Conference,Paid,,Professional,
+Tokyo Game Show,https://tgs.nikkeibp.co.jp/,Conference,Paid,Japan,Professional,
+A MAZE. / Berlin Festival,https://amaze-berlin.de/,Festival,Paid,Germany,Professional,
+The MIX,https://www.mediaindieexchange.com/faq/,Expo,Paid,USA,"Professional, Fan",The Media Indie Exchange
+IWOCon,https://www.indieworldorder.com/iwocon,Conference,Free,Web,Fan,""
+QGCon,https://qgcon.com/,Conference,Free,Canada,Professional,The Queerness and Games Conference
+SXSW Gaming Expo,https://www.sxsw.com/exhibitions/gaming-expo/,Expo,Paid,USA,"Professional, Fan",Texas
+Game Access Conference,https://game-access.com/conference/,Conference,Paid,Czech Republic,Professional,""
