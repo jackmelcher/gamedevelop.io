@@ -12,6 +12,7 @@ Jira Software,https://www.atlassian.com/software/jira,"Task Management, Bug Trac
 Perforce Hansoft,https://www.perforce.com/products/hansoft,Task Management,"Free, Subscription",Web,,
 Microsoft Azure Devops,https://azure.microsoft.com/en-us/services/devops/,"Task Management, Bug Tracking","Free, Subscription",Web,,
 Trello,https://trello.com/en,Task Management,Free,Web,,
+Hack n' Plan,https://hacknplan.com/,"Task Management, Collaboration","Free, Subscription",Web,Game Design Doc,Production tool that brings Game Design Documentation and Project Management features together
 TickTick,https://ticktick.com/,Task Management,"Free, Subscription","Windows, Mac, iOS, Android, Web",,
 Airtable,https://airtable.com/,Task Management,"Free, Subscription",Web,,
 ClickUp,https://clickup.com/,"Task Management, Collaboration","Free, Subscription",Web,,
@@ -34,4 +35,4 @@ Bugzilla,https://www.bugzilla.org/,Bug Tracking,Free,Web,,
 Bugsnag,https://www.bugsnag.com/,Bug Tracking,"Free, Trial, Subscription",Web,,
 Bugsplat,https://www.bugsplat.com/,Bug Tracking,"Trial, Subscription",Web,Crash Report,
 Backtrace,https://backtrace.io/,Bug Tracking,"Free, Subscription",Web,Crash Report,
-Codecks,https://www.codecks.io/,Task Management,"Free, Subscription",Web,"",Uses card and deck creation to track task work
+Codecks,https://www.codecks.io/,Task Management,"Free, Subscription",Web,,Uses card and deck creation to track task work
