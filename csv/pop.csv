@@ -2,7 +2,7 @@ Name,Link,Categories,Pricing,Platforms,Tags,Description
 Unity,https://unity.com/,Game Engine,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#, Visual Scripting",
 Unreal Engine,https://www.unrealengine.com/,Game Engine,"Free, Royalty","Windows, Mac, Linux","2D, 3D, C++, Visual Scripting",
 Godot,https://godotengine.org/,Game Engine,Free,"Windows, Mac, Linux","2D, 3D, C#, C++",
-GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, Visual Scripting",
+GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, JavaScript, Visual Scripting",
 Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engine,"Trial, Paid, Subscription","Windows, Mac","2D, JavaScript, Visual Scripting","Uses GML Scripting, similar to JavaScript"
 Adobe Photoshop,https://www.adobe.com/products/photoshop.html,Image Manipulation,"Trial, Subscription","Windows, Mac, iOS",Raster,
 Gimp,https://www.gimp.org/,Image Manipulation,Free,"Windows, Mac, Linux",Raster,

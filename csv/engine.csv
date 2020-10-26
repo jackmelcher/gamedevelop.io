@@ -2,39 +2,37 @@ Name,Link,Categories,Pricing,Platforms,Tags,Description
 Unity,https://unity.com/,Game Engine,"Free, Subscription","Windows, Mac, Linux","2D, 3D, C#, Visual Scripting",
 Unreal Engine,https://www.unrealengine.com/,Game Engine,"Free, Royalty","Windows, Mac, Linux","2D, 3D, C++, Visual Scripting",
 Godot,https://godotengine.org/,Game Engine,Free,"Windows, Mac, Linux","2D, 3D, C#, C++",Free and open-source game engine under the MIT license.
-GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, Visual Scripting",
+GDevelop,https://gdevelop-app.com/,Game Engine,Free,"Windows, Mac, Linux, Web","2D, JavaScript, Visual Scripting",
 Game Maker Studio 2,https://www.yoyogames.com/gamemaker,Game Engine,"Trial, Paid, Subscription","Windows, Mac","2D, JavaScript, Visual Scripting","Uses GML Scripting, similar to JavaScript"
 Game Maker Studio,https://store.yoyogames.com/downloads/gm-studio/release-notes-studio.html,Game Engine,Free,"Windows, Mac","2D, JavaScript","Uses GML Scripting, similar to JavaScript"
-Source,https://developer.valvesoftware.com/wiki/Source_SDK_2013,Game Engine,Free,"Windows, Mac, Linux","3D, Lua, Squirrel, C++",
-Stencyl,http://www.stencyl.com/,Game Engine,"Free, Subscription","Windows, Mac, Linux","2D, Visual Scripting",
-Scratch,https://scratch.mit.edu/,Game Engine,Free,Web,"2D, Visual Scripting",Education Tool designed to help teach kids programming my making games and animations.
-RPG Maker MZ,https://www.rpgmakerweb.com/products/rpg-maker-mz,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, Visual Scripting, JavaScript",RPG
-Cocos,https://www.cocos.com/en/,Game Engine,Free,"Windows, Mac, Web","2D, 3D, Lua, JavaScript",Mobile games
-Apple Dev Kits,https://developer.apple.com/games/,Framework,Free,Mac,"2D, 3D, Swift, Objective-C",
-MonoGame,http://www.monogame.net/,Framework,Free,"Windows, Mac, Linux","2D, 3D, C#",
-Ren'py,https://www.renpy.org/,Framework,Free,"Windows, Mac, Linux","2D, Python",Visual Novel
-Visual Novel Maker,https://www.rpgmakerweb.com/products/programs/visual-novel-maker,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, JavaScript, Visual Scripting",
+Cocos Creator,https://www.cocos.com/en/creator,Game Engine,Free,"Windows, Mac","2D, 3D, C++, JavaScript",
+Cocos 2d-x,https://www.cocos.com/en/cocos2dx,Game Engine,Free,"Windows, Mac","2D, C++, Lua",
 Defold,https://www.defold.com/,Game Engine,Free,"Windows, Mac, Linux","2D, Lua",
-Buildbox,https://www.buildbox.com/,Game Engine,"Free, Subscription","Windows, Mac","2D, 3D, Visual Scripting",Mobile games only
+Stencyl,http://www.stencyl.com/,Game Engine,"Free, Subscription","Windows, Mac, Linux","2D, Visual Scripting",
 Phaser,http://phaser.io/,Game Engine,Free,"Windows, Mac, Linux","2D, JavaScript",HTML 5
-Heaps.io,https://heaps.io/,Game Engine,Free,Windows,"2D, Haxe",
-M.U.G.E.N,https://mugenarchive.com/forums/downloads.php?s=bb7a44b61f4a0bf73ecdd71459ec780f&do=file&id=5283--official-mugen-1-1-beta-1-elecbyte,Game Engine,Free,Windows,"2D, Custom Scripting",Fighting (Latest version is 1.1 Beta)
+MonoGame,http://www.monogame.net/,Framework,Free,"Windows, Mac, Linux","2D, 3D, C#",Reimplementation of Microsoft XNA 4 Framework
+FNA,https://fna-xna.github.io/,Framework,Free,"Windows, Mac, Linux","2D, 3D, C#",Reimplementation of Microsoft XNA 4 Framework
+Heaps.io,https://heaps.io/,Framework,Free,Windows,"2D, Haxe",
 LOVE,https://love2d.org/,Framework,Free,"Windows, Mac","2D, Lua",
+HaxeFlixel,https://haxeflixel.com/,Framework,Free,"Windows, Mac, Linux, iOS, Android, Web","2D, Haxe",Open source cross-platform game framework
+Apple Dev Kits,https://developer.apple.com/games/,Framework,Free,Mac,"2D, 3D, Swift, Objective-C",
+Scratch,https://scratch.mit.edu/,Game Engine,Free,Web,"2D, Visual Scripting",Education Tool designed to help teach kids programming my making games and animations.
+Buildbox,https://www.buildbox.com/,Game Engine,"Free, Subscription","Windows, Mac","2D, 3D, Visual Scripting",Mobile games only
+Source,https://developer.valvesoftware.com/wiki/Source_SDK_2013,Game Engine,Free,"Windows, Mac, Linux","3D, Lua, Squirrel, C++",
 Cry Engine,https://www.cryengine.com/,Game Engine,"Free, Royalty",Windows,"3D, Lua, C++",
 Lumberyard,https://aws.amazon.com/lumberyard/,Game Engine,Free,Windows,"3D, C++, Lua, Visual Scripting",AAA game engine developed with an extensible C++ architecture. Deeply integrated with AWS and Twitch. Comes with full source. Games must use AWS for cloud services.
-Stride,https://stride3d.net/,Game Engine,Free,Windows,"2D, 3D, C#",Formerly known as Xenko
-Unigine,https://unigine.com/,Game Engine,"Free, Subscription","Windows, Linux","3D, C#, C++","Photorealistic graphics, large virtual worlds, with C++ and C# API."
-UPBGE,https://upbge.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Python",Game Engine that is integrated with Blender
-Armory,https://armory3d.org/,Plugin,Free,"Windows, Mac, Linux","3D, Python",Plugin for Blender to make it a Game Engine
-Pygame,https://www.pygame.org/,Framework,Free,"Windows, Mac, Linux","2D, Python",
 id Tech,https://github.com/id-Software,Game Engine,Free,"Windows, Mac, Linux","3D, C, C++",FPS
+LibGDX,https://libgdx.badlogicgames.com/,Framework,Free,"Windows, Mac, Linux","Graphics, 3D, Java",
+Pygame,https://www.pygame.org/,Framework,Free,"Windows, Mac, Linux","2D, Python",
+RPG Maker MZ,https://www.rpgmakerweb.com/products/rpg-maker-mz,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, Visual Scripting, JavaScript",RPG
+Visual Novel Maker,https://www.rpgmakerweb.com/products/programs/visual-novel-maker,Game Engine,"Trial, Paid","Windows, Mac, Linux","2D, JavaScript, Visual Scripting",
+Ren'py,https://www.renpy.org/,Framework,Free,"Windows, Mac, Linux","2D, Python",Visual Novel
+Spring,https://springrts.com/,Game Engine,Free,"Windows, Mac, Linux","3D, Lua",RTS
+M.U.G.E.N,https://mugenarchive.com/forums/downloads.php?s=bb7a44b61f4a0bf73ecdd71459ec780f&do=file&id=5283--official-mugen-1-1-beta-1-elecbyte,Game Engine,Free,Windows,"2D, Custom Scripting",Fighting (Latest version is 1.1 Beta)
 Visionaire Studio,https://www.visionaire-studio.net/cms/visionaire-studio-english.html,Game Engine,Paid,"Windows, Mac","2D, Lua",Point & Click
 Adventure Games Studio,https://www.adventuregamestudio.co.uk/,Game Engine,Free,Windows,"2D, JavaScript",Point & Click
 Wintermute Engine,http://dead-code.org/home/index.php/about/,Game Engine,"Free, Paid",Windows,"2D, 3D, JavaScript",Point & Click
 StoryStylus,https://storystylus.com/,Game Engine,"Trial, Subscription",Web,"2D, JavaScript",Point & Click
-Construct 3,https://www.construct.net/en,Game Engine,"Free, Subscription","Windows, Mac, Linux, Web","2D, Visual Scripting",A browser based game engine. Excels at making HTML 5 games
-PlayCanvas,https://playcanvas.com/,Game Engine,"Free, Subscription",Web,"2D, 3D, JavaScript",HTML 5
-Spring,https://springrts.com/,Game Engine,Free,"Windows, Mac, Linux","3D, Lua",RTS
 Quest,http://textadventures.co.uk/quest,Game Engine,Free,"Windows, Web","2D, Visual Scripting",Text Adventure or Interactive Fiction
 Inform 7,http://inform7.com/,Framework,Free,"Windows, Mac, Linux, Android","2D, Markup",Text Adventure
 Adrift,http://www.adrift.co/,Game Engine,Free,Windows,"2D, Visual Scripting",Text Adventure
@@ -46,17 +44,23 @@ ink,https://www.inklestudios.com/ink/,Framework,Free,"Windows, Mac, Linux","2D, 
 inklewriter,https://www.inklewriter.com/,Game Engine,Free,Web,"2D, Visual Scripting",Interactive Fiction Game Tool
 Adventure Cow Storylab,http://adventurecow.com/,Game Engine,Free,Web,"2D, Visual Scripting",Interactive Fiction Game Tool
 ChoiceScript,https://www.choiceofgames.com/make-your-own-games/choicescript-intro/,Game Engine,Free,"Windows, Mac, Linux","2D, Markup",Interactive Fiction Game Tool
-Solar2D,https://solar2d.com/,Game Engine,Free,"Windows, Mac, Linux","2D, Lua",Open Source 2D game engine. Formerly known as Corona
-Babylon.JS,https://www.babylonjs.com/,Framework,Free,Web,"3D, JavaScript","JavaScript framework for building 3D games with HTML5, WebGL, WebVR, and Web Audio."
 PICO-8,https://www.lexaloffle.com/pico-8.php,Fantasy Console,Paid,"Windows, Mac, Linux","2D, 3D, Lua",
 Voxatron,https://www.lexaloffle.com/voxatron.php,Fantasy Console,Paid,"Windows, Mac, Linux","3D, Lua",
 TIC-80,https://tic.computer/,Fantasy Console,"Free, Paid","Windows, Mac, Linux, Android, iOS","2D, Lua, JavaScript",
 Pixel Vision 8,https://www.pixelvision8.com/,Fantasy Console,Free,"Windows, Mac, Linux","2D, C#, Lua",
 LIKO-12,https://liko-12.github.io/#/,Fantasy Console,Free,"Windows, Mac, Linux, Android","2D, Lua",
 GB Studio,https://www.gbstudio.dev/,Game Engine,Free,"Windows, Mac, Linux","2D, Visual Scripting",Make Gamboy style games.
-OpenFL,https://www.openfl.org/,Game Engine,Free,"Windows, Mac, Linux","2D, Actionscript","Uses an API similar to Adobe Flash's Actionscript, but exports as HTML5"
+PlayCanvas,https://playcanvas.com/,Game Engine,"Free, Subscription",Web,"2D, 3D, JavaScript",HTML 5
+Babylon.JS,https://www.babylonjs.com/,Framework,Free,Web,"3D, JavaScript","JavaScript framework for building 3D games with HTML5, WebGL, WebVR, and Web Audio."
+Solar2D,https://solar2d.com/,Game Engine,Free,"Windows, Mac, Linux","2D, Lua",Open Source 2D game engine. Formerly known as Corona
+Stride,https://stride3d.net/,Game Engine,Free,Windows,"2D, 3D, C#",Formerly known as Xenko
+Unigine,https://unigine.com/,Game Engine,"Free, Subscription","Windows, Linux","3D, C#, C++","Photorealistic graphics, large virtual worlds, with C++ and C# API."
+UPBGE,https://upbge.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Python",Game Engine that is integrated with Blender
+Armory,https://armory3d.org/,Plugin,Free,"Windows, Mac, Linux","3D, Python",Plugin for Blender to make it a Game Engine
+OpenFL,https://www.openfl.org/,Framework,Free,"Windows, Mac, Linux","2D, Actionscript","Uses an API similar to Adobe Flash's Actionscript, but exports as HTML5"
 Flixel,http://www.flixel.org/index.html,Framework,Free,"Windows, Mac, Linux","2D, Actionscript",Library for making games in Adobe Flash's Actionscript
 Starling,https://gamua.com/starling/,Game Engine,Free,"Windows, Mac, Linux","2D, Actionscript",Make games using Adobe Air and Adobe Flash Actionscript
+Construct 3,https://www.construct.net/en,Game Engine,"Free, Subscription","Windows, Mac, Linux, Web","2D, Visual Scripting",A browser based game engine. Excels at making HTML 5 games
 CopperCube,https://www.ambiera.com/coppercube/,Game Engine,Free,"Windows, Mac","3D, JavaScript, Visual Scripting",
 Ogre,https://www.ogre3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, Custom Scripting",
 Torque3D,http://www.garagegames.com/products/torque-3d,Game Engine,Free,Windows,"3D, C++",
@@ -66,5 +70,3 @@ Pixel Game Maker MV,https://tkool.jp/act/en/index.html,Game Engine,"Trial, Paid"
 Gamebryo,http://www.gamebryo.com/index.php,Game Engine,"Trial, License",Windows,"3D, C++",
 Panda3D,https://www.panda3d.org/,Game Engine,Free,"Windows, Mac, Linux","3D, C++, Python",
 GameSalad,https://gamesalad.com/,Game Engine,Subscription,"Windows, Mac, Web","2D, JavaScript",
-HaxeFlixel,https://haxeflixel.com/,Framework,Free,"Windows, Mac, Linux, iOS, Android, Web","2D, Haxe",Open source cross-platform game framework
-LibGDX,https://libgdx.badlogicgames.com/,Framework,Free,"Windows, Mac, Linux","Graphics, 3D, Java",
