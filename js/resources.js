@@ -131,19 +131,32 @@ function CreateTableFromArray2D(array2D)
 var filtersPrice;
 var fitlersPlatform;
 
-function UpdateFilterArray(filterName)
+function MakeFilterChoices(column_index, filter_id)
 {
-    var filterArrayAll = document.getElementsByName(filterName);
-    //console.log(filterArrayAll);
-    var filterArrayCurrent = [];
-    for(var i = 0; i < filterArrayAll.length; i++)
-    {
-        if(filterArrayAll[i].checked == true)
+    var arr = GetFilterNames(column_index);
+    var list = document.getElementById(filter_id);
+
+    list.innerHTML = "";
+
+    arr.forEach(element => {
+        if(element != "")
         {
-            filterArrayCurrent.push(filterArrayAll[i].value);
+            var item = document.createElement("li");
+            var label = document.createElement("label");
+            var input = document.createElement("input");
+            
+            input.type = "checkbox";
+            input.name = filter_id;
+            input.value = element.toLowerCase();
+            input.onclick = function() {FilterTable();}
+
+            label.appendChild(input);
+            label.appendChild(document.createTextNode(element));
+            
+            item.appendChild(label);
+            list.appendChild(item);
         }
-    }
-    return filterArrayCurrent;
+    });
 }
 
 // Add filtering for categories and tags
@@ -161,6 +174,21 @@ function FilterTable()
     {
         HideFilters(filterids[i], i+2);
     }
+}
+
+function UpdateFilterArray(filterName)
+{
+    var filterArrayAll = document.getElementsByName(filterName);
+    //console.log(filterArrayAll);
+    var filterArrayCurrent = [];
+    for(var i = 0; i < filterArrayAll.length; i++)
+    {
+        if(filterArrayAll[i].checked == true)
+        {
+            filterArrayCurrent.push(filterArrayAll[i].value);
+        }
+    }
+    return filterArrayCurrent;
 }
 
 function filterTableByColumn() 
@@ -202,52 +230,27 @@ function CheckFilter(filterArr, tr, i, colIndex)
             if (txtValue.toLowerCase().includes(filterArr[j])) 
             {
                 isfiltered = true;
+            }
+            else
+            {
+                isfiltered = false;
+                break;
+            }
+        }
+
+        /*
+        // If table column does not contain all filters, set isfiltered to false
+        for(j=0;j<filterArr.length;j++)
+        {
+            if (!txtValue.toLowerCase().includes(filterArr[j])) 
+            {
+                isfiltered = false;
                 break;
             } 
         }
+        */
     }
     return isfiltered;
-}
-
-function GetImageName(url)
-{
-    // Remove Http
-    url = url.replace(/h.*?\/\//,"")
-
-    // Split trailing url info
-    url = url.split('/');
-    
-    // Return the image name.
-    //console.log(url[0]);
-    return url[0];
-}     
-
-//Set URL Hash
-function SetHash(value)
-{
-    window.location.hash = value;            
-}
-function SetTableName()
-{
-    var header = document.getElementById("tname");
-    var category = document.getElementById("category");
-    header.innerHTML = category.options[category.selectedIndex].text;
-}
-
-//Code to reset the selection autofill for Chrome and Brave browsers.
-const ua = window.navigator.userAgent.toLowerCase();
-const isChrome = /chrome|crios/.test(ua) && ! /edge|opr\//.test(ua)
-const isBrave = isChrome && !window.googletag;
-//console.log(isChrome);
-//console.log(isBrave);
-if(isChrome || isBrave){
-        setTimeout(function(){resetcat();}, 10) ;
-}
-function resetcat(){
-    if(document.getElementById("category").selectedIndex != 0){
-        //console.log("reset");
-        document.getElementById("category").selectedIndex = 0;
-    }
 }
 
 function GetFilterNames(column_index)
@@ -261,34 +264,6 @@ function GetFilterNames(column_index)
         });
     }
     return Array.from(set).sort();
-}
-
-function MakeFilterChoices(column_index, filter_id)
-{
-    var arr = GetFilterNames(column_index);
-    var list = document.getElementById(filter_id);
-
-    list.innerHTML = "";
-
-    arr.forEach(element => {
-        if(element != "")
-        {
-            var item = document.createElement("li");
-            var label = document.createElement("label");
-            var input = document.createElement("input");
-            
-            input.type = "checkbox";
-            input.name = filter_id;
-            input.value = element.toLowerCase();
-            input.onclick = function() {FilterTable();}
-
-            label.appendChild(input);
-            label.appendChild(document.createTextNode(element));
-            
-            item.appendChild(label);
-            list.appendChild(item);
-        }
-    });
 }
 
 function ClearFilter(id)
@@ -354,6 +329,47 @@ function HideFilters(filterid, col)
             flist[i].children[0].style.opacity = 0.5;
             flist[i].children[0].children[0].disabled = true;
         }
+    }
+}
+
+function GetImageName(url)
+{
+    // Remove Http
+    url = url.replace(/h.*?\/\//,"")
+
+    // Split trailing url info
+    url = url.split('/');
+    
+    // Return the image name.
+    //console.log(url[0]);
+    return url[0];
+}     
+
+//Set URL Hash
+function SetHash(value)
+{
+    window.location.hash = value;            
+}
+function SetTableName()
+{
+    var header = document.getElementById("tname");
+    var category = document.getElementById("category");
+    header.innerHTML = category.options[category.selectedIndex].text;
+}
+
+//Code to reset the selection autofill for Chrome and Brave browsers.
+const ua = window.navigator.userAgent.toLowerCase();
+const isChrome = /chrome|crios/.test(ua) && ! /edge|opr\//.test(ua)
+const isBrave = isChrome && !window.googletag;
+//console.log(isChrome);
+//console.log(isBrave);
+if(isChrome || isBrave){
+        setTimeout(function(){resetcat();}, 10) ;
+}
+function resetcat(){
+    if(document.getElementById("category").selectedIndex != 0){
+        //console.log("reset");
+        document.getElementById("category").selectedIndex = 0;
     }
 }
 

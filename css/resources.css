@@ -13,13 +13,39 @@ html[data-theme = "dark"]{
 .sidenav {
   width: 275px;
 }
+.selectbar{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 50px;
+  background-color: var(--side-border-color);
+  color: var(--font-color);
+  padding: 10px 10px;
+
+  /* Keep navbar as 50px height*/
+  max-height: 50px !important;
+
+  font-size: 14px;
+  display: none;
+}
+.selectbar>button{
+  background-color: #ffffff;
+  border: 1px solid #7a7a7a;
+  padding: 1px 4px;
+}
+.selectbar>button>img{
+  height: 14px;
+  vertical-align: middle;
+}
+.selectbar *{
+  font-size: 14px;
+}
 .resource {
   padding-left: 340px;
   padding-right: 160px;
   padding-bottom: 64px;
 }
 .tableTitle{
-  margin-bottom: 4px;
+  margin-bottom: 18px;
 }
 .tableTitle > *{
   font-size: 21px;
@@ -129,6 +155,20 @@ select,option,optgroup{
   .resource {
     padding-left: 10px;
     padding-right: 10px;
+    padding-top: 20px;
+  }
+  .selectbar{
+    display: block;
+  }
+  .sidenav{
+    top: 91px;
+  }
+  .tableTitle{
+    display: none;
+  }
+  #tname{
+    font-size: 20px;
+    margin-top: 0px;
   }
   td,
   th {

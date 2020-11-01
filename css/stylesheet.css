@@ -5,7 +5,7 @@
   --tertiary-color: #ffffff;
   --font-color: #000000;
   --bg-color: #ffffff;
-  --side-bg-color: #f5f5f5; 
+  --side-bg-color: #ffffff; 
   --side-border-color: #d4d4d4; 
   --heading-color: #000000;
   --link-color: #0043d3;
@@ -22,7 +22,7 @@ html[data-theme = "dark"]{
   --tertiary-color: #ffffff;
   --font-color: #dfdfdf;
   --bg-color: #313131;
-  --side-bg-color: #383838; 
+  --side-bg-color: #313131; 
   --side-border-color: #4e4e4e; 
   --heading-color: #ececec;
   --link-color: #41bcff;
