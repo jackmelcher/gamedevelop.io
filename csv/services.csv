@@ -35,16 +35,16 @@ Sherimedia,https://sheri.media/,Marketing,,,,
 EtchPlay,https://etchplay.com/,Marketing,,,,
 TAKEOFF,https://takeoffstudios.com/,Marketing,,,,
 GosuRabbit,https://www.gosurabbit.com/,Marketing,,,,Gaming and Esports
-PlayIgnite,https://www.playignite.co.uk/,Marketing,,,Funding and Services to increase User Acquisition,
-Tilting Point,https://www.tiltingpoint.com/,Marketing,,,Funding and Services to increase User Acquisition,
-Roasup,https://roasup.com/,Marketing,,,User Acquisition and Gme Trailers for Mobile,
-Matchmade,https://matchmade.tv/,Marketing,"","","",Assists with Influencer marketing and influencer marketing campaigns
+PlayIgnite,https://www.playignite.co.uk/,Marketing,,,,Funding and Services to increase User Acquisition
+Tilting Point,https://www.tiltingpoint.com/,Marketing,,,,Funding and Services to increase User Acquisition
+Roasup,https://roasup.com/,Marketing,,,,User Acquisition and Game Trailers for Mobile
+Matchmade,https://matchmade.tv/,Marketing,,,,Assists with Influencer marketing and influencer marketing campaigns
 BitCake Studio,https://bitcakestudio.com/,Development,,,,
 BlindFlung Studios,https://www.blindflugstudios.com/hire-us/,Development,,,,
 Gameanax,https://www.gameanax.com/,Development,,,,
 Hollywood Gaming,http://www.hollywoodgaming.com/,Development,,,,
-Do Games,https://do-games.com/,Development,,,Porting,
-Fire Falcom,https://firefalcom.github.io/website/,Development,,,"Outsourcing, Porting",
+DO Games,https://do-games.com/,"Porting, Consulting",,,,
+Fire Falcom,https://firefalcom.github.io/website/,Porting,,,,Also does remasters
 Flux Game Studio,https://www.fluxgamestudio.com/services,Development,,,,
 Just Funny Games,http://justfunnygames.com/en/services/,Development,,,,
 Mogi Group,https://mogi-group.com/,Development,,,,
@@ -60,7 +60,7 @@ TagWizz,http://www.tagwizz.com/,Development,,,,
 TaleSpinners,https://talespinners.co.uk/services/,Writing,,,"Writing, Concepting",
 Z Software,https://z-software.net/site/,Development,,,,
 302 Interactive,http://www.302interactive.com/services-2,Development,,,,
-Room 8 Studios,https://room8studio.com/,Development,,,"Outsourcing, Porting",
+Room 8 Studios,https://room8studio.com/,"Development, Porting",,,,
 Sounding Sweet,https://www.soundingsweet.com/,Audio,,,,
 Capsule Studio,http://capsule.studio/about/,Animation,,,,
 Cubic Motion,https://www.cubicmotion.com/,Animation,,,,
@@ -73,7 +73,7 @@ Face FX,https://facefx.com/,Animation,,,,
 Speech Graphics,https://www.speech-graphics.com/,Animation,,,,
 Vicon,https://www.vicon.com/,Animation,,,,
 Popcorn FX,https://www.popcornfx.com/outsourcing/,Animation,,,,
-VRBN,https://www.vrbn.io/,3D Art,,,,3D City Service
+VRBN,https://www.vrbn.io/,Art,,,,3D City Service
 Department of Play,https://departmentofplay.net/,Consulting,,,,
 The Powell Group,https://www.powellgroupconsulting.com/,Consulting,,,,Game Consultanting
 Delta DNA,https://deltadna.com/consultancy/,Consulting,,,,Mobile Free to play
@@ -81,12 +81,12 @@ Chetu,https://www.chetu.com/gaming/,Consulting,,,,Game Consultanting
 Yeti CGI,http://yeticgi.com/,Consulting,,,,
 Sonic Toad,https://sonictoad.com/,Consulting,,,,Business Consulting
 Mission Cloud,https://www.missioncloud.com/,Consulting,,,,AWS Consulting
-Katan Games,https://en.kantan-games.co.jp/,Consulting,,,Consulting services for the Japan video game market,
+Katan Games,https://en.kantan-games.co.jp/,Consulting,,,,Consulting services for the Japan video game market
 Apple TestFlight,https://developer.apple.com/testflight/,Game Testing,,,,
 Testify,https://gotestify.com/,Game Testing,,,,Game Testing and Retention
-AbleGamers Player Panels,https://accessible.games/player-panels-projects/,Game Testing,Paid,,Accessibility Testing Services,
-No More Robots,https://nomorerobots.io/nomorebugs/,Game Testing,Free,,Free QA Testing for Indie Studios that can't afford dedicated QA,
-Outsource Media,https://omuk.com/,Voice Acting,,,"Voice Acting, Recording, and Performance Capture",
+AbleGamers Player Panels,https://accessible.games/player-panels-projects/,Game Testing,Paid,,Accessibility,Accessibility Testing Services
+No More Robots,https://nomorerobots.io/nomorebugs/,Game Testing,Free,,,Free QA Testing for Indie Studios that can't afford dedicated QA
+Outsource Media,https://omuk.com/,Voice Acting,,,,"Voice Acting, Recording, and Performance Capture"
 Voices.com,https://www.voices.com/,Voice Acting,,,,
 Voice123,https://voice123.com/,Voice Acting,,,,
 VoiceBunny,https://voicebunny.com/,Voice Acting,,,,
@@ -105,6 +105,7 @@ The Jonses Voice Agency,https://www.meetthejoneses.co.uk/,Voice Acting,,,,
 Voicefox,https://www.voicefox.co.uk/,Voice Acting,,,,
 Yakety Yak,http://www.yaketyyak.co.uk/,Voice Acting,,,,
 Lionbridge,https://www.lionbridge.com/,Localization,,,,
+Alpha Games,https://www.alphacrc.com/games/,Localization,"","","",""
 TranslationBunny,https://bunnyinc.com/translation/,Localization,,,,
 Jonkers,https://www.jonckers.com/,Localization,,,,
 OneSky,https://www.oneskyapp.com/,Localization,,,,
@@ -114,6 +115,17 @@ Level Up Translation,https://www.leveluptranslation.com/contact-us,Localization,
 Marc Eybert-Guillon,https://www.eybertguillontranslation.com/,Localization,,,,
 Tansfluent,https://www.transfluent.com/gaming,Localization,,,,
 Terra Localizations,https://terralocalizations.com/,Localization,,,,
+Bada Games,http://www.badagames.net/,Localization,"","","",""
+Caja de Ruidos,http://cajaderuidos.com/,Localization,"","","",""
+Indie Game Translations,https://indiegametranslations.com/,Localization,"","","",""
+Indie Nova,https://www.indienova.com/corp/gutenberg/en,Localization,"","","",""
+Localsoft,https://www.localsoftgames.com/,Localization,"","","",""
+LocLabs,http://www.loclabs.com/,Localization,"","","",""
+Mogi Group,https://mogi-group.com/,"Localization, Customer Support, Game Testing, Community Management, Voice Over, Art, Writing","","","",""
+Roboto,https://roboto.global/,Localization,"","","",""
+Tomedes,https://www.tomedes.com/,Localization,"","","",""
+Trusted Translations,https://www.trustedtranslations.com/,Localization,"","","",""
+Universally Speak,http://usspeaking.com/,"Localization, Game Testing, Audio","","","",""
 WritingBunny,https://bunnyinc.com/writing/,Writing,,,,
 Morrison Rothman,https://morrisonrothman.com/,Legal,,,,
 Purewal and Partners,https://www.purewalandpartners.com/,Legal,,,,Europe
@@ -123,7 +135,7 @@ Improbable,https://improbable.io/,Network,,,"Consulting, Outsourcing",Multiplaye
 Multiplay,https://multiplay.com/,Network,,,"Consulting, Outsourcing",Multiplayer Consulting and Operation Services
 NetworkNext,https://networknext.com/,Network,,,Network Performance Booster,
 EdgeGap,https://www.edgegap.com/,Network,,,Network Performance Booster,
-Abstraction Games,https://abstractiongames.com/,Development,,,"Outsourcing, Porting",
+Abstraction Games,https://abstractiongames.com/,"Development, Porting, Consulting",,,,
 Armature,http://armature.com/,Development,,,,
 Asobo Studio,http://www.asobostudio.com/,Development,,,,
 Atomhawk,http://atomhawk.com/,Development,,,Cinematics,
@@ -150,7 +162,7 @@ Phosphor,http://phos.ph/,Development,,,,
 Pixel and Texel,https://www.pixelandtexel.com/,Development,,,,
 Pixel Dash Studios,http://www.pixeldashstudios.com/,Development,,,,
 Saber Interactive,https://saber3d.com/,Development,,,,
-Six Foot,https://6ft.com/index.html,Development,,,"Outsourcing, Porting",
+Six Foot,http://6ft.com/games/,Development,,,,
 Splash Damage,https://www.splashdamage.com/,Development,,,,
 Station Interactive,http://www.station-interactive.com/,Development,,,,
 Streamline Media Group,https://www.streamline-mediagroup.com/,Development,,,,
@@ -162,7 +174,7 @@ Adia Entertainment,http://adiadigital.com/,Development,,,"Game Art, Cinematics",
 PTW,https://www.ptw.com/,"Development, Audio, Localization, Game Testing, Customer Support",,,,"Customer Experience, Quality Assurance, Localization, Audio Production, Engineering"
 Remote Control Productions,http://r-control.de/index_en.php,"Business, Development, Production, Marketing, Consulting",,,,
 Cathar Games,http://www.cathargames.com/?page_id=908,"Development, Consulting",,,,
-Resistance Studio,https://www.resistancestudio.com/about.html,Development,,,Porting,Netherlands
+Resistance Studio,https://www.resistancestudio.com/about.html,Porting,,,,Netherlands
 IGDB,https://www.igdb.com/,Aggregator,,,,Video Games and Games Company Database with a Review Aggregator
 Abstraction Games,https://abstraction.games/services,Development,,,Porting,
 Crunching Koalas,http://crunchingkoalas.com/,Development,,,Porting,
@@ -171,6 +183,15 @@ Toge Productions,https://www.togeproductions.com/services/,Development,,,,
 Wales Interactive,https://www.walesinteractive.com/services,Development,,,,
 Panic Button,https://panicbuttongames.com/service/,Development,,,,
 Mirowin Games Studio,http://mirowin.com/,Development,,,"PC, VR, Ukraine",
-MP2 Games,http://mp2.dk/,Development,,,Porting,
+MP2 Games,http://mp2.dk/,"Development, Porting",,,Porting,
 Intel Game Dev Program,https://software.intel.com/content/www/us/en/develop/topics/gamedev/join.html,"Development, Marketing",,,,
 Playcrafting,https://playcrafting.com/,Development,,,,
+Skymap Games,https://skymapgames.com/about/,Development,"","","",""
+"22nd Century Toys ",http://22ndtoys.com/,Porting,"","",,""
+Starloop Studios,https://starloopstudios.com/,"Development, Game Testing, Porting","","","",""
+Sticky Rice Games,https://stickyricegames.com/,"Marketing, Development, Localization",,,Japan,
+Retroid,https://retroid.com/,Porting,"","",Sweden,""
+Midgar Studio,http://www.midgar-studio.com/,Development,"","",France,""
+BlitWorks,https://www.blitworks.com/,Porting,"","","",""
+Western Egg,http://westeregg.com/,Porting,"","","",""
+Plastic Fern Studios,https://www.plasticfernstudios.com/,"Porting, Game Testing, Audio","","","",""
