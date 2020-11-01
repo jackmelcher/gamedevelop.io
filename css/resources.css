@@ -29,6 +29,10 @@ html[data-theme = "dark"]{
   padding: 1px 4px;
   display: none;
 }
+.selectbar>select{
+  background-color: #ffffff;
+  border: 1px solid #7a7a7a;
+}
 .selectbar>button>img{
   height: 14px;
   vertical-align: middle;
@@ -170,7 +174,6 @@ select,option,optgroup{
   }
   .selectbar>button{
     display: inline;
-    margin-right: 2px;
   }
   .sidenav{
     top: 92px;
