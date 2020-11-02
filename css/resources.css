@@ -11,9 +11,9 @@ html[data-theme = "dark"]{
   --table-row-color-2: #424242;
 }
 .sidenav {
-  top: 132px;
+  top: 138px;
   width: 275px;
-  height: calc(100vh - 164px);
+  height: calc(100vh - 171px);
 }
 .selectbar{
   position: fixed;
@@ -29,24 +29,22 @@ html[data-theme = "dark"]{
   padding: 1px 4px;
   display: none;
 }
+.selectbar>button>img{
+  position: relative;
+  height: 18px;
+  top: 2px;
+}
 .selectbar>select{
   background-color: #ffffff;
   border: 1px solid #7a7a7a;
-}
-.selectbar>button>img{
-  height: 14px;
-  vertical-align: middle;
+  font-size: 18px;
 }
 .selectbar>select *{
-  font-size: 14px;
-}
-.resource {
-  padding-left: 340px;
-  padding-right: 160px;
-  padding-bottom: 64px;
+  font-size: 18px;
 }
 .tableTitle{
   font-size: 21px;
+  margin-bottom: 5px;
 }
 .listTitle{
   margin-top: 16px;
@@ -60,6 +58,11 @@ html[data-theme = "dark"]{
 }
 .listTitle > * > *>*>input{
   margin: 4px 8px 6px 4px;
+}
+.resource {
+  padding-left: 340px;
+  padding-right: 160px;
+  padding-bottom: 64px;
 }
 table{
   width: 100%;
@@ -107,10 +110,6 @@ table{
   vertical-align: middle;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
-}
-
-select,option,optgroup{
-  font-size: 16px;
 }
 
 @media (min-width: 1180px) and (max-width: 1330px) {
@@ -166,23 +165,23 @@ select,option,optgroup{
     position: sticky;
     padding: 10px 10px;
     top: 50px;
-    font-size: 14px;
     width: calc(100vw - 21px);
   }
   .selectbar *{
-    font-size: 14px;
+    font-size: 18px;
+  }
+  .selectbar > * *{
+    font-size: 18px;
   }
   .selectbar>button{
     display: inline;
+    margin-right: 4px;
   }
   .sidenav{
-    top: 92px;
-    height: calc(100vh - 124px);
+    top: 98px;
+    height: calc(100vh - 130px);
   }
   .tableTitle{
-    display: inline;
-  }
-  .tableTitle>b{
     display: none;
   }
   #tname{
@@ -203,12 +202,42 @@ select,option,optgroup{
   }
 }
 @media (max-width: 529px) {
-  th:nth-child(4),td:nth-child(4),th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
+  th:nth-child(4),td:nth-child(4),th:nth-child(5),td:nth-child(5),th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
     display: none;
   }
   td,
   th {
     padding: 8px 4px;
     font-size: 11pt;
+  }
+}
+@media (max-width: 430px) {
+  .resource {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+  }
+  .selectbar{
+    padding: 10px 5px;
+    width: calc(100vw - 11px);
+  }
+  .selectbar>button{
+    padding: 0px 4px 0px 4px;
+  }
+  .selectbar>button>span{
+    display: none;
+  }
+  .selectbar>button>img{
+    height: 17px;
+  }
+  .selectbar>select{
+    font-size: 17px;
+  }
+  .selectbar>select *{
+    font-size: 17px;
+  }
+  .sidenav {
+    top: 95px;
+    height: calc(100vh - 128px);
   }
 }

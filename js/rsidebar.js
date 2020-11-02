@@ -2,7 +2,7 @@ var side = document.getElementsByClassName("sidenav")[0];
 var menuicon = document.getElementsByClassName("menuicon")[0];
 
 var mq = window.matchMedia("(max-width: 768px)");
-window.onresize() = resizeSideNav();
+window.onresize = resizeSideNav();
 
 function resizeSideNav()
 {
