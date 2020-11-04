@@ -11,7 +11,7 @@ html[data-theme = "dark"]{
   --table-row-color-2: #424242;
 }
 .sidenav {
-  top: 138px;
+  top: 143px;
   width: 275px;
   height: calc(100vh - 171px);
 }
@@ -19,25 +19,26 @@ html[data-theme = "dark"]{
   position: fixed;
   padding: 16px;
   top: 50px;
+  height: 60px;
   width: 275px;
-  border-bottom: 1px solid var(--side-border-color);
   border-right: 1px solid var(--side-border-color);
+  border-bottom: 1px solid var(--side-border-color);
 }
 .selectbar>button{
   background-color: #ffffff;
   border: 1px solid #7a7a7a;
-  padding: 1px 4px;
+  height: 28px;
   display: none;
 }
 .selectbar>button>img{
-  position: relative;
-  height: 18px;
-  top: 2px;
+  height: 20px;
+  vertical-align: -3px;
 }
 .selectbar>select{
   background-color: #ffffff;
   border: 1px solid #7a7a7a;
   font-size: 18px;
+  height: 28px;
 }
 .selectbar>select *{
   font-size: 18px;
@@ -161,7 +162,7 @@ table{
     border-bottom: 1px solid var(--side-border-color);
   
     /* Keep navbar as 50px height*/
-    max-height: 50px !important;
+    height: 29px;
     position: sticky;
     padding: 10px 10px;
     top: 50px;
@@ -178,8 +179,8 @@ table{
     margin-right: 4px;
   }
   .sidenav{
-    top: 98px;
-    height: calc(100vh - 130px);
+    top: 100px;
+    height: calc(100vh - 132px);
   }
   .tableTitle{
     display: none;
@@ -223,21 +224,10 @@ table{
   }
   .selectbar>button{
     padding: 0px 4px 0px 4px;
-  }
-  .selectbar>button>span{
-    display: none;
-  }
-  .selectbar>button>img{
-    height: 17px;
+    margin: 0px;
   }
   .selectbar>select{
-    font-size: 17px;
-  }
-  .selectbar>select *{
-    font-size: 17px;
-  }
-  .sidenav {
-    top: 95px;
-    height: calc(100vh - 128px);
+    width: calc(100vw - 150px);
+    font-size: 18px;
   }
 }
