@@ -1,7 +1,7 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
 PcPartPicker,https://pcpartpicker.com/,Business,Free,Web,,Build a PC
 Microsoft,https://www.microsoft.com/en-us/,"Software, Hardware","Free, Paid",Web,"OS, Laptop, Console",At Microsoft our mission and values are to help people and businesses throughout the world realize their full potential.
-Apple,https://www.apple.com/,"Software, Hardware","Free, Paid",Web,"OS, Desktop, Laptop, Mobile",
+Apple,https://www.apple.com/,"Software, Hardware","Free, Paid",Web,"OS, Desktop, Laptop, Mobile","Discover the innovative world of Apple and shop everything iPhone, iPad, Apple Watch, Mac, and Apple TV, plus explore accessories, entertainment, and expert device support."
 Samsung,https://www.samsung.com/us/,Hardware,Paid,Web,Mobile,Discover the latest in electronic & smart appliance technology with Samsung. Find the next big thing from smartphones & tablets to laptops & tvs & more.
 Intel,https://www.intel.com/,Hardware,Paid,Web,CPU,"Intel's innovation in cloud computing, data center, Internet of Things, and PC solutions is powering the smart and connected digital world we live in."
 AMD,https://www.amd.com/en,Hardware,Paid,Web,"CPU, GPU",
@@ -10,7 +10,7 @@ Qualcomm,https://www.qualcomm.com/,Hardware,Paid,Web,CPU,"Qualcomm invents break
 Oculus,https://www.oculus.com/,Hardware,Paid,Web,VR,"Defy reality with Oculus. Our VR headsets redefine digital gaming & entertainment. Learn more about Quest 2, our most advanced all-in-one VR system yet."
 HTC,https://www.htc.com/us/,Hardware,Paid,Web,VR,HTC United States
 Valve,https://www.valvesoftware.com/en/,"Software, Hardware","Free, Paid",Web,"OS, VR","We make games, Steam, and hardware. Join Us."
-Magic Leap,https://www.magicleap.com/,Hardware,Paid,Web,AR,"Step aside VR and smartphone AR. Magic Leap 1 is a wearable spatial computer that brings the physical and digital worlds together as one."
+Magic Leap,https://www.magicleap.com/,Hardware,Paid,Web,AR,Step aside VR and smartphone AR. Magic Leap 1 is a wearable spatial computer that brings the physical and digital worlds together as one.
 Leap Motion,https://developer.leapmotion.com/,Hardware,Paid,Web,AR,
 Pico Interactive,https://www.pico-interactive.com/,Hardware,Paid,Web,VR,"Pico makes VR headsets for everybody. Our all-in-one VR products are easy for people to just pick up and play. No wires, no phones, no hassle. Users first!"
 Acer,https://www.acer.com/ac/en/US/content/home,Hardware,Paid,Web,"Desktop, Laptop","Acer’s product range includes laptop and desktop PCs, tablets, smartphones, monitors, projectors and cloud solutions for home users, business, government and education."
@@ -18,7 +18,7 @@ Asus,https://www.asus.com/us/,Hardware,Paid,Web,"Desktop, Laptop","ASUS is a lea
 Dell,https://www.dell.com/en-us,Hardware,Paid,Web,"Desktop, Laptop","Shop the latest Dell computers & technology solutions. Laptops, desktops, gaming pcs, monitors, workstations & servers. FREE & FAST DELIVERY"
 MSI,https://msi.com/,Hardware,Paid,Web,"Desktop, Laptop, Parts",
 HP,https://www8.hp.com/us/en/home.html,Hardware,Paid,Web,"Desktop, Laptop","Learn about HP laptops, pc desktops, printers, accessories and more at the Official HP® Website"
-ASRock,https://www.asrock.com/index.us.asp,Hardware,Paid,Web,Parts,
+ASRock,https://www.asrock.com/index.us.asp,Hardware,Paid,Web,Parts,MSI designs and creates top-tier gaming gear for gamers.
 Zotac,https://www.zotac.com/us/,Hardware,Paid,Web,"Desktop, Parts","ZOTAC - The original creators, pioneers, and manufacturer of Mini PCs and innovators of the fastest NVIDIA GeForce GTX Gaming Graphics Cards"
 EVGA,https://www.evga.com/,Hardware,Paid,Web,Parts,
 Lenovo,https://www.lenovo.com/us/en/,Hardware,Paid,Web,"Desktop, Laptop","Find & buy the right laptop, tablet, desktop or best server. ✔️Build your own PC today or call our sales team ☎ 1-855-2-LENOVO (1-855-253-6686)"

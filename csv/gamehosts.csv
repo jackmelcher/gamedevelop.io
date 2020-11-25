@@ -1,56 +1,57 @@
 Name,Link,Categories,Pricing,Platforms,Tags,Description
-Gamestop,https://www.gamestop.com/,Retail,,,"PC, Console",
+Gamestop,https://www.gamestop.com/,Retail,,,"PC, Console","Shop GameStop, the world's largest retail gaming destination for Xbox One X, PlayStation 4 and Nintendo Switch games, systems, consoles & accessories. Shop a wide selection of gamer-centric apparel, collectibles & more."
 Best Buy,https://www.bestbuy.com/,Retail,,,"PC, Console",
-Target,https://www.target.com/,Retail,,,"PC, Console",
-Walmart,https://www.walmart.com/,Retail,,,"PC, Console",
-Newegg,https://www.newegg.com/,Online Retail,,,"PC, Console",
-Ebay,https://www.ebay.com/,Online Retail,,,"PC, Console",
-Amazon,https://www.amazon.com/,Online Retail,,,"PC, Console",
-Microsoft Store,https://www.microsoft.com/en-us/store/b/home,Digital Store,,,Console,
+Target,https://www.target.com/,Retail,,,"PC, Console",Shop Target online and in-store for everything from groceries and essentials to clothing and electronics. Choose contactless pickup or delivery today.
+Walmart,https://www.walmart.com/,Retail,,,"PC, Console",Shop Walmart.com for Every Day Low Prices. Free Shipping on Orders $35+ or Pickup In-Store and get a Pickup Discount. Open a Walmart Credit Card to Save Even More!
+Newegg,https://www.newegg.com/,Online Retail,,,"PC, Console","Newegg offers customers an awesome experience shopping for computers, hardware, electronics, networking solutions, and more. Upgrade your shopping experience today!"
+Ebay,https://www.ebay.com/,Online Retail,,,"PC, Console","Buy & sell electronics, cars, clothes, collectibles & more on eBay, the world&apos;s online marketplace. Top brands, low prices & free shipping on many items."
+Amazon,https://www.amazon.com/,Online Retail,,,"PC, Console","Free delivery on millions of items with Prime. Low prices across earth's biggest selection of books, music, DVDs, electronics, computers, software, apparel & accessories, shoes, jewelry, tools & hardware, housewares, furniture, sporting goods, beauty & personal care, groceries & just about anything else."
+Microsoft Store,https://www.microsoft.com/en-us/store/b/home,Digital Store,,,Console,At Microsoft our mission and values are to help people and businesses throughout the world realize their full potential.
 Playstation Store,https://store.playstation.com/en-us/home/games,Digital Store,,,Console,
-Nintendo Eshop,https://www.nintendo.com/games/buy-digital,Digital Store,,,Console,
-Steam,https://store.steampowered.com/,Digital Store,,,PC,
-GOG,https://www.gog.com/,Digital Store,,,PC,
-Epic Games Store,https://www.epicgames.com/store/en-US/,Digital Store,,,PC,
-Humble Bundle,https://www.humblebundle.com/,Digital Store,,,PC,
-GeForce NOW,https://www.nvidia.com/en-us/geforce-now/,Digital Store,,,Web,
-Fishing Cactus,http://www.fishingcactus.com/,Distribution,,,Mobile,
+Nintendo Eshop,https://www.nintendo.com/games/buy-digital,Digital Store,,,Console,"Browse and buy digital games on the Nintendo game store, and automatically download them to your Nintendo Switch, Nintendo 3DS system or Wii U console."
+Steam,https://store.steampowered.com/,Digital Store,,,PC,"Steam is the ultimate destination for playing, discussing, and creating games."
+GOG,https://www.gog.com/,Digital Store,,,PC,"Download the best classic and new games on Windows, Mac &amp; Linux. A vast selection of titles, DRM-free, with free goodies and 30-day money-back guarantee."
+Epic Games Store,https://www.epicgames.com/store/en-US/,Digital Store,,,PC,"A curated digital storefront for PC and Mac, designed with both players and creators in mind."
+Humble Bundle,https://www.humblebundle.com/,Digital Store,,,PC,Pay what you want. Support charity. Get awesome games.
+GeForce NOW,https://www.nvidia.com/en-us/geforce-now/,Digital Store,,,Web,Instantly play the most demanding PC games and seamlessly play across your devices.
+Fishing Cactus,http://www.fishingcactus.com/,Distribution,,,Mobile,"Fishing Cactus is a game development studios based in Belgium. Our mantra? Crafting smart video games with soul! Our team combines 30 years of experience in PC, consoles and mobile game development. We work on our own IPs and do work for hire."
 Kartridge,https://www.kartridge.com/,Digital Store,,,PC,
 GameJolt,https://gamejolt.com/,Digital Store,,,PC,
-Itch,https://itch.io/,Digital Store,,,PC,
+Itch,https://itch.io/,Digital Store,,,PC,"itch.io is a simple way to find, download and distribute indie games online. Whether you're a developer looking to upload your game or just someone looking for something new to play itch.io has you covered."
 Stadia,https://stadia.google.com/,Digital Store,,,Web,
-Uplay,https://uplay.ubisoft.com/,Digital Store,"","",PC,""
-Origin,https://www.origin.com/usa/en-us/store,Digital Store,"","",PC,""
-Battle.net,https://www.blizzard.com/en-us/apps/battle.net/desktop,Digital Store,"","",PC,""
-Bethesda Launcher,https://bethesda.net/en/game/bethesda-launcher,Digital Store,"","",PC,""
-Rockstar Games Launcher,https://socialclub.rockstargames.com/rockstar-games-launcher,Digital Store,"","",PC,""
-IndieDB,https://www.indiedb.com/,Digital Store,,,PC,
+Uplay,https://uplay.ubisoft.com/,Digital Store,,,PC,"Connect with Ubisoft players, enjoy Rewards and discounts, compare your stats with your friends and much more in Ubisoft Connect."
+Origin,https://www.origin.com/usa/en-us/store,Digital Store,,,PC,
+Battle.net,https://www.blizzard.com/en-us/apps/battle.net/desktop,Digital Store,,,PC,"Download the Battle.net Desktop App, your gateway to all things Blizzard."
+Bethesda Launcher,https://bethesda.net/en/game/bethesda-launcher,Digital Store,,,PC,
+Rockstar Games Launcher,https://socialclub.rockstargames.com/rockstar-games-launcher,Digital Store,,,PC,
+IndieDB,https://www.indiedb.com/,Digital Store,,,PC,"Indie DB the independent games site. News, downloads and media direct from the developers. Powered by ramen noodles."
 Indiegala,https://www.indiegala.com/,Digital Store,,,PC,Possible NSFW
 Green Man Gaming,https://www.greenmangaming.com/,Digital Store,,,PC,
 Fanatical,https://www.fanatical.com/en/,Digital Store,,,PC,
-Google Play,https://play.google.com/store?hl=en,Digital Store,,,Mobile,
+Google Play,https://play.google.com/store?hl=en,Digital Store,,,Mobile,"Enjoy millions of the latest Android apps, games, music, movies, TV, books, magazines & more. Anytime, anywhere, across your devices."
 Apple App Store,https://www.apple.com/ios/app-store/,Digital Store,,,Mobile,
-Apple Arcade,https://www.apple.com/apple-arcade/,Digital Store,,,Mobile,
+Apple Arcade,https://www.apple.com/apple-arcade/,Digital Store,,,Mobile,"Apple Arcade is a game subscription service unlike any other, with 100+ incredibly fun games designed with the world's most innovative developers."
 Amazon App Store,https://developer.amazon.com/apps-and-games,Digital Store,,,Mobile,
-Galaxy Store,https://www.samsung.com/us/apps/galaxy-store/,Digital Store,,,Mobile,
+Galaxy Store,https://www.samsung.com/us/apps/galaxy-store/,Digital Store,,,Mobile,"Galaxy Store is an apps store made for Samsung devices. Discover Samsung apps, exclusive gaming apps, and personalization tools just for Galaxy users."
 Get Jar,https://www.getjar.com/,Digital Store,,,Mobile,Android Only
 Facebook Games,https://www.facebook.com/games/,HTML 5,,,"PC, Web, Mobile","Facebook Instant Games, Web Games, and Gameroom"
-Miniclip,https://www.miniclip.com/games/en/,HTML 5,,,Web,
-Armor Games,https://armorgames.com/,HTML 5,,,Web,
+Miniclip,https://www.miniclip.com/games/en/,HTML 5,,,Web,Miniclip is the world's largest independent online games site with over 600 games. The site is updated at least twice a week...so you can get your gaming fix whenever you want it.
+Armor Games,https://armorgames.com/,HTML 5,,,Web,"Play free online games at Armor Games! We're the best online games website, featuring shooting games, puzzle games, strategy games, war games, and much more..."
 Kongregate,https://www.kongregate.com/,HTML 5,,,Web,
 Newgrounds,https://www.newgrounds.com/games,HTML 5,,,Web,Possible NSFW
 Addicting Games,https://www.addictinggames.com/,HTML 5,,,Web,
-GamePix,https://www.gamepix.com/,HTML 5,,,"Web, Mobile",
-Poki,https://poki.com/,HTML 5,,,Web,
-Plug In Digital,https://plugindigital.com/,Distribution,,,,"Porting, distribution, manufacturing services major markets, including Brazil, China, and Russia."
+GamePix,https://www.gamepix.com/,HTML 5,,,"Web, Mobile","We Are GamePix, the Best Free Online Games Are Here. Play Now, No Installation Required!"
+Poki,https://poki.com/,HTML 5,,,Web,On Poki you can play free online games at school or at home. Poki has the best online game selection and offers the most fun experience to play alone or with friends. We support mobile and PC games.
+Plug In Digital,https://plugindigital.com/,Distribution,,,,"Plug In Digital is one of the largest independent video game distributors. We help studios &amp; publishers distributing their games on PC, consoles and mobile. Porting, distribution, manufacturing services major markets, including Brazil, China, and Russia."
 Alliance Entertainment,https://www.aent.com/selection/video-games,Distribution,,,,
 Click Entertainment,http://www.click-entertainment.com/,Distribution,,,,
 UCC Distributing,https://www.uccdist.com/,Distribution,,,,Toys
-Limited Run Games,https://limitedrungames.com/,Online Retail,,,,Physical Copies and Merchandise of Indie Games
-Signature Edition Games,https://signatureeditiongames.com/,Online Retail,,,,Physical Copies and Merchandise of Indie Games
-Playism,https://playism.com/,Online Retail,"","",Web,""
+Limited Run Games,https://limitedrungames.com/,Online Retail,,,,"Limited Run Games is a publisher and distributor of strictly limited PlayStation 4, Vita, and Nintendo Switch games. Physical Copies and Merchandise of Indie Games."
+Signature Edition Games,https://signatureeditiongames.com/,Online Retail,,,,"Signature Edition Games brings physical indie games for collectors. Signature Editions contain a region-free version of the game plus a host of additional content that is super collectable. Signature Edition offers premium packaging, fast and affordable shipping, friendly and efficient customer service."
+1st Press Games,https://firstpressgames.com/,Online Retail,,,,"Physical high quality releases of video games and soundtracks. For Playstation 4, Nintendo Switch and PC."
+Playism,https://playism.com/,Online Retail,,,Web,"Playism specializes in localizing and publishing indie games from all over the globe, bringing the best indie games that Japan, America and the rest of the world have to offer."
 GamersGate,https://www.gamersgate.com/,Online Retail,,,Web,
-Slitherine,https://www.slitherine.com/,Online Retail,"","",Web,""
-Muve.pl,https://muve.pl/,Online Retail,"","",Web,Polish
-WinGameStore,https://www.wingamestore.com/,Online Retail,"","",Web,""
-Direct2Drive,https://www.direct2drive.com/,Online Retail,"","",Web,""
+Slitherine,https://www.slitherine.com/,Online Retail,,,Web,
+Muve.pl,https://muve.pl/,Online Retail,,,Web,"Polish. Muve.pl to sklep z grami video, w którym znajdziesz szeroki wybór gier na PC, PS4, Xbox One, Nintendo Switch, pocz?wszy od najnowszych hitów po klasyk?. Najni?sze ceny i darmowa dostawa!"
+WinGameStore,https://www.wingamestore.com/,Online Retail,,,Web,A store dedicated to Windows and Linux games. Over a thousand games to choose from! Instantly download and play most games for sale.
+Direct2Drive,https://www.direct2drive.com/,Online Retail,,,Web,
