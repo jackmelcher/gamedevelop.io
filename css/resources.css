@@ -113,7 +113,7 @@ table{
   image-rendering: crisp-edges;
 }
 
-@media (min-width: 1180px) and (max-width: 1330px) {
+@media (min-width: 1180px) and (max-width: 1600px) {
   .resource {
     padding-left: 340px;
     padding-right: 40px;
@@ -132,7 +132,7 @@ table{
   th {
     padding: 6px 14px;
   }
-  th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
+  th:nth-child(4),td:nth-child(4),th:nth-child(5),td:nth-child(5){
     display: none;
   }
 }
@@ -145,7 +145,7 @@ table{
   th {
     padding: 6px 14px;
   }
-  th:nth-child(4),td:nth-child(4),th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
+  th:nth-child(3),td:nth-child(3),th:nth-child(4),td:nth-child(4),th:nth-child(5),td:nth-child(5),th:nth-child(6),td:nth-child(6){
     display: none;
   }
 }
@@ -198,12 +198,12 @@ table{
   td:nth-child(2){
     font-size: 12pt;
   }
-  th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
+  th:nth-child(4),td:nth-child(4),th:nth-child(5),td:nth-child(5){
     display: none;
   }
 }
 @media (max-width: 529px) {
-  th:nth-child(4),td:nth-child(4),th:nth-child(5),td:nth-child(5),th:nth-child(6),td:nth-child(6),th:nth-child(7),td:nth-child(7){
+  th:nth-child(3),td:nth-child(3),th:nth-child(4),td:nth-child(4),th:nth-child(5),td:nth-child(5),th:nth-child(6),td:nth-child(6){
     display: none;
   }
   td,
