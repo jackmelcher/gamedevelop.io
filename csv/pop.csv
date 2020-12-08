@@ -25,7 +25,7 @@ Avid Pro Tools,https://www.avid.com/en/pro-tools,DAW,"Free, Trial, Paid","Window
 Presonus Studio One,https://www.presonus.com/products/Studio-One,DAW,"Free, Paid","Windows, Mac, iOS",,"Record, produce, mix, master, and perform all from a single, intuitive application. Designed with ease of use at its core, Studio One® 5 is your creative partner from studio to stage. "
 FL Studio,https://www.image-line.com/fl-studio/,DAW,Paid,"Windows, Mac",,"FL Studio has inspired music producers over 20 years, from bedroom studios to creating musical masterpieces. Learn more about the Mixer, Piano roll, Instruments, Plugins and more."
 DefleMask,http://deflemask.com/,Music Tracker,Free,"Windows, Mac, Linux",Retro Hardware Clone,DefleMask is a cross-platform chiptune music tracker. You can produce video game music for many soundchips and old school game-consoles and computers.
-Bfxr,https://www.bfxr.net/,Video Game SFX,Free,"Windows, Mac, Web",,Sound-effects generation for your games in flash.
+Bfxr,https://www.bfxr.net/,Video Game SFX,Free,"Windows, Mac, Web",,Sound-effects generation for your games.
 Audacity,https://www.audacityteam.org/,Audio Editor,Free,"Windows, Mac, Linux",,"Welcome to AudacityAudacity® is free, open source, cross-platform audio software for multi-track recording and editing.Audacity is available for Windows®, Mac®, GNU/Linux® and other operating systems. Check our feature list, Wiki and Forum.Download Audacity 2.1.3Mar 17th, 2017: Audacity"
 Audiokinetic Wwise,https://www.audiokinetic.com/products/wwise/,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,Audiokinetic Wwise - revolutionizing audio authoring and sound engine development tools for game developers and interactive media.
 FMOD Studio,https://www.fmod.com/studio,"Sound Engine, Authoring Tool","Free, Paid","Windows, Mac, Linux",,"Made for games - FMOD Studio is fast, fluid and flexible software for creating adaptive music and sounds."
@@ -58,5 +58,5 @@ PcPartPicker,https://pcpartpicker.com/,Business,Free,Web,,Pick parts. Build your
 Epic Mega Grant,https://www.unrealengine.com/en-US/megagrants,Funding,Free,Web,,"Epic Games has committed $100 million to support game developers, enterprise professionals, media and entertainment creators, students, educators, and tool developers doing amazing things with Unreal Engine or enhancing open-source capabilities for the 3D graphics community. Show us your projects and you could earn a financial grant to help fuel your success!"
 Kickstarter,https://www.kickstarter.com/,Crowdfunding,Royalty,Web,All-or-Nothing,"Kickstarter exists to help bring creative projects to life. A home for film, music, art, theater, games, comics, design, photography, and more."
 Patreon,https://www.patreon.com/,Crowdfunding,Royalty,Web,,"Patreon is a membership platform that makes it easy for artists and creators to get paid. Join over 200,000+ creators earning salaries from over 4 million monthly patrons."
-Global Game Jam,https://globalgamejam.org/,Jam,Free,Web,,
-Ludum Dare,https://ldjam.com/,Jam,Free,Web,,
+Global Game Jam,https://globalgamejam.org/,Jam,Free,Web,,"The Global Game Jam® (GGJ) is the world's largest game creation event taking place around the globe, typically at physical locations."
+Ludum Dare,https://ldjam.com/,Jam,Free,Web,,Ludum Dare is an online event where games are made from scratch in a weekend.
