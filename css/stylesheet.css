@@ -20,9 +20,9 @@ html[data-theme = "dark"]{
   --primary-color-v: #0079ca;
   --secondary-color: #ffffff;
   --tertiary-color: #ffffff;
-  --font-color: #dfdfdf;
-  --bg-color: #313131;
-  --side-bg-color: #313131; 
+  --font-color: #e2e2e2;
+  --bg-color: #1d1d1d;
+  --side-bg-color: #1d1d1d; 
   --side-border-color: #4e4e4e; 
   --heading-color: #ececec;
   --link-color: #41bcff;
