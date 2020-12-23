@@ -27,7 +27,7 @@ html[data-theme = "dark"]{
   --heading-color: #ececec;
   --link-color: #41bcff;
   --footer-bg-color: #272727;
-  --footer-color: #b1b1b1;
+  --footer-color: #c0c0c0;
   --form-bg-color: #3d3d3d; 
   --input--border-color: #808080;
   --input-bg-color: #272727;
@@ -218,14 +218,7 @@ a:hover{
   background-color: transparent;
 }
 .bcm{
-  background-color: #FFDD00;
-  padding: 0;
-}
-.patreon{
-  background-color: #f96853;
-}
-.kofi{
-  background-color: #29abe0;
+  background-color: #ff813f;
 }
 .discord{
   background-color: #7289da;
