@@ -5,7 +5,7 @@
   --table-row-color-2: #eeeeee;
 }
 html[data-theme = "dark"]{
-  --table-header-color: #272727;
+  --table-header-color: #2c2c2c;
   --table-border-color: #5c5c5c;
   --table-row-color-1: #525252;
   --table-row-color-2: #424242;
