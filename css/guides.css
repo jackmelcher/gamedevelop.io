@@ -88,6 +88,9 @@ li{margin-bottom: 8px;}
     max-height: 80px;
     max-width: 90%;
 }
+.guideflex > div > .guideimg > i {
+    color: #000000;
+}
 @media (min-width: 1080px) and (max-width: 1250px){
     .guideflex-container{
         padding-left: 440px;
