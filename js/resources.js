@@ -35,10 +35,6 @@ function SelectTable(filename)
 
     //Clear HTML Data Table
     document.getElementById("showData").innerHTML = "";
-    ClearFilter("price");
-    ClearFilter("platform");
-    ClearFilter("categories");
-    ClearFilter("tag");
 
     //Load CSV Data
     LoadDoc(filepath, CreateTableFromArray2D);
@@ -264,11 +260,6 @@ function GetFilterNames(column_index)
         });
     }
     return Array.from(set).sort();
-}
-
-function ClearFilter(id)
-{
-    document.getElementById(id).innerHTML = "";
 }
 
 function HideFilters(filterid, col)

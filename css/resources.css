@@ -240,4 +240,19 @@ th {
     width: calc(100vw - 147px);
     font-size: 18px;
   }
+  table{
+    table-layout: fixed;
+  }
+  td, th {
+    padding: 10px 8px;
+  }
+  th:nth-child(1),td:nth-child(1) {
+    width: 10%;
+  }
+  th:nth-child(2),td:nth-child(2) {
+    width: 30%;
+  }
+  th:nth-child(7),td:nth-child(7) {
+    width: 60%;
+  }
 }
