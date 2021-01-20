@@ -31,10 +31,6 @@ function SelectTable(filename)
     
     //filepath = "csv/"+ doc.getElementById("category").value;
     filepath = "csv/"+filename+".csv";
-    //document.getElementById("demo").innerHTML = filepath;
-
-    //Clear HTML Data Table
-    document.getElementById("showData").innerHTML = "";
 
     //Load CSV Data
     LoadDoc(filepath, CreateTableFromArray2D);
@@ -47,7 +43,7 @@ function LoadDoc(filepath, callback) {
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            //document.getElementById("papa").innerHTML = this.responseText;
+            //Parse csv file with Papaparse
             csvdata = Papa.parse(this.responseText);
             //console.log(csvdata);
             callback(csvdata.data);
@@ -115,7 +111,9 @@ function CreateTableFromArray2D(array2D)
 
     // FINALLY ADD THE NEWLY CREATED TABLE WITH JSON DATA TO A CONTAINER.
     var divContainer = document.getElementById("showData");
+    divContainer.removeChild(divContainer.lastChild);
     divContainer.appendChild(table);
+    window.scrollTo(0,0);
 
     //Make Filter List
     MakeFilterChoices(3,"price");
@@ -233,18 +231,6 @@ function CheckFilter(filterArr, tr, i, colIndex)
                 break;
             }
         }
-
-        /*
-        // If table column does not contain all filters, set isfiltered to false
-        for(j=0;j<filterArr.length;j++)
-        {
-            if (!txtValue.toLowerCase().includes(filterArr[j])) 
-            {
-                isfiltered = false;
-                break;
-            } 
-        }
-        */
     }
     return isfiltered;
 }
