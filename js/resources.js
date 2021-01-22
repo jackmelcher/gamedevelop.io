@@ -116,9 +116,9 @@ function CreateTableFromArray2D(array2D)
     window.scrollTo(0,0);
 
     //Make Filter List
+    MakeFilterChoices(2,"categories");
     MakeFilterChoices(3,"price");
     MakeFilterChoices(4,"platform");
-    MakeFilterChoices(2,"categories");
     MakeFilterChoices(5,"tag");
 }
 
